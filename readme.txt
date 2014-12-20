@@ -33,7 +33,7 @@ written in English, and will recognize the following subjects of study:
   - Economics
 
 The comparison is speedy and surprisingly accurate at this point in time. Even
-better, it is under 100 lines of total code.
+better, it is only about 100 lines of code.
 
 
 USAGE
@@ -114,7 +114,7 @@ VERSION HISTORY AND RELEASE NOTES
     in recognizing what Python is so good at. Python has so many convenient
     looping and mapping methods built in, it is far easier to manage directories
     of training documents. The original Racket version was several hundred lines
-    of code, the C version was around 250, and the Python version is under 100.
+    of code, the C version was around 250, and the Python version is around 100.
   - Returning support of natural language recognition! Run as option --lang. 
     This was made far easier to implement after porting to Python.
 

@@ -6,7 +6,6 @@ from __future__ import division # For non-integer division
 import sys # For file IO
 import os  # For directory operations
 import math # For sqrt and bit vector calculation
-
 import urllib # For web page functionality
 
 ############################## MODEL GENERATION ################################
