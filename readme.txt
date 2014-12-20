@@ -76,6 +76,10 @@ random sampling of various material, so this work is tedious.
 VERSION HISTORY AND RELEASE NOTES
 ---------------------------------
 
+12/20/14 VERSION 0.6.0
+  - Added language recognition of web pages. Use --lang and a web address 
+    beginning with http://.
+
 12/20/14 VERSION 0.5.0
 
   - Rewritten in Python: a teaching experiment for the author, and an exercise
@@ -85,7 +89,6 @@ VERSION HISTORY AND RELEASE NOTES
     of code, the C version was around 250, and the Python version is under 100.
   - Returning support of natural language recognition! Run as option --lang. 
     This was made far easier to implement after porting to Python.
-
 
 11/15/14 VERSION 0.2.0
 

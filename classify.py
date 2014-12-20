@@ -7,6 +7,8 @@ import sys # For file IO
 import os  # For directory operations
 import math # For sqrt and bit vector calculation
 
+import urllib # For web page functionality
+
 ############################## MODEL GENERATION ################################
 
 # str_to_trigrams : string -> list
@@ -52,7 +54,12 @@ def build_all_models(mode):
 # make_file_model : filename -> dictionary
 # makes trigram occurrence model from specified file (if it exists)
 def make_file_model(filename):
-        trigrams = str_to_trigrams((open(filename)).read())
+        if (filename.startswith("http://")):
+                sock = urllib.urlopen(filename)
+                trigrams = str_to_trigrams((sock.read()))
+                sock.close()
+        else:
+                trigrams = str_to_trigrams((open(filename)).read())
         dict = add_list_to_dict(trigrams, {})
         return dict
 
@@ -65,6 +72,13 @@ def nearest_model(file_model, model_list):
         for model in model_list: # Compute each similarity score as list
                 score_list.append(bit_vector_sim(file_model, model))
         # find the index of the highest score, use to index the model list
+
+        # Verbose output -- uncomment to see scores of each language
+        # for score in score_list:
+        #         sys.stdout.write(model_list[score_list.index(score)][0])
+        #         sys.stdout.write(": ")
+        #         print score # score
+
         return model_list[score_list.index(max(score_list))][0]
 
 # bit_vector_sim : dictionary dictionary -> number
