@@ -70,7 +70,6 @@ def nearest_model(file_model, model_list):
         score_list = [] # empty score list to start
         for model in model_list: # Compute each similarity score as list
                 score_list.append(bit_vector_sim(file_model, model))
-        # find the index of the highest score, use to index the model list
 
         # Verbose output -- uncomment to see scores of each language
         # for score in score_list:
@@ -78,6 +77,7 @@ def nearest_model(file_model, model_list):
         #         sys.stdout.write(": ")
         #         print score # score
 
+        # find the index of the highest score, use to index the model list
         return model_list[score_list.index(max(score_list))][0]
 
 # bit_vector_sim : dictionary dictionary -> number
