@@ -93,7 +93,8 @@ def bit_vector_sim(model1, model2):
 # main
 def main():
         if len(sys.argv) != 3:
-                print "Usage: python classify.py [--lang|--subject] [file.txt]"
+                sys.stdout.write("Usage: python classify.py [--lang|--subject]") 
+                print " [file.txt|http://webpage.com]"
                 sys.exit(1)
         mode = (str(sys.argv[1]))[2:]
         if ((mode != "lang") and (mode != "subject")):

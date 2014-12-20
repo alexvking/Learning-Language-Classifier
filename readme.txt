@@ -46,6 +46,15 @@ To run academic subject recognition, run with --subject instead of --lang.
 It is convenient to run "pdftotext [paper.pdf]" to extract plain text from an
 academic paper formatted as pdf.
 
+Examples:
+
+--lang /samples/polish.txt will classify a Polish text as Polish.
+--subject /samples/econ6.txt will classify an Economics paper as Economics.
+
+--lang http://google.com will classify the Google homepage as English.
+--subject http://bigocheatsheet.com will classify the site as Computer Science!
+--subject http://nytimes.com will classify the New York Times as Economics.
+
 
 ALGORITHM
 ---------
@@ -78,8 +87,8 @@ VERSION HISTORY AND RELEASE NOTES
 
 12/20/14 VERSION 0.6.0
 
-  - Added language recognition of web pages. Use --lang and a web address 
-    beginning with http://.
+  - Added language recognition of web pages. Use a web address beginning with 
+    http://.
 
 12/20/14 VERSION 0.5.0
 
