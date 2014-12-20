@@ -1,6 +1,7 @@
 Alex King
 Simple Language Classifier
 
+
 SUMMARY
 -------
 
@@ -32,6 +33,7 @@ written in English, and will recognize the following subjects of study:
 The comparison is speedy and surprisingly accurate at this point in time. Even
 better, it is under 100 lines of total code.
 
+
 USAGE
 -----
 
@@ -43,6 +45,7 @@ To run academic subject recognition, run with --subject instead of --lang.
 
 It is conveneint to run "pdftotext [paper.pdf]" to extract plain text from an
 academic paper formatted as pdf.
+
 
 ALGORITHM
 ---------
@@ -57,7 +60,6 @@ to notice patterns and trends and make a guess to what discipline a paper is
 written in.
 
 
-
 KNOWN ISSUES AND PLANNED IMPROVEMENTS
 -------------------------------------
 
@@ -69,6 +71,7 @@ software. It could also be extended easily to work on programming languages.
 
 More academic subjects should be added soon. There is no obvious way to find a 
 random sampling of various material, so this work is tedious.
+
 
 VERSION HISTORY AND RELEASE NOTES
 ---------------------------------
