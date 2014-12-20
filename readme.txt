@@ -7,7 +7,9 @@ SUMMARY
 
 This is a basic language classifier written in Python, previously created in
 Racket and later C. It relies on a predefined body of "language training" 
-documents to build its reference system.
+documents to build its reference system. See "MODIFYING AND EXTENDING THE 
+REFERENCE SYSTEM" below for information on how to add additional training
+material.
 
 The classifier works in two main modes: language and subject.
 
@@ -67,6 +69,22 @@ Trigrams allow for more granular recognition of roots, prefixes, suffixes, and
 generally discipline-specific terminology. Because of this, classify is able
 to notice patterns and trends and make a guess to what discipline a paper is
 written in.
+
+
+MODIFYING AND EXTENDING THE REFERENCE SYSTEM
+--------------------------------------------
+
+classify's quality is only limited by its training corpus. A larger variety of
+documents will lead to more accurate specifications. A mode can be added or
+changed by adding directories and files in the following format:
+
+  - A directory with name of mode in same directory as classify.py 
+  - Within mode directory, directories named after different types within mode
+  - Within each type, plain text files representing the type
+
+See folders "lang" and "subject" for examples. Execution options may be added
+through the main() function, but all other looping and naming should happen
+automatically.
 
 
 KNOWN ISSUES AND PLANNED IMPROVEMENTS
