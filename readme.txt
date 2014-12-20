@@ -77,6 +77,7 @@ VERSION HISTORY AND RELEASE NOTES
 ---------------------------------
 
 12/20/14 VERSION 0.6.0
+
   - Added language recognition of web pages. Use --lang and a web address 
     beginning with http://.
 
