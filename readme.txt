@@ -82,7 +82,7 @@ changed by adding directories and files in the following format:
   - Within mode directory, directories named after different types within mode
   - Within each type, plain text files representing the type
 
-See folders "lang" and "subject" for examples. Execution options may be added
+See folders "lang" and "subject" for examples. Execution options must be added
 through the main() function, but all other looping and naming should happen
 automatically.
 
