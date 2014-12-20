@@ -75,7 +75,7 @@ MODIFYING AND EXTENDING THE REFERENCE SYSTEM
 --------------------------------------------
 
 classify's quality is only limited by its training corpus. A larger variety of
-documents will lead to more accurate specifications. A mode can be added or
+documents will lead to more accurate classifications. A mode can be added or
 changed by adding directories and files in the following format:
 
   - A directory with name of mode in same directory as classify.py 
