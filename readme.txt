@@ -43,7 +43,7 @@ To run language recognition, run with "python classify.py --lang [input.txt]".
 
 To run academic subject recognition, run with --subject instead of --lang.
 
-It is conveneint to run "pdftotext [paper.pdf]" to extract plain text from an
+It is convenient to run "pdftotext [paper.pdf]" to extract plain text from an
 academic paper formatted as pdf.
 
 
