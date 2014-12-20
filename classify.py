@@ -1,6 +1,6 @@
 # classify.py
 # Language classification ported to Python
-# (c) Alex King, 12/19/14
+# (c) Alex King, 12/19/2014
 
 from __future__ import division # For non-integer division
 import sys # For file IO
@@ -13,8 +13,8 @@ import math # For sqrt and bit vector calculation
 # creates python list of trigrams from string
 def str_to_trigrams(string):
         list = []
-        for x in range(0,len(string) - 2): # For every group of three letters
-                list.append(string[x] + string[x+1] + string[x + 2])
+        for x in range(0, len(string) - 2): # For every group of three letters
+                list.append(string[x] + string[x + 1] + string[x + 2])
         return list
 
 # add_list_to_dict : list, dictionary -> dictionary
@@ -49,14 +49,6 @@ def build_all_models(mode):
                 model_list.append(single_lang_model(mode, lang))
         return model_list
 
-def print_model(dict):
-        for keys,values in sorted(dict.items()):
-                sys.stdout.write(keys)
-                sys.stdout.write(": ")
-                print(values)
-
-############################ CLASSIFICATION ####################################
-
 # make_file_model : filename -> dictionary
 # makes trigram occurrence model from specified file (if it exists)
 def make_file_model(filename):
@@ -64,13 +56,14 @@ def make_file_model(filename):
         dict = add_list_to_dict(trigrams, {})
         return dict
 
+############################ CLASSIFICATION ####################################
+
 # nearest_model : dictionary list_of_tuples -> string
 # returns name of language with highest similarity score given file and models
 def nearest_model(file_model, model_list):
         score_list = [] # empty score list to start
         for model in model_list: # Compute each similarity score as list
                 score_list.append(bit_vector_sim(file_model, model))
-
         # find the index of the highest score, use to index the model list
         return model_list[score_list.index(max(score_list))][0]
 
