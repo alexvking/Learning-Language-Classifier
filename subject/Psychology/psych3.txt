@@ -1,0 +1,811 @@
+Activation of Anterior Paralimbic Structures during
+Guilt-Related Script-Driven Imagery
+Lisa M. Shin, Darin D. Dougherty, Scott P. Orr, Roger K. Pitman, Mark Lasko,
+Michael L. Macklin, Nathaniel M. Alpert, Alan J. Fischman, and Scott L. Rauch
+Background: Several recent neuroimaging studies have
+examined the neuroanatomical correlates of normal emotional states, such as happiness, sadness, fear, anger,
+anxiety, and disgust; however, no previous study has
+examined the emotional state of guilt.
+Methods: In the current study, we used positron emission
+tomography and the script-driven imagery paradigm to
+study regional cerebral blood flow (rCBF) during the
+transient emotional experience of guilt in eight healthy
+male participants. In the Guilt condition, participants
+recalled and imagined participating in a personal event
+involving the most guilt they had ever experienced. In the
+Neutral condition, participants recalled and imagined
+participating in an emotionally neutral personal event.
+Results: In the Guilt versus Neutral comparison, rCBF
+increases occurred in anterior paralimbic regions of the
+brain: bilateral anterior temporal poles, anterior cingulate gyrus, and left anterior insular cortex/inferior frontal
+gyrus.
+Conclusions: These results, along with those of previous
+studies, are consistent with the notion that anterior paralimbic regions of the brain mediate negative emotional
+states in healthy individuals. Biol Psychiatry 2000;48:
+43–50 © 2000 Society of Biological Psychiatry
+Key Words: PET, emotion, anterior cingulate, insula,
+paralimbic, guilt
+
+Introduction
+
+S
+
+everal recent studies have examined the regions of the
+brain that are activated during the induction of positive
+and negative emotional states in healthy participants (e.g.,
+Chua et al 1999; Fischer et al 1996; George et al 1995,
+1996; Kimbrell et al 1999; Lane et al 1997a, 1997b;
+From the Department of Psychology, Tufts University, Medford, Massachusetts
+(LMS); the Departments of Psychiatry (LMS, DDD, SPO, RKP, SLR) and
+Radiology (DDD, NMA, AJF, SLR), Massachusetts General Hospital and
+Harvard Medical School, Boston, Massachusetts; and the VA Research
+Service, Manchester, New Hampshire (SPO, RKP, ML, MLM).
+Address reprint requests to Lisa M. Shin, Ph.D., Tufts University, Department of
+Psychology, 490 Boston Avenue, Medford MA 02155.
+Received October 7, 1999; revised December 28, 1999; accepted December 31,
+1999.
+
+© 2000 Society of Biological Psychiatry
+
+Paradiso et al 1997; Pardo et al 1993; Reiman et al 1997;
+Schneider et al 1995, 1997). These studies, which have
+included conditions of happiness, sadness, fear, anger,
+anxiety, and disgust, typically report increased activation
+in limbic and paralimbic regions of the brain, especially
+during negative emotional states. These findings are consistent with the notion that limbic and paralimbic regions
+of the brain mediate emotional states and the processing of
+information with affective significance (e.g., LeDoux
+1992; Mesulam 1985). For example, George et al (1996)
+used positron emission tomography (PET) to study regional cerebral blood flow (rCBF) during transient sadness
+and happiness in healthy males and females. In separate
+scanning conditions, participants recalled neutral, sad, and
+happy events while they viewed affect-appropriate faces
+and attempted to experience the emotion corresponding to
+each facial expression. In the Sad versus Neutral comparison, participants exhibited blood flow increases in left
+insular cortex, and female participants showed additional
+blood flow increases in anterior cingulate gyrus.
+Lane et al (1997b) used PET to examine rCBF during
+happiness, sadness, and disgust versus neutral states in
+healthy females. In separate scans, each of these states was
+induced via a film clip (Film Condition) and script-driven
+recall (Recall Condition). Within the Recall Condition
+only, rCBF increases during sadness occurred in insular
+cortex. Within the Film Condition only, rCBF increases
+during sadness occurred in bilateral amygdala. In both
+conditions combined, all three emotional states were
+associated with rCBF increases in anterior temporal poles.
+Guilt is a negative emotion that has not been studied
+with neuroimaging techniques. Usually associated with the
+belief that one has harmed another person (Frijda 1994),
+guilt is a complex emotion, and situations that provoke
+guilt may also provoke other negative emotions. Furthermore, whether guilt is associated with a particular pattern
+of psychophysiological changes is not known (Levenson
+1994). Despite these difficulties, the emotional state of
+guilt merits investigation because of its prevalence in
+healthy individuals and in patients with psychiatric disorders, such as depression and posttraumatic stress disorder
+(e.g., Berrios et al 1992; Henning and Frueh 1997).
+0006-3223/00/$20.00
+PII S0006-3223(00)00251-1
+
+44
+
+L.M. Shin et al
+
+BIOL PSYCHIATRY
+2000;48:43–50
+
+In the current study, we used PET and the script-driven
+imagery paradigm (Lang 1985; Lang et al 1983; Pitman et
+al 1987; Rauch et al 1996; Shin et al 1999) to study the
+neural correlates of transient emotional experiences of
+guilt in eight healthy male volunteers. In the script-driven
+imagery paradigm, participants are presented with audiotaped descriptions of personal events and are asked to
+recall and imagine those events and their related emotions
+as vividly as possible. During script-driven imagery, we
+measured participants’ peripheral psychophysiologic responses (heart rate, skin conductance, and lateral frontalis
+electromyogram [EMG]), as well as rCBF. We sought to
+examine rCBF changes in the Guilt condition, relative to
+the Neutral condition. Given the results of previous studies
+of negative emotional states in both healthy individuals
+and patients with psychiatric disorders (e.g., George et al
+1996; Lane et al 1997a, 1997b; Rauch et al 1994, 1995,
+1996; Shin et al 1999), we predicted that rCBF increases
+in the Guilt versus Neutral comparison would occur in
+anterior paralimbic regions of the brain (i.e., orbitofrontal
+cortex, anterior cingulate gyrus, anterior insular cortex,
+anterior temporal poles) and amygdala. We had no specific
+predictions about rCBF decreases in the Guilt condition.
+
+Methods and Materials
+Participants
+Participants were eight healthy, right-handed (Oldfield 1971)
+men with a mean age of 25.0 years (SD ϭ 4.4) and mean
+education of 15.9 years (SD ϭ 3.6). Participants had no history
+of psychiatric disorders (as determined by the Structured Clinical
+Interview for DSM-IIIR; Spitzer et al 1990), neurological disorders, head injury, or other major medical conditions. In addition,
+no participant was taking psychotropic or cardiovascular medication. The study was approved by the Subcommittee on Human
+Studies of the Massachusetts General Hospital, Boston, MA, and
+the Veterans Affairs Medical Center, Manchester, NH. Written
+informed consent was obtained from each participant.
+
+Scripts
+Prior to the PET scanning session, participants provided written
+descriptions of personal events: one involving the most guilt the
+participant had ever experienced, and two additional events
+involving no prominent emotion. These descriptions were then
+modified according to established procedures (Lang et al 1983;
+Pitman et al 1987, 1990; Rauch et al 1996; Shin et al 1999) and
+were written in the second person, present tense. Scripts were
+read and tape-recorded in a neutral male voice for playback in the
+PET scanner. All scripts were between 30 and 40 sec in duration.
+
+Measures
+PSYCHOPHYSIOLOGY. Participants’ heart rate, skin conductance, and left lateral frontalis electromyograms (EMG) were
+
+measured via a Coulbourn Instruments (Allentown, PA) Modular
+Instrument System in the PET laboratory according to established procedures (Orr et al 1998; Pitman et al 1987, 1990).
+Psychophysiologic measurements were recorded for 30 sec
+before each PET scan (baseline), and for 60 sec during each PET
+scan (imagery). Within the baseline and imagery periods (for
+each scan), readings were averaged. For each scan, the mean
+value of the baseline period was subtracted from the mean value
+of the imagery period, yielding “response” (i.e., change) scores.
+SUBJECTIVE RATINGS. After each scan, participants rated
+the intensity of several emotions using separate visual analog
+scales (Pitman et al 1987, 1990; Rauch et al 1996; Shin et al
+1999; 0 ϭ absent; 10 ϭ maximal). The rated emotions included
+guilt, shame, sadness, disgust, anger, fear, surprise, happiness,
+general arousal, competitive arousal, and sexual arousal. Participants also rated the overall valence (Ϫ5 to ϩ5) of their
+emotional state during each scan.
+
+State Induction/Imagery Procedure
+Participants underwent PET scanning in two conditions: Guilt
+(one scan) and Neutral (two scans, with two different scripts).
+(Participants also underwent scanning in three other conditions
+[anger, competitive arousal, and sexual arousal] as part of a
+larger study; however, those other conditions are not relevant to
+the current results and are presented elsewhere; see Dougherty et
+al 1999; Rauch et al 1999.) During each scan, participants
+recalled and imagined the contents of a single script. The neutral
+scans always occurred first and last; the order of the remaining
+scans (one Guilt and three other scans not reported here) were
+completely counterbalanced in a Latin Square design.
+Immediately before each scan, participants were instructed to
+close their eyes, listen carefully to the audiotaped script, and
+imagine the described event as vividly as possible, as if they were
+actually participating in the event again. The script started
+playing and the PET camera was turned on when there were 30
+sec left in the script. At the end of the script, 15O-CO2
+administration began. During the next 60 sec, participants continued to recall and imagine the event while PET and peripheral
+psychophysiologic data were acquired. Then 15O-CO2 administration and PET data acquisition were terminated, and participants were instructed to stop imagining the event and to relax.
+Thirty sec later, participants gave ratings of their emotional
+experiences during the preceding scan. PET scans were separated
+by at least 10 min in order to allow for radiation decay and a
+return to a baseline emotional state.
+
+PET
+PROCEDURES. The PET equipment and procedures have
+been described previously (Rauch et al 1996; Shin et al 1997,
+1999). Briefly, PET data were gathered by a 15-slice, wholebody tomograph (Scanditronix PC 4096, General Electric, Milwaukee). The camera produced contiguous slices 6.5 mm apart,
+with axial resolution at 6.0 mm full-width half maximum
+(FWHM; axial field, 97.5 mm). Images were reconstructed using
+a measured attenuation correction and a Hanning-weighted
+
+PET Study of Guilt
+
+45
+
+BIOL PSYCHIATRY
+2000;48:43–50
+
+reconstruction filter set to allow for 8-mm in-plane spatial
+resolution (FWHM).
+After entering the scanner, each participant was fitted with a
+thermoplastic custom-molded face mask, an overlying face mask
+attached to a vacuum, and nasal cannulae which delivered the
+15
+O-CO2. The concentration of the 15O-CO2 was 2960 MBq/L;
+the flow rate was 2 L/min. Each participant’s head was aligned
+in the scanner relative to the canthomeatal line, and transmission
+measurements were made using an orbiting pin source.
+A total of 15 measurements were made within each data
+acquisition run: the first three (10 sec each) occurred immediately prior to 15O-CO2 administration, and the final 12 (5 sec
+each) occurred during 15O-CO2 administration. After reconstruction, measurements 4 –15 were summed to form images of
+cerebral blood flow. Terminal count rates were between 100,000
+and 200,000 events/sec.
+The PET images were corrected for interscan head movement
+and were transformed to the standard coordinate system of
+Talairach and Tournoux (1988). The images were smoothed and
+scaled using a two-dimensional Gaussian filter of 20-mm width
+(FWHM).
+
+Table 1. Subjective Ratings of Emotional State during the
+Guilt and Neutral Conditions
+
+DATA ANALYSIS. Statistical analysis of the PET data was
+conducted using the SPM95 software package (Wellcome Department of Cognitive Neurology, London) which follows the
+theory of statistical parametric mapping (Friston et al 1991,
+1995). At each voxel the PET data were normalized by the global
+mean and fit to a linear statistical model by the method of least
+squares. The analysis of variance considered Scan Condition as
+the main effect and Participants as a block effect. Planned
+contrasts at each voxel were conducted; this method fits a linear
+statistical model, voxel-by-voxel, to the data. Hypotheses were
+tested as contrasts in which linear compounds of the model
+parameters were evaluated using t statistics. Data from both
+conditions (Guilt and Neutral) were used to compute the contrast
+error term.
+Regions containing foci of activation with Z scores greater
+than 3.09 are reported. For our a priori regions of interest, a Z
+score threshold of 3.09 (p Ͻ .001, one-tailed, uncorrected for
+multiple comparisons) was selected, because we had strong and
+directional a priori predictions about rCBF increases in limbic
+and paralimbic regions of the brain in the Guilt versus Neutral
+comparison. These predictions were based on the results of
+previous neuroimaging studies of other normal emotional states
+(e.g., George et al 1995, 1996; Lane et al 1997a, 1997b; Pardo et
+al 1993; Reiman et al 1997). For the sake of completeness and in
+order to obviate bias, we also report other (nonpredicted) regions
+that exhibited rCBF increases with Z scores greater than 3.09,
+although we advise the reader to use caution in interpreting them
+given their post-hoc nature.
+
+Competitive arousal
+
+Results
+Psychophysiology and Ratings
+Psychophysiologic responses were not significantly different in the Guilt condition than in the Neutral condition.
+Mean heart rate response scores for the Guilt and Neutral
+
+Rating scale
+Guilt
+Valence
+Arousal
+Shame
+Sadness
+Disgust
+Anger
+Fear
+Surprise
+Happiness
+
+Sexual arousal
+
+Guilt condition
+
+Neutral condition
+
+p value
+
+8.8
+(1.4)
+Ϫ3.9
+(1.7)
+2.1
+(3.0)
+7.4
+(2.8)
+6.6
+(3.5)
+6.5
+(1.7)
+4.5
+(3.2)
+2.6
+(2.5)
+2.3
+(3.6)
+0.0
+(0.0)
+0.0
+(0.0)
+0.0
+(0.0)
+
+0.0
+(0.0)
+0.8
+(1.0)
+0.9
+(1.2)
+0.0
+(0.0)
+0.0
+(0.0)
+0.0
+(0.0)
+0.0
+(0.0)
+0.0
+(0.0)
+0.06
+(0.2)
+2.3
+(1.9)
+0.4
+(1.1)
+0.0
+(0.0)
+
+.0001
+.0001
+.37
+.0002
+.001
+.0001
+.005
+.02
+.14
+.01
+.35
+—
+
+Means of subjective ratings are reported. The rating scale was Ϫ5 to ϩ5 for
+valence and 0 to ϩ10 for all other measures. Standard deviations are given in
+parentheses.
+
+conditions were Ϫ0.17 (SD ϭ 3.15) and Ϫ1.57 (SD ϭ
+3.28), respectively [F(1,7) ϭ 1.42, p ϭ .27]. Mean skin
+conductance response scores for the Guilt and Neutral
+conditions were Ϫ0.19 (SD ϭ 0.43) and Ϫ0.11 (SD ϭ
+0.25), respectively [F(1,7) ϭ .44, p ϭ .53]. Mean EMG
+response scores for the Guilt and Neutral conditions were
+0.41 (SD ϭ 0.89) and 0.09 (SD ϭ 0.60), respectively
+[F(1,7) ϭ .72, p ϭ .43].
+Subjective ratings of emotional state during the Guilt
+and Neutral conditions are presented in Table 1. Ratings of
+guilt were significantly higher in the Guilt condition than
+in the Neutral condition [F(1,7) ϭ 317.59, p ϭ .0001].
+Ratings of valence were significantly more negative in the
+Guilt condition than in the Neutral condition [F(1,7) ϭ
+61.83, p ϭ .0001], but ratings of arousal did not significantly differ between the two conditions [F(1,7) ϭ 0.93,
+p ϭ .37]. Ratings of shame, sadness, disgust, anger, and
+fear were also higher in the Guilt condition than in the
+Neutral condition; however, within the Guilt condition,
+ratings of guilt were the highest of all ratings, and they
+were significantly higher than ratings of all other emotions, except for sadness and shame (guilt vs. sadness
+[F(1,7) ϭ 3.21, p ϭ .12]; guilt vs. shame [F(1,7) ϭ 3.32,
+p ϭ .11]).
+
+46
+
+L.M. Shin et al
+
+BIOL PSYCHIATRY
+2000;48:43–50
+
+Table 2. Regions with Blood Flow Changes in the Guilt vs.
+Neutral Condition
+Region
+rCBF Increases
+Paralimbic regions of interest
+Temporal poles
+
+Anterior cingulate gyrus (32)
+Anterior insular cortex/
+inferior frontal gyrus
+Other regions
+Mid-cingulate
+Cerebellum
+Precentral gyrus
+rCBF decreases
+Posterior insular cortex
+Visual association cortex (19)
+Precuneus
+Fusiform gyrus
+Precentral gyrus
+
+Z score
+
+Coordinates
+
+4.82
+4.59
+4.40
+3.57
+3.69
+
+ϩ44, ϩ4, Ϫ24
+ϩ46, ϩ12, Ϫ28
+Ϫ44, ϩ20, Ϫ20
+ϩ12, ϩ34, ϩ24
+Ϫ44, ϩ16, Ϫ4
+
+3.29
+3.25
+3.19
+
+Ϫ14, Ϫ10, ϩ44
+ϩ20, Ϫ50, Ϫ24
+Ϫ32, Ϫ14, ϩ44
+
+3.49
+4.42
+3.63
+3.72
+3.17
+
+Ϫ38, Ϫ12, ϩ12
+Ϫ6, Ϫ80, ϩ40
+ϩ10, Ϫ72, ϩ48
+Ϫ38, Ϫ44, Ϫ12
+ϩ52, Ϫ8, ϩ12
+
+For each focus of activation, Z scores and coordinates are given. Coordinates
+are expressed in millimeters: x Ͼ 0 is right of the midsagittal plane, y Ͼ 0 is anterior
+to the anterior commissure, and z Ͼ 0 is superior to the anterior commissure–
+posterior commissure plane. Numbers in parentheses immediately following region
+names refer to approximate Brodmann areas. rCBF, regional cerebral blood flow.
+
+PET Results
+In the Guilt versus Neutral comparison, rCBF increases
+occurred in three of our paralimbic regions of interest:
+bilateral anterior temporal poles, anterior cingulate gyrus,
+and left anterior insular cortex/inferior frontal cortex (see
+Table 2 and Figure 1). No rCBF increases (or decreases)
+were observed in amygdala. rCBF increases occurred in
+the following other areas: mid-cingulate gyrus, cerebellum, and left precentral gyrus. rCBF decreases occurred in
+left posterior insular cortex, visual association cortex, right
+precuneus, left fusiform gyrus, and right precentral gyrus.
+
+Discussion
+Relative to the Neutral condition, the Guilt condition was
+associated with rCBF increases in three of our paralimbic
+regions of interest: bilateral anterior temporal poles, anterior cingulate gyrus, and left anterior insular cortex/
+inferior frontal cortex. rCBF decreases occurred in more
+posterior portions of left insular cortex. These findings are
+generally consistent with those of previous studies of
+normal emotional states.
+Studies of nonhuman primates have revealed direct
+connections from anterior temporal poles to the amygdala
+(Aggleton et al 1980). In addition, electrical stimulation of
+anterior temporal poles can elicit autonomic responses in
+monkeys and cats (Anand and Dua 1956; Kaada et al
+1949) and reports of fear and nervousness in humans
+(Mullan and Penfield 1959). Activation in anterior tempo-
+
+ral poles has been reported in other studies of normal
+emotion (e.g., Lane et al 1997a, 1997b; Kimbrell et al
+1999; Reiman et al 1997), as well as in studies of patients
+with anxiety disorders (Rauch et al 1995, 1996; Shin et al
+1999). In two previous studies of anxiety, rCBF increases
+in temporal poles were attributed to extracranial artifacts
+of jaw muscle contraction (Drevets et al 1992; Benkelfat et
+al 1995); however, the temporopolar activations reported
+in the current study were clearly within brain. Although
+activation in anterior temporal poles has largely been
+associated with negative emotional states, at least one
+study has reported these types of activations during filmand recall-generated happiness (Lane et al 1997b). Thus,
+the anterior temporal poles may be involved in information processing of emotional material, possibly regardless
+of valence.
+The cingulate gyrus is a large structure that appears to
+have different functional subdivisions (Devinsky et al
+1995; Vogt et al 1992, 1995). The activation reported in
+the present study is located in a region of the anterior
+cingulate gyrus (approximately Brodmann area 32) that
+lies just superior to the genu of the corpus callosum,
+approximately 24 mm above the anterior commissure–
+posterior commissure (AC–PC) plane. This region may
+correspond to superior portions of the affective division of
+the anterior cingulate gyrus (ACad), which lies inferior to
+the dorsal region of the anterior cingulate that is thought to
+principally mediate cognitive processes (e.g., Bush et al
+1998; Pardo et al 1990; see Vogt et al 1992, 1995), and
+superior to the portion of the anterior cingulate that is
+thought to mediate visceral functions (Vogt et al 1992,
+1995). Activations in this vicinity (roughly 10 –24 mm
+above the AC–PC plane) have also been reported in
+studies involving procaine-induced fear (Ketter et al 1996;
+Servan-Schreiber et al 1998), the recollection of traumatic
+events in trauma-exposed healthy individuals (Shin et al
+1999), the performance of the emotional Stroop task
+(Whalen et al 1998a), the prediction of treatment response
+in depression (Mayberg et al 1997), and symptom provocation in patients with obsessive-compulsive disorder
+(Rauch et al 1994).
+In the current study, the Guilt condition was associated
+with rCBF increases in anterior insular cortex/inferior
+frontal gyrus and rCBF decreases in more posterior regions of insular cortex. Anterior and posterior portions of
+insular cortex appear to differ considerably in terms of
+cellular organization, connections with other brain regions, and function (Mesulam and Mufson 1982a, 1982b;
+Mufson and Mesulam 1982). Anterior insular cortex
+contains agranular and dysgranular cells, shares extensive
+connections with other anterior paralimbic regions and the
+amygdala (Aggleton et al 1980), and is involved in
+olfactory, gustatory, and autonomic function (Mesulam
+
+PET Study of Guilt
+
+BIOL PSYCHIATRY
+2000;48:43–50
+
+47
+
+Figure 1. Regional cerebral blood flow increases in the Guilt versus Neutral comparison were observed in (A) anterior temporal poles
+(horizontal view), (B) anterior cingulate gyrus (sagittal view), and (C) left anterior insular cortex/inferior frontal gyrus (sagittal view).
+
+and Mufson 1982b; Small et al 1999). Electrical stimulation of anterior insular cortex is associated with reports of
+fear in humans (Mullan and Penfield 1959), and activation
+of anterior insular cortex has occurred during symptom
+provocation in patients with phobias (Rauch et al 1995),
+the recollection of negative events in healthy individuals
+(George et al 1996; Shin et al 1999), procaine-induced fear
+(Ketter et al 1996; Servan-Schreiber et al 1998), the
+perception of facial expressions of disgust (Phillips et al
+1997), imagery of aversive stimuli (Kosslyn et al 1996),
+and aversive gustatory stimulation (Zald et al 1998). In
+contrast, posterior insular cortex contains granular cells,
+shares connections with superior temporal, parietal, premotor, and somatosensory cortex, and is involved in the
+processing of auditory and somatosensory information
+(Coghill et al 1994; Francis et al 1999; Mesulam and
+Mufson 1982a, 1982b; Mufson and Mesulam 1982;
+Schneider et al 1993). Activation in anterior insular cortex
+during the emotional state of guilt is consistent with theory
+and data regarding the role that this region may play in the
+processing of emotional information. Deactivation in more
+posterior regions of insular cortex during the Guilt condition was unexpected, but could reflect a reallocation of
+
+blood flow toward more anterior regions of insular cortex
+during a negative emotional state.
+No activation occurred in the amygdala or orbitofrontal
+cortex during the Guilt condition in this study. Indeed, the
+amygdala may be more involved in fear and the processing
+of fear-related stimuli (e.g., LaBar et al 1998; Morris et al
+1996; Rauch et al 1996; Whalen et al 1998b). In addition,
+in healthy individuals, the amygdala may be more responsive during conditions involving the perception of emotional stimuli than the recollection and imagery of those
+stimuli (Reiman et al 1997; Whalen 1998). Furthermore,
+the limited spatial and temporal resolution of PET may
+have hindered our ability to detect activation in the
+amygdala. The absence of activation in orbitofrontal
+cortex in this study was somewhat surprising, given
+previous reports of orbitofrontal activation during negative
+emotional states in healthy humans (e.g., Fischer et al
+1996; Paradiso et al 1997; Pardo et al 1993; Zald et al
+1998).
+Possible limitations of this study include the modest
+sample size, the lack of behavioral measures, and the
+dependence on self-report data. In addition, one might
+argue that the absence of significant peripheral psycho-
+
+48
+
+BIOL PSYCHIATRY
+2000;48:43–50
+
+physiologic changes between the Guilt and Neutral conditions was a limitation. To our knowledge, however, there
+is no evidence that the emotional state of guilt is accompanied by such changes. Furthermore, although great care
+was taken to match the conditions as closely as possible on
+a number of different variables (such as script length,
+tense, voice), the conditions may have differed in more
+subtle ways. For example, although the Guilt condition
+was indeed marked by high subjective ratings of guilt, it
+was also accompanied by moderate ratings of related
+emotions, especially shame and sadness. Anxiety, which
+has been associated with paralimbic activation (e.g., Chua
+et al 1999; Cottraux et al 1996; Kimbrell et al 1999; Rauch
+et al 1994, 1995, 1996; Shin et al 1997, 1999), also may
+have occurred in the Guilt condition, although the lack of
+peripheral psychophysiologic changes during the Guilt
+condition may not be consistent with this possibility. In
+short, activations in the Guilt versus Neutral comparison
+may have reflected changes in other related emotions as
+well. Finally, PET studies in general are limited by errors
+in precise neuroanatomical localization that can arise from
+constraints set by the spatial resolution of PET, unavoidable head movement, or stereotaxic transformation. In
+addition, normalizing whole-brain blood flow prevented
+us from detecting any absolute blood flow changes between conditions.
+In conclusion, the Guilt condition was associated with
+rCBF increases in bilateral anterior temporal poles, anterior cingulate gyrus, and left anterior insular cortex/
+inferior frontal cortex and rCBF decreases in more posterior portions of left insular cortex. The results of this and
+other similar studies are consistent with the notion that
+anterior paralimbic regions of the brain mediate negative
+emotional states in healthy individuals and are involved in
+the processing of information with affective significance.
+
+This study was supported in part by NIMH Grant MH01215 (Dr. Rauch).
+Dr. Dougherty received support as a fellow in the Clinical Investigator
+Training Program: Harvard/MIT Health Sciences and Technology-Beth
+Israel Deaconess Medical Center, in collaboration with Pfizer, Inc.
+We thank Patrick Shin and Paul Whalen for their comments on this
+manuscript, and Sandra Barrow, Avis Loring, and Steve Weise for their
+technical assistance.
+
+References
+Aggleton JP, Burton MJ, Passingham RE (1980): Cortical and
+subcortical afferents to the amygdala of the rhesus monkey
+(Macaca mulatta). Brain Res 190:347–368.
+Anand BK, Dua S (1956): Circulating and respiratory changes
+induced by electrical stimulation of limbic system (visceral
+brain). J Neurophysiol 19:393– 400.
+Benkelfat C, Bradwejn J, Meyer E, Ellenbogen M, Milot S,
+Gjedde A, et al (1995): Functional neuroanatomy of
+
+L.M. Shin et al
+
+CCK4-induced anxiety in normal healthy volunteers. Am J
+Psychiatry 152:1180 –1184.
+Berrios GE, Bulbena A, Bakshi N, Dening TR, Jenaway A,
+Markar H, et al (1992): Feelings of guilt in major depression:
+Conceptual and psychometric aspects. Br J Psychiatry 160:
+781–787.
+Bush G, Whalen PJ, Rosen BR, Jenike MA, McInerney SC,
+Rauch SL (1998): The Counting Stroop: An interference task
+specialized for functional neuroimaging—validation study
+with functional MRI. Hum Brain Map 6:270 –282.
+Chua P, Krams M, Toni I, Passingham R, Dolan R (1999): A
+functional anatomy of anticipatory anxiety. Neuroimage
+9:563–571.
+Coghill RC, Talbot JD, Evans AC, Meyer E, Gjedde A, Bushnell
+MC, et al (1994): Distributed processing of pain and vibration
+by the human brain. J Neurosci 14:4095– 4108.
+Cottraux J, Gerard D, Cinotti L, Froment J-C, Deiber M-P, Le
+´
+Bars D, et al (1996): A controlled positron emission tomography study of obsessive and neutral auditory stimulation in
+obsessive-compulsive disorder with checking rituals. Psychiatry Res 60:101–112.
+Devinsky O, Morrell MJ, Vogt BA (1995): Contributions of
+anterior cingulate cortex to behaviour. Brain 118:279 –306.
+Dougherty DD, Shin LM, Alpert NM, Pitman RK, Orr SP, Lasko
+M, et al (1999): Anger in healthy men: A PET study using
+script-driven imagery. Biol Psychiatry 46:466 – 472.
+Drevets WC, Videen TO, MacLeod AK, Haller JW, Raichle ME
+(1992): PET images of blood flow changes during anxiety:
+Correction. Science 256:1696.
+Fischer H, Wik G, Fredrikson M (1996): Functional neuroanatomy of robbery re-experience: Affective memories studied
+with PET. Neuroreport 7:2081–2086.
+Francis S, Rolls ET, Bowtell R, McGlone F, O’Doherty J,
+Browning A, et al (1999): The representation of pleasant
+touch in the brain and its relationship with taste and olfactory
+areas. Neuroreport 10:453– 459.
+Frijda NH (1994): Universal antecedents exist, and are interesting. In: Ekman P, Davidson RJ, editors. The Nature of
+Emotion: Fundamental Questions. New York: Oxford University Press, 155–162.
+Friston KJ, Frith CD, Liddle PF, Frakowiak RSJ (1991): Comparing functional (PET) images: The assessment of significant change. J Cereb Blood Flow Metab 11:690 – 699.
+Friston KJ, Holmes AP, Worsley KJ, Poline J-P, Frith CD,
+Frackowiak RSJ (1995): Statistical parametric maps in functional imaging: A general approach. Hum Brain Map 2:189 –
+210.
+George MS, Ketter TA, Parekh PI, Herscovitch P, Post RM
+(1996): Gender differences in regional cerebral blood flow
+during transient self-induced sadness or happiness. Biol
+Psychiatry 40:859 – 871.
+George MS, Ketter TA, Parekh PI, Horowitz B, Herscovitch P,
+Post RM (1995): Brain activity during transient sadness and
+happiness in healthy women. Am J Psychiatry 152:341–351.
+Henning KR, Frueh BC (1997): Combat guilt and its relationship
+to PTSD symptoms. J Clin Psychol 53:801– 808.
+Kaada BR, Pribram KH, Epstein JA (1949): Respiratory and
+vascular responses in monkeys from temporal pole, insula,
+orbital surface and cingulate gyrus. J Neurophysiol 12:347–
+356.
+
+PET Study of Guilt
+
+Ketter TA, Andreason PJ, George MS, Lee C, Gill DS, Parekh
+PI, et al (1996): Anterior paralimbic mediation of procaineinduced emotional and psychosensory experiences. Arch Gen
+Psychiatry 53:59 – 69.
+Kimbrell TA, George MS, Parekh PI, Ketter TA, Podell DM,
+Danielson AL, et al (1999): Regional brain activity during
+transient self-induced anxiety and anger in healthy adults.
+Biol Psychiatry 46:454 – 465.
+Kosslyn SM, Shin LM, Thompson WL, McNally RJ, Rauch SL,
+Pitman RK, et al (1996): Neural effects of visualizing and
+perceiving aversive stimuli: A PET investigation. Neuroreport 7:1569 –1576.
+LaBar KS, Gatenby C, Gore JC, LeDoux JE, Phelps EA (1998):
+Human amygdala activation during conditioned fear acquisition and extinction: A mixed-trial fMRI study. Neuron
+20:937–945.
+Lane RD, Fink GR, Chau PM-L, Dolan RJ (1997a): Neural
+activation during selective attention to subjective emotional
+responses. Neuroreport 8:3969 –3972.
+Lane RD, Reiman EM, Ahern GL, Schwartz GE, Davidson RJ
+(1997b): Neuroanatomical correlates of happiness, sadness,
+and disgust. Am J Psychiatry 154:926 –933.
+Lang PJ (1985): The cognitive psychophysiology of emotion:
+Fear and anxiety. In: Tuma AH, Maser J, editors. Anxiety and
+the Anxiety Disorders. Hillsdale, NJ: Lawrence Erlbaum.
+Lang PJ, Levin DN, Miller GA, Kozak MJ (1983): Fear
+behavior, fear imagery, and the psychophysiology of emotion: The problem of affective response integration. J Abnorm
+Psychol 92:276 –306.
+LeDoux JE (1992): Emotion and the amygdala. In: Aggleton JP,
+editor. The Amygdala: Neurobiological Aspects of Emotion,
+Memory, and Mental Dysfunction. New York: Wiley-Liss.
+Levenson RW (1994): The search for autonomic specificity. In:
+Ekman P, Davidson RJ, editors. The Nature of Emotion:
+Fundamental Questions. New York: Oxford University Press,
+252–257.
+Mayberg HS, Brannan SK, Mahurin RK, Jerabek PA, Brickman
+JS, Tekell JL, et al (1997): Cingulate function in depression:
+A potential predictor of treatment response. Neuroreport
+8:1057–1061.
+Mesulam M-M (1985): Principles of Behavioral Neurology.
+Philadelphia: F.A. Davis.
+Mesulam M-M, Mufson EJ (1982a): Insula of the old world
+monkey. I: Architectonics in the insulo-orbito-temporal component of the paralimbic brain. J Comp Neurol 212:1–22.
+Mesulam M-M, Mufson EJ (1982b): Insula of the old world
+monkey. III: Efferent cortical output and comments on
+function. J Comp Neurol 212:38 –52.
+Mufson EJ, Mesulam M-M (1982): Insula of the old world
+monkey. II: Afferent cortical input and comments on the
+claustrum. J Comp Neurol 212:23–37.
+Morris JS, Frith CD, Perrett DI, Rowland D, Young AW, Calder
+AJ, et al (1996): A differential response in the human
+amygdala to fearful and happy facial expressions. Nature
+383:812– 815.
+Mullan S, Penfield W (1959): Illusions of comparative interpretation and emotion. Arch Neurol Psychiatry 81:269 –284.
+Oldfield RC (1971): The assessment and analysis of handedness:
+The Edinburgh Inventory. Neuropsychologia 9:97–113.
+
+BIOL PSYCHIATRY
+2000;48:43–50
+
+49
+
+Orr SP, Lasko NB, Metzger LJ, Berry NJ, Ahern CE, Pitman RK
+(1998): Psychophysiologic assessment of women with posttraumatic stress disorder resulting from childhood sexual
+abuse. J Consult Clin Psychol 66:906 –913.
+Paradiso S, Robinson RG, Andreasen NC, Downhill JE, Davidson RJ, Kirchner PT, et al (1997): Emotional activation of
+limbic circuitry in elderly normal subjects in a PET study.
+Am J Psychiatry 154:384 –389.
+Pardo JV, Pardo PJ, Janer KW, Raichle ME (1990): The anterior
+cingulate cortex mediates processing selection in the Stroop
+attentional conflict paradigm. Proc Natl Acad Sci U S A
+87:256 –259.
+Pardo JV, Pardo PJ, Raichle ME (1993): Neural correlates of
+self-induced dysphoria. Am J Psychiatry 150:713–719.
+Phillips ML, Young AW, Senior C, Brammer M, Andrew C,
+Calder AJ, et al (1997): A specific neural substrate for
+perceiving facial expressions of disgust. Nature 389:495–
+498.
+Pitman RK, Orr SP, Forgue DF, Altman B, de Jong JB, Herz LR
+(1990): Psychophysiologic responses to combat imagery of
+Vietnam veterans with post-traumatic stress disorder vs. other
+anxiety disorders. J Abnorm Psychol 99:49 –54.
+Pitman RK, Orr SP, Forgue DF, de Jong JB, Claiborn JM (1987):
+Psychophysiologic assessment of posttraumatic stress disorder imagery in Vietnam combat veterans. Arch Gen Psychiatry 44:970 –975.
+Rauch SL, Jenike MA, Alpert NM, Baer L, Breiter HCR,
+Savage CR, et al (1994): Regional cerebral blood flow
+measured during symptom provocation in obsessive-compulsive disorder using oxygen 15-labeled carbon dioxide
+and positron emission tomography. Arch Gen Psychiatry
+51:62–70.
+Rauch SL, Savage CR, Alpert NM, Miguel EC, Baer L, Breiter
+HC, et al (1995): A positron emission tomographic study of
+simple phobic symptom provocation. Arch Gen Psychiatry
+52:20 –28.
+Rauch SL, Shin LM, Dougherty D, Alpert NM, Orr SP, Lasko
+M, et al (1999): Neural activation during sexual and
+competitive arousal in healthy men. Psychiatry Res Neuroimag 91:1–10
+Rauch SL, van der Kolk BA, Fisler RE, Alpert NM, Orr SP,
+Savage CR, et al (1996): A symptom provocation study of
+posttraumatic stress disorder using positron emission tomography and script-driven imagery. Arch Gen Psychiatry 53:
+380 –387.
+Reiman EM, Lane RD, Ahern GL, Schwartz GE, Davidson RJ,
+Friston KJ, et al (1997): Neuroanatomical correlates of
+externally and internally generated human emotion. Am J
+Psychiatry 154:918 –925.
+Schneider F, Grodd W, Weiss U, Klose U, Mayer KR, Nagele T,
+¨
+et al (1997): Functional MRI reveals left amygdala activation
+during emotion. Psychiatry Res Neuroimag 76:75– 82.
+Schneider F, Gur RE, Mozley LH, Smith RJ, Mozley PD, Censits
+DM, et al (1995): Mood effects on limbic blood flow correlate
+with emotional self-rating: A PET study with oxygen-15
+labeled water. Psychiatry Res Neuroimag 61:265–283.
+Schneider RJ, Friedman DP, Mishkin M (1993): A modalityspecific somatosensory area within the insula of the rhesus
+monkey. Brain Res 621:116 –120.
+Servan-Schreiber D, Perlstein WM, Cohen JD, Mintun M (1998):
+
+Selective pharmacological activation of limbic structures in
+human volunteers: A positron emission tomography study.
+J Neuropsychiatry Clin Neurosci 10:148 –159.
+Shin LM, Kosslyn SM, McNally RJ, Alpert NM, Thompson WL,
+Rauch SL, et al (1997): Visual imagery and perception in
+posttraumatic stress disorder: A positron emission tomographic investigation. Arch Gen Psychiatry 54:233–241.
+Shin LM, McNally RJ, Kosslyn SM, Thompson WL, Rauch
+SL, Alpert NM, et al (1999): Regional cerebral blood flow
+during script-driven imagery in childhood sexual abuserelated posttraumatic stress disorder: A positron emission
+tomographic investigation. Am J Psychiatry 156:575–584.
+Small DM, Zald DH, Jones-Gotman M, Zatorre RJ, Pardo JV,
+Frey S, et al (1999): Human cortical gustatory areas: A review
+of functional neuroimaging data. Neuroreport 10:7–14.
+Spitzer RL, Williams JBW, Gibbon M, First M (1990): Structured Clinical Interview for DSM-III-R (SCID). Washington,
+DC: American Psychiatric Press.
+Talairach J, Tournoux P (1988): Co-Planar Stereotaxic Atlas of
+the Human Brain. Stuttgart, Germany: Thieme.
+
+

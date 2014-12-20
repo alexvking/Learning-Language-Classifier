@@ -1,0 +1,934 @@
+ORIGINAL ARTICLE
+
+A Functional Magnetic Resonance Imaging Study
+of Amygdala and Medial Prefrontal Cortex Responses
+to Overtly Presented Fearful Faces in Posttraumatic
+Stress Disorder
+Lisa M. Shin, PhD; Christopher I. Wright, MD, PhD; Paul A. Cannistraro, MD; Michelle M. Wedig, BS;
+Katherine McMullin, BA; Brian Martis, MD; Michael L. Macklin, BA; Natasha B. Lasko, PhD; Sarah R. Cavanagh, MA;
+Terri S. Krangel, PhD; Scott P. Orr, PhD; Roger K. Pitman, MD; Paul J. Whalen, PhD; Scott L. Rauch, MD
+
+Background: Previous functional neuroimaging studies have demonstrated exaggerated amygdala responses
+and diminished medial prefrontal cortex responses during the symptomatic state in posttraumatic stress disorder (PTSD).
+Objectives: To determine whether these abnormalities also occur in response to overtly presented affective
+stimuli unrelated to trauma; to examine the functional
+relationship between the amygdala and medial prefrontal cortex and their relationship to PTSD symptom severity in response to these stimuli; and to determine
+whether responsivity of these regions habituates normally across repeated stimulus presentations in PTSD.
+Design: Case-control study.
+Setting: Academic medical center.
+Participants: Volunteer sample of 13 men with PTSD
+
+(PTSD group) and 13 trauma-exposed men without PTSD
+(control group).
+Main Outcome Measures: We used functional magnetic resonance imaging (fMRI) to study blood oxygen-
+
+S
+
+Author Affiliations are listed at
+the end of this article.
+
+ation level–dependent signal during the presentation of
+emotional facial expressions.
+Results: The PTSD group exhibited exaggerated amygdala responses and diminished medial prefrontal cortex responses to fearful vs happy facial expressions. In addition,
+in the PTSD group, blood oxygenation level–dependent signal changes in the amygdala were negatively correlated with
+signal changes in the medial prefrontal cortex, and symptom severity was negatively related to blood oxygenation
+level–dependent signal changes in the medial prefrontal cortex. Finally, relative to the control group, the PTSD group
+tended to exhibit diminished habituation of fearful vs happy
+responses in the right amygdala across functional runs, although this effect did not exceed our a priori statistical
+threshold.
+Conclusions: These results provide evidence for exaggerated amygdala responsivity, diminished medial prefrontal cortex responsivity, and a reciprocal relationship between these 2 regions during passive viewing of
+overtly presented affective stimuli unrelated to trauma
+in PTSD.
+
+Arch Gen Psychiatry. 2005;62:273-281
+
+EVERAL RECENT FUNCTIONAL
+
+neuroimaging studies have
+provided evidence consistent with amygdala hyperresponsivity during exposure to
+traumatic reminders in posttraumatic
+stress disorder (PTSD).1-6 In addition,
+PTSD symptom severity is positively correlated with blood flow in the amygdala
+during such exposure.3,5,7
+To characterize the scope of amygdala
+hyperresponsivity in PTSD, it is important to determine whether amygdala responses to stimuli unrelated to trauma are
+also exaggerated in this disorder. Previous research has established that the normal human amygdala is responsive to fa-
+
+(REPRINTED) ARCH GEN PSYCHIATRY/ VOL 62, MAR 2005
+273
+
+cial expressions of fear 8 - 1 1 and that
+individuals with PTSD exhibit exaggerated amygdala responses to these facial expressions. Using functional magnetic resonance imaging (fMRI), Rauch and
+colleagues 12 measured blood oxygenation level–dependent (BOLD) signal responses to backwardly masked fearful and
+happy facial expressions in combat veterans with and without PTSD. In that study,
+the fearful and happy facial expressions
+were presented very briefly (33 milliseconds) and were followed immediately by
+neutral facial expressions.11 Relative to the
+control group, the PTSD group exhibited
+greater BOLD signal increases in the right
+amygdala in response to masked fearful vs
+
+WWW.ARCHGENPSYCHIATRY.COM
+
+©2005 American Medical Association. All rights reserved.
+
+happy facial expressions. In addition, PTSD symptom severity was positively correlated with BOLD signal changes
+in the amygdala. Whether amygdala hyperresponsivity
+in PTSD can be demonstrated when participants are explicitly aware of the presence of emotional facial expressions is not known. In addition, whether this amygdala
+hyperresponsivity declines normally across repeatedstimulus presentations has never been assessed in PTSD.
+Medial prefrontal structures also have been implicated in the pathophysiology of PTSD. Several functional neuroimaging studies have demonstrated relatively diminished activation in the subcallosal,13,14 anterior
+cingulate,15-17 and medial frontal gyri5,16 in this disorder.
+In addition, PTSD symptom severity is negatively correlated with blood flow in the medial frontal gyrus during
+traumatic imagery and recollection.5 Furthermore, blood
+flow changes in the medial frontal gyrus appear to be negatively correlated with changes in the amygdala during traumatic imagery in PTSD.5 These findings highlight the potential importance of interactions between the amygdala
+and medial prefrontal structures in this disorder. However, whether such interactions can be observed during
+the presentation of more general, affective stimuli unrelated to trauma is unknown.
+The goals of the present study were to determine
+whether (1) individuals with PTSD exhibit exaggerated
+amygdala responses and diminished medial prefrontal responses to nonmasked (ie, overtly presented) fearful vs
+happy facial expressions; (2) there is a reciprocal relationship between BOLD signal changes in the amygdala
+and medial prefrontal regions in this contrast; (3) symptom severity is related to signal changes in the amygdala
+and medial prefrontal regions; and (4) the amygdala and
+medial prefrontal responses to fearful vs happy faces habituate normally in patients with PTSD.
+We studied fMRI BOLD signal in trauma-exposed men
+with and without PTSD while they viewed blocks of emotional facial expressions. In the fearful vs happy comparison, we predicted that participants with PTSD would
+exhibit greater activation in the amygdala12 and diminished activation in medial prefrontal regions (including
+medial frontal, anterior cingulate, and subcallosal gyri),
+compared with participants without PTSD. In addition,
+we predicted that fMRI BOLD signal changes in the amygdala would be negatively correlated with signal changes
+in medial prefrontal regions in the fearful vs happy contrast.5 We also predicted that symptom severity would
+be positively correlated with responses in the amygdala5,7,12 and negatively correlated with those in medial
+prefrontal regions.5 Finally, we predicted that, relative
+to the control group, the PTSD group would show diminished habituation of amygdala responses over repeated presentations of fearful vs happy expressions.
+METHODS
+
+PARTICIPANTS
+Participants included 26 trauma-exposed men without a history of head injury, neurological disorders, or other major medical conditions. Thirteen participants met DSM-IV diagnostic criteria for current PTSD (PTSD group), and 13 never had PTSD
+
+(REPRINTED) ARCH GEN PSYCHIATRY/ VOL 62, MAR 2005
+274
+
+(control group) according to a structured clinical interview (the
+Clinician-Administered PTSD Scale [CAPS]).18 Twenty-four participants were right-handed, and 2 (1 in the PTSD and 1 in the
+control group) were left-handed.19 Participants had served in
+combat in Vietnam (10 in the PTSD and 8 in the control group)
+or were firefighters (3 in the PTSD and 5 in the control group).
+Examples of Vietnam experiences included being wounded or
+in mortal danger in combat, witnessing the injury or death of
+friends, and handling body parts. Examples of firefighter experiences included being trapped and injured in a collapsed
+burning building, witnessing the death and/or disfigurement
+of others including children and coworkers, and witnessing an
+accident scene of a family member. All cases of PTSD were
+chronic. Duration of illness ranged from 10 to 35 years. No participant was taking psychotropic or cardiovascular medication at the time of the study. Seven participants (5 in the PTSD
+and 2 in the control group) had been taking such medications
+before the study but had discontinued them for 2 to 6 weeks,
+depending on the type of medication.
+The groups did not differ with regard to age (mean ± SD
+age, 52.8 ±7.3 [PTSD group] vs 49.7 ±8.9 years [control group];
+F1,24 =0.9; P=.35). The control group had an average of 1.8 more
+years of education than the PTSD group (mean±SD, 13.8±2.3
+[PTSD group] vs 15.6 ± 1.9 years [control group]; F1,24 = 2.2;
+P=.04). The groups did not differ in terms of marital status (69%
+[PTSD group] vs 85% [control group] married; ␹2⁄1 =0.9; P=.35),
+but a greater proportion of participants in the PTSD group were
+unemployed (38% [PTSD group] vs 0% [control group]; ␹2⁄1 =6.2;
+P=.02). Relative to the control group, the PTSD group had significantly higher mean ± SD scores (indicating greater symptom severity) on the following clinical measures: CAPS
+(62.0±25.2 [PTSD group] vs 3.3±6.0 [control group]; F1,22 =61.9;
+PϽ.001); the Beck Depression Inventory20 (BDI) (20.7±17.0
+[PTSD group] vs 4.2±4.3 [control group]; F1,24 =11.5; P=.003);
+and Beck Anxiety Inventory21 (18.8 ± 14.5 [PTSD group] vs
+5.0±6.2 [control group]; F1,24 =10.1; P=.004). All symptoms
+of PTSD were represented among the various cases of PTSD,
+although not every symptom in each case. Flashbacks were less
+frequent, and amnesia was rare. The PTSD group’s mean CAPS
+score represents moderately severe PTSD symptoms, and the
+control group’s mean CAPS score represents minimal PTSD
+symptoms.
+The presence of other Axis I mental disorders was assessed
+with the Structured Clinical Interview for DSM-IV.22 Participants in the PTSD group met criteria for the following current
+comorbid diagnoses: major depression (n=4), dysthymia (n=2),
+bipolar disorder II (n=1), panic disorder (n=3), social phobia
+(n=2), and specific phobia (n=1). None of the participants in
+the control group met criteria for a current Axis I diagnosis.
+This study was approved by the institutional review boards
+of the Massachusetts General Hospital and the Veterans Affairs Medical Center. Written informed consent was obtained
+from each participant.
+
+STIMULUS PRESENTATION
+Stimuli were gray scale images of 6 fearful, 6 happy, and 6 neutral facial expressions selected from a well-validated set.23 Facial expressions were posed by 3 men and 3 women. Each face
+was presented for 200 milliseconds, with a 300-millisecond interstimulus interval, in a pseudorandom order such that facial
+expressions of a single identity were never presented in succession. Across each run, each fearful and happy face was presented an equal number of times. Subjects viewed 4 runs of these
+facial expressions, with each run consisting of ten 28-second
+alternating blocks. Each run began and ended with a 28second block of low-level fixation (eg, +NHFHFHFN+). The
+
+WWW.ARCHGENPSYCHIATRY.COM
+
+©2005 American Medical Association. All rights reserved.
+
+order of conditions and runs was counterbalanced across subjects and groups. The paradigm was modeled after those used
+in previous studies.8,24 Although it does not permit the acquisition of online behavioral data, we chose to use a passive
+viewing paradigm because it has been found to be associated
+with relatively robust amygdala responses.25,26 The facial stimuli
+were displayed using standardized software (MacStim 2.5.9;
+WhiteAnt Occasional Publishing, West Melbourne, Australia)
+and an XG-2000V color liquid crystal display projector (Sharp,
+Osaka, Japan). Immediately after each scanning session, outside the scanner, participants rated the facial expressions on
+scales of valence (negative to positive, −3 to +3) and arousal
+(low to high, 0 to 6).
+
+fMRI PROCEDURES
+Scans were obtained from a Symphony/Sonata 1.5-T wholebody high-speed imaging device equipped for echo planar imaging (Siemens Medical Systems, Iselin, NJ) with a 3-axis gradient head coil. Head movement was restricted using expandable
+foam cushions. After an automated scout image was acquired
+and shimming procedures were performed to optimize field homogeneity,27 high-resolution 3-dimensional magnetizationprepared rapid acquisition gradient echo sequences (repetition time/echo time/flip angle, 7.25 milliseconds/3 milliseconds/
+7°) with an in-plane resolution of 1.3 mm and 1-mm-slice
+thickness were collected for spatial normalization and for positioning the slice prescription of the subsequent sequences.
+Then T1- (repetitition time/echo time/flip angle,8 seconds/39
+milliseconds/90°) and T2-weighted sequences (repetition time/
+echo time/flip angle, 10 seconds/48 milliseconds/120°) were
+gathered. Functional MRI images28 were acquired using a gradient echo T2-weighted sequence (repetition time/echo time/
+flip angle,2.8 seconds/40 milliseconds/90°). Before each scan,
+4 images were acquired and discarded to allow longitudinal magnetization to reach equilibrium. The T1- and T2-weighted and
+functional images were collected in the same plane (24 coronal slices angled perpendicular to the anterior commissure–
+posterior commissure line) with the same slice thickness (7 mm,
+skip 1 mm; voxel size, 3.125ϫ3.125ϫ8 mm), excitation order (interleaved), and phase encoding (foot-to-head).
+
+DATA ANALYSIS
+We performed preprocessing and statistical analysis of the fMRI
+data using a statistical parametric mapping method (SPM99 software package; Wellcome Department of Cognitive Neurology,
+London, England29). Within SPM99, images were motion corrected (sinc interpolation) and transformed into a standard
+(Montreal Neurological Institute [MNI] coordinate system; McGill
+University, Montreal, Quebec) stereotactic space (bilinear interpolation). Images were then smoothed with a 4-mm gaussian kernel. At each voxel, the data were fit to a linear statistical
+model using the least squares method. The design was modeled
+using a boxcar function convolved with the hemodynamic response function. Hypotheses were tested as contrasts in which
+linear compounds of the model parameters were evaluated using
+t statistics, which were then transformed to z scores.
+We chose to focus on the fearful vs happy contrast to facilitate comparison of our present results with those of Rauch
+et al.12 The fearful vs neutral contrasts yielded results similar
+to those of the fearful vs happy contrasts but will not be discussed further herein for the sake of brevity.
+We first computed the voxelwise fearful vs happy contrast
+within each group, and then assessed our prediction of exaggerated amygdala responses and diminished medial prefrontal
+responses to fearful vs happy facial expressions in PTSD with
+
+(REPRINTED) ARCH GEN PSYCHIATRY/ VOL 62, MAR 2005
+275
+
+a voxelwise test of the conditionϫdiagnosis interaction. These
+analyses were conducted within the first functional run to avoid
+any habituation or sensitization effects. We chose to conduct
+the fearful vs happy contrasts within a fixed-effects model because this procedure minimizes type II error. Although fixedeffects analyses limit our ability to generalize from the study
+sample to the larger population of patients with PTSD, the present findings in the amygdala presented in the “Results” section) are similar to those of a previous fMRI study.12 Furthermore, random-effects analyses (not shown) revealed similar
+(although less robust) findings in the amygdala and medial prefrontal regions.
+To determine whether fMRI BOLD signal changes in the
+amygdala were significantly related to signal changes in the medial prefrontal cortex in PTSD, we (1) defined a functional region of interest (diameter, 6 mm) around the amygdala activations in run 1 in the PTSD group (MNI coordinates,+22, +4,
+−14; +18, −6, −20; and −20, −8, −18), (2) extracted signal values per condition per subject from that region of interest,30 (3)
+calculated the fearful vs happy signal change value per subject, and (4) determined whether those change values were associated with signal changes in other brain areas in the fearful
+vs happy comparison (using individual subject contrast images) via a voxelwise correlational analysis. To determine the
+relationship between PTSD symptom severity (CAPS scores)
+and fearful vs happy signal change in the amygdala and medial prefrontal regions in the PTSD group, we conducted voxelwise correlational analyses within SPM99. We chose to focus specifically on the amygdala and medial prefrontal regions
+in these correlational analyses. Finally, to examine habituation differences between groups, we compared fearful vs happy
+responses in early (run 1) vs late (run 4) functional runs.31,32
+
+STATISTICS
+The statistical parametric maps resulting from these analyses
+were inspected for activations in our a priori regions of interest. Given our strong, directional hypotheses, we used a significance threshold of PϽ.001, uncorrected (z score, Ն3.09)
+for activations in these regions. Because the procedure of correcting P values based on the region size is biased toward finding significance in small structures, we chose to use a constant
+significance threshold. For regions about which we had no a
+priori prediction, we used a more conservative constant significance threshold of PϽ.00001, uncorrected (z score, Ն4.27).
+Ratings data are expressed as mean±SD.
+RESULTS
+
+FACIAL EXPRESSION RATINGS
+Ratings of valence and arousal were submitted to separate 2 ϫ 3 (diagnosis [PTSD and control] ϫ expression
+[fearful, happy, and neutral]) analyses of variance. With
+regard to valence, only the main effects of group (F1,24 =9.3;
+P =.006) and expression (F2,48 =64.5; PϽ.001) were significant. The PTSD group gave more negative ratings
+across all facial expressions than the control group. Post
+hoc testing showed significant valence ratings differences among all 3 types of facial expressions: fearful
+(−1.8±1.4) vs happy (1.7±1.1) (t25 =9.2; PϽ.001); fearful vs neutral (0.0±0.6) (t25 =6.0; PϽ.001); and neutral
+vs happy (t25 =7.7; PϽ.001).
+Analysis of the arousal ratings revealed only a significant main effect of expression (F2,46 =17.9; PϽ.001). Post
+WWW.ARCHGENPSYCHIATRY.COM
+
+©2005 American Medical Association. All rights reserved.
+
+Table 1. Fearful vs Happy Comparison in PTSD and Control Groups
+PTSD Group
+Region
+
+z Score
+
+Bilateral amygdala
+
+Paracentral cortex
+
+4.27
+4.10
+4.67
+4.16
+3.87
+4.45
+
+Left ventral medial frontal gyrus
+Right rostral anterior cingulate gyrus
+
+3.42
+3.55
+
+Right rostral anterior cingulate gyrus
+
+Control Group
+MNI
+Coordinates, x, y, z
+
+z Score
+
+MNI
+Coordinates, x, y, z
+
+3.89
+3.23
+...
+3.76
+2.75
+3.43
+3.15
+4.72
+4.43
+5.56
+5.45
+4.33
+
++18, −6, −18
+−16, −6, −18
+...
+−2, +38, −10
+−6, +38, +12
+−6, +24, +20
++14, +48, +20
+−28, −8, −18
++22, −8, −26
+−38, −82, +20
+−58, −22, −18
++20, −68, −46
+
+4.48
+
+Region
+
++10, −12, +52
+
+BOLD Signal Increases
++22, +4, −14
+Bilateral amygdala
++18, −6, −20
+−20, −8, −18
++14, +48, +8
+Rostral anterior cingulate gyrus
+0, +46, −10
++4, −38, +70
+Dorsal anterior cingulate gyrus
+Right dorsal medial frontal gyrus
+Left hippocampus
+Right parahippocampal gyrus
+Left middle occipital gyrus
+Left inferior temporal gyrus
+Right cerebellum
+BOLD Signal Decreases
+−12, +52, −10
+Right paracentral cortex
++16, +38, +22
+
+Abbreviations: BOLD, blood oxygenation level–dependent; MNI, Montreal Neurological Institute; PTSD, posttraumatic stress disorder.
+
+B
+
+A
+
+Fearful
+Happy
+
+0.8
+0.7
+
+MR Signal Change
+
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0
+
+PTSD
+
+Control
+Group
+
+Figure 1. The functional magnetic resonance (MR) image (A) displays activation to fearful vs happy facial expressions in the amygdala (z= 3.14; Montreal
+Neurological Institute [MNI] coordinates, +22, +2, −14 [arrow]; and z= 3.03; MNI coordinates, +22, 0, −26) that were greater in the posttraumatic stress disorder
+(PTSD) group (n=13) vs control group (n=13) (ie, condition ϫdiagnosis interaction). Functional data are superimposed on a standard SPM99 T1 template
+(Wellcome Department of Cognitive Neurology, London, England), displayed according to neurological convention. The bar graph (B) shows MR signal change in
+the amygdala (MNI coordinates, +22, +2, −14) in each condition (relative to fixation baseline) for each group. Error bars represent standard error of the mean.
+
+hoc testing revealed lower arousal ratings for the neutral faces (1.6 ± 1.3) than for the fearful (3.5 ± 2.0)
+(t25 =5.8; PϽ.001) and happy faces (3.1 ± 1.6) (t24 =4.8;
+PϽ.001); arousal ratings of the latter 2 expression types
+did not differ significantly from each other (t24 = 1.1;
+P=.27).
+fMRI RESULTS
+Fearful vs Happy Comparison: First Run
+In the PTSD group, BOLD signal increases occurred in
+bilateral amygdala and rostral anterior cingulate gyrus
+(REPRINTED) ARCH GEN PSYCHIATRY/ VOL 62, MAR 2005
+276
+
+(Table 1). BOLD signal decreases occurred in the ventral medial frontal and rostral anterior cingulate gyri.
+In the control group, BOLD signal increases occurred in bilateral amygdala, rostral and dorsal anterior
+cingulate gyri, and dorsal medial frontal gyrus, as well
+as other regions about which we had no specific a priori
+hypotheses (Table 1).
+The voxelwise condition ϫ diagnosis interaction revealed greater BOLD signal increases in the PTSD group
+(or greater decreases in the control group) in the right
+amygdala (Figure 1 and Table 2) among other regions. Greater BOLD signal increases in the control group
+(or greater decreases in the PTSD group) occurred in the
+WWW.ARCHGENPSYCHIATRY.COM
+
+©2005 American Medical Association. All rights reserved.
+
+rostral anterior cingulate (Figure 2 and Table 2), ventral medial frontal, and dorsal medial frontal gyri. This
+pattern of results remained when BDI scores were controlled via analysis of covariance and when 4 subjects with
+PTSD and comorbid major depressive disorder were removed from the analyses.
+Amygdala/Medial Prefrontal Correlations
+Within all PTSD participants in the first run, BOLD signal changes in the right amygdala (MNI coordinates,+22, +4, −14) were negatively correlated with BOLD
+signal changes in the dorsal medial frontal gyrus (z=3.09;
+MNI coordinates, +14, +50, +16) (Figure 3). BOLD signal changes in the more posterior right amygdala activation (MNI coordinates, +18, −6, −20) were negatively
+correlated with BOLD signal changes in the dorsal medial frontal gyrus (z = 5.30; MNI coordinates, −10, +50,
++14). Signal changes in the right and left amygdala were
+also significantly negatively correlated with ventral medial prefrontal regions; however, the removal of 1 extreme score in each of these latter correlations resulted
+in subthreshold (Ͻ3.09) z scores. This pattern of results persisted when subjects with PTSD and comorbid
+depression were removed from the analyses. No such significant correlations were observed in the control group.
+
+Table 2. Condition ؋ Diagnosis Interaction
+
+z Score
+
+Region
+Greater increases in PTSD group or
+greater decreases in control
+group
+Right amygdala
+Right cerebellum
+Left posterior cingulate gyrus
+Greater decreases in PTSD group or
+greater increases in control group
+Bilateral rostral anterior
+cingulate gyrus
+Left ventral medial frontal
+gyrus
+Right dorsal medial frontal
+gyrus
+
+MNI
+Coordinates, x, y, z
+
+3.14
+3.03
+4.99
+4.58
+
++22, +2, −14
++22, 0, −26
++40, −72, −40
+−12, −52, +38
+
+3.61
+3.80
+
+−10, +38, −12
++16, +38, +22
+
+3.09
+
+−12, +52, −10
+
+3.83
+
++16, +48, +20
+
+Abbreviations: MNI, Montreal Neurological Institute; PTSD, posttraumatic
+stress disorder.
+
+in the control vs PTSD group (z = 3.18; MNI coordinates, −2, +32, −10).
+
+Symptom Severity Correlations
+
+COMMENT
+
+In the PTSD group, PTSD symptom severity (as measured by the CAPS) was negatively correlated with BOLD
+signal changes in the rostral anterior cingulate gyrus
+(z=3.62; MNI coordinates, −4, +44, +8) (Figure 4) but
+was not significantly correlated with signal changes in
+the amygdala. Depression symptom severity in the PTSD
+group (as measured by the BDI) was positively correlated with BOLD signal changes in the ventral medial frontal/orbitofrontal gyrus (z = 3.60; MNI coordinates, +14,
++44, −16) and negatively correlated with signal changes
+in the right amygdala (z=3.25; MNI coordinates, +28, −4,
+−16). Thus, the CAPS and BDI appeared to be related very
+differently to BOLD signal changes in our regions of interest.
+
+In the present study, the PTSD group exhibited exaggerated amygdala responses and diminished medial prefrontal cortex responses to overtly presented fearful vs
+happy facial expressions. In addition, only in the PTSD
+group were BOLD signal changes in the amygdala negatively correlated with signal changes in the medial prefrontal cortex. Furthermore, in the PTSD group, symptom severity was negatively related to BOLD signal
+changes in the medial prefrontal cortex. Finally, relative to the control group, the PTSD group tended to exhibit diminished habituation of fearful vs happy responses in the right amygdala over functional runs,
+although this effect did not exceed our a priori statistical threshold.
+Our finding of relatively greater amygdala responses
+in PTSD is consistent with previous research using traumatic reminders1-6 and masked facial expressions.12 Taken
+together, the present results and those of Rauch et al12
+show that amygdala hyperresponsivity in PTSD can be
+demonstrated using facial expression stimuli that are above
+or below the threshold of conscious recognition.6
+In general, studies using overt facial expressions8,10,24,25,32 have reported BOLD signal changes in a
+greater number of brain regions, compared with studies
+using masked facial expressions.11,33 Thus, using stimuli
+that are above the threshold of conscious recognition
+might afford the ability to examine BOLD signal changes
+in brain regions other than the amygdala. In the present
+study, we report relatively diminished BOLD signal
+changes in medial prefrontal regions in PTSD and a negative correlation between symptom severity and BOLD signal changes in the medial prefrontal cortex. These findings are consistent with those of previous functional
+
+Habituation Analyses
+In the control group, fearful vs happy responses decreased from run 1 to run 4 in the right amygdala (z=4.33;
+MNI coordinates, +18, −6, −18), rostral anterior cingulate gyrus (z=3.18; MNI coordinates, 0, +36, −8), and
+medial frontal gyrus (z=3.22; MNI coordinates, −12, +56,
++4). In the PTSD group, fearful vs happy responses decreased from runs 1 to 4 in the amygdala/periamygdaloid cortex (z=3.00; MNI coordinates, +22, +6, −14) and
+ventral medial frontal gyrus (z = 3.56; MNI coordinates,
+−6, +48, −16; z= 3.25; MNI coordinates, 0, +46, −10).
+The decline in fearful vs happy responses in the right
+amygdala tended to be greater in the control vs PTSD
+group, but did not exceed a priori statistical thresholds
+(z=2.08; MNI coordinates, +18, −4, −18; z= 2.04; MNI
+coordinates, +26, 0, −16). The decline in fearful vs happy
+responses in rostral anterior cingulate gyrus was greater
+(REPRINTED) ARCH GEN PSYCHIATRY/ VOL 62, MAR 2005
+277
+
+WWW.ARCHGENPSYCHIATRY.COM
+
+©2005 American Medical Association. All rights reserved.
+
+B
+
+A
+
+Fearful
+Happy
+
+0.4
+
+MR Signal Change
+
+0.3
+
+0.2
+
+0.1
+
+0
+
+PTSD
+
+Control
+Group
+
+Figure 2. The functional magnetic resonance (MR) image (A) shows fearful vs happy signal change in the rostral anterior cingulate gyrus (arrow) (z= 3.61;
+Montreal Neurological Institute [MNI] coordinates, −10, +38, −12) that was greater in the control group than in the posttraumatic stress disorder (PTSD) group
+(ie, condition ϫdiagnosis interaction). Functional data are superimposed on a standard SPM99 T1 template (Wellcome Department of Cognitive Neurology,
+London, England). The bar graph (B) shows MR signal change in the rostral anterior cingulate gyrus (MNI coordinates, −10, +38, −12) in each condition (relative
+to fixation baseline) for each group. Error bars represent standard error of the mean.
+
+0.25
+
+r = –0.65
+P = .014
+
+Fearful vs Happy Response in
+Dorsal Medial Frontal Gyrus
+
+0.20
+0.15
+0.10
+0.05
+0
+–0.05
+–0.10
+–0.15
+–0.20
+–0.25
+0.30
+–0.2
+
+–0.1
+
+0
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+Fearful vs Happy Response in Right Amygdala
+
+Figure 3. In the posttraumatic stress disorder group, fearful vs happy
+responses in the right amygdala (Montreal Neurological Institute [MNI]
+coordinates, +22, +4, −14) were negatively correlated with fearful vs happy
+responses in dorsal medial frontal gyrus (z =3.09; MNI coordinates, +14,
++50, +16) in the first functional run.
+
+neuroimaging studies of PTSD using other types of
+stimuli5,13-17 and, along with recent reports of structural
+abnormalities in these regions,34-36 further implicate medial prefrontal cortex in the pathophysiology of this disorder.
+In the PTSD group, we found that BOLD signal changes
+in the amygdala were negatively correlated with signal
+changes in the medial frontal gyrus. This finding, which
+is similar to one recently reported in the context of a symptom provocation paradigm,5 supports the presence of a
+reciprocal relationship between these regions, but cannot offer information regarding the direction of causality. Medial prefrontal regions send projections to the
+amygdala in primates,37-40 modulate amygdala output,41
+and play an important role in the process of extinction
+of fear conditioning.42-44 Conversely, the amygdala may
+modulate prefrontal neuronal activity.45 Although the current finding of a reciprocal relationship between the amyg(REPRINTED) ARCH GEN PSYCHIATRY/ VOL 62, MAR 2005
+278
+
+dala and medial prefrontal cortex is consistent with that
+of a previous report,5 it also differs from the results of a
+recent positron emission tomographic symptom provocation study46 in which multivariate structural equation
+modeling suggested the possibility of a positive relationship between the amygdala and cingulate/subcallosal cortex blood flow in PTSD. Additional research is needed
+to further clarify this issue.
+The present and previous studies suggest functional
+abnormalities in medial prefrontal regions in PTSD. However, across studies, these functional abnormalities have
+differed in location within the medial prefrontal cortex,
+including the medial frontal gyrus and anterior cingulate gyrus. However, it is unlikely that all medial prefrontal regions perform a unitary function. Insights regarding the functional differences between various medial
+prefrontal regions in humans with PTSD will likely arise
+from the findings of future basic science studies of conditioning and extinction.47,48
+Analyses of BOLD signal changes from runs 1 to 4 suggested that fearful vs happy responses in the right amygdala decreased in the control group, consistent with the
+findings of previous studies of habituation in healthy individuals.31,32,49,50 There was a nonsignificant trend for the
+PTSD group to show diminished habituation in the right
+amygdala, compared with the control group. However,
+we must emphasize that this pattern occurred in only 2
+small loci in the right amygdala and that future studies
+involving larger numbers of subjects are needed to confirm this finding. If replicated, diminished habituation
+of amygdala responses may be seen as broadly consistent with previous findings of slower habituation of psychophysiologic responses to loud tones in PTSD.51-53 Habituation of medial prefrontal cortex responses occurred
+in both groups, although it was significantly greater in
+the control vs PTSD group in the rostral anterior cingulate gyrus. We attribute this group difference in reWWW.ARCHGENPSYCHIATRY.COM
+
+©2005 American Medical Association. All rights reserved.
+
+A
+
+B
+
+r = – 0.83
+P = .0004
+
+Fearful vs Happy Response in Rostral AC Gyrus
+
+0.4
+0.3
+0.2
+0.1
+0
+–0.1
+–0.2
+–0.3
+–0.4
+0
+
+20
+
+60
+
+40
+
+80
+
+100
+
+CAPS
+
+Figure 4. Correlation of posttraumatic stress disorder (PTSD) symptom severity (as assessed by the Clinician-Administered PTSD Scale [CAPS]) with fearful vs
+happy responses in the rostral anterior cingulate (AC) gyrus (A; arrow) (z = 3.62; Montreal Neurological Institute [MNI] coordinates, −4, +44, +8) in the PTSD
+group. Functional data are superimposed on a standard SPM99 T1 template (Wellcome Department of Cognitive Neurology, London, England). The graph (B)
+shows negative correlation of CAPS scores with fearful vs happy responses.
+
+sponse changes over time to a floor effect: the PTSD group
+started out (in run 1) with lower rostral anterior cingulate responses compared with the control group, and further decreases were necessarily smaller in magnitude.
+Although amygdala responses to fearful vs happy faces
+were bilateral within each group, the conditionϫdiagnosis
+interaction occurred in the right amygdala. Indeed,
+most1,3,12,54,55 but not all2,5 findings of amygdala hyperresponsivity in PTSD have been right-sided. In addition,
+correlations between PTSD symptom severity and amygdala activity also have been right-sided.3,5,7 Functional abnormalities in the right amygdala may be associated with
+a failure of habituation or of sensitization to emotional
+stimuli.56
+Exaggerated amygdala responses to fearful facial expressions have been observed in PTSD,12 but not in specific (small-animal) phobia57 or in social phobia.58 Further research on panic disorder, obsessive-compulsive
+disorder, and generalized anxiety disorder would be
+needed to determine the specificity of these findings to
+PTSD vs other anxiety disorders. However, individuals
+with social phobia appear to exhibit exaggerated amygdala responses to neutral faces alone,59 as well as to contemptuous and angry faces vs happy faces.58 Thus, whether
+exaggerated amygdala activation is demonstrated in a particular disorder may depend on the facial expressions used
+and their relevance to the disorder in question. Fearful
+faces may be particularly relevant to patients with PTSD,
+whereas contemptuous, angry, or even ambiguous neutral faces might be particularly relevant to patients with
+social phobia.
+Definitive conclusions from the present study are limited by the presence of comorbidity in the PTSD group,
+although the key results remained significant even after
+controlling for BDI scores and excluding participants with
+current major depression. In addition, responsivity of our
+regions of interest was related to BDI and CAPS scores
+in very different ways, suggesting that depression symptoms cannot explain the main findings. The relatively
+(REPRINTED) ARCH GEN PSYCHIATRY/ VOL 62, MAR 2005
+279
+
+small sample size precluded comparisons between firefighters and combat veterans with PTSD. In addition, the
+participants in this study were all men; whether the findings can be generalized to women with PTSD remains
+to be determined. Finally, as with any passive viewing
+paradigm, behavioral data could not be collected or compared between groups.
+CONCLUSIONS
+
+The present results are consistent with exaggerated amygdala responsivity, diminished medial prefrontal cortex
+responsivity, and a reciprocal relationship between these
+2 regions in PTSD. Additional studies are needed to confirm the finding of diminished habituation of amygdala
+responses over repeated fearful vs happy facial expressions in PTSD, and to determine whether such habituation abnormalities occur in response to other types of
+stimuli.
+Submitted for Publication: December 15, 2003; final revision received July 27, 2004; accepted August 20, 2004.
+Author Affiliations: Department of Psychology, Tufts University, Medford, Mass (Drs Shin and Krangel and Ms Cavanagh); Department of Psychiatry, Massachusetts General Hospital and Harvard Medical School (Drs Shin,
+Wright, Cannistraro, Lasko, Orr, Pitman, and Rauch and
+Mss Wedig and McMullin), and Brigham Behavioral Neurology Group, Department of Neurology, Brigham and
+Women’s Hospital (Dr Wright), Boston, Mass; Department of Psychiatry, University of Michigan, Ann Arbor
+(Dr Martis); Veterans Affairs Research Service, Manchester, NH (Drs Lasko and Orr and Mr Macklin); and Departments of Psychiatry and Psychology, University of
+Wisconsin, Madison (Dr Whalen).
+Correspondence: Lisa M. Shin, PhD, Department of Psychology, Tufts University, 490 Boston Ave, Medford, MA
+02155 (lisa.shin@tufts.edu).
+WWW.ARCHGENPSYCHIATRY.COM
+
+©2005 American Medical Association. All rights reserved.
+
+Funding/Support: This study was supported by a Young
+Investigator Award from the National Alliance for Research on Schizophrenia and Depression, Great Neck, NY
+(Dr Shin); the Robert Wood Johnson Foundation, Princeton, NJ (Dr Wright); grants MH-64806 (Dr Wright) and
+MH-60219 (Dr Rauch) from the National Institute of Mental Health, Bethesda, Md; and a Medical Research Service Merit Review grant from the Department of Veterans Affairs, Washington, DC (Dr Orr).
+Acknowledgment: We thank Mohammed R. Milad for
+his comments on this manuscript; the individuals who
+served as research participants; and Mary Foley, Jennifer Holmes, and Lawrence White for their technical assistance.
+
+17.
+
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+
+REFERENCES
+1. Rauch SL, van der Kolk BA, Fisler RE, Alpert NM, Orr SP, Savage CR, Fischman
+AJ, Jenike MA, Pitman RK. A symptom provocation study of posttraumatic stress
+disorder using positron emission tomography and script-driven imagery. Arch
+Gen Psychiatry. 1996;53:380-387.
+2. Liberzon I, Taylor SF, Amdur R, Jung TD, Chamberlain KR, Minoshima S, Koeppe
+RA, Fig LM. Brain activation in PTSD in response to trauma-related stimuli. Biol
+Psychiatry. 1999;45:817-826.
+3. Pissiota A, Frans O, Fernandez M, von Knorring L, Fischer H, Fredrikson M.
+Neurofunctional correlates of posttraumatic stress disorder: a PET symptom provocation study. Eur Arch Psychiatry Clin Neurosci. 2002;252:68-75.
+4. Shin LM, Kosslyn SM, McNally RJ, Alpert NM, Thompson WL, Rauch SL, Macklin ML, Pitman RK. Visual imagery and perception in posttraumatic stress disorder: a positron emission tomographic investigation. Arch Gen Psychiatry. 1997;
+54:233-241.
+5. Shin LM, Orr SP, Carson MA, Rauch SL, Macklin ML, Lasko NB, Marzol Peters
+P, Metzger L, Dougherty DD, Cannistraro PA, Alpert NM, Fischman AJ, Pitman
+RK. Regional cerebral blood flow in amygdala and medial prefrontal cortex during traumatic imagery in male and female Vietnam veterans with PTSD. Arch Gen
+Psychiatry. 2004;61:168-176.
+6. Hendler T, Rotshtein P, Yeshurun Y, Weizmann T, Kahn I, Ben-Bashat D, Malach
+R, Bleich A. Sensing the invisible: differential sensitivity of visual cortex and amygdala to traumatic context. Neuroimage. 2003;19:587-600.
+7. Fredrikson M, Furmark T. Amygdaloid regional cerebral blood flow and subjective fear during symptom provocation in anxiety disorders. Ann N Y Acad Sci.
+2003;985:341-347.
+8. Breiter HC, Etcoff NL, Whalen PJ, Kennedy WA, Rauch SL, Buckner RL, Strauss
+MM, Hyman SE, Rosen BR. Response and habituation of the human amygdala
+during visual processing of facial expression. Neuron. 1996;17:875-887.
+9. Morris JS, Frith CD, Perrett DI, Rowland D, Young AW, Calder AJ, Dolan RJ.
+A differential neural response in the human amygdala to fearful and happy facial
+expressions. Nature. 1996;383:812-815.
+10. Phillips ML, Young AW, Senior C, Brammer M, Andrew C, Calder AJ, Bullmore
+ET, Perrett DI, Rowland D, Williams SC, Gray JA, David AS. A specific neural
+substrate for perceiving facial expressions of disgust. Nature. 1997;389:495498.
+11. Whalen PJ, Rauch SL, Etcoff NL, McInerney SC, Lee MB, Jenike MA. Masked
+presentations of emotional facial expressions modulate amygdala activity without explicit knowledge. J Neurosci. 1998;18:411-418.
+12. Rauch SL, Whalen PJ, Shin LM, McInerney SC, Macklin ML, Lasko NB, Orr SP,
+Pitman RK. Exaggerated amygdala response to masked facial stimuli in posttraumatic stress disorder: a functional MRI study. Biol Psychiatry. 2000;47:
+769-776.
+13. Bremner JD, Staib LH, Kaloupek D, Southwick SM, Soufer R, Charney DS. Neural correlates of exposure to traumatic pictures and sound in Vietnam combat
+veterans with and without posttraumatic stress disorder: a positron emission
+tomography study. Biol Psychiatry. 1999;45:806-816.
+14. Bremner JD, Narayan M, Staib LH, Southwick SM, McGlashan T, Charney DS.
+Neural correlates of memories of childhood sexual abuse in women with and without posttraumatic stress disorder. Am J Psychiatry. 1999;156:1787-1795.
+15. Shin LM, McNally RJ, Kosslyn SM, Thompson WL, Rauch SL, Alpert NM, Metzger
+LJ, Lasko NB, Orr SP, Pitman RK. Regional cerebral blood flow during scriptdriven imagery in childhood sexual abuse-related PTSD: a PET investigation. Am
+J Psychiatry. 1999;156:575-584.
+16. Lanius RA, Williamson PC, Densmore M, Boksman K, Gupta MA, Neufeld RW,
+
+(REPRINTED) ARCH GEN PSYCHIATRY/ VOL 62, MAR 2005
+280
+
+25.
+
+26.
+27.
+28.
+
+29.
+
+30.
+
+31.
+
+32.
+
+33.
+34.
+
+35.
+
+36.
+
+37.
+
+38.
+
+39.
+
+40.
+
+41.
+
+42.
+
+Gati JS, Menon RS. Neural correlates of traumatic memories in posttraumatic
+stress disorder: a functional MRI investigation. Am J Psychiatry. 2001;158:
+1920-1922.
+Shin LM, Whalen PJ, Pitman RK, Bush G, Macklin ML, Lasko NB, Orr SP, McInerney
+SC, Rauch SL. An fMRI study of anterior cingulate function in posttraumatic stress
+disorder. Biol Psychiatry. 2001;50:932-942.
+Weathers FW, Keane TM, Davidson JR. Clinician-Administered PTSD Scale: a
+review of the first ten years of research. Depress Anxiety. 2001;13:132-156.
+Oldfield RC. The assessment and analysis of handedness: the Edinburgh inventory.
+Neuropsychologia. 1971;9:97-113.
+Beck AT, Steer RA. Manual for the Revised Beck Depression Inventory. San Antonio, Tex: Psychological Corp; 1987.
+Beck AT, Steer RA. Beck Anxiety Inventory Manual. San Antonio, Tex: Psychological Corp; 1990.
+First M, Spitzer R, Gibbon M, Williams J. Structured Clinical Interview for DSM-IV.
+New York: New York State Psychiatric Institute, Biometrics Research Dept; 1995.
+Ekman P, Friesen WV. Pictures of Facial Affect. Palo Alto, Calif: Consulting Psychologists; 1976.
+Whalen PJ, Shin LM, McInerney SC, Fischer H, Wright CI, Rauch SL. A functional MRI study of human amygdala responses to facial expressions of fear versus anger. Emotion. 2001;1:70-83.
+Lange K, Williams LM, Young AW, Bullmore ET, Brammer MJ, Williams SC, Gray
+JA, Phillips ML. Task instructions modulate neural responses to fearful facial
+expressions. Biol Psychiatry. 2003;53:226-232.
+Taylor SF, Phan KL, Decker LR, Liberzon I. Subjective rating of emotionally salient stimuli modulates neural activity. Neuroimage. 2003;18:650-659.
+Reese TG, Davis TL, Weisskoff RM. Automated shimming at 1.5 T using echoplanar image frequency maps. J Magn Reson Imaging. 1995;5:739-745.
+Kwong KK, Belliveau JW, Chesler DA, Goldberg IE, Weisskoff RM, Poncelet
+BP, Kennedy DN, Hoppel BE, Cohen MS, Turner R, Cheng HM, Brady TJ,
+Rosen BR. Dynamic magnetic resonance imaging of human brain activity during primary sensory stimulation. Proc Natl Acad Sci U S A. 1992;89:56755679.
+Friston KJ, Frith CD, Liddle PF, Frackowiak RS. Comparing functional (PET) images: the assessment of significant change. J Cereb Blood Flow Metab. 1991;
+11:690-699.
+Poldrack RA, Gabrieli JD. Characterizing the neural mechanisms of skill learning
+and repetition priming: evidence from mirror reading. Brain. 2001;124:6782.
+Fischer H, Wright CI, Whalen PJ, McInerney SC, Shin LM, Rauch SL. Brain habituation during repeated exposure to fearful and neutral faces: a functional MRI
+study. Brain Res Bull. 2003;59:387-392.
+Wright CI, Fischer H, Whalen PJ, McInerney SC, Shin LM, Rauch SL. Differential
+prefrontal cortex and amygdala habituation to repeatedly presented emotional
+stimuli. Neuroreport. 2001;12:379-383.
+Morris JS, Ohman A, Dolan RJ. Conscious and unconscious emotional learning
+in the human amygdala. Nature. 1998;393:467-470.
+Rauch SL, Shin LM, Segal E, Pitman RK, Carson MA, McMullin K, Whalen PJ,
+Makris N. Selectively reduced regional cortical volumes in post-traumatic stress
+disorder. Neuroreport. 2003;14:913-916.
+De Bellis MD, Keshavan MS, Spencer S, Hall J. N-Acetylaspartate concentration
+in the anterior cingulate of maltreated children and adolescents with PTSD. Am
+J Psychiatry. 2000;157:1175-1177.
+Yamasue H, Kasai K, Iwanami A, Ohtani T, Yamada H, Abe O, Kuroki N, Fukuda
+R, Tochigi M, Furukawa S, Sadamatsu M, Sasaki T, Aoki S, Ohtomo K, Asukai N,
+Kato N. Voxel-based analysis of MRI reveals anterior cingulate gray-matter volume reduction in posttraumatic stress disorder due to terrorism. Proc Natl Acad
+Sci U S A. 2003;100:9039-9043.
+Aggleton JP, Burton MJ, Passingham RE. Cortical and subcortical afferents to
+the amygdala of the rhesus monkey (Macaca mulatta). Brain Res. 1980;190:
+347-368.
+Chiba T, Kayahara T, Nakano K. Efferent projections of infralimbic and prelimbic
+areas of the medial prefrontal cortex in the Japanese monkey, Macaca fuscata.
+Brain Res. 2001;888:83-101.
+Stefanacci L, Amaral DG. Some observations on cortical inputs to the macaque
+monkey amygdala: an anterograde tracing study. J Comp Neurol. 2002;451:
+301-323.
+Ghashghaei HT, Barbas H. Pathways for emotion: interactions of prefrontal and
+anterior temporal pathways in the amygdala of the rhesus monkey. Neuroscience.
+2002;115:1261-1279.
+Quirk GJ, Likhtik E, Pelletier JG, Pare D. Stimulation of medial prefrontal cortex
+decreases the responsiveness of central amygdala output neurons. J Neurosci.
+2003;23:8800-8807.
+Morgan MA, Romanski LM, LeDoux JE. Extinction of emotional learning: contribution of medial prefrontal cortex. Neurosci Lett. 1993;163:109-113.
+
+WWW.ARCHGENPSYCHIATRY.COM
+
+©2005 American Medical Association. All rights reserved.
+
+43. Quirk GJ, Russo GK, Barron JL, Lebron K. The role of ventromedial prefrontal
+cortex in the recovery of extinguished fear. J Neurosci. 2000;20:6225-6231.
+44. Milad MR, Quirk GJ. Neurons in medial prefrontal cortex signal memory for fear
+extinction. Nature. 2002;420:70-74.
+45. Garcia R, Vouimba RM, Baudry M, Thompson RF. The amygdala modulates prefrontal cortex activity relative to conditioned fear. Nature. 1999;402:294-296.
+46. Gilboa A, Shalev AY, Laor L, Lester H, Louzoun Y, Chisin R, Bonne O. Functional
+connectivity of the prefrontal cortex and the amygdala in posttraumatic stress
+disorder. Biol Psychiatry. 2004;55:263-272.
+47. Barrett D, Shumake J, Jones D, Gonzalez-Lima F. Metabolic mapping of mouse
+brain activity after extinction of a conditioned emotional response. J Neurosci.
+2003;23:5740-5749.
+48. Bush G, Luu P, Posner MI. Cognitive and emotional influence in anterior cingulate cortex. Trends Cogn Sci. 2000;4:215-222.
+49. Phillips ML, Medford N, Young AW, Williams L, Williams SC, Bullmore ET, Gray
+JA, Brammer MJ. Time courses of left and right amygdalar responses to fearful
+facial expressions. Hum Brain Mapp. 2001;12:193-202.
+50. Feinstein JS, Goldin PR, Stein MB, Brown GG, Paulus MP. Habituation of attentional networks during emotion processing. Neuroreport. 2002;13:1255-1258.
+51. Orr SP, Lasko NB, Shalev AY, Pitman RK. Physiologic responses to loud tones
+in Vietnam veterans with posttraumatic stress disorder. J Abnorm Psychol. 1995;
+104:75-82.
+52. Orr SP, Solomon Z, Peri T, Pitman RK, Shalev AY. Physiologic responses to loud
+tones in Israeli veterans of the 1973 Yom Kippur War. Biol Psychiatry. 1997;
+41:319-326.
+
+(REPRINTED) ARCH GEN PSYCHIATRY/ VOL 62, MAR 2005
+281
+
+53. Shalev AY, Orr SP, Peri T, Schreiber S, Pitman RK. Physiologic responses to loud
+tones in Israeli patients with posttraumatic stress disorder. Arch Gen Psychiatry.
+1992;49:870-875.
+54. Driessen M, Beblo T, Mertens M, Piefke M, Rullkoetter N, Silva-Saavedra A, Reddemann L, Rau H, Markowitsch HJ, Wulff H, Lange W, Woermann FG.
+Posttraumatic stress disorder and fMRI activation patterns of traumatic memory
+in patients with borderline personality disorder. Biol Psychiatry. 2004;55:603611.
+55. Semple WE, Goyer PF, McCormick R, Donovan B, Muzic RF Jr, Rugle L, McCutcheon
+K, Lewis C, Liebling D, Kowaliw S, Vapenik K, Semple MA, Flener CR, Schulz SC.
+Higher brain blood flow at amygdala and lower frontal cortex blood flow in PTSD
+patients with comorbid cocaine and alcohol abuse compared with normals.
+Psychiatry. 2000;63:65-74.
+56. Rauch SL, Shin LM, Wright CI. Neuroimaging studies of amygdala function in
+anxiety disorders. Ann N Y Acad Sci. 2003;985:389-410.
+57. Wright CI, Martis B, McMullin K, Shin LM, Rauch SL. Amygdala and insular responses to emotionally valenced human faces in small animal specific phobia.
+Biol Psychiatry. 2003;54:1067-1076.
+58. Stein MB, Goldin PR, Sareen J, Zorrilla LT, Brown GG. Increased amygdala activation to angry and contemptuous faces in generalized social phobia. Arch Gen
+Psychiatry. 2002;59:1027-1034.
+59. Birbaumer N, Grodd W, Diedrich O, Klose U, Erb M, Lotze M, Schneider F, Weiss
+U, Flor H. fMRI reveals amygdala activation to human faces in social phobics.
+Neuroreport. 1998;9:1223-1226.
+
+WWW.ARCHGENPSYCHIATRY.COM
+
+©2005 American Medical Association. All rights reserved.
+
+

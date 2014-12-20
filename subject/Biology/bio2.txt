@@ -1,0 +1,1394 @@
+J Chem Ecol (2010) 36:1335–1345
+DOI 10.1007/s10886-010-9880-5
+
+Leaf and Floral Parts Feeding by Orange Tip Butterfly
+Larvae Depends on Larval Position but Not on Glucosinolate
+Profile or Nitrogen Level
+Niels Agerbirk & Frances S. Chew & Carl Erik Olsen &
+Kirsten Jørgensen
+
+Received: 21 July 2010 / Accepted: 2 November 2010 / Published online: 17 November 2010
+# Springer Science+Business Media, LLC 2010
+
+Abstract In an attempt to identify chemical signals
+governing the general flower and silique feeding behavior
+of larvae of the orange tip butterfly, Anthocharis cardamines (L.), we investigated feeding behavior and chemistry of two major host plants: Cardamine pratensis L. and
+Alliaria petiolata (Bieb.) Cavara & Grande (garlic mustard). Larvae reportedly feed mainly on flowers and siliques
+rather than leaves in nature, and did so when observed on
+the original host plants. Behavioral experiments, using
+detached A. petiolata branches, however, showed that
+larvae readily accepted leaves and only the final instar
+showed a tendency for directed movement towards floral
+parts. To search for semiochemicals that control plant part
+preference and to assess possible nutritional consequences
+of floral parts feeding, we determined glucosinolate profiles
+and total nitrogen levels of floral parts and leaves. There
+was only moderate difference between glucosinolate profiles of leaves and floral parts within each of two host plant
+species. In contrast, the profiles of floral parts differed
+significantly between them. A. petiolata was dominated by
+2-propenyl glucosinolate, while C. pratensis was dominated by aromatic glucosinolates and branched aliphatic
+glucosinolates, with considerable variation among populations. Nitrogen levels tended to be higher in floral parts
+than in leaves in A. petiolata, but not in C. pratensis, so
+
+N. Agerbirk (*) : C. E. Olsen : K. Jørgensen
+Faculty of Life Sciences, University of Copenhagen,
+Thorvaldsensvej 40,
+1871, Frederiksberg, Denmark
+e-mail: nia@life.ku.dk
+F. S. Chew
+Department of Biology, Tufts University,
+Medford, MA 02155, USA
+
+floral feeding could not generally be attributed to higher N
+content. With the exception of a tendency of last instar
+larvae (L5) to move to the apex and ingest flowers and
+upper stem, we did not find either a plant chemistry basis or
+larval acceptance/rejection behavior that could explain the
+usual feeding of floral parts by orange tip larvae of all
+instars. However, by artificial manipulation of vertical
+larval position on host plants, we found that the frequency
+of leaf vs. flower feeding during 24 hr depended significantly on the initial larval position. Hence, we suggest that
+the placement of eggs on floral parts by ovipositing female
+butterflies is a major explanation of orange tip feeding
+habits previously known from field observations.
+Key Words Larval feeding behavior and preference .
+Glucosinolate profile . Total nitrogen . Leaves . Flowers .
+Siliques
+
+Introduction
+The orange tip butterfly, Anthocharis cardamines (L.),
+accepts floral parts of a large number of glucosinolate
+containing plant species for oviposition, and two plant
+species appear to be frequent hosts: Cardamine pratensis L.
+(cuckoo flower) and Alliaria petiolata (Bieb.) Cavara &
+Grande (garlic mustard) (Wiklund and Åhrberg, 1978;
+Courtney, 1981; Dempster, 1997; Wiklund and Friberg,
+2009). The larvae usually are described as floral parts
+feeders. Indeed, some field observations suggest that leaves
+are rejected by the larvae even when all siliques (the fruits
+of cruciferous plants) are consumed, thus resulting in death
+from starvation (Wiklund and Åhrberg, 1978). The apparent
+combination of female and larval preference for floral parts
+suggested to us that a chemical signal, perhaps a stimulant,
+
+1336
+
+a deterrent, or an anti-nutritional factor, could be involved
+in plant part discrimination.
+Glucosinolates, amino acid-derived secondary metabolites
+primarily found in the mustard order Brassicales, are crucial
+host plant recognition cues for pierid butterflies such as the
+cabbage whites (Pieris sp.) and related species (Renwick and
+Chew, 1994; Hopkins et al., 2009). Glucosinolate containing
+plants often contain a mixture of different structures,
+metaphorically known as the glucosinolate ‘profile’, which
+often differ between plant organs (e.g., Agerbirk et al.,
+2008).
+Differential insect behavioral responses and their correlations with variation in individual glucosinolates have
+been observed (e.g., under field conditions, Rodman and
+Chew, 1980; Griffiths et al., 2001; Bidart-Bouzat and
+Kliebenstein, 2008; under laboratory conditions, Huang and
+Renwick, 1994; Giamoustaris and Mithen, 1995; Li et al.,
+2000; Gols et al., 2008; de Vos et al., 2008; Sun et al., 2009,
+but see also Reifenrath et al., 2005; Reifenrath and Städler,
+2009; Badenes-Pérez et al., 2010). In one case that involves
+a monophagous insect and a glucosinolate of unusual
+proposed structure, host plant preference was linked to
+presence of a distinct glucosinolate (Larsen et al., 1992).
+Thus, there may be a chemosensory basis for evolution of
+host plant or plant part discrimination based on differential
+sensitivity to individual glucosinolates (Hopkins et al., 2009).
+Phytophagous butterfly larvae also have sensory organs for
+various primary metabolites (Schoonhoven et al., 2005),
+some of which could be correlated to total nitrogen contents
+of plant parts.
+The purpose of this work was to search for evidence for
+a chemical basis of the assumed plant part preferences of
+orange tip larvae, and to develop a bioassay for a
+hypothetic semiochemical responsible for floral parts
+feeding. We pursued this purpose in two parallel ways:
+(1) by observation of caterpillar feeding choice on original
+host plants and after transfer to various positions on A.
+petiolata, and (2) by chemical analysis of plants collected
+during the period of orange tip larval occurrence.
+
+Methods and Materials
+Identification of Plants and Animals Flowering C. pratensis and A. petiolata were identified in the field from their
+characteristic morphologies. Eggs of the orange tip butterfly
+were tentatively identified in the field, and the identity
+confirmed from comparison of the morphology of the
+resulting larvae with the same illustrated descriptions as
+used previously (Agerbirk et al., 2006). Selected larvae
+were reared to pupation to confirm the identification based
+on pupal morphology. Photographs of the studied material
+including egg and the transition from larva to pupa have
+
+J Chem Ecol (2010) 36:1335–1345
+
+been published elsewhere (Agerbirk and Jørgensen, 2008).
+Four pupae produced four female butterflies the following
+spring, all of which were confirmed to be A. cardamines by
+morphology.
+Collection of Plants Plant shoots of flowering plants (C.
+pratensis cut above the rosette and A. petiolata cut below a
+number of fresh leaves) were collected in plastic bags at
+natural growth sites in May 2008 and transported to the
+laboratory within a few hours. Unless otherwise noted, all
+plants and animals were from Lake Utterslev Mose (= locality
+DK1), Copenhagen, Denmark. A. petiolata was collected
+within 20 m of the lake rim (e.g. 55 42′ 57″ N, 12 30′ 22″ E),
+while C. pratensis was collected at the public lawns
+(“Gyngemosen”) NE of the lake and NW of Highway 16
+(e.g. 55 43′ 19″N, 12 29′ 43″E). We also sampled C.
+pratensis floral parts from two other, previously described
+localities (DK2, DK3) (Agerbirk et al., 2010a). The
+individual plants DK3a and DK3b were the same as
+described in that paper and were dried without lyophilization
+as described in that paper.
+Observation of Egg Position and Caterpillar Feeding
+Behavior Flowering shoots of C. pratensis and A. petiolata
+with orange tip eggs or neonate larvae were collected as
+above and kept in individual, numbered beakers with tap
+water in the laboratory, and exposed to sunlight through an
+east facing glass window. If the orange tip egg could be
+located, the position was registered. Most L1/L2 larvae
+collected (N=26) were subject to detailed observations on
+the original host plants. (However, L1/L2 larvae collected
+on days with experimental manipulation of larval position
+were used directly in the behavioral experiments, and hence
+not observed on the original host plants). The position and
+behavior of each larva, as well as signs of feeding, were
+observed and noted at least daily between Monday and
+Friday, and representative specimens were photographed in
+order to illustrate characteristic feeding patterns. The
+observations on original host plants typically were carried
+out for 2–3 d for an individual larva, after which they were
+moved to fresh plants to be used for experiments. It was not
+meaningful to standardize the observation period because
+the material was collected at different stages, including
+eggs, newly hatched larvae, and slightly older larvae.
+One intact C. pratensis plant (on the flower of which
+oviposition by an orange tip was observed the day before),
+with its root system and approximately 1 l of attached soil+
+grass, was removed from the locality, and was cultivated in
+the laboratory during the entire larval development including
+hatching and pupation (May 7–24). The spontaneous feeding
+behavior of the resulting larva, which was not manipulated
+in any way, was observed 5 d a week. When the remains of
+the host plant had been left, A. petiolata was offered for
+
+J Chem Ecol (2010) 36:1335–1345
+
+completion of the 5th instar and pupation (pupal wt.
+112 mg), to confirm identification.
+Rearing of Larvae for Behavioral Experiments As soon as
+or before original plants started to deteriorate visibly, larvae
+were gently transferred (with a moist paint brush) to fresh
+bolting A. petiolata shoots, collected at the locality 0–2 d
+before, and kept in the laboratory immersed in beakers with
+tap water. They were exposed to reduced daylight through
+an east facing window until use. This stock of larvae,
+supplemented with newly collected larvae of various
+instars, served as the material for additional behavioral
+experiments.
+Behavioral Experiments For behavioral experiments,
+A. petiolata side branches with a specific morphology and
+growth stage were used, with leaves immediately next to
+the lower 1–2 siliques (Fig. 1) and with flowers with fresh
+petals. As the natural availability of branches with this
+morphology (including fresh flowers) ceased late in the
+experimental period, we ended this type of experiment even
+though additional late instars were available.
+
+Fig. 1 Alliaria petiolata branch with siliques next to cauline leaves,
+as used for behavioral experiments with orange tip larvae. F=flowers
+
+1337
+
+Two plant part preference experiments were carried out.
+The purpose of the ‘leaf/silique choice experiment’ was to
+test whether an absolute preference for silique feeding
+could be demonstrated in a choice situation, where both a
+silique and a leaf were within close proximity to the larva.
+Larvae of known instar were gently transferred to lower
+parts of A. petiolata branches (one larva per branch in
+separate beakers), with about half of the larvae of each
+instar placed on lower siliques and the other half placed on
+leaves immediately next to lower siliques (Fig. 1). The
+feeding during the 24 hr experimental period was registered
+by careful inspection of the branch for feeding traces at the
+end of 24 hr. Occasional observation of some larvae during
+the experiment also was carried out in order to qualify the
+subsequent inspection of the branch for feeding traces.
+Selected branches with larva and feeding traces were
+photographed with a background 5×5 mm grid after the
+experiment, and ingested amounts were estimated by
+comparison with un-touched leaves.
+The purpose of the ‘vertical position experiment’ was to
+test whether the vertical position of the larva, either near the
+plant apex with flowers or at lower levels near the leaves,
+would influence the subsequent plant part feeding choice of
+the larva (as suggested by the outcome of the leaf/silique
+choice experiment). Larvae were placed either on the
+uppermost silique, near the flowers, or on the lower-most
+silique, next to a leaf (Fig. 1). Evaluation of the feeding
+choices was as described for the leaf/silique choice
+experiment.
+Whether or not occurrence of leaf feeding depended on
+the initial position of the larva was tested by Rice’s
+conditional binomial exact test (Rice, 1988) of 2 ×2
+matrixes with leaf feeding vs. no leaf feeding as a function
+of larval position. (Fisher’s exact test gave the same pattern
+of significance vs. non-significance). The significance level
+was set at 5% (two-tailed test), and results for L1-L4 were
+pooled because there was no indication of differences
+among these instars. Whether or not flower feeding
+depended on initial larval position was tested in the same
+way.
+Plant Sampling and Dissection for Chemical Analysis Plants for chemical analysis were sampled (in parallel to
+larvae and plants for behavioral experiments) at the main
+study locality (DK1) in May (2008), which was the
+oviposition and larval feeding period of orange tip
+butterflies at the locality. Plants for chemical analysis were
+dissected and lyophilized immediately after arriving in the
+laboratory; the time from collection in the field to
+dissection and lyophilization was 3 hr or less. In dissection
+for chemical analysis, upper stem was defined as the upper
+inflorescence (with flowers) and included flower stalks;
+middle stem was defined as the lower inflorescence (with
+
+1338
+
+J Chem Ecol (2010) 36:1335–1345
+
+siliques) and included silique stalks; and lower stem was
+defined as the basal part of the stem, from the lowermost
+silique downwards. Leaves were cauline (stem) leaves, not
+rosette leaves. Siliques and flowers included only these
+organs, as the stalks attaching them to the stem were
+included with stems. For nitrogen analysis of specific plant
+organs, we aimed at pooling only from the same individual,
+but in the case of flowers, siliques, and upper stems, the
+samples in most cases had to be pooled from several
+individual plants to provide sufficient amounts for the
+analysis.
+Determination and Identification of Glucosinolates Glucosinolates were determined by extraction of lyophilized plant
+parts in boiling 70% MeOH, binding to anion exchange
+columns, enzymatic desulfation, elution (in 5×1 ml H2O)
+and subsequent HPLC with diode array detection of desulfo
+derivatives relative to an external standard of sinigrin (15)
+treated similarly in parallel (Agerbirk et al., 2007). The
+exact HPLC conditions were different for the two plant
+species: HPLC conditions for C. pratensis samples were
+optimized specifically to achieve separation of all glucosinolates known from this species (Agerbirk et al., 2010a).
+For A. petiolata, a Supelcosil LC-ABZ column, 25 cm×
+4.6 mm, 5 μm, was used with flow rate 1 ml/min, and
+elution by 2 min of H2O followed by a 48 min linear
+gradient from 0 to 60% MeOH, a brief wash with MeOH,
+and equilibration with H2O. Peak identification by comparison with authentic reference compounds supplemented
+by LC-MS of selected samples was as previously described
+(Agerbirk et al., 2010a). Glucosinolate levels in A. petiolata
+were log10-transformed to remedy non-normal distribution
+of the original data, and subjected to statistical analysis.
+Due to unexpected occurrence of several chemotypes of C.
+pratensis with qualitative differences among them, the
+various chemotypes were reported separately, and quantitative statistical tests of glucosinolate levels in this plant were
+not considered meaningful.
+Nitrogen Determination Total nitrogen (and carbon) contents of lyophilized samples from locality DK1 were
+determined on an elemental analyzer (Carlo Erba model
+NA 1500, Carlo Erba, Milan, Italy) in the laboratory of
+Table 1 Egg position and
+feeding choice by orange tip L1/
+L2 larvae hatched on original
+host plant shoots
+
+a
+
+The observation period was
+restricted to the L1 and L2 instars
+and typically 2–3 days
+
+A. Egg position
+Host plant
+Cardamine pratensis
+Alliaria petiolata
+B. Feeding choicea
+Host plant
+Cardamine pratensis
+Alliaria petiolata
+
+Jeffrey Dukes at University of Massachusetts, Boston, MA,
+USA. Two samples (A. petiolata leaves,%N 3.27, and upper
+stems,%N 5.99) deemed unreliable by the analysis-lab due
+to abnormal values for associated standards were excluded
+from the data and calculations. Numbers for %N were
+converted to proportions (0.00–1.00), which were arcsin
+transformed to remedy non-normal distribution of the
+original data.
+Statistical Analysis of Chemical Data Levene’s test was
+used to confirm that transformed glucosinolate and nitrogen
+levels met the variance homogeneity assumptions of
+ANOVA. Differences between nitrogen and glucosinolate
+levels among plant parts within each species were examined by ANOVA. Where the ANOVA was significant,
+unplanned multiple comparison among plant parts was
+made using Scheffé post-hoc test with significance level set
+at 0.05. In one case with N=1 for one plant part, this plant
+part was excluded before ANOVA with post-hoc test.
+
+Results
+Oviposition Site Almost all eggs or egg shells located on C.
+pratensis or A. petiolata were on siliques or flowers,
+including their basal parts, while a single egg was observed
+on a leaf close to a silique (Table 1A). Usually, only a
+single egg or larva was observed per plant, but in some
+cases two (Fig. 2) or even three orange tip eggs or larvae
+were present naturally.
+Plant Part Choice on Original Host Plants Feeding habits
+of L1/L2 instars on the original host plants nearly always
+(88%) included silique feeding. Flower feeding also was
+frequent (46%), while only few larvae ate leaves at all
+(Table 1B) (but one fed exclusively on a leaf during the first
+and the initial part of the 2nd instar). The flower feeding
+behavior by early instars on C. pratensis was quite
+stereotypic, with the feeding starting from the basal part
+of the flower (Fig. 2) whether or not the flower was open.
+Floral parts egg position and feeding by orange tips was
+obviously dominant for both host plant species, and it was
+
+N
+11
+15
+
+Egg on:
+
+Leaf
+0
+1
+
+Silique
+2
+6
+
+Flower
+3
+6
+
+Not located
+6
+2
+
+N
+11
+15
+
+Feeding from:
+
+Leaf
+0
+2
+
+Silique
+9
+14
+
+Flower/flower bud
+6
+6
+
+J Chem Ecol (2010) 36:1335–1345
+
+1339
+
+Fig. 2 Second instar orange tip larvae (“L”) feeding on flowers of
+Cardamine pratensis. The entire flower was usually eaten, starting
+from the outside of basal parts as illustrated (“Feeding damage”)
+
+not considered relevant to test statistically whether slight
+differences between patterns on the two plant species
+existed. For comparison of plant part distribution with
+published field data, see “Discussion”.
+The feeding behaviour of a single larva through all five
+instars on an intact C. pratensis plant complemented the
+observations. In the first three instars (L1-L3), the larva ate
+flowers and siliques. The 4th instar (L4) also ate upper
+stem, and 5th (final) instar (L5) ate the remaining stem
+except the lower 9 cm (ca. one third) as well as all cauline
+leaves and part of the rosette leaves.
+Leaf/Silique Choice Experiment The probability of leaf
+feeding was not significantly different for larvae placed
+initially on a leaf vs. larvae placed initially on a nearby
+silique (P=0.21). Irrespective of their initial position, larvae
+frequently ingested leaves as well as siliques (Table 2A).
+The amounts of leaf ingested were typically substantial i.e.,
+more than the minute test bites seen when another species
+
+of insect larvae probed unacceptable Barbarea vulgaris
+plants (Agerbirk et al., 2003). Flower feeding was infrequent for L2-L4 instars in this experiment. Apparently, the
+frequency of feeding on each plant part was a consequence
+of a limited mobility within 24 hr, and was sufficient to
+reach the leaf even when they were placed at the silique and
+vice-versa, but was generally insufficient to reach the more
+distant flowers.
+A single L5 larva was included in the experiment, but
+was not included in the pooled results for statistical testing
+due to its atypical behavior: The individual was placed on
+the leaf next to the lower silique, from which approximately
+3 cm2 (ca. 1/5 of the entire leaf) was eaten. Rather than
+eating the remaining leaf or neighboring silique, it moved
+overnight to the flowers and upper siliques, which were
+ingested entirely. This observation led us to include as
+many L5 larvae as available in the vertical position
+experiment.
+Vertical Position Experiment This experiment, in which
+larvae were placed on either lower or upper siliques,
+confirmed the importance of larval position inferred above.
+Young to intermediate instars (L1-L4) placed near leaves
+exhibited frequent leaf feeding (50%) and no flower
+feeding, while larvae placed near flowers exhibited frequent
+flower feeding (45%) and no leaf feeding (Table 2B). The
+probability of leaf feeding was significantly higher when
+larvae were placed on lower siliques than when placed on
+upper siliques (P=0.01). Likewise, the probability of flower
+feeding was significantly higher when larvae were placed
+on upper siliques compared to lower siliques (P=0.015).
+Based on the combined experiments, we concluded that any
+preference of L1-L4 larvae for floral parts (siliques and
+flowers) would be too weak to be of practical use in a
+bioassay for a hypothetic stimulant or deterrent. Indeed,
+
+Table 2 Feeding choice by orange tip larvae during 24 hr after experimental manipulation of larval position
+Instar
+
+Placed at
+
+N
+
+Feeding from:
+
+Leaf
+
+Silique
+
+Flower/flower bud
+
+A. Leaf/silique choice experiment: larvae placed on either lower Alliaria petiolata silique or the leaf immediately next to it
+L2-L4
+Lower silique
+10
+5
+7
+Leaf at silique
+6
+5
+4
+L5
+Leaf at silique
+1
+1
+1
+B. Vertical position experiment: larvae placed on either lower Alliaria petiolata silique (at leaf) or upper silique (at flowers)
+L1-L4
+Silique at leaf
+10
+5
+8
+Silique at flowers
+11
+0
+9
+L5
+Silique at leaf
+4
+1
+4
+Silique at flowers
+3
+0
+3
+a
+
+Ate all flowers as well as flower-supporting part of stem
+
+For statistical evaluation: See text
+
+0
+1
+1a
+0
+5
+3a
+3a
+
+1340
+
+J Chem Ecol (2010) 36:1335–1345
+
+feeding choice by young and intermediate instars (L1-L4)
+seemed to be governed mainly by proximity, at least under
+our laboratory conditions.
+Seven available L5 larvae also were included in the
+vertical position experiment, and all except one (from lower
+silique) moved to flowers and ingested the entire upper part
+of the inflorescence within 24 hr, while only a single had
+eaten from leaves (Table 2B). For this instar, the probability
+of flower feeding did not depend on the initial position of
+the larvae (P=0.94). Despite the low number of replicates,
+we interpret this result as a tendency for L5 instars to prefer
+floral parts.
+Glucosinolate Profiles of Leaves and Floral Parts The two
+main hosts of orange tip butterflies at the DK1 locality, an
+urban lake habitat in the greater Copenhagen area, appeared
+to be A. petiolata and C. pratensis. There was no difference
+in the kinds of glucosinolates in vegetative or floral parts of
+A. petiolata, but when the levels were compared, there was
+a significant effect of the plant parts in statistical analysis
+by ANOVA. Flowers and upper stems contained higher
+levels of the major glucosinolate sinigrin (15) and the
+phenolic indole glucosinolate 12 (with proportional traces
+of 10) relative to leaves (Table 3, Fig. 3).
+In the other common host plant at the locality, C.
+pratensis, the mixture of glucosinolates was more complex.
+Plants from the main locality (DK1) contained three dominant
+glucosinolates – the phenolic glucosinolate sinalbin (8), the
+O-methyl derivative 9, and the hydroxylated aliphatic
+glucosinolate 4 – and a number of minor glucosinolates
+including the indole glucosinolate 10 (Table 4, Fig. 3). The
+glucosinolate profiles of floral and vegetative parts were
+similar, with no obvious indications of a particular glucosinolate profile or higher glucosinolate level of floral parts.
+As a hypothetic floral parts signature was expected to be
+of general nature, we included floral parts of the same plant
+Table 3 Glucosinolate profiles (μmol/g dry wt., mean (s.d.)) of floral
+and vegetative parts of Alliaria petiolata in May
+Plant part
+
+10
+
+12
+
+Flowers
+Siliques
+Leaves
+Upper stem
+Middle stem
+Lower stem
+Significance
+
+0.29 (0.05)
+0.03 (0.03)
+0.02 (0.02)
+0.17 (0.02)
+n.d.
+n.d.
+–
+
+4.6 (0.6)
+0.8 (0.8)
+0.1 (0.1)
+4.3 (0.9)
+0.3 (0.1)
+0.1 (0.0)
+***
+
+15
+a
+b
+b
+a
+b
+b
+
+N
+
+73.8 (11.1) ab
+31.6 (20.7) bc
+35.0 (2.6) c
+124.9 (11.5) a
+14.4 (4.4) c
+0.9 (0.5) d
+***
+
+4
+3
+3
+2
+3
+3
+
+n.d. not detected
+Statistical significance of differences in major glucosinolates between
+plant parts were tested by ANOVA (P<0.001: ***, P<0.01: **, P<
+0.05: *, P>0.05: ns, not tested: -). Significant differences in a post-hoc
+Scheffé test (P<0.05) are indicated with different letters
+
+species from other localities (DK2, DK3). Floral parts of
+individual C. pratensis plants from these localities showed
+qualitative differences from both floral parts and leaves at
+the main locality in terms of glucosinolate profiles. In a
+plant from locality DK2, sec-butylglucosinolate (3) rather
+than the hydroxy derivative 4 was the dominating aliphatic
+glucosinolate in flowers. At locality DK3, flowers of two
+individual plants had glucosinolate profiles that deviated
+even more from those at locality DK1, as the methylated
+aromatic glucosinolate 9 was nearly absent (Table 4). Plant
+DK3a accumulated benzylglucosinolate (7) and a short
+chain hydroxylated aliphatic glucosinolate (2) in flowers
+while both 3 and 4 were absent. In contrast, plant DK3b
+accumulated the non-hydroxylated 3 but not 7. The
+distinctive profiles of floral parts from localities DK2 and
+DK3 were similar to leaf glucosinolate profiles of the same
+plants reported elsewhere (Agerbirk et al., 2010a).
+Nitrogen Levels in Different Plant Parts In A. petiolata,
+total N content was higher in upper stems than in leaves,
+and there was also a tendency for high N levels in flowers.
+In the case of C. pratensis, however, there was no
+statistically significant difference in N content among floral
+parts and leaves (Table 5).
+
+Discussion
+An initial purpose of the behavioral experiments was to
+establish a bioassay for a hypothetic semiochemical
+(Agerbirk et al., 2003; Miles et al., 2005; Nielsen et al.,
+2010) responsible for floral parts feeding. Branches of A.
+petiolata (Fig. 1) with adjoining lower siliques and upper
+leaves (in contrast to the distance between these organs on
+the main stem), as well as a controlled laboratory
+environment, were used in an attempt to maximize the
+sensitivity for any larval preference. However, the larval
+feeding behavior seemed to be governed mainly by the
+position of the larvae in laboratory experiments with young
+and intermediate instar larvae (L1-L4). We believe that the
+laboratory test situation was relatively similar to the natural
+situation in terms of physical conditions and plant chemistry because relatively fresh A. petiolata branches were
+used. It can be argued that biochemical changes in the
+detached A. petiolata branches kept in the laboratory may
+have compromised a semiochemical responsible for plant
+part preference. Obvious consequences of the laboratory
+rearing at lower light intensity and significantly less UV
+light than in the field could be decreases in levels of
+photosynthetic products or UV induced metabolites with a
+significant turnover rate. Indeed, a recent experiment used
+for demonstrating specific movement to flowers of third
+
+J Chem Ecol (2010) 36:1335–1345
+
+1341
+
+Fig. 3 Glucosinolates detected in Cardamine pratensis or Alliaria
+petiolata from the investigated localities, and two glucosinolates (6 and
+14) known from other accessions of C. pratensis but not detected in this
+investigation. GSL: The constant part of the glucosinolate molecule, C
+(SGlc)NOSO3-. Systematic (and common names, if in general use) of
+the glucosinolates (GSLs) are: 1, 1-methylethylGSL (isopropylGSL); 2,
+1-(hydroxymethyl)ethylGSL; 3, 1-methylpropylGSL (sec-butylGSL); 4:
+
+1-(hydroxymethyl)propylGSL; 5, 3-methylpentylGSL; 6, 3(hydroxymethyl)pentylGSL; 7, benzylGSL (glucotropaeolin); 8, 4hydroxybenzylGSL (sinalbin); 9, 4-methoxybenzylGSL; 10, indol3-ylmethylGSL (glucobrassicin, GB); 11, 1-methoxy10 (neoGB);
+12, 4-hydroxy10 (4-hydroxyGB); 13, 4-methoxy10 (4-methoxyGB);
+14, 1,4-dimethoxy10 (1,4-dimethoxyGB), 15, 2-propenylGSL (sinigrin)
+
+instar Pieris brassicae (Smallegange et al., 2007) involved
+intact plants (in a greenhouse). However, the feeding on
+detached original host plants kept in the laboratory was
+almost exclusively from floral parts, suggesting that even if
+plant biochemistry changed due to the laboratory conditions, the positional effect was sufficient to enable the
+larvae to behave as in the field. Hence, biochemical
+changes due to the laboratory conditions are not likely to
+have influenced the plant part choices of the larvae. In
+
+agreement with this argument, the spontaneous behavior of
+young larvae, when their position had not been manipulated,
+agreed well with published field observations (Wiklund and
+Åhrberg, 1978; Courtney, 1981; Dempster, 1997), except
+that Dempster (1997) described floral feeding to precede
+silique feeding in general on C. pratensis. This slight
+difference from our observations may depend on local
+conditions such as relative phenologies of insect and host
+plant (Wiklund and Friberg, 2009).
+
+Table 4 Glucosinolate profiles
+(μmol/g dry wt.) of floral and
+vegetative parts of Cardamine
+pratensis plants from three
+localities in May
+
+Locality:
+
+DK1
+
+Plant part:a
+
+Flo.
+
+DK2
+
+Bold: More than 10% of total
+glucosinolate level in that plant
+part. Glucosinolates 6 and 14,
+known from other accessions of
+C. pratensis, were not detected
+in any sample
+a
+Flo.: Flowers; Sil: Siliques; Lea.:
+Leaves
+
+5
+Aromatics
+7
+8
+9
+10
+11
+12
+13
+Not identified
+Total
+SD of total
+N
+
+Lea.
+
+Stem
+
+Upper
+Glucosinolate
+Aliphatics
+1
+2
+3
+4
+
+Sil.
+
+Upper
+
+Middle
+
+0.1
+2.2
+0.6
+5.9
+
+0.1
+1.9
+0.5
+4.6
+
+0.2
+1.9
+0.3
+3.8
+
+DK3b
+Flo.
+
+Lower
+
+0.2
+2.3
+0.2
+5.1
+
+DK3a
+
+Flo.
+
+Sil.
+
+Flo.
+
+0.5
+0.1
+9.4
+n.d.
+
+0.7
+0.1
+12.1
+n.d.
+
+0.2
+4.7
+n.d.
+n.d.
+
+tr.
+
+tr.
+1.5
+0.2
+2.9
+
+0.1
+1.9
+0.1
+3.0
+
+n.d.
+
+n.d.
+
+n.d.
+
+n.d.
+
+n.d.
+
+n.d.
+
+n.d.
+
+0.1
+
+n.d.
+
+tr.
+
+tr.
+6.0
+6.0
+0.6
+n.d.
+n.d.
+n.d.
+1.0
+18.3
+1.7
+2
+
+n.d.
+7.5
+6.0
+0.6
+n.d.
+n.d.
+n.d.
+1.1
+20.3
+1.0
+3
+
+tr.
+26.3
+4.1
+0.2
+n.d.
+n.d.
+n.d.
+2.5
+40.9
+8.9
+3
+
+n.d.
+7.2
+13.6
+0.7
+n.d.
+n.d.
+n.d
+1.0
+31.3
+–
+1
+
+tr.
+
+n.d.
+4.0
+8.7
+0.6
+n.d.
+tr.
+n.d.
+0.5
+19.9
+–
+1
+
+tr.
+10.8
+15.8
+0.7
+n.d.
+tr.
+n.d.
+0.2
+37.7
+–
+1
+
+n.d.
+10.2
+16.6
+0.9
+tr.
+tr.
+n.d.
+0.1
+40.9
+–
+1
+
+13.7
+10.2
+0.2
+0.6
+n.d.
+0.1
+n.d.
+0.1
+29.8
+–
+1
+
+n.d.
+14.4
+0.1
+0.4
+n.d.
+0.1
+tr.
+0.7
+23.4
+–
+1
+
+4.6
+9.6
+0.5
+n.d.
+tr.
+n.d.
+0.6
+22.5
+–
+1
+
+0.3
+0.1
+7.2
+
+1342
+
+J Chem Ecol (2010) 36:1335–1345
+
+Table 5 Nitrogen contents (% n wt./dry wt.) of floral and vegetative
+parts of two common host plants in May
+Alliaria petiolata
+Plant part
+
+5.10 (0.17)
+4.37 (0.22)
+3.76 (0.73)
+6.63 (0.58)
+2.97 (0.64)
+1.54 (–) –
+***a
+
+N
+
+Mean (SD)
+
+Flowers
+Siliques
+Leaves
+Upper stem
+Middle stem
+Lower stem
+Significance
+
+Cardamine pratensis
+
+ab
+b
+b
+a
+c
+
+Mean (SD)a
+
+3
+3
+2
+2
+3
+1
+
+2.76 (0.45)
+3.34 (0.30)
+3.00 (0.45)
+3.10 (0.17)
+2.15 (0.51)
+1.19 (0.05)
+***
+
+N
+a
+a
+a
+a
+ab
+b
+
+3
+3
+4
+2
+3
+2
+
+Statistical significance of differences in major glucosinolates between
+plant parts were tested by ANOVA (P<0.001: ***, P<0.01: **, P<
+0.05: *, P>0.05: ns). Significant differences in a post-hoc Scheffé test
+(P<0.05) are indicated with different letters. a The level of significance
+was *** whether or not lower stem was excluded in ANOVA.
+
+The feeding behavior of the single larva followed through
+all instars on the same plant immediately suggested a
+biological advantage for flexible feeding behavior. The
+inflorescence of the C. pratensis individual chosen by the
+female was too small to support full development of the larva
+if only siliques and flowers were ingested. Larval migration
+to other plants would be needed if only floral parts were
+accepted, but such movement to other, perhaps distant plants
+poses an obvious risk (Wiklund and Åhrberg, 1978;
+Dempster, 1997). Hence, utilization of vegetative parts would
+allow larvae to avoid or delay risky migration. Although this
+observation of a single larva can be dismissed due to lack of
+replication, we find it of interest and worthy of additional
+investigation as a complement to the traditional assumption
+of the existence of leaf avoidance (Wiklund and Åhrberg,
+1978). The outcome of our experimental manipulations and
+the observation of occasional leaf feeding by young larvae on
+original host plant shoots (Table 1) confirm the observed
+spontaneous leaf acceptance by orange tip larvae.
+The apparent preference for flowers by L5 larvae was
+reminiscent of a similar behavior reported for Pieris brassicae
+L3 and Athalia rosae L4 larvae (Smallegange et al., 2007;
+Bandeili and Müller, 2010), and suggests that proximity was
+not the only factor controlling orange tip L5 larval feeding.
+The most direct advantage of the tendency for feeding from
+the top would be to avoid accidental cutting of the main
+plant axis by the vigorously feeding L5 instars, which would
+lead to loss of the upper parts of the plant. As usual for late
+instar caterpillars (Theunissen et al., 1985), L5 larvae
+ingested a tremendous amount of material. In this case it
+was comparable to the remaining parts (after feeding by
+previous instars) of the relatively small C. pratensis. Thus, a
+strong plant part preference might have little effect on this
+plant species, because the majority of the plant (except tough
+
+lower parts) would likely be ingested during the L5
+developmental stage. In contrast, A. petiolata individuals
+were substantially larger plants, and floral parts preference
+by L5 larvae could be a means to ensure that potentially
+nutritious apical parts were prioritized. A similar benefit in
+terms of larval nutrition could be a consequence of the
+female’s choice of floral parts for oviposition. This hypothesis is assessed below in light of our data on glucosinolate
+profiles and nitrogen content of plant parts. These analyses
+also represent an independent search for a semiochemical
+responsible for floral parts feeding.
+A comparison of the glucosinolate profiles of vegetative and
+floral parts of two host plant species revealed no consistent
+floral parts glucosinolate profile. Based on the analyses of the
+chemically simple A. petiolata, a preliminary hypothesis for a
+hypothetic glucosinolate ‘signature’ or profile of floral parts
+could be a higher total level of glucosinolates, or a higher
+level of indole glucosinolates (10–14) or perhaps of aromatic
+(7–14) or phenolic (8+12) glucosinolates in general. Based on
+the literature, a different balance of aromatic vs. aliphatic
+glucosinolates (van Loon et al., 1992; Huang and Renwick,
+1994) or of O-methylated vs. non-substituted aromatics (Sun
+et al., 2009) would be candidate signatures that could possibly
+be distinguished by insect sensory organs. Based on
+separately reported analytical chemistry research (Agerbirk
+et al., 2010a), we obtained reliable glucosinolate profiles of C.
+pratensis floral parts and leaves. However, none of the
+hypotheses of a floral parts ‘signature’ was supported when
+data for three populations of C. pratensis were considered.
+From the data in Table 4, a tendency for higher levels of 10 in
+floral parts than in leaves is suggested, but levels of 10 were
+higher in leaves than in floral parts in the individual plants
+from locality DK2 and 3 (Agerbirk et al., 2010a; unpublished
+results), so a hypothesis of a role of 10 was not generally
+supported. Indeed, the difference in glucosinolate profile
+between the two species and between individuals from
+different populations of C. pratensis appeared to be much
+greater than any systematic differences between vegetative
+and floral parts (Table 4). Consequently, there appears to be
+no basis for using glucosinolate profiles for larval distinction
+of floral parts from leaves.
+A similar glucosinolate profile of flowers and vegetative
+parts, with a general tendency for higher levels in flowers
+of undamaged plants, also had been reported from
+Arabidopsis thaliana, Raphanus sativus, Brassica nigra,
+and Sinapis alba (Brown et al., 2003; Strauss et al., 2004;
+Smallegange et al., 2007; Bandeili and Müller, 2010).
+Glucosinolates were constitutively high but generally less
+inducible in radish flowers compared to leaves, as expected
+for an organ with high fitness value (Strauss et al., 2004).
+Our data do not exclude the possibility that floral parts
+could be deficient in the enzyme myrosinase (which
+converts glucosinolates to defensive products such as
+
+J Chem Ecol (2010) 36:1335–1345
+
+isothiocyanates), but a recent report demonstrated high
+levels of myrosinase in floral parts of the crucifer S. alba
+(Bandeili and Müller, 2010), showing that floral parts high
+in glucosinolates may indeed also be high in myrosinase.
+It was a surprise to discover that C. pratensis plants from
+different localities had different glucosinolate profiles; a
+more extensive investigation of glucosinolate variation in
+the species is published separately (Agerbirk et al., 2010a).
+Two subspecies of C. pratensis with different chromosome
+numbers had different probabilities of oviposition by
+orange tip butterfly females in Sweden (Arvanitis et al.,
+2007, 2008), but the C. pratensis populations at three
+Danish localities investigated here had identical chromosome numbers (Agerbirk et al., 2010a).
+In A. petiolata, there was a tendency for higher N
+contents in upper parts, although the difference from leaves
+was statistically significant only for upper stems (which
+were frequently eaten by late instar orange tip larvae).
+Given the low number of replicates, this result should be
+interpreted with caution. However, the A. petiolata parts
+high in N were also high in glucosinolates and were both
+from the plant apex, suggesting that the measured tendency
+reflects a real biological phenomenon. As nitrogen is
+considered to be a limiting resource for herbivorous insects
+(Mattson, 1980), floral parts feeding may thus be a
+nutritional advantage in the case of feeding on A. petiolata.
+Position-dependent levels of nitrogen and glucosinolates
+also have been reported by Traw and Feeny (2008) for
+various leaf-positions of Brassica nigra and B. kaber (syn.
+Sinapis arvensis). However, in the case of C. pratensis,
+floral parts did not have higher total N than leaves (Table 4).
+Hence, our data do not support the hypothesis that floral
+parts feeding in general provide a nutritional advantage for
+orange tip larvae in terms of N content.
+Nutritionally available N can only be approximated by
+total N if the majority of plant N is in a form available for
+protein or nucleotide biosynthesis; N in secondary metabolites
+may not be available for such biosynthesis. Intake of nitrogen
+in glucosinolates by orange tips and related species is
+balanced 1:1 by excretion of nitrogen in a nitrile (Agerbirk
+et al., 2006), a nitrile-derived functional group (Vergara et al.,
+2006; Agerbirk et al., 2007), or possibly inorganic ammonia
+from hydrolysis of nitrile groups (Agerbirk et al., 2010b).
+However, even a high glucosinolate level of 100 μmol/g dry
+wt. would correspond only to 0.14% N for non-indoles (and
+0.28% N for the indoles 10–14), so glucosinolate N was only
+a low fraction of the total N content of any plant part and
+total N could be regarded as a proxy of nutritionally
+available N. This result agreed with another investigation
+(Traw and Feeny, 2008).
+In summary, we found a tendency for floral parts
+preference for L5 larvae, but no evidence for any L1-L4
+larval behavioral preference for floral parts. For a classical
+
+1343
+
+example of a floral parts feeding butterfly, it was surprising
+that the feeding preferences of the larvae were so unspecific
+compared to the recently discovered within-plant selective
+foraging by intermediate to late instar P. brassicae and A.
+rosae (Smallegange et al., 2007; Bandeili and Müller,
+2010). If the tendency of late instars to move to flowers is a
+real phenomenon, it still is not certain that a chemical signal
+is involved; we did not, for example, test the effect of
+positioning the inflorescences up-side down (Bandeili and
+Müller, 2010). Much of the natural tendency for young
+orange tip larvae for floral parts feeding can apparently be
+attributed to the choice of floral parts for oviposition by
+female butterflies (Wiklund and Åhrberg, 1978). Having
+established that floral parts are as rich and diverse in
+glucosinolates as vegetative parts, the wide range of host
+plants used by orange tip butterflies may imply that there is
+no basis for selection of a chemically less well defended
+plant part (Courtney and Chew, 1987). However, flower
+feeding recently has been demonstrated to lead to faster
+growth of two species of glucosinolate adapted larvae
+(Smallegange et al., 2007; Bandeili and Müller, 2010),
+supporting a hypothesized overall nutritional or microenvironmental benefit of feeding on floral parts.
+Alternative explanations for flower oviposition in
+Anthocharis could be phylogenetic conservatism (the entire
+clade of anthocharines and euchloeines oviposits on floral
+and fruiting parts), perhaps due to mutual dependency with
+other behavioral patterns such as the “red egg syndrome”
+(Shapiro, 1981; Nomakuchi et al., 2001) or an optimized
+host plant search strategy: exclusive investigation of
+flowers may save valuable time during the oviposition
+period or allow the search for nectar source plants (Wiklund
+and Åhrberg, 1978) and plants for oviposition to be
+combined. The present demonstration of flexible but
+position-dependent larval plant part choice, glucosinolate
+diversity in floral parts and variable but relatively high N
+levels in floral parts underlines the importance of the
+positioning of eggs by ovipositing females, and shows that
+crucifer floral parts may be as diverse and well defended as
+crucifer foliage.
+Acknowledgements We thank two anonymous reviewers for helpful
+comments and suggestions to an earlier version of the text, Claus T.
+Ekström and J. Michael Reed for statistical advice, Birgitte B.
+Rasmussen for skillful glucosinolate analysis, and the laboratory of
+Jeffrey Dukes for determination of total nitrogen and carbon. This
+research was financially supported by Torben og Alice Frimodts Fond
+to NA and the Arabis Fund to FC.
+
+References
+AGERBIRK, N., and JØRGENSEN, K. 2008. Aurora-larvens korte liv i en
+vindueskarm. Lepidoptera IX, 176–179 (in Danish).
+
+1344
+AGERBIRK, N., OLSEN, C.E., BIBBY, B. M., FRANDSEN, H. O.,
+BROWN, L. D., NIELSEN, J. K., and RENWICK, J. A. A., 2003.
+A saponin correlated with variable resistance of Barbarea
+vulgaris to the diamond back moth Plutella xylostella. J. Chem.
+Ecol. 29, 1417–1433.
+AGERBIRK, N., MÜLLER, C., OLSEN, C. E., and CHEW, F. S. 2006. A
+common pathway for metabolism of 4-hydroxybenzylglucosinolate
+in Pieris and Anthocaris (Lepidoptera: Pieridae). Biochem. Syst.
+Ecol. 34, 189–198.
+A GERBIRK , N., O LSEN , C. E., T OPBJERG , H. B., and S ØRENSEN ,
+J. C. 2007. Host plant dependent metabolism of 4hydroxybenzylglucosinolate in Pieris rapae: Substrate
+specificity and effects of genetic modification and plant
+nitrile hydratase. Insect Biochem. Mol. Biol. 37, 1119–1130.
+AGERBIRK, N., WARWICK, S., HANSEN, P. R., and OLSEN, C. E. 2008.
+Sinapis phylogeny and evolution of glucosinolates and specific
+nitrile degrading enzymes. Phytochemistry 69, 2937–2949.
+AGERBIRK, N., OLSEN, C. E., CHEW, F. S, and ØRGAARD, M. 2010a.
+Variable glucosinolate profiles of Cardamine pratensis (Brassicaceae) with equal chromosome numbers. J. Agric. Food Chem.
+58, 4693–4700.
+AGERBIRK, N., OLSEN, C. E., POULSEN, E., JACOBSEN, N., and
+HANSEN, P. R. 2010b. Complex metabolism of aromatic
+glucosinolates in Pieris rapae caterpillars involving nitrile
+formation, hydroxylation, demethylation, sulfation, and host
+plant dependent carboxylic acid formation. Insect Biochem.
+Mol. Biol. 40, 126–137.
+ARVANITIS, L., WIKLUND, C., and EHRLÉN, J. 2007. Butterfly seed
+predation: effects of landscape characteristics, plant ploidy level
+and population structure. Oecologia 152, 275–285.
+ARVANITIS, L., WIKLUND, C., and EHRLÉN, J. 2008. Plant ploidy level
+influences selection by butterfly seed predators. Oikos 117,
+1020–1025.
+BADENES-PÉREZ, F. R., REICHELT, M., GERSHENZON, J., and HECKEL,
+D. G. 2010. Phylloplane location of glucosinolates in Barbarea spp.
+and misleading assessment of host suitability by a specialist
+herbivore. New Phytologist. doi:10.1111/j.1469-8137.2010.03486.x.
+BANDEILI, B., MULLER, C. 2010. Folivori versus florivory adaptiveness of flower feeding. Naturwissenschaften 97, 79–88.
+BIDART-BOUZAT, M. G., and KLIEBENSTEIN, D. J. 2008. Differential
+levels of insect herbivory in the field associated with genotypic
+variation in glucosinolates in Arabidopsis thaliana. J. Chem.
+Ecol. 34, 1026–1037.
+BROWN, P. D., TOKUHISA, J. G., REICHELT, M., GERSHENZON, J. 2003.
+Variation of glucosinolate accumulation among different organs
+and developmental stages of Arabidopsis thaliana. Phytochemistry
+62, 471–481.
+COURTNEY, S. P. 1981. Coevolution of Pierid butterflies and their
+cruciferous foodplants III. Anthocharis cardamines (L.) survival,
+development and oviposition on different host plants. Oecologia
+51, 91–96.
+COURTNEY, S. P., and CHEW, F. C. 1987. Coexistence and host use by
+a large community of Pierid butterflies: habitat is the templet.
+Oecologia 71, 210–220.
+DE VOS, M., KRIKSUNOV, K., and JANDER, G. 2008. Indole-3acetonitrile production from indole glucosinolates deters
+oviposition by Pieris rapae (white cabbage butterfly). Plant
+Physiol. 146, 916–926.
+DEMPSTER, J. P. 1997. The role of larval food resources and adult
+movement in the population dynamics of the orange-tip butterfly
+(Anthocharis cardamines). Oecologia 111, 549–556.
+GIAMOUSTARIS A., and MITHEN, R. 1995. The effect of modifying the
+glucosinolate content of leaves of oilseed rape (Brassica napus
+ssp. oleifera) on its interaction with specialist and generalist
+pests. Ann. Appl. Biol. 126, 347–363.
+
+J Chem Ecol (2010) 36:1335–1345
+GOLS, R., WAGENAAR, R., BUKOVINSZKY, T., VAN DAM, N. M.,
+DICKE, M., BULLOCK, J. M., and HARVEY, J. A. 2008. Genetic
+variation in defense chemistry in wild cabbages affect herbivores
+and their endoparasitoids. Ecology 89, 1616–1626.
+GRIFFITHS, D. W., DEIGHTON, N., BIRCH, A. N. E., PATRIAN, B., BAUR,
+R., and STÄDTLER, E. 2001. Identification of glucosinolates on the
+leaf surface of plants from the cruciferae and other closely related
+plants. Phytochemistry 57, 693–700.
+HOPKINS, R. J., VAN DAM, N. M., and VAN LOON, J. J. A. 2009. Role
+of glucosinolates in insect-plant relationships and multitrophic
+interactions. Annu. Rev. Entomol. 54, 57–83.
+HUANG, X. P., and RENWICK, J. A. A. 1994. Relative activities of
+glucosinolates as oviposition stimulants for Pieris rapae and P.
+napi oleracea. J. Chem. Ecol. 20, 1025–1037
+LARSEN, L. M., NIELSEN, J. K., and SØRENSEN, H. 1992. Host plant
+recognition in monophageous weevils: Specialization of
+Ceutorhyncus inaffectatus to glucosinolates from its host plant
+Hesperis matronalis. Entomol. Exp. Appl. 64, 49–55.
+LI, Q., EIGENBRODE, S. D., STRINGHAM, G. R., and THIAGARAJAH, M.
+R. 2000. Feeding and growth of Plutella xylostella and
+Spodoptera eridania on Brassica juncea with varying glucosinolate concentrations and myrosinase activities. J. Chem. Ecol.
+26, 2401–2419.
+MATTSON, W. J. 1980. Herbivory in relation to plant nitrogen-content.
+Annu. Rev. Ecol. Syst. 11, 119–161.
+MILES, C. I., DEL CAMPO, M. L., and RENWICK, J. A. A. 2005.
+Behavioral and chemosensory responses to a host recognition cue
+by larvae of Pieris rapae. J. Comp. Physiol. A 191, 147–155.
+NIELSEN, J. K., NAGAO, T., OKABE, H., SHINODA, T. 2010. Resistance
+in the plant, Barbarea vulgaris, and counter-adaptations in flea
+beetles mediated by saponins. J. Chem. Ecol. 36, 277–285.
+NOMAKUCHI, S., MASUMOTO, T., SAWADA, K., SUNAHARA, T.,
+ITAKURA, N., and SUZUKI, N. 2001. Possible age-dependent
+variation in egg-loaded host selectivity of the pierid butterfly,
+Anthocharis scolymus (Lepidoptera: Pieridae): A field observation.
+J. Insect Behav. 14, 451–458.
+REIFENRATH, K., STÄDLER, E. 2009. Glucosinolates on the leaf
+surface perceived by insect herbivores: review of ambiguous
+results and new investigations. Phytochem. Rev. 8, 207–225.
+REIFENRATH, L., RIEDERER, M., and MÜLLER, C. 2005. Leaf surface
+wax layers of Brassicaceae lack feeding stimulants for Phaedon
+cochleariae. Entomol. Exp. Appl. 115, 41–50.
+RENWICK, J. A. A., and CHEW, F.S. 1994. Oviposition in Lepidoptera.
+Annu. Rev. Entomol. 39, 377–400.
+RICE, W. R. 1988. A new probability model for determining exact pvalues for 2×2 contingency tables when comparing binomial
+proportions. Biometrics 44, 1–22.
+RODMAN, J. E., and CHEW, F. S. 1980. Phytochemical correlates of
+herbivory in a community of native and naturalized Cruciferae.
+Biochem. Syst. Ecol. 8:43–50
+SCHOONHOVEN, L. M., VAN LOON, J. J. A., DICKE, M., 2005. InsectPlant Biology, 2nd edn., Oxford University Press.
+SHAPIRO, A. M. 1981. The pierid red-egg syndrome. Am. Nat. 117,
+276–294.
+SMALLEGANGE, R. C., VAN LOON, J. J. A., BLATT, S. E., HARVEY, J.
+A., AGERBIRK, N., and DICKE, M. 2007. Flower vs. leaf feeding
+by Pieris brassicae: glucosinolate-rich tissues are preferred and
+sustain higher growth rate. J. Chem. Ecol. 33, 1831–1844.
+STRAUSS, S. Y., IRWIN, R. E., and LAMBRIX, V. M. 2004. Optimal
+defence theory and flower petal colour predict variation in the
+secondary chemistry of wild radish. J. Ecol. 92, 132–141.
+SUN, J. Y., SØNDERBY, I. E., HALKIER, B. A., JANDER, G., DE VOS, M.
+2009. Non-volatile intact indole glucosinolates are host recognition
+cues for ovipositing Plutella xylostella. J. Chem. Ecol. 35, 1427–
+1436.
+
+J Chem Ecol (2010) 36:1335–1345
+THEUNISSEN, J., DEN OUDEN, H., and WIT, A. K. H. 1985. Feeding
+capacity of caterpillars on cabbage, a factor in crop loss
+assessment. Entomol. Exp. Appl. 39, 255–260.
+TRAW, M. B., and FEENY, P. 2008. Glucosinolates and trichomes
+track tissue value in two sympatric mustards. Ecology 89, 763–
+772.
+VAN LOON, J. J. A., BLAAKMEER, A., GRIEPINK, F. C., VAN BEEK, T. A.,
+SCHOONHOVEN, L.M., and DE GROOT, A. 1992. Leaf surface
+compound from Brassica oleracea (Cruciferae) induces oviposition
+by Pieris brassicae (Lepidoptera: Pieridae). Chemoecology 3, 39–
+44.
+
+1345
+VERGARA, F., SVATOŠ, A., SCHNEIDER, B., REICHELT, M, GERSHENZON,
+J., and WITTSTOCK, U. 2006. Glycine conjugates in a lepidopteran
+insect herbivore – the metabolism of benzylglucosinolate in the
+cabbage white butterfly, Pieris rapae. Chem. Bio. Chem 7, 1982–
+1989.
+WIKLUND, C., and ÅHRBERG, C. 1978. Host plants, nectar source
+plants, and habitat selection of males and females of Anthocharis
+cardamines (Lepidoptera). Oikos 31, 169–183.
+WIKLUND, C., and FRIBERG, M. 2009. The evolutionary ecology of
+generalisation: among-year variation in host plant use and
+offspring survival in a butterfly. Ecology 90, 3406–3417.
+
+

@@ -1,0 +1,810 @@
+VOLUME 68, NUMBER 3
+
+1
+
+Journal of the Lepidopterists’ Society
+68(3), 2014, x–x
+
+DYNAMICS AND STRUCTURE OF A NATIVE PIERIS POPULATION IN THE PRESENCE
+OF A NON-NATIVE, TOXIC LARVAL HOST PLANT
+MIFUYU NAKAJIMA*
+Department of Biology, Stanford University, Stanford, CA 94305-5020, USA,
+Rocky Mountain Biological Laboratory, P.O. Box 519, Crested Butte, CO 81224, USA
+*Corresponding author. Phone: 1-650-723-8139. Fax: 1-650-723-6132, e-mail: mifuyunf@06.alumni.u-tokyo.ac.jp.
+
+CAROL L. BOGGS
+Rocky Mountain Biological Laboratory, P.O. Box 519, Crested Butte, CO 81224, USA,
+present address: Department of Biological Sciences, University of South Carolina, Columbia, SC 29208, USA,
+e-mail: boggscl@mailbox.sc.edu
+
+FRANCES S. CHEW
+Rocky Mountain Biological Laboratory, P.O. Box 519, Crested Butte, CO 81224, USA,
+Department of Biology, Tufts University, Medford, MA 02155, USA, e-mail: frances.chew@tufts.edu
+
+ALICE CUMMINGS
+Rocky Mountain Biological Laboratory, P.O. Box 519, Crested Butte, CO 81224, USA,
+present address: 2010 Liberty Park Avenue, Menlo Park, CA 94025, e-mail: alicecummings@sbcglobal.net
+AND
+
+JULIA H. BOWSHER
+Rocky Mountain Biological Laboratory, P.O. Box 519, Crested Butte, CO 81224, USA,
+Department of Biological Sciences, North Dakota State University, Fargo, ND 58108, e-mail: Julia.Bowsher@ndsu.edu
+ABSTRACT. There have been reports of butterﬂies that oviposit on non-native plants that do not support the development of the
+larvae, and the ﬁtness cost of this behavior has been estimated in one such case. However, the long-term consequences of this ﬁtness cost for the population dynamics of such butterﬂies have not been studied. Here we report changes over 40 years in a population of Pieris macdunnoughii (Lepidoptera, Pieridae; formerly Pieris napi macdunnoughii Remington), which oviposits on a lethal,
+non-native plant, Thlaspi arvense (Brassicaceae), as well as on suitable native hosts. Mark-release-recapture (MRR) studies conducted at four intervals over 40 years showed no signiﬁcant trends across years in population structure or dynamics, including estimated population density and temporal changes in the number of newly emerged individuals within a year. The estimated daily residence rate differed between the sexes. However, male estimated daily residence rate showed no signiﬁcant change across years.
+Female residence rate was higher in the 2000s than in 1971; data were insufﬁcient to calculate a residence rate in 1972. The average ﬂight distance of female dispersants changed across years, but not as expected based on potential ﬂight distance and with no
+clear pattern. Our detailed observations on female ﬂights at a local scale showed that ﬂight segments varied among different habitat
+types deﬁned by aridity. Thus, although we see habitat effects on behavior, we did not detect any signiﬁcant changes in P. macdunnoughii population dynamics and large-scale structure across four decades, a century after the plant’s introduction.
+Additional key words: Brassicaceae, dispersal, host mismatch, mark-release-recapture, Pieridae
+
+Oviposition “mistakes” by butterﬂies on non-native
+plants that do not support larval development have been
+reported in the literature (summarized in Graves &
+Shapiro 2003). Because young larvae generally cannot
+move long distances, hatching on such a plant is usually
+lethal. The habitat thus consists of patches with
+differing butterﬂy ﬁtnesses, including a ﬁtness of zero in
+non-native plant patches (Nakajima et al. 2013). Given
+appropriate genetic variation, a population may evolve
+to avoid oviposition on the non-native plant, or larvae
+
+may evolve a tolerance for the non-native plant, as
+indicated for Pieris oleracea and Alliaria petiolata
+(Keeler & Chew 2008). In ecological time, the
+population may be reduced in size due to the ﬁtness
+cost of oviposition on the non-native plant. Ecology also
+inﬂuences evolution: the butterﬂy's population structure
+(e.g., habitat choice, short and long range dispersal
+patterns as a function of habitat, age structure, daily
+residence rate) and population dynamics (changes in
+population numbers across time) inﬂuence the rate of
+
+22
+
+evolution, again given appropriate genetic variation
+(Nakajima & Boggs in prep.).
+Here we report work on the native butterﬂy Pieris
+macdunnoughii (Lepidoptera, Pieridae; formerly Pieris
+napi macdunnoughii; Chew & Watt 2006) in Gothic,
+Gunnison County, Colorado, USA (38° 57' 22.89" N,
+106° 59' 18.23" W; elevation 2885 m asl). Females of
+this species oviposit on a lethal, Eurasian plant Thlaspi
+arvense L. (Brassicaceae) (Chew 1977, Nakajima et al.
+2013). Oviposition on T. arvense by P. macdunnoughii
+was ﬁrst reported in the 1970s (Chew 1974) and has
+continued since (Nakajima et al. 2013). Females in this
+P. macdunnoughii population also oviposit on four
+native Brassicaceae that support larval development:
+Boechera spp. (formerly Arabis spp.), Cardamine
+cordifolia A. Gray, Draba aurea Vahl ex Hornem., and
+Descurainia incana (Bernh. ex Fisch. & C.A. Mey)
+Dorn (formerly D. richardsonii Sweet) (Chew 1975,
+Nakajima et al. 2013). Because P. macdunnoughii
+females avoid oviposition on other unpalatable plants,
+including the native Brassicaceae Erysimum asperum
+(Chew 1974, 1975), oviposition on T. arvense most likely
+results from mistakes due to shared oviposition cues
+among T. arvense and the four native hosts on which
+larval development is successful (Chew 1974, Chew &
+Rodman 1980).
+Thlaspi arvense most likely arrived at our site in the
+mid-1800s (Chew 1977). The plant readily invades early
+successional, disturbed sites (USDA 2013). Our study
+site has been subject to continuous disturbance from
+cattle grazing and localized human activities since the
+mid-19th century (Vandenbusch 1980), so it is
+reasonable to assume that the plant has been present in
+the area since its initial introduction. Pieris
+macdunnoughii has 1 generation per year at this
+elevation (Chew 1974). Thus, the plant has been
+present for more than 130 butterﬂy generations. The
+potential also exists for strong selection against
+oviposition on T. arvense, since the percentage loss of P.
+macdunnoughii’s offspring due to oviposition on T.
+arvense in the wild was estimated at 3.0 % in the late
+1990s to early 2000s (Nakajima et al. 2013).
+We therefore built on early studies in the 1970s on
+the butterﬂy’s population structure and dynamics,
+comparing population size, daily adult residence rates,
+daily number of newly emerged individuals and
+dispersal probability and distance across 40 years. If the
+butterﬂies consistently lose 3.0 % of their offspring
+every generation, the population size at the end of our
+survey would be (1 – 0.03)40 = 0.30 of that in the
+beginning. Contrarily, if the butterﬂies migrated into
+and out of the study site, such that the local population
+was a sink supported by outside source populations, the
+
+JOURNAL OF THE LEPIDOPTERISTS’ SOCIETY
+
+population would not have declined and the selection by
+the non-native plant might be alleviated.
+In addition to the long-range dispersal across the
+study area described above, we also report female
+butterﬂy dispersal patterns over a shorter range inside
+the study site, at the scale of host plant patch. We
+compared the butterﬂy’s movements among different
+types of habitats preferred by different host plants. We
+examined whether dispersal differed with individuals,
+and if so, how they differed. Individual movements in a
+small spatial scale, such as foraging and oviposition,
+affect the individual performance and ﬁtness, dispersal
+in a long range and hence the dynamics of population
+(Hawkes 2009, Johnson et al. 1992). Indeed, in our
+study system, butterﬂy movements at the scale of host
+plant patch size affect encounter probability with the
+lethal T. arvense, which directly inﬂuences ﬁtness. We
+use this information to further understand the variance
+of the long-range dispersals and the population
+dynamics.
+MATERIALS AND METHODS
+Mark-release-recapture. We examined daily
+population size, daily residence rate, daily number of
+newly emerged individuals, and long distance dispersal
+using standard mark-release-recapture (MRR)
+techniques (Watt et al. 1977) in 1971, 1972, 2000 and
+2010. The study area was divided into subsites that
+differed among years (Fig. 1, Table 1). We analyzed the
+population size, residence time and daily number of
+newly emerged individuals using only the subsites that
+were in common among all years (those in the circle in
+Fig. 1). These subsites used for population analysis were
+located in the Gothic townsite and surrounding
+montane meadows. All ﬁve host plants, including T.
+arvense, existed in the study site both in the 1970s
+(Chew 1975, 1977) and in the 2000s (Nakajima et al.
+2013). The other subsites were used to examine long
+distance dispersal. These subsites consisted of meadows
+along the Copper Creek drainage system, separated by
+spruce-ﬁr forest and willow. Pieris macdunnoughii and
+its native host plants were observed in these meadows in
+the 1970s (Chew 1977) and in the 2000s (Boggs,
+personal observation).
+The method of MRR was consistent throughout our
+40-year survey. Butterﬂies were captured during sunny
+weather with hand nets, a number written on their
+wings with an indelible marker, and released. We
+recorded date, butterﬂy number, sex, subsite number
+and wing wear. Wing wear is a surrogate measure of
+adult age. We scored wing wear in increments of 0.5
+from 1.0 to 5.0, where 1.0 is a fresh individual whose
+wings are still damp and 5.0 is an individual with
+
+VOLUME 68, NUMBER 3
+
+3
+
+FIG. 1. Schematic map of mark-release-recapture subsites.
+
+TABLE 1. Details of mark-release-recapture sites and the number of captured individuals
+
+Year
+
+# of subsites
+
+area covered
+
+min and max
+
+# butterﬂies captured
+
+(ha)
+
+detectable distance
+
+male
+
+female
+
+1971
+
+10
+
+31.10
+
+99
+
+6226
+
+488
+
+234
+
+1972
+
+12
+
+31.10
+
+99
+
+6226
+
+229
+
+93
+
+2000
+
+9
+
+93.31
+
+44
+
+505
+
+467
+
+143
+
+2010
+
+6
+
+475.68
+
+19
+
+2742
+
+247
+
+63
+
+44
+
+extensive scale erosion and wing damage (Watt et al.
+1977, 1979).
+Daily population size was estimated using
+POPSTRUC (Watt et al. 1977), which is based on a
+Jolly-Seber analysis. We analyzed males and females
+separately to satisfy the assumption of equal catchability
+among individuals. We then calculated the daily
+population density on each sampling day as the
+estimated population size divided by the sampling area.
+Area was calculated as the area of a polygon bounded by
+the subsites used in each year, calculated using ArcGIS
+10.1 (Esri, Redlands, CA, USA) as shown in Table 1.
+We estimated the average adult daily residence rate,
+, for each sex and year using recapture decay plots. A
+recapture decay plot is the linear regression of the
+ln(total number of butterﬂies known to live at least d
+days) against day number d (Watt et al. 1977). The
+number of butterﬂies known to live at least d days is
+
+JOURNAL OF THE LEPIDOPTERISTS’ SOCIETY
+
+based on the interval between ﬁrst and last capture of
+each individual. Ln is the slope of the regression line.
+First, we tested whether the slopes of the male and
+female regression lines were signiﬁcantly different. We
+used an ANCOVA with sex as a categorical factor and
+“d” as a covariate. Signiﬁcance of the interaction sex ×
+d means that slopes, and therefore , differ between
+the sexes (Zar 1999). If the slopes were different
+between males and females, we compared the slopes
+among years within each sex. If the slopes were not
+signiﬁcantly different, we calculated the common slope
+(Zar 1999). We also calculated −(ln)−1 as the mean
+expectation of residence.
+Daily number of newly emerged individuals was
+examined in order to determine whether multiple
+generations ﬂew during each growing season. The
+number of individuals with wing wear score equal to or
+lower than 2.0 at any point in time was used as an
+
+FIG. 2. Estimated daily population densities of males (A, B) and females (C, D). Error bars indicate the square roots of estimated
+variances of the population size standardized by the MRR sampling area. The symbol frequently hides the small error bars.
+
+VOLUME 68, NUMBER 3
+
+estimate of the newly emerged adults in the population.
+If a second generation eclosed, we would see 2 peaks in
+the time series of the number of newly emerged adults
+in one year.
+To analyze dispersal probability, we used all subsites
+in each year. We examined the proportion of individuals
+that had moved to a new subsite on recapture
+(dispersants) out of the total individuals recaptured. We
+compared the proportion dispersing between males and
+females by 2 test.
+Again using all subsites in each year, we approximated
+dispersal distance using the distance between the
+centers of the subsites where an individual was
+recaptured and where it was immediately previously
+captured. Therefore, the dispersal distance is 0 when an
+individual was recaptured in the same subsite. We
+calculated the dispersal distance as the sum of distances
+between recaptures for each butterﬂy; if one individual
+was recaptured at subsites A, B and C in this order, its
+dispersal distance would be the distance between A and
+B plus the distance between B and C. The ﬂight
+distances of dispersants were compared between males
+and females and among years by examining the
+signiﬁcance of the independent variables in a
+generalized linear model (GLM) [distance = year + sex
++ (year × sex)] assuming errors distributed as Poisson.
+We used the function “glm” in R (version 3.0.1, R
+Development Core Team 2013) for the analysis. We
+should note, however, that the minimum- and
+maximum-detectable ﬂight distance differed among
+years (Table 1) and might have caused us to identify
+erroneous differences in dispersal distance. In such a
+case, the fractions of dispersants would be higher and
+the mean ﬂight distances would be shorter in 2000 and
+2010, which had shorter detectable distances than other
+years. Our analysis also assumes equal capture effort
+among years. Although the people who collected the
+data changed over our 40-year survey, they all used a
+standardized method (described in Watt et al. 1977).
+Butterﬂy short range movement patterns.
+Thlaspi arvense preferred dry and intermediate habitats
+and was distributed sparsely in our study area, similar to
+Boechera spp., De. incana and Dr. aurea, whereas C.
+cordifolia preferred wet habitats and occupied larger
+patches with higher plant density (Nakajima et al. 2013;
+the details of habitat aridity classiﬁcation is also
+described therein). To compare short range dispersal
+within each habitat type, we observed female butterﬂy
+movement in three 20 × 20 m quadrats in 1997 in each
+of three habitats: dry, intermediate and wet. Dry and
+intermediate plots were both grasslands with Boechera
+spp. sparsely distributed throughout the plots. We
+assumed that the results in the dry and intermediate
+
+5
+
+plots would be equivalent to those in habitats with T.
+arvense because Boechera spp. and T. arvense often
+coexist, and P. macdunnoughii did not intentionally
+avoid T. arvense for oviposition (Chew 1974). Indeed, a
+previous study showed that the density of P.
+macdunnoughii’s eggs per plant was not signiﬁcantly
+different among the host plants including T. arvense
+(Nakajima et al. 2013). The wet plot was dominated by
+1.5–1.8 m tall willow (Salix sp.). The open areas within
+the wet plots were dominated by C. cordifolia.
+The perimeter of each quadrat was marked with red
+ﬂags at every meter on all sides. A string grid was laid
+across every other meter on both sides. We observed
+individual females that either ﬂew into the quadrat or
+were released outside the quadrat and ﬂew into it.
+Observers sitting on a ladder recorded female
+movement within the quadrat on a grid map. Alighting
+coordinates were marked with an “x” and time spent
+sitting was recorded. We then approximated the
+female’s movement as a sequence of straight lines. We
+calculated ﬂight distances (lengths of straight lines) and
+turning angles (angles between two consecutive ﬂights)
+from each butterﬂy’s map.
+To test for the effects of plot on turning angles and
+ﬂight distance using repeated measurements on
+butterﬂies, we developed generalized linear mixed
+models (GLMMs) with “ID”, i.e., butterﬂy’s individual
+ID number as a random effect, and “plot” as an
+independent variable. We estimated the standard
+deviation for the random effect to quantify the variation
+between individual butterﬂies. We then compared this
+GLMM to the GLMM without the independent
+variable “plot” (null model) by likelihood ratio test. We
+considered that plots affected the turning angles and the
+ﬂight distances if the model with “plot” and the null
+model were signiﬁcantly different. We predicted that
+the butterﬂies ﬂew in shorter distances in wet sites than
+in drier sites because C. cordifolia makes relatively
+dense patches than other host plants in dry and
+intermediate habitats. We expected that the turning
+angles were random in all sites and therefore the
+frequency of turning angles would show normal
+distributions with the mean at 0 degrees. Models were
+ﬁtted by the function “lmer” and normality of turning
+angles was tested by Shapiro-Wilk test using the
+function “shapiro.test”, both in the statistical software R
+(R Development Core Team 2013).
+RESULTS
+Population size, age, and long distance ﬂight.
+The estimated population density did not show any
+trend across sampling years (Fig. 2). The estimated daily
+population densities within a year showed bell-shaped
+
+66
+
+JOURNAL OF THE LEPIDOPTERISTS’ SOCIETY
+
+FIG. 3. Daily number of captured individuals at wing wear condition 2.0 or lower.
+
+curves across the ﬂight season, with large ﬂuctuations in
+both sexes in all years. The estimated variances of the
+population size (error bars in Fig. 2) were often small,
+especially in females, due to small sample sizes (Jolly
+1965; see Table 1 for sample sizes).
+The number of individuals at condition 2.0 or lower
+across time within each sampling year was either
+monotonic or unimodal in males in 1972 and 2000,
+showing no signs of a second brood (Figs. 3B and 3C).
+In other data, a small second peak was observed in midJuly after a larger peak in mid- or late June or at the
+beginning of sampling (Fig. 3). These were unlikely a
+second brood because the time between the ﬁrst and
+the second peaks was less than a month, which is too
+short for the offspring of adults emerged at the ﬁrst
+peak to become adults. Larval development takes about
+14 to 17 days for P. macdunnoughii (Chew 1975), and
+pupation lasts another 10 days (C. Boggs, pers. obs.)
+under laboratory conditions which promotes faster
+development than natural conditions. It is possible that
+our data did not cover the entire ﬂight season. Pieris
+macdunnoughii emerged from pupal diapause in late
+May and early June, and the next generation entered
+
+pupal diapause at the end of the summer at least in the
+1970s (Chew 1975). Thus, we could have missed the
+extreme earliest part of the ﬂight season, although it is
+unlikely that an entire generation of adults preceded the
+sampling period.
+The slopes of regression lines for recapture decay
+plots (Fig. 4) differed signiﬁcantly between males and
+females (F = 62.57, df = 1,115, p < 10-11). The slopes did
+not differ among years in males (F = 0.96, df = 1,70, p =
+0.33) but differed signiﬁcantly in females (F = 11.09, df
+= 1,41, p = 0.002). Only 1971, 2000 and 2010 data were
+used for the females, since data were insufﬁcient to
+examine the slope in 1972 females. Since the females’
+slopes did not differ between 2000 and 2010 (F = 0.097,
+df = 1,26, p = 0.051), we obtained a new, common slope
+for the 2000s. Thus, from the regressions, the daily
+residence rates, , were 0.83, 0.96 and 0.73, and the
+expected average residence times were 5.6, 22.5 and 3.3
+days for males (all years combined), females in 2000s,
+and females in 1971, respectively.
+The proportion of recaptured animals dispersing did
+not differ between males and females across all years
+(Table 2). However, the proportion dispersing differed
+
+VOLUME 68, NUMBER 3
+
+7
+
+FIG. 4. Recapture decay plots for males (A) and females (B). Lines are the linear regression lines; black, thick: 1971, black, thin:
+1972, gray: 2000, dashed: 2010.
+
+88
+
+JOURNAL OF THE LEPIDOPTERISTS’ SOCIETY
+
+TABLE 2. Analysis of dispersal. Degrees of freedom were 1 in all 2 tests.
+Year
+
+n
+
+Dispersant/
+recapture fraction
+
+M
+
+713.05
+
+19
+
+148.88
+
+91
+
+0.21
+
+2=1.31
+
+0
+
+0
+
+0
+
+12
+
+0
+
+p=0.25
+
+2=2.55
+
+M
+
+537.72
+
+32
+
+746.42
+
+97
+
+0.33
+
+2=0.05
+
+p=0.11
+
+308.17
+
+6
+
+80.40
+
+23
+
+0.26
+
+p=0.82
+
+2=90.6
+
+M
+
+326.33
+
+18
+
+806.6
+
+28
+
+0.64
+
+2=0.17
+
+p< 1015
+
+277.57
+
+7
+
+277.57
+
+7
+
+1
+
+p=0.68
+
+2=0.91
+
+M
+
+265
+
+17
+
+122
+
+37
+
+0.46
+
+2=0
+
+p=0.34
+
+F
+
+2010
+
+Mean dispersal (m)
+
+F
+
+2000
+
+n
+
+F
+
+1972
+
+Dispersants
+Mean dispersal (m)
+
+F
+
+1971
+
+Sex
+
+403
+
+3
+
+204
+
+6
+
+0.50
+
+p=1
+
+between the 1970s and 2000s with sexes combined
+(1970s: 0.26; 2000s: 0.58; see Table 2 for statistics).
+Mean ﬂight distances of dispersing animals differed
+among years (z = 3.4, p = 0.0007) and between the sexes
+(z = 25.4, p < 10−15). The interaction between year and
+sex was also signiﬁcant (z = −25.2, p < 10−15), indicating
+that ﬂight distance did not change in concert in the two
+sexes across years.
+Butterﬂy short range movement patterns. We
+obtained 44, 51 and 41 ﬂight segments from 12, 22 and
+7 females at dry, intermediate and wet plots,
+respectively.
+The standard deviations for the random effect in
+turning angles and ﬂight distances were both 0.000. For
+turning angles, the null model was not signiﬁcantly
+different from the full model (2 = 0.250, df = 1, p =
+0.62). For ﬂight distances, the null model was
+signiﬁcantly different from the full model (2 = 13.97, df
+= 1, p = 0.0009). The full model was also signiﬁcantly
+different from the null model when we used the data
+from dry and wet plots (2 = 10.55, df = 1, p = 0.001)
+and dry and intermediate plots (2 = 8.00, df = 1, p =
+0.005), but not when we used data from wet and
+intermediate plots (2 = 1.25, df = 1, p = 0.26). This
+result indicates that ﬂight distance differed between dry
+plots and intermediate/wet, with females ﬂying shorter
+distances between landings in the intermediate/wet
+plots.
+Flight distance was distributed exponentially in all
+plots (Figs. 5A, 5C, 5E). The distributions of turning
+angles (Figs. 5B, 5D, 5F) did not differ signiﬁcantly
+from a normal distribution except for the wet plot (dry:
+W = 0.97, p = 0.40; intermediate: W = 0.97, p = 0.31;
+wet: W = 0.94, p = 0.04). The turning angles in the wet
+
+Comparison of dispersant fraction between:
+M and F
+years
+decades
+
+plot were distributed bimodally (Fig. 5F). The mean
+turning angles were −2.4, 17.0, and 5.3 degrees in dry,
+intermediate and wet plots, respectively.
+DISCUSSION
+Our results indicated that the dynamics and structure
+of this P. macdunnoughii population have not changed
+signiﬁcantly over four decades. The estimated
+population density did not decrease detectably from
+1971 to 2010, in spite of the continued presence of the
+lethal invasive plant T. arvense. In addition, the adult
+daily male residence rate did not change over time. The
+daily residence rate of females differed signiﬁcantly
+between 1971 and the 2000s, although we emphasize
+that that could be due to small sample sizes (10
+individuals recaptured in 1971 and fewer in the 2000s).
+Finally, the temporal changes of the number of newly
+emerged butterﬂies did not differ among years.
+The dispersal of males did not differ from what we
+expected from the detectable ﬂight distances. We did
+not ﬁnd any difference between males and females in
+the proportion of individuals dispersing. On the other
+hand, the cumulative ﬂight distance of dispersants
+depended on both sex and year. In males, the mean
+ﬂight distance was longer in the 1970s than in the 2000s,
+as predicted from the detectable ﬂight distance.
+However, we did not ﬁnd any pattern in females. We
+need further study to specify the factors that inﬂuence
+dispersal.
+Our observations of butterﬂy movements at small
+scales may provide a hint for factors governing dispersal
+observed at larger scales. As we predicted from the host
+plant distribution, the distance per ﬂight segment was
+longer in dry habitat than that in wetter habitat. In
+
+VOLUME 68, NUMBER 3
+
+9
+
+FIG. 5. Frequency distributions of ﬂight distance (A, C, E) and turning angle (B, D, F) observed in 1997 at dry, intermediate and
+wet plots (A and B, C and D, E and F, respectively). The mean and SD of normal distributions ﬁtted to panels B and D were −2.4
+and 67.4, and 17.0 and 69.5, respectively.
+
+1010
+
+JOURNAL OF THE LEPIDOPTERISTS’ SOCIETY
+
+addition, our wet plot contained tall willows. In avoiding
+these obstacles, butterﬂies may have made shorter
+ﬂights with turning angles avoiding the willows rather
+than longer direct ﬂights, resulting in the bimodal
+distribution of turning angles observed only in the wet
+plot. Thus, the different host plant distributions in
+different plot types may have caused the observed
+difference in dispersal. Our study also suggested that
+the dispersal pattern did not vary among individuals.
+Furthermore, female P. macdunnoughii were caught
+more frequently in wetter sites than in dryer sites in
+another MRR study on the same system (Nakajima et al.
+2013), suggesting that females tend to stay longer in
+wetter sites. This habitat effect may also apply at the
+larger scale of our MRR study.
+In conclusion, we did not detect any negative changes
+on P. macdunnoughii population dynamics. This
+suggested that the lethal, non-native plant had not
+signiﬁcantly affected the butterﬂy’s population. Several
+factors may have maintained variation for oviposition on
+this plant in the intervening time, including
+immigration, shifting host plant patch geography and
+drift (Nakajima & Boggs in prep.). Our study conﬁrmed
+migration of P. macdunnoughii between Gothic
+Townsite where T. arvense existed and Copper Creek
+where T. arvense had not been seen (Chew 1977, Boggs,
+personal observation). It is possible that the habitats in
+Copper Creek served as population source.
+There is a potential for T. arvense, however, to affect
+population size and structure in the future. For
+example, T. arvense may increase in abundance because
+it favors disturbed areas and our study site experiences
+frequent human disturbance from construction and
+other activities (Boggs, pers. obs.). It is also possible for
+butterﬂy to evolve in response to T. arvense. Genetic
+variation does exist within the population for female
+oviposition choice (Boggs et al. in prep.). Contrarily,
+there is no indication of variation within the Colorado
+population in ability to complete development on the
+plant, although hybrid crosses with Swedish P. napi
+suggest that normal larval development on the plant is
+controlled by one or a few autosomal genes (Boggs &
+Wiklund in prep.). Further analysis combining the data
+reported here and prospective modeling of dynamics at
+our study site will provide important information for
+other systems involving lethal non-native “hosts”.
+ACKNOWLEDGEMENTS
+The authors thank Z. Chafe, E. Forwand, M. Sijstermans, L.
+Murry, A. Loggins, A. Lerner and S. Simmers for expert ﬁeld assistance.
+
+LITERATURE CITED
+BOGGS, C. L., R. S. NEILL, F. SHAW, V. O. EZENWA, S. SIMMERS, K.
+WHITE & A. K. LEIDNER. in prep. Introduced host and native
+herbivore: potential for evolutionary response.
+BOGGS, C. L. & C. WIKLUND. in prep. When putative host plants invade: perfomance and heritability of performance of butterﬂy larvae in the native and non-native plant range.
+CHEW, F. S. 1974. Strategies of food plant exploitation in a complex of
+oligophagous butterﬂies (Lepidoptera). Ph. D. Dissertation. Yale
+University. New Haven, Connecticut.
+———. 1975. Coevolution of Pierid butterﬂies and their cruciferous
+foodplants. 1. The relative quality of available resources. Oecologia 20: 117–127.
+———. 1977. Coevolution of Pierid butterﬂies and their cruciferous
+foodplants. 2. Distribution of eggs on potential foodplants. Evolution 31: 568–579.
+CHEW, F. S. & J. E. RODMAN. 1980. Phytochemical correlates of herbivory in a community of native and naturalized Cruciferae.
+Biochem. Syst. Ecol. 8: 43–50.
+CHEW, F. S. & W. B. WATT. 2006. The green-veined white (Pieris napi
+L.), its Pierine relatives, and the systematics dilemmas of divergent character sets (Lepidoptera, Pieridae). Biol. J. Linn. Soc. 88:
+413–435.
+GRAVES , S. D. & A. M. SHAPIRO. 2003. Exotics as host plants of the
+California butterﬂy fauna. Biol. Conserv. 110:413–433.
+HAWKES, C. 2009. Linking movement behaviour, dispersal and population processes: is individual variation a key? J. Amin. Ecol. 78:
+894–906.
+JOHNSON, A. R., J. A. WIENS, B. T. MILNE & T. O. CRIST. 1992. Animal
+movements and population dynamics in heterogeneous landscapes. Landscape Ecol. 7: 63–75.
+JOLLY, G. M. 1965. Explicit estimates from capture-recapture data
+with both death and immigration-stochastic model. Biometrika
+52: 225–247.
+KEELER, M. S. & F. S. CHEW. 2008. Escaping an evolutionary trap:
+preference and performance of a native insect on an exotic invasive host. Oecologia 156:559–568.
+NAKAJIMA, M., C. L. BOGGS, S. BAILEY, J. REITHEL & T. PAAPE. 2013.
+Fitness costs of butterﬂy oviposition on a lethal non-native plant
+in a mixed native and non-native plant community. Oecologia
+182: 823–832.
+NAKAJIMA, M. & C. L. BOGGS. in prep. Inﬂuences of the ﬁne-grained
+distribution of a non-native resource on predator population dynamics and evolution.
+R DEVELOPMENT CORE TEAM. 2013. R: A language and environment
+for statistical computing. ver. 3.0.1. R Foundation for Statistical
+Computing. Vienna, Austria. http://www.R-project.org.
+USDA, NRCS. 2013. The PLANTS Database. National Plant Data
+Team. Greensboro, NC. Available from: http://plants.usda.gov/
+java/proﬁle?symbol=THAR5. (Accessed on August 9, 2013).
+VANDENBUSCH, D. 1980. The Gunnison Country. B&B Printers, Gunnison, CO, USA. 472 pp.
+WATT, W. B., F. S. CHEW, L. R. G. SNYDER, A. G. WATT & D. E. ROTHSCHILD. 1977. Population structure of pierid butterﬂies I. Numbers and movements of some montane Colias species. Oecologia
+27: 1–22.
+WATT, W. B., D. HAN & B. T. TABASHNIK. 1979. Population structure
+of Pierid butterﬂies. II. A “native” population of Colias philodice
+eriphyle in Colorado. Oecologia 44: 44–52.
+ZAR, J. H. 1999. Biostatistical analysis. 4th ed. Prentice-Hall, NJ.
+Submitted for publication 29 August 2013; revised and accepted
+22 December 2013.
+
+

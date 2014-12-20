@@ -1,0 +1,1476 @@
+AGGREGATE AND IDIOSYNCRATIC
+RISK AND THE BEHAVIOR OF
+INDIVIDUAL PREFERENCES UNDER
+MORAL HAZARD
+
+Marcelo Bianconi
+Department of Economics, Tufts University
+Abstract
+We consider the effect of alternative individual preference towards effort
+conditional on aggregate risk in a principal-agent relationship under moral
+hazard. We find that agents can explore a negative correlation between
+individual preference towards effort and aggregate risk to further diversify
+idiosyncratic risk and increase expected utility under moral hazard. The
+variation of individual preference towards effort may mitigate the impact
+of moral hazard on the risk premium, but we find this to be quantitatively
+small.
+JELit Classification Codes: D8, D82, E0, G12
+Keywords: moral hazard, disutility of effort, incomplete contract, meanvariance tradeoff
+Mailing Address: Marcelo Bianconi; Associate Professor of Economics
+Tufts University
+Department of Economics, 111 Braker Hall
+Medford, MA 02155 USA
+Ph. (617) 627-2677; Fax (617) 627-3917;
+E-Mail: marcelo.bianconi@tufts.edu;
+Web Page: www.tufts.edu/~mbiancon
+
+Revised Version, October 2004
+_________________________________________________________________
+
+AGGREGATE AND IDIOSYNCRATIC
+RISK AND THE BEHAVIOR OF
+INDIVIDUAL PREFERENCES UNDER
+MORAL HAZARD
+
+Abstract
+We consider the effect of alternative individual preference towards effort
+conditional on aggregate risk in a principal-agent relationship under moral
+hazard. We find that agents can explore a negative correlation between
+individual preference towards effort and aggregate risk to further diversify
+idiosyncratic risk and increase expected utility under moral hazard. The
+variation of individual preference towards effort may mitigate the impact
+of moral hazard on the risk premium, but we find this to be quantitatively
+small.
+JELit Classification Codes: D8, D82, E0, G12
+Keywords: moral hazard, disutility of effort, incomplete contract, meanvariance tradeoff
+
+Revised Version, October 2004
+_________________________________________________________________
+
+1
+
+I. INTRODUCTION
+This paper examines a simple agency problem where an agent chooses
+effort levels that positively influence the individual productivity, but
+create disutility. This framework leads to a moral hazard problem that can
+be effectively mitigated by a principal's incentive mechanism. We add
+aggregate risk so that the state of the macroeconomy can influence both
+the agent's and principal's choices. In particular, it is important to include
+relevant information about the state of the macroeconomy, say a recession
+or an expansion, in the information set of the parties involved in
+contractual relationships under asymmetric information, and to understand
+how this information can affect choices and contract between parties.
+The basic framework under moral hazard involves endogenous partial
+risk sharing of the idiosyncratic risk between the agent and the principal.
+We take a step further by considering the implications of the agent
+preference towards effort conditional on aggregate risk. This is an
+important problem because a fundamental ambiguity arises in the
+correlation between individual preferences towards effort and the
+aggregate state of the economy, say a recession or an expansion.
+The problem is as follows: Suppose the macroeconomy is experiencing
+an expansion, say the aggregate state is good; then it is likely that the
+disutility created by effort varies relative to the case of a recession, i.e. the
+bad aggregate state. However, the variation can be plausibly positive,
+negative or null.1 This creates a fundamental ambiguity in individual
+1
+
+For example, the relative magnitudes of substitution and wealth effects can easily give
+variation in any direction.
+
+2
+
+preference towards effort in the presence of aggregate risk. This
+fundamental ambiguity impacts upon the contractual relationship between
+principal and agent creating an important and subtle incompleteness in the
+contract. The contractual incompleteness is due to transactions costs
+involved in predicting and/or describing the ambiguity in the agent's
+preference towards effort, and it is in the spirit of the contract
+incompleteness discussed in Hart and Moore (1999).2
+In turn, a risk averse agent can use its own behavior towards effort in
+utility, conditional on aggregate risk, to further transfer idiosyncratic risk
+to the principal. The main result of the paper is that when the individual
+preference towards effort and the aggregate risk are negatively correlated,
+the agent can effectively further diversify individual risk and increase
+expected utility. In the traditional mean-variance framework, idiosyncratic
+risk is fully diversifiable under full information. With asymmetric
+information, in the principal-agent framework of this paper, we show that
+a mean-variance (expected utility vs. idiosyncratic risk) tradeoff may
+endogenously emerge as the individual preference towards effort varies
+positively with aggregate risk.3
+
+2
+
+Hart and Moore (1999) base contract incompleteness upon the ability to describe events
+and states of nature; in this paper the incompleteness is based on the transactions costs
+that arise given the possible ambiguity of a fundamental preference parameter of the
+agent's utility conditional upon aggregate risk.
+3
+The ambiguity of the effect of aggregate risk on heterogeneous individuals is examined
+in a dynamic adverse selection model in Bianconi (2003a). Here, we focus on a different
+case or the effect of aggregate risk on individual preference towards effort under moral
+hazard. Phelan (1994) is an important contribution which examines private information in
+the class of overlapping generation dynamic models with aggregate risk. See also more
+recently Altissimo and Zaffaroni (2003) for an empirical investigation of the relationship
+between aggregate risk and individual heterogeneity using PSID data.
+
+3
+
+We first study the effects of the alternative preference towards effort
+conditional on aggregate risk analytically. However, the analytical results
+are restricted by nonlinearities and complexity, even in the simple static
+setting. In particular, we are able to obtain analytical results that are partial
+equilibrium. The crucial general equilibrium effects are then obtained
+through a quantitative assessment of the model and they reveal important
+limitations of the partial equilibrium analysis.4
+In this framework, individual consumption is less than perfectly
+correlated and more volatile than aggregate consumption which provides a
+step in the right direction to explain the equity premium puzzle. Thus, we
+also examine the implications of alternative preference towards effort on
+the risk-free return and the risk premium. Using the moral hazard model
+with incomplete risk sharing, Kahn (1990) had shown that moral hazard
+can plausibly increase the risk premium. Kocherlakota (1998) showed that
+once Khan's arbitrary restrictions on the set of traded assets were removed,
+the effect on the equity premium becomes negligible. Our contribution
+here is to examine how individual preference towards effort, conditional
+on aggregate risk, impacts on the risk-free return and risk premium under
+moral hazard.5 We find that adding the aggregate risk channel on
+individual preferences can mitigate the moral hazard (upward) effect on
+the risk premium, i.e. it can move the premium downwards because there
+
+4
+
+The problem studied here is specific to agency under moral hazard. However, the
+ambiguity of individual preference towards aggregate states is fairly general, for
+example, in manager/worker relationships involving teams.
+5
+
+The paper by Bianconi (2001) examines the effects of labor-leisure choice on asset
+allocation and returns under adverse selection.
+
+4
+
+may be less demand for assets to diversify idiosyncratic risk. However, the
+effects are quantitatively small.
+The paper is organized as follows. In section II we present the basic
+framework and the agency problem. Section III presents the main
+analytical results of the effect of variation in individual preference towards
+effort, conditional on aggregate risk, on the agency relationship. Section
+IV presents the analytical risk-free and risk premium implications. Section
+V is the quantitative evaluation of the general equilibrium effects, while
+section VI concludes.
+II. BASIC MODEL AND AGENCY
+We consider economies populated by a large number of individuals with
+each individual denoted by the name i. Individuals may have private
+information about their work effort in the production of a single good. In
+particular, there may be an infinite number of actions/effort taken by the
+individual so that the action/effort is unobserved by the general public.
+Systematic or aggregate risk is denoted by the aggregate state variable,
+
+θ, which affects the distribution of the agent’s output, conditional upon the
+unobserved work effort. Individuals can observe the aggregate state, θ,
+before their choice of work effort, thus making work effort contingent
+upon the aggregate state.6
+The production side is as follows. Each individual named i chooses a
+state contingent action/effort, denoted e(θ )≥ 0, in order to operate a
+6
+The intuition is that an individual's work effort choice is made conditional upon the
+aggregate state as given. For example, an individual starts the workday under a given
+aggregate state making effort choices conditional on the aggregate state.
+
+5
+
+production technology that yields individual stochastic output denoted y.
+The individual output has two possible outcomes,
+yz , for z = g ("good"), b ("bad").
+The probability distribution of the individual output is binomial, and
+assumed to depend upon the state contingent work effort as:
+yg with probability p(e( θ );θ ),
+yb with probability 1- p(e( θ );θ );
+yg > yb all i
+where p(e(θ );θ )> 0 is a strictly increasing and strictly concave function
+of effort, e(θ ), contingent on the aggregate state, or p’ >0, p”<0.
+Intuitively, the larger (lower) the work effort for a given aggregate state,
+the larger (lower) the probability of higher output produced by the
+individual. The function p is well defined and is dependent on the
+aggregate state θ. Also, given the aggregate state, the individual
+exogenous output in the "good" state, yg, is uniformly higher than in the
+"bad" state, yb. Thus, the aggregate state has an affect on the individual
+productivity through the probability function p, so that effort is also a
+function of the aggregate state.
+Aggregate or systematic risk is assumed to follow a binomial
+distribution as well. The average or aggregate per individual output is
+denoted Yθ, for θ =G,B. The probability distribution of average output is
+given by
+YG with probability p ,
+YB with probability 1- p ;
+6
+
+YG > YB
+where p≥ 0 is a simple probability. Average (aggregate per individual)
+output is endogenously determined as
+YG = p(e(G);G) yg + [1-p(e(G);G)] yb
+
+(1a)
+
+YB = p(e(B);B) yg + [1-p(e(B);B)] yb .
+
+(1b)
+
+Expressions (1a,b) simply state average output as a linear combination of
+individual outputs. In particular, (1a,b) show that average output is an
+increasing function of the effort supplied by the individual. We can easily
+compute the mean and variance of aggregate and individual output in this
+economy as
+E[Y] = p YG + (1-p ) YB = E[y]
+
+(2a)
+
+var (Y ) = p (1-p ) (YG - YB ) 2
+
+(2b)
+
+var(y )= [p p(e(G);G)+(1-p ) p(e(B);B)] ×
+[1-p p(e(G);G)-(1-p ) p(e(B);B)] (yg - yb )2
+
+(2c)
+
+where we used the law of large numbers to express the dependence on the
+individual type z =g,b only through Yθ , given in (1a,b), and the average
+aggregate and individual output are identical. Henceforth, given effort, the
+effect of the aggregate state on the individual productivity is given by
+p(e(.);G) > p(e(.);B)
+
+(3)
+
+determining the impact of aggregate risk on individual productivity and
+consequently on effort.
+The demand side is as follows. An individual derives utility from
+consumption of the single good and disutility from effort according to an
+additively separable function
+7
+
+U = u (cz(θ )) – v(e (θ );θ )
+
+(4)
+
+where cz(θ ) is the individual state contingent consumption, and u is
+strictly increasing and strictly concave, u’ >0, u”<0, i.e. an individual is
+assumed to be risk averse regarding the consumption prospect.
+The function v captures (dis)utility of effort, and it is assumed strictly
+increasing and convex, v’ >0, v”≥ 0 in effort. It could be linear in effort,
+indicating the special case where the individual is risk neutral regarding
+the disutility of labor. The function v also depends on the aggregate state
+
+θ. As we will see in more detail below, this is meant to capture possible
+differences in the agent’s disutility of labor depending on the aggregate
+state. In particular, allowing an agent to choose her preference towards
+effort in the presence of aggregate risk can provide an additional channel
+to diversify idiosyncratic risk and explore a tradeoff between mean and
+variance. While the principal can observe the aggregate state,θ, when
+offering a contract, she cannot observe how the agent chooses preference
+toward effort in the presence of aggregate risk. This is the source of
+fundamental ambiguity, or incompleteness, in the principal-agent
+relationship and can be plausibly caused by transactions costs in explicitly
+writing such contract clauses.
+The expected utility, over individual type z and aggregate state θ, of a
+consumer i is given by
+E[U] = p { p(e(G);G) u (cg (G)) + [1-p(e(G);G)] u (cb (G)) –
+v(a(G);G)} + (1-p) { p(e(B);B) u (cg(B)) +
+[1-p(e(B);B)] u (cb(B)) – v(a(B);B) }.
+8
+
+(5)
+
+Given the moments in (2a,b,c), we note that E[Y]=E[C], var(C)=var(Y)
+and that the variance of individual consumption is
+var(c)= p { p(e(G);G)(cg (G)-E[C])2 + [1-p(e(G);G)](cb (G)-E[C])2} +
+(1-p) { p(e(B);B)(cg (B)-E[C])2 + [1-p(e(B);B)](cb (B)-E[C])2}
+
+(2d)
+
+The variance (or standard deviation) of individual consumption will be the
+measure of idiosyncratic risk borne by the agent. Thus, a tradeoff may
+emerge between more or less expected utility (more or less mean) and
+more or less risk (more or less variance of individual consumption).
+The agency structure is as follows. An individual (agent) negotiates
+with a principal a consumption bundle subject to idiosyncratic and
+aggregate risk. Due to risk aversion, individuals want to minimize the
+idiosyncratic risk in their consumption bundle by sharing this risk with the
+principal. The principal is assumed to play the role of a benevolent planner
+by maximizing the expected utility of the agent over idiosyncratic and
+aggregate risk in expression (5).
+The basic setup is simple enough to accommodate a linear sharing
+rule.7 Because there are two aggregate and two idiosyncratic states (2¥2
+case), the principal can basically offer a linear sharing rule contingent
+upon the final observable outcomes yz and Yθ. In particular, we can
+postulate a linear consumption rule for an individual i, of the form
+cz ( θ ) = aθ yz + (1-aθ ) Y θ , each θ =G,B; z =g,b
+
+(6)
+
+where aθ∈[0,1] is a choice variable in the principal’s problem of
+maximizing the expected utility of the agent subject to the appropriate
+7
+
+Linear sharing rules under moral hazard and their optimality are surveyed in Holmstrom
+and Hart (1987), and more recently in Bianconi (2003b).
+
+9
+
+incentive compatibility constraints. In effect, a determines the extent of
+risk sharing between the principal and the agent. If a =0, all idiosyncratic
+risk is borne by the principal and the agent is fully insured against
+idiosyncratic risk. If a =1, all idiosyncratic risk is borne by the agent and
+the principal does not bear any idiosyncratic risk. When a∈(0,1) it
+determines the level of endogenous risk sharing among the parties.
+III. CONTRACTS, AGGREGATE RISK AND IDIOSYNCRATIC
+RISK, AND INDIVIDUAL PREFERENCE
+The level of effort of the individual is assumed to be continuous. We thus
+apply the First Order approach, e.g. Rogerson (1985), Jewitt (1988), and
+obtain the appropriate incentive compatibility constraint.8 The appropriate
+incentive compatibility constraint is the one that maximizes the expected
+utility, over individual type z, by choice of the level of effort e(θ ) of an
+individual, subject to consumption following the linear sharing rule given
+in (4), all conditional on the aggregate state q, and taking the principal's
+share parameter a as given (hence taking consumption as given). The
+problem may be written as
+Max p(e(θ );θ ) u(cg (θ )) + [1-p (e (θ );θ )] u(cb (θ )) – v(e (θ );θ )
+
+(7)
+
+{e (θ )≥ 0}
+subject to (6),
+
+8
+
+The First Order approach is well defined in this case given the properties of the
+probability function p, i.e. strictly increasing and strictly concave.
+
+10
+
+with {aθ ,Yθ } taken as given by the agent. Substituting the constraint into
+the objective function and computing the necessary first order conditions
+of the resulting unconstrained problem yields the expression
+p’(e (θ );θ )[ u (aθ yg+ (1-aθ )Yθ ) – u (aθ yb + (1-aθ )Yθ )]= v’(e (θ );θ ),
+all θ.
+
+(8)
+
+The solution in (8) is familiar from asymmetric information problems
+where the tradeoff between incentives and risk sharing arises, e.g.
+Holmstrom (1979). The first best would be to provide full insurance to the
+risk averse individual over the idiosyncratic (non-systematic) risk, i.e. full
+risk sharing. Full insurance for the idiosyncratic risk in this context
+implies that aθ =0 for all θ. This is because with aq =0 in (6), consumption
+is just the average across individuals, cz (θ )=Yθ , for each θ =G,B and all z
+=g,b. This implies, from expression (8) that
+v’ (e (θ );θ ) / p’(e (θ );θ ) Æ 0, all θ ¤
+
+v’Æ 0 or p’Æ• .
+
+(9)
+
+Hence, expression (9) shows that under the first best or full insurance
+for the idiosyncratic risk, the effort is minimum, eÆ 0, since the agent has
+no incentive to provide effort, i.e. the classic moral hazard or free rider
+problem. The solution is for the principal to provide partial insurance to
+the individual idiosyncratic risk, a∈(0,1). In the second best with partial
+insurance, the agent has an incentive to provide effort above the minimum
+level, and we observe the usual tradeoff between incentive and risk
+sharing.
+The principal’s problem is to maximize expected utility over individual
+and aggregate risk. First, the principal has the advantage of recognizing
+11
+
+that its own actions have an effect on the effort of the agent, i.e. a has an
+impact on e. Second, the principal does not recognize the effect of
+aggregate risk, θ, on the agent's preference, v; i.e. the principal observes θ
+but cannot observe the way the agent chooses the correlation between v
+and θ . Hence, the effect of aggregate risk on the agent's preference is
+assumed to be beyond the control of the principal and the transactions
+costs associated with writing contracts is a plausible motive for this
+assumption, as in the work of Hart (1995) and Battigalli and Maggi
+(2002). The principal's problem is
+Max{aθ∈(0,1)} π {p( (G);G) u(cg (G)) + [1-p (e (G))] u(cb (G)) – v(e (G);G)}+
+(1-π){p( (B);B) u(cg (B)) + [1-p (e (B))] u(cb (B)) – v(e (B);B)}
+
+(10)
+
+subject to (1a,b),(4), and (6),
+The necessary first order condition is given by
+p(e(.);.) u’(cg (.))[yg –Y(.) ] + [1-p(e(.);.)] u’(cb(.)) [yb –Y(.) ] +[∂ e/∂ a (.)]×
+{ p’(e(.);.) [u (cg (.))-u (cb (.))] + (1-a(.) ) p(e(.);.)×
+[u’(cg (.))-u’(cb (.))] p’(e(.);.)(yg –yb ) - v’(e(.);.)} = 0,
+
+each θ.
+
+(11)
+
+where {cg (.),Y(.) } can be substituted from (1a,b) and (6), and [∂ e/∂ a (.)]
+is computed from (8) as
+[∂ e/∂ a (.)] = p’(e(.);.) { u’(cb (.))[yb –Y(.) ] - u’(cg(.)) [yg –Y(.) ]} /
+p”(e(.);.) [u(cg (.)) - u(cb(.))] + p’(e(.);.)2 (1-a(.) )[u’(cg (.))-u’(cb (.))]×
+p’(e(.);.)(yg –yb ) - v”(e(.);.),
+
+each θ.
+
+(12)
+
+Expressions (11)-(12) provide a solution for a∈(0,1). We can show that
+the term [∂ e/∂ a (.)]>0 is strictly positive so that, all else constant, as a
+12
+
+increases and the agent bears more of the idiosyncratic risk, there is an
+incentive to provide more effort thus increasing the probability of the best
+outcome to occur. This is the main tool used by the principal to induce
+effort on the part of the agent.
+In this paper, we focus on a potential incompleteness of the contractual
+relationship presented above. The agent cannot affect the principal’s
+choice of the share a and thus cannot directly affect its own consumption
+for the choice of effort in problem (7). However, the existence of
+aggregate risk and the potential dependency of v on θ may allow the agent
+to affect its own consumption and thus the share α. In other words, the
+agent may use its own preference towards effort, in particular the
+curvature v”(e(.);θ ), for a given level of effort, to affect the magnitude of
+[∂ e/∂ a (.)] in its own best interest of insuring against idiosyncratic risk
+and increasing expected utility. While the contractual relationship is
+designed to give incentives for the agent to provide high effort, it comes to
+the agent at a cost of partial insurance to the idiosyncratic risk. The agent
+can use its own preferences towards effort to mitigate these costs, thus
+transferring some risk back to the principal. The agent may be able to
+explore a potential incompleteness in the contract regarding preference
+towards effort in the presence of aggregate risk, thus effectively using
+aggregate risk to diversify the idiosyncratic risk. It is important to note
+that, even when the principal cannot observe the agent's choice for the cost
+of effort, the solution to the problem continues to be subgame perfect
+since chosen effort is what in fact the agent reports to the principal, i.e. the
+
+13
+
+report is truthful.9 In effect, the principal infers a preference parameter
+from the agent, say an implied curvature v”(e(.);θ ), but cannot distinguish
+whether the parameter is due to the intensity of effort or due to the change
+in preference through aggregate risk, given the level of effort. It is this
+second channel that is the source of fundamental contractual
+incompleteness which can be explored by the agent in its best interest.
+The incompleteness is based on the fact that an agent’s behavior can be
+fundamentally ambiguous regarding the way aggregate risk affects the
+(dis)utility of effort. Suppose an agent starts under a good aggregate state,
+say a boom in the macroeconomy. Its own (dis)utility of effort could vary
+in two potential distinctive ways:
+(i) The aggregate state is good and, for each level of effort, the agent
+derives higher disutility of effort, say the v function becomes close to
+linear or v"(e(.);θ )→ 0, and the agent has less incentive to provide effort,
+preference toward effort and the aggregate state are negatively
+correlated;10
+(ii) The aggregate state is good and, for each level of effort, the agent
+derives lower disutility of effort, say the v function becomes more convex
+or v"(e(.);θ )>0, and the agent has more incentive to provide effort,
+preference toward effort and the aggregate state are positively correlated.
+
+9
+Subgame perfect equilibrium refers to the consistency between the principal and agent
+behavior under contractual agreement. See for example Kreps (1990) for a discussion of
+the subgame perfect equilibrium concept.
+10
+Recall that the probability function of the individual also changes with the aggregate
+state, being the way aggregate risk impacts on the individual productivity in production,
+e.g. equation (3).
+
+14
+
+This fundamental source of ambiguity is the source of contractual
+incompleteness, and it is assumed beyond the principal’s control. It thus
+can be effectively used by the agent to diversify idiosyncratic risk
+measured by both the share α and the variance of consumption, var(c).11
+We can compute the local effect of a small change in the aggregate
+state on the expected utility of the individual, from expression (4), where
+the agent cannot affect the consumption bundle provided by the principal,
+thus obtaining
+
+∂ E[U]/∂ θ = [∂ p(.;θ )/∂ θ] [u(cg (.)) - u(cb(.))] - [∂ v(.;θ )/∂ θ], all θ (13)
+where we made use of the Envelope theorem to eliminate the effect on
+effort. All else constant, it is clear that ∂ v(.;θ )/∂θ <0 is in the best interest
+of the agent by increasing the magnitude of the change in expected
+utility.12 The case ∂ v(.;θ )/∂θ <0 means that it is in the best interest of the
+agent to provide more effort in the good aggregate state, case (ii) above. In
+effect, setting ∂ v(.;θ )/∂θ <0 implies that v”(.;θ ) is larger in magnitude
+(more curvature in the function) and by inspection of expression (12), we
+note that the magnitude of [∂ e/∂ a (.)] is also lowered. This in turn
+confirms that the principal’s main tool to induce effort on the agent
+becomes less effective allowing the agent to bear less idiosyncratic risk for
+
+11
+
+As mentioned above, transactions costs are a plausible motive for the lack of principal's
+control over individual preferences, e.g. Hart (1995) and Battigalli and Maggi (2002);
+and the contractual incompleteness is in the spirit of Hart and Moore (1999).
+12
+
+When consumption is a function of effort directly, without the principal’s involvement
+or full information, the effect of ∂ v(.;θ)/∂ θ <0 would be mitigated by the strict
+concavity of the utility function in consumption. This can be easily seen in the context of
+effort choice, say a Robinson Crusoe case, where given the strict concavity of utility of
+consumption ∂ v(.;θ)/∂ θ <0 would decrease expected utility, not increase it.
+
+15
+
+each level of effort. The case ∂ v(.;θ )/∂θ >0 means that the agent provides
+more effort in the bad aggregate state, case (i) above; v”(.;θ ) is smaller in
+magnitude (less curvature in the function) and [∂ e/∂ a (.)] increases. One
+way or the other, it confirms that the principal’s main tool to induce effort
+on the agent may be affected.
+It is important to recognize that the agent takes consumption as given,
+so the effects discussed above are partial equilibrium. The particular
+choice of ∂ v(.;θ )/∂θ <0 by the agent will have an ultimate effect on
+consumption through the principal’s choice of a. However, it will also
+have an effect on the variance of individual consumption. The general
+equilibrium effects are important because while in expression (13), setting
+
+∂ v(.;θ )/∂θ <0 is beneficial for expected utility, it may or may not have a
+detrimental effect on the variance of individual consumption, hence a
+mean-variance tradeoff may emerge. We evaluate the general equilibrium
+effects numerically in section V, given the complexity and nonlinearities
+involved in the analytical evaluation of the general equilibrium effects.
+IV. ASSET RETURNS
+Under the arrangements described in section III, we can now describe
+optimal state contingent consumption in terms of a portfolio of assets. We
+let an individual hold a portfolio with three assets.
+First, we have a private asset subject to the own individual risk, then
+we have two other macro assets. The characteristics of the assets are as
+follows: (i) The private risky asset yields the return yz representing the
+own individual risk; (ii) One aggregate risky asset yields the average per
+16
+
+individual output, Yθ , representing aggregate macro risk; and (iii) The
+other macro asset is a risk-free asset yielding the risk-free total return Rf,
+in zero supply. Therefore, the state contingent individual consumption is
+replicated by holding a portfolio with the three assets expressed as
+cz (θ )=aθ yz +(1-aθ )[sYθ +(1-s)R f ], each θ =G,B; z =g,b
+
+(14)
+
+where sŒ[0,1] is the share of the risky asset in the portfolio of macro
+assets. Indeed, aŒ[0,1], measures the extent of partial risk sharing
+between the principal and the agent.
+The first question is the extent to which the introduction of moral
+hazard affects asset returns, e.g. Kahn (1990), Kocherlakota (1998). The
+most important question here is the effect the agent’s use of preference
+towards effort to diversify idiosyncratic risk has on asset returns. Towards
+an answer, first we consider the risk-free return, Rf. We obtain the
+endogenous value for Rf using the zero-level pricing method: Maximize
+expected utility of an individual by choice of the share of macro assets, s,
+taking the risk-free return, Rf as given. Then, we set the share of the riskfree macro asset on the portfolio to zero, i.e. s=1, and find the appropriate
+Rf that makes the risk-free asset in zero supply, i.e. the value of the asset
+is the appropriate shadow value that makes the agent indifferent between
+owning it or not. The specific problem may be written as
+Max{s∈[0,1]} p {p(e(G);G)u(cg (G))+[1-p(e(G);G)] u(cb (G)) – v(e(G):G)} +
+(1-p ) { p(e(B));B) u (cg (B)) + [1-p(e(B);B)] u (cb (B)) – v(e(B);B)}
+subject to (14),
+taking {aθ , e(θ ), Rf } as given. The necessary first order condition is
+17
+
+(15)
+
+p (1-aG )( YG - Rf ) { p(e(G);G) u’(cg(G))+[1-p(e(G);G)] u’(cb(G))} +
+(1-p )(1-aB )(YB - Rf ){ p(e(B);B) u’(cg (B))+
+[1-p(e(B);B)] u’(cb(B))} = 0
+
+(16)
+
+where cz(.) is given in (14). Applying the zero-level pricing method
+involves solving the first order condition (16) for Rf , and evaluating at
+s=1, yielding
+Rf* = E[ u’(cz (θ )) (1-aθ ) Yθ ] / E[u’(cz (θ ))(1-aθ )]
+
+(17)
+
+where the expectation is over z and θ. The economy with idiosyncratic risk
+shows a risk-free return that depends upon the marginal utility of
+individual consumption and the linear sharing value, besides the usual
+macro factors.
+Next, we compute the risk premium E[Y]-Rf*. Using expressions (17),
+(2,a,b,c), and the usual covariance decomposition formula, we obtain
+E[Y] - Rf* = - cov ( u’ (cz (θ )) (1-aθ ), Yθ ) / E [u’ (cz (q ))(1-aθ )]
+
+(18)
+
+This is a familiar formula for the risk premium except for the presence
+of the term relating to the principal's share value (1-a ). When there is no
+private information, full insurance (FI) yields a =0, and evaluating at s=1
+or cz (θ )=Yθ , the risk premium takes the familiar form
+E[Y] - Rf* |FI = - cov ( u’ (Yθ ), Yθ ) / E [u’ (Yθ )].
+
+(19)
+
+In practice, the covariance of the marginal utility with the risky asset is
+negative since in the good state consumption is high and the marginal
+utility is low, i.e. the risk premium is positive. Thus, the higher the
+covariance (the less negative), the lower the risk premium.
+
+18
+
+Next, we examine the effect of moral hazard on the risk premium. The
+share a >0 is necessary to induce effort, but, at the same time, a >0
+affects the asset returns as seen in (18)-(19). With moral hazard, there is
+partial insurance for the idiosyncratic risk and agents bear some of their
+own idiosyncratic risk in consumption. This implies that, in addition to
+aggregate risk, individuals must take into account idiosyncratic risk thus
+making the marginal utility more variable relative to the case of full
+insurance.
+For example, when there is full insurance to the idiosyncratic risk, or a
+=0, the risk premium is given in expression (19) and it is equal to the term
+-cov(u’(Yq ),Yq )/E[u’(Yq )] (as in the full information case) because
+individual consumption cz(θ )=Yθ for all z, and all variation in the
+marginal utility comes from the aggregate risk. When there is partial
+insurance to the idiosyncratic risk, a >0, there is the additional variation
+of the individual idiosyncratic risk in consumption, because cz (θ )πYθ ,
+thus increasing the variation of the marginal utility. In this case, the risk
+premium is given in (18), and we have that
+- cov ( u’ (cz (θ ))(1-aθ ), Yθ ) / E [u’ (cz (θ )) (1-aθ )] ≥
+- cov( u’(Yθ ),Y θ )/E[u’(Yθ )]
+
+(20)
+
+exactly because of the additional variation of the marginal utility in the
+second best.13 Hence, the risk premium, in the presence of contracts that
+13
+A proof of inequality (20) can be constructed using arguments analogous to Hansen
+and Jagannathan (1991). Using cov(u’(Yθ ),Yθ )=r12s1s2 , for {s1 ,s2 } the standard
+deviations of the first and second arguments in the covariance function, and r12 their
+correlation; we obtain from (19), E[Y - Rf*] = - r12s1s2 / E [u’ (Yθ )]. Hence,
+rearranging and taking absolute values yields | r12 | s1 / E [u’ (Yθ )] = |E[Y - Rf*]| / s2 .
+Given that | r12| £ 1, implies s1 / E [u’ (Yθ )] ≥ |E[Y - Rf*]| / s2 , so that a large risk
+
+19
+
+mitigate moral hazard, may be potentially larger relative to the case of full
+information.
+The crucial issue here is the effect of the fundamental incompleteness
+where agents can vary the preference towards effort across aggregate
+states. We have examined in section III that, in terms of expected utility
+(mean), it is in the best interest of the agent to report ∂ v(.;θ )/∂ θ <0
+which implies that [∂ e/∂ a (.)] is lowered, for a given level of effort, i.e. a
+is lowered. The key result here is that the variation in preference towards
+effort by the agent may mitigate the effect of moral hazard on asset prices
+moving the risk premium downwards. The intuition is simple: As a is
+lowered, the agent bears less idiosyncratic risk and there is less need to
+provide additional premium to the risk averse agent who holds assets.
+However, this is partial equilibrium. In general equilibrium, alternative
+individual preference towards effort will ultimately lead to a change in the
+level and variance of consumption as well, and the premium may move
+upwards or downwards depending on the nature of the endogenous meanvariance tradeoff. Hence, alternative individual preference towards effort
+may mitigate or enlarge the moral hazard effect on asset returns given in
+(20) once general equilibrium effects are fully accounted for.
+Next, we provide a quantitative evaluation of the general equilibrium
+effects of agents’ variations in preference towards effort under moral
+hazard and aggregate risk.
+
+premium is necessarily accompanied by a large standard deviation of the marginal utility.
+The marginal utility of cz (θ ) is at least as volatile as the marginal utility of Yθ , see
+expression (6), and the proof in complete.
+
+20
+
+V. QUANTITATIVE EVALUATION
+The quantitative evaluation of the model is performed with the following
+functional forms. The utility of consumption has the usual CRRA form:
+u(c) = c1-ρ /1-ρ,
+
+ρ >0
+
+(21)
+
+where ρ is the coefficient of relative risk aversion.
+The probability function p is given by
+p(e(.);θ ) = a(θ ) e(.)λ,
+
+λ∈(0,1), all θ
+
+(22)
+
+for a(θ )>0, a free parameter denoting the dependency of the probability
+function on the aggregate state, i.e. the way aggregate risk affects the
+productivity of individuals [see expression (3)]. The function is strictly
+increasing and strictly concave.
+The disutility of effort function takes the form
+v(e(.);θ ) = e(.)1+δ(θ )/1+δ(θ ),
+
+δ(θ )≥ 0, all θ
+
+(23)
+
+for δ(θ )≥ 0, all θ determining the extent of the effect of the aggregate
+state on the function v. Setting δ =0 indicates that total utility is linear in
+effort, and given the level of effort as δ increases, say δ >0, the lower the
+disutility of effort in total utility. In this latter case, an individual tolerates
+more effort when δ increases, i.e. has more “risk aversion” in effort. In
+terms of the results discussed in section III, we have a mapping between δ
+and ∂ v(.;θ )/∂ θ as
+dδ /dθ ö 0 ¤ ∂ v(.;θ )/∂ θ ä 0.
+
+(24)
+
+For a given level of effort e(.), as δ increases (decreases) with the
+aggregate state and v"(.;θ) increases or becomes more convex (decreases
+21
+
+or becomes less convex), then ∂ v(.;θ )/∂θ <(>)0. This is because as δ
+increases (decreases) with the aggregate state, the lower (higher) the
+disutility of effort and the higher (lower) the utility, i.e. ∂ v(.;θ )/∂θ <(>)
+0.
+Hence, the dependency of the parameter δ on the aggregate state
+conveniently captures the fundamental ambiguity in preference towards
+effort discussed in section III. When δ increases with the aggregate state,
+then ∂ v(.;θ )/∂θ <0 and as the macroeconomy is in a good state, the
+individual tolerates more effort in preference, and preference and
+aggregate state are positively correlated. When δ decreases with the
+aggregate state, then ∂ v(.;θ )/∂θ >0 and as the macroeconomy is in a good
+state, the individual tolerates less effort in preference, and preference and
+aggregate state are negatively correlated. Also, δ may be invariant to the
+aggregate state, then ∂ v(.;θ )/∂θ =0; and all cases are plausible.
+We evaluate the general equilibrium and asset prices for the economy
+by choosing a base parameter set with two basic characteristics: (i) The
+standard deviation of individual consumption and output is several times
+higher than the standard deviation of aggregate per individual
+consumption and output, as in the real world data, see e.g. Deaton (1991,
+1992), Pischke (1995); (ii) The parameter space is constrained so that the
+probability function is well defined, or p(.;.)∈(0,1).14 We choose a base
+parameter set as:
+
+14
+The quantitative evaluation is meant to provide a qualitative evaluation of the general
+equilibrium effects of individual preference behavior, so that we do not pursue a formal
+calibration exercise here.
+
+22
+
+{δ(G)=δ(B)=4.0;ρ =2.0;λ=0.25;π =0.5;
+yg=6.25; yb=0.5; a(G)=0.9; a(B)=0.8}
+
+(25)
+
+which implies a benchmark equilibrium where:
+e(G)=0.352
+
+E[Y]=4.240
+
+e(B)=0.332
+
+E[C]=4.240
+
+α(G)=0.104
+
+var(c)=0.120; std(c)=0.347
+
+α(B)=0.071
+
+var(y)=7.520;std(y)=2.742
+
+p(G)=0.694
+
+var(C)=0.062;std(C)=0.249
+
+p(B)=0.607
+
+var(Y)=0.062; std(Y)=0.249
+
+E[U] = -0.240
+
+E[Y]-Rf =0.03
+
+This benchmark equilibrium is one where effort is around and over 1/3,
+the extent of risk sharing reflected in α is between 7 and 10%, the
+probability of good individual output is between 60 and 70%. The
+standard deviation of individual income is about 11 times the standard
+deviation of aggregate per individual income, and the standard deviation
+of individual consumption is about 1.4 times the standard deviation of
+aggregate per individual consumption. Since there is no investment,
+aggregate output and consumption are identical and so are their variances.
+This is a plausible benchmark to examine the effects of alternative
+preferences toward effort in the presence of aggregate risk. The tables
+present percentage changes from the benchmark of δ(G)=δ(B)=4.0. Table
+1 presents the results where in column I, we increase δ uniformly to
+
+δ(G)=δ(B)=5.0, that is ∂ v(.;θ )/∂θ <0 or v"(e(.):θ ) increases uniformly.
+Effort increases across aggregate states by an average of about 18%, the
+23
+
+risk sharing measured by α decreases between 2.9 and 5.6%, the
+probability of the good state in individual output increases by an average
+4.6%. The consumption risk borne by the agent decreases by 1.4% and
+expected utility increases by 4.2%. It is clear that, across aggregate states,
+the agent can use preference toward effort to counter the principal's main
+incentive inducing tool in expression (12), [∂ e/∂ a (.)]>0. The effect on
+the risk-free return and premium is rather small. The risk-free return
+increases by 16 basis points and the premium remains virtually
+unchanged.
+The second column, II, presents the case where δ increases in the good
+aggregate state only, δ(G)=5.0 and δ(B)=4.0, reflecting behavior of
+tolerating more effort when the aggregate state is good and less effort
+when the aggregate state is bad; that is ∂ v(.;G)/∂ G<0 or v"(e(.);G)
+increases, and preference and aggregate state are positively correlated.
+While the effect on effort, risk sharing and probability of success is
+symmetric, the effects on the last four rows are instructive. When δ(G)
+increases, effort leads to more consumption in the good aggregate state
+(the bad aggregate state remains unchanged) and the consumption risk
+borne by the agent increases substantially. Even though the risk sharing
+amount reflected in α decreases, the agent is not diversifying much of the
+idiosyncratic risk because the variation in preference is positively related
+to the outcome of the aggregate state. However, expected utility increases,
+so that a mean-variance tradeoff emerges.
+The results in the highlighted column III illustrate those important
+issues. Column III presents the case where δ increases in the bad
+24
+
+aggregate state only, δ(B)=5.0 and δ(G)=4.0; that is ∂ v(.;B)/∂ B<0 or
+v"(e(.);B) increases. This reflects behavior of tolerating more effort when
+the aggregate state is bad and less effort when the aggregate state is good,
+i.e. the variation in preference is negatively correlated to the aggregate
+outcome. Now, when δ(B) increases, effort leads to more consumption in
+the bad aggregate state (the good aggregate state remains unchanged) and
+the consumption risk borne by the agent decreases substantially. The agent
+is diversifying individual risk using aggregate risk by adjusting the
+preference parameter towards effort. Not surprisingly, expected utility also
+increases in this case (it increases across all columns since ∂ v(.;θ )/∂θ
+<0). The effects on asset returns remain negligible.
+The last two columns, IV and V present the cases where δ increases in
+the good aggregate state and bad aggregate state but not uniformly. In
+column IV, δ(G)=5.0 and δ(B)=4.5; that is ∂ v(.;G)/∂ G<0 or v"(e(.);G)
+increases by more than ∂ v(.;B)/∂ B<0 or v"(e(.);B). Again, we note that
+the risk borne by the agent in terms of standard deviation of consumption
+increases. The highlighted column V is where δ(G)=4.5 and δ(B)=5.0;
+that is ∂ v(.;B)/∂ B<0 or v"(e(.);B) increases by more than ∂ v(.;G)/∂ G<0
+or v"(e(.);G). It confirms the diversification result with the standard
+deviation of consumption decreasing substantially. The risk-free return
+increases in both cases but less that in the symmetric case and still by very
+small amounts.
+The striking result of Table 1 is that agents can indeed use aggregate
+risk to diversify idiosyncratic risk thus affecting the main tool of the
+principal to provide incentives. By having a preference behavior of
+25
+
+tolerating more effort when the aggregate state is bad and less effort when
+the aggregate state is good, i.e. the variation in preference is negatively
+correlated with the aggregate outcome, the agent can effectively diversify
+idiosyncratic risk and increase expected utility under moral hazard.
+Alternatively, by having a preference behavior of tolerating less effort
+when the aggregate state is bad and more effort when the aggregate state is
+good, i.e. the variation in preference is positively related to the aggregate
+outcome, the agent looses the opportunity to further diversify idiosyncratic
+risk and an endogenous mean-variance tradeoff emerges under moral
+hazard.
+Tables 2 and 3 present sensitivity analysis regarding risk aversion in
+consumption and the parameter reflecting the (semi-) elasticity of the
+probability function with respect to changes in effort. In Table 2, we
+increase the consumption CRRA coefficient to ρ =3.0 and perform the
+same experiment of Table 1. The pattern emerging across Table 1 is not
+changed. Relative to Table 1, more consumption risk aversion magnifies
+effort, consumption and variance of consumption relative effects. The
+asset returns effect remains negligible. In Table 3, we increase the (semi-)
+elasticity of the probability function with respect to effort to λ=0.4,
+making the probability function more sensitive to effort. The pattern
+emerging across Table 1 is not changed as well. Relative to Table 1, the
+most notable effect is on the larger magnitude of the changes in the
+probability function across columns. The asset return effect is relatively
+larger, but still remains at below a quarter of a percent, thus negligible.
+The conclusion from the general equilibrium quantitative assessment is
+that variation in preference toward effort under moral hazard can be an
+26
+
+effective instrument to diversify idiosyncratic risk in the presence of
+aggregate risk. However, while moral hazard per se does have an effect on
+asset returns and the premium; actions of the agent using preference
+towards effort to diversify idiosyncratic risk do not seem to have a
+significant quantitative impact on the risk-free return and the risk
+premium.
+V. CONCLUSIONS
+In this paper, we have examined the effects of variation in individual
+preferences towards effort in the presence of aggregate and idiosyncratic
+risk under moral hazard. Our results center around a fundamental
+ambiguity in the preference towards effort in the presence of aggregate
+risk. This fundamental ambiguity implies incompleteness in the standard
+contract of the principal-agent relationship under moral hazard. We show
+that this incompleteness can be conveniently explored by the agent,
+effectively allowing for diversification of the idiosyncratic risk with
+aggregate risk.
+The main result is that by having a preference behavior consistent with
+the variation in preference being negatively related to the aggregate
+outcome, the agent can effectively diversify idiosyncratic risk and increase
+expected utility under moral hazard. Alternatively, when the variation in
+preference is positively related to the aggregate outcome, the agent looses
+the opportunity to diversify idiosyncratic risk and an endogenous meanvariance tradeoff between expected utility and consumption risk emerges
+under moral hazard. In all cases, the agent is better off in terms of
+expected utility by setting preference towards effort that tolerates more
+27
+
+effort symmetrically across aggregate states. The key is that by
+differentiating the preference behavior across aggregate states in a manner
+that is negatively correlated with the aggregate state allows idiosyncratic
+risk diversification.
+However, we found that the quantitative effect of the variation in
+preference towards effort on the risk-free return and the risk premium is
+negligible and less than a quarter of a percent in the best case scenario.
+Several avenues of future research are worth pursuing. First it is an
+important issue to understand the way individuals form preferences toward
+effort under aggregate risk and this seems to be an important avenue. The
+most challenging seems to be an extension to the dynamic case where
+principal and agent can interact and learn about each other actions
+possibly converging to a scheme that can restore the principal's full ability
+to induce effort, along the lines of Maskin and Tirole (1990), Hart and
+Tirole (1988).
+
+28
+
+REFERENCES
+
+Altissimo, Filippo and Paolo Zaffaroni (2003) "Towards Understanding
+the Relationship between Aggregate Fluctuations and Individual
+Heterogeneity." Working paper, European Central Bank and Banca
+D'Italia, July.
+Battigalli, Pierpaolo and Giovanni Maggi (2002) "Rigidity, Discretion and
+the Costs of Writing Contracts." American Economic Review, 92,
+798-817.
+Bianconi, Marcelo (2001) "Heterogeneity, Efficiency and Asset Allocation
+with Endogenous Labor Supply: The Static Case." Manchester
+School, 69, 253-268.
+Bianconi, Marcelo (2003a) "Private Information, Growth and Asset Prices
+with Stochastic Disturbances." International Review of Economics
+and Finance, 12, 1-24.
+Bianconi, Marcelo (2003b) Financial Economics, Risk and Information:
+An Introduction to Methods and Models. World Scientific Publishing
+Co., River Edge, NJ.
+Deaton, Angus (1991) "Saving and Liquidity Constraints." Econometrica,
+59, 1221-1248.
+Deaton, Angus (1992) Understanding Consumption. Claredon Lectures in
+Economics, Oxford University Press, Oxford, UK.
+Hansen, Lars and Ravi Jagannathan (1991) "Implications of Security
+Markets Data for Models of Dynamic Economics." Journal of
+Political Economy, 99, 225-262.
+Hart, Oliver (1995) Firms, Contracts, and Financial Structure. Claredon
+Press, Oxford, UK
+29
+
+Hart, Oliver and Jean Tirole (1988) "Contract Renegotiation and Coasian
+Dynamics." Review of Economic Studies, 60, 509-540.
+Hart, Oliver and John Moore (1999) "The Foundations of Incomplete
+Contracts." Review of Economic Studies, 66, 1-24.
+Holmstrom, Bengt (1979) "Moral Hazard and Observability." Bell Journal
+of Economics, 10, 74-91.
+Holmstrom, Bengt and Oliver Hart (1987) "The Theory of Contracts." In
+Bewley, Truman, Editor: Advances in Economic Theory: The Fifth
+World Congress. Cambridge University Press, Cambridge, UK.
+Jewitt, Ian (1988) "Justifying the First-Order Approach to Principal-Agent
+Problems." Econometrica, 56, 1177-1190.
+Kahn, James A. (1990) “Moral Hazard, Imperfect Risk Sharing, and the
+Behavior of Asset Returns.” Journal of Monetary Economics, 26, 2744.
+Kocherlakota, Narayana (1998) “The Effects of Moral Hazard on Asset
+Prices when Financial Markets are Complete.” Journal of Monetary
+Economics, 41, 39-56.
+Kreps, David (1990) Microeconomic Theory. Princeton University Press.
+Princeton, NJ.
+Maskin, Eric and Jean Tirole (1990) "The Principal-Agent Relationship
+with an Informed Principal: I. Private Values." Econometrica, 58,
+379-410.
+Phelan, Christopher (1994) "Incentives and Aggregate Shocks." Review of
+Economic Studies, 61, 681-700.
+Pischke, Jorn-Steffen (1995) “Individual Income, Incomplete Information
+and Aggregate Consumption.” Econometrica, 63, 805-840.
+Rogerson, William (1985) "The First-Order Approach to Principal-Agent
+Problems." Econometrica, 53, 1357-1368.
+
+30
+
+Table 1: Effect of Alternative Preference Toward Effort Conditional on
+Aggregate Risk
+Percentage change from base set: δ(G)= δ(B)=4.0; ρ=2.0; λ=0.25
+{π=0.5; yg=6.25; yb=0.5; a(G)=0.9; a(B)=0.8}
+
+ρ =2.0
+
+δ(G)=5.0
+
+δ(G)=5.0
+
+δ(G)=4.0
+
+δ(G)=5.0
+
+δ(G)=4.5
+
+λ =0.25
+
+δ(B)=5.0
+
+δ(B)=4.0
+
+δ(B)=5.0
+
+δ(B)=4.5
+
+δ(B)=5.0
+
+I
+
+II
+
+III
+
+IV
+
+V
+
+e(G)
+
+17.8
+
+17.8
+
+0
+
+17.8
+
+9.4
+
+e(B)
+
+18.4
+
+0
+
+18.4
+
+9.6
+
+18.4
+
+α(G)
+
+-2.9
+
+-2.9
+
+0
+
+-2.9
+
+-1.0
+
+α(B)
+
+-5.6
+
+0
+
+-5.6
+
+-2.8
+
+-5.6
+
+p(G)
+
+4.8
+
+4.8
+
+0
+
+4.8
+
+2.2
+
+p(B)
+
+4.3
+
+0
+
+4.3
+
+2.3
+
+4.3
+
+std(c)
+
+-1.4
+
+16.9
+
+-15.6
+
+6.9
+
+-8.3
+
+E[U]
+
+4.2
+
+2.9
+
+0.8
+
+3.8
+
+2.5
+
+Rf (*)
+
+0.16
+
+0.06
+
+0.09
+
+0.11
+
+0.13
+
+E[Y]-Rf
+
+0.00
+
+0.02
+
+-0.02
+
+0.01
+
+-0.01
+
+(*)
+(*) Percentage point change (difference) from base set.
+
+31
+
+Table 2: Effect of Alternative Preference Toward Effort Conditional on
+Aggregate Risk
+Percentage change from base set: δ(G)= δ(B)=4.0; ρ=3.0; λ=0.25
+{π=0.5; yg=6.25; yb=0.5; a(G)=0.9; a(B)=0.8}
+
+ρ =3.0
+
+δ(G)=5.0
+
+δ(G)=5.0
+
+δ(G)=4.0
+
+δ(G)=5.0
+
+δ(G)=4.5
+
+λ =0.25
+
+δ(B)=5.0
+
+δ(B)=4.0
+
+δ(B)=5.0
+
+δ(B)=4.5
+
+δ(B)=5.0
+
+I
+
+II
+
+III
+
+IV
+
+V
+
+e(G)
+
+23.5
+
+23.5
+
+0
+
+23.5
+
+12.2
+
+e(B)
+
+23.9
+
+0
+
+23.9
+
+12.1
+
+23.9
+
+α(G)
+
+0.0
+
+0.0
+
+0
+
+0.0
+
+0.0
+
+α(B)
+
+-3.4
+
+0
+
+-3.4
+
+-1.7
+
+-3.4
+
+p(G)
+
+5.5
+
+5.5
+
+0
+
+5.5
+
+3.0
+
+p(B)
+
+5.5
+
+0
+
+5.5
+
+3.0
+
+5.5
+
+std(c)
+
+1.4
+
+27.0
+
+-20.8
+
+13.0
+
+-9.9
+
+E[U]
+
+9.1
+
+9.1
+
+3.0
+
+9.1
+
+6.1
+
+Rf (*)
+
+0.19
+
+0.06
+
+0.11
+
+0.13
+
+0.16
+
+E[Y]-Rf
+
+0.00
+
+0.04
+
+-0.02
+
+0.02
+
+-0.01
+
+(*)
+(*) Percentage point change (difference) from base set.
+
+32
+
+Table 3: Effect of Alternative Preference Toward Effort Conditional on
+Aggregate Risk
+Percentage change from base set: δ(G)= δ(B)=4.0; ρ=2.0; λ=0.40
+{π=0.5; yg=6.25; yb=0.5; a(G)=0.9; a(B)=0.8}
+
+ρ =2.0
+
+δ(G)=5.0
+
+δ(G)=5.0
+
+δ(G)=4.0
+
+δ(G)=5.0
+
+δ(G)=4.5
+
+λ =0.40
+
+δ(B)=5.0
+
+δ(B)=4.0
+
+δ(B)=5.0
+
+δ(B)=4.5
+
+δ(B)=5.0
+
+I
+
+II
+
+III
+
+IV
+
+V
+
+e(G)
+
+15.6
+
+15.6
+
+0
+
+15.6
+
+8.2
+
+e(B)
+
+15.9
+
+0
+
+15.9
+
+8.4
+
+15.9
+
+α(G)
+
+0.0
+
+0.0
+
+0
+
+0.0
+
+0.0
+
+α(B)
+
+-2.4
+
+0
+
+-2.4
+
+-1.2
+
+-2.4
+
+p(G)
+
+5.9
+
+5.9
+
+0
+
+5.9
+
+3.2
+
+p(B)
+
+6.1
+
+0
+
+6.1
+
+3.3
+
+6.1
+
+std(c)
+
+0.1
+
+19.1
+
+-14.7
+
+8.6
+
+-7.5
+
+E[U]
+
+5.3
+
+3.8
+
+1.1
+
+4.5
+
+3.4
+
+Rf (*)
+
+0.20
+
+0.08
+
+0.12
+
+0.14
+
+0.16
+
+E[Y]-Rf
+
+-0.01
+
+0.03
+
+-0.02
+
+-0.01
+
+-0.01
+
+(*)
+(*) Percentage point change (difference) from base set.
+
+33
+
+

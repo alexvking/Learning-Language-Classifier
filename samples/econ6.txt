@@ -1,0 +1,3081 @@
+The Implications of Market Structure for Appliance
+Energy Efficiency Regulation
+
+C. Anna Spurlock
+Lawrence Berkeley National Laboratory
+
+Selected Paper prepared for presentation at the Agricultural & Applied Economics
+Association’s 2014 AAEA Annual Meeting, Minneapolis, MN, July 27-29, 2014.
+
+Copyright 2014 by C. Anna Spurlock. All rights reserved. Readers may make verbatim
+copies of this document for non-commercial purposes by any means, provided that this
+copyright notice appears on all such copies.
+
+The Implications of Market Structure for Appliance
+Energy Eﬃciency Regulation
+By C. Anna Spurlock
+
+∗
+
+Draft: March 5, 2014
+
+I derive and test predictions from the classic Mussa and Rosen
+(1978) second-degree price discrimination model using data from
+the United States clothes washer market. I ﬁnd evidence consistent with price discrimination in the market response to energy efﬁciency policy changes. Concurrent with the eﬀective dates of both
+the new 2004 and 2007 federal minimum eﬃciency and ENERGY
+STAR standards, within-model clothes washer prices dropped on
+average. The heterogeneous pattern of price reduction across market segments, and adjustments in the menu of products, were consistent with predictions from the price-discrimination model, and
+not with a perfectly competitive market.
+JEL: D43, L51, Q48
+Keywords: Price discrimination, minimum performance standards, energy eﬃciency
+
+∗ Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Mailstop 90R4000 Berkeley, CA 94720
+USA, caspurlock@lbl.gov. This manuscript has been authored by a researcher at Lawrence Berkeley
+National Laboratory under Contract No. DE-AC02-05CH11231 with the U.S. Department of Energy. The
+U.S. Government retains a non-exclusive, paid-up, irrevocable, world-wide license to publish or reproduce
+the published form of this manuscript, or allow others to do so, for U.S. Government purposes. A previous
+version of this research appeared in my doctoral dissertation from UC Berkeley entitled “Essays in Energy
+Economics,” and was made into a Lawrence Berkeley National Laboratory report entitled “Appliance
+Eﬃciency Standards and Price Discrimination.” I would like to thank my dissertation committee – Peter
+Berck, Meredith Fowlie, Stefano DellaVigna, and Soﬁa Berto Villas-Boas – for their invaluable feedback
+and advice. I also thank Larry Dale, Margaret Taylor, Sebastien Houde, Max Auﬀhammer, Hung-Chia
+(Dominique) Yang, Sydny Fujita, and Greg Rosenquist for their help and comments. Finally, I’d like
+to thank Brian Gerke, Lin He, and Andrew Sturges for their extensive work acquiring, organizing and
+matching the data. All errors are my own.
+
+1
+
+2
+
+MONTH YEAR
+
+The structure of the market for energy-consuming durables, such as appliances and automobiles, has important implications for energy eﬃciency regulation. These implications are explored in detail in this paper for the case of
+the United States (US) clothes washer market. Firms with market power that
+supply quality-diﬀerentiated goods have an incentive to under-supply quality relative to the social optimum - to those with the lowest willingness-to-pay for a
+given quality characteristic in order to charge higher margins on products geared
+towards consumers with a higher valuation of that quality characteristic. This
+behavior is a form of second-degree price discrimination.
+The classic model of a monopolist engaging in second-degree price discrimination in a quality-diﬀerentiated goods setting was articulated by Mussa and Rosen
+(1978). Many researchers have since extended this original model (e.g., De Meza
+and Ungern-Sternberg 1982; Katz 1984; Ronnen 1991; and Crampes and Hollander 1995). Most work to date addressing price discrimination in the context of
+eﬃciency regulation in particular has focused largely on the automobile market,
+and implications or repercussions of the corporate average fuel economy (CAFE)
+standard. Some examples include the work of Fischer (2005 and 2010), primarily
+focusing on a theoretical discussion of the comparative performance of various
+environmental regulation mechanisms in an industry with consumer preference
+heterogeneity for energy eﬃciency and ﬁrms with market power. In the area of
+household appliances, the question of market structure was empirically addressed
+by Ashenfelter, Hosken and Weinberg (2011). They demonstrated that the 2006
+merger of Maytag and Whirlpool resulted in an increase in price and decrease
+in product variety for some appliances, an outcome consistent with consolidating
+market power. Additionally Houde (2012) demonstrated that the market response
+to the 2008 change to the ENERGY STAR (ES) standard for refrigerators was
+consistent with the Mussa and Rosen (1978) second-degree price discrimination
+model.
+In this paper I extend the previous work in this area; I empirically demonstrate
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+3
+
+evidence consistent with price discrimination in the US clothes washer market
+by documenting the market response to tightening the US federal minimum eﬃciency (ME) standard. The theoretical prediction when a stricter ME standard is
+imposed in a market in which ﬁrms have been price discriminating with respect
+to energy eﬃciency is a drop in prices faced by consumers in the short run. Some
+evidence of an average drop in clothes washer prices was found by Chen, Dale
+and Roberts (2013) at the time of the January 1st, 2007 restriction to the US
+federal ME standard. In this paper I conﬁrm this result for the 2007 standard
+change, as well as demonstrate that the average drop in prices was even more
+pronounced at the time of the January 1st, 2004 restriction to the federal ME
+standard. Additionally, I demonstrate that concurrent with the eﬀective dates of
+both the 2004 and 2007 standard changes, the heterogeneous pattern of the drop
+in prices across various eﬃciency-related market segments, as well as patterns of
+change in the menu of products oﬀered, are consistent with those predicted by
+the second-degree price discrimination model, and not readily consistent with a
+perfectly competitive market.
+In particular, I use a model based oﬀ of the Mussa and Rosen (1978) articulation of monopolistic second-degree price discrimination. I discuss the implication
+of both a combined change in the ES and ME standards, and the oligopolistic
+structure of the market, in the context of this model and its extensions in the
+literature. I derive testable predictions regarding the price and menu adjustment
+response to a combined change in the ME and ES standards. The predictions
+diﬀerentiate between the case of a market in which ﬁrms can price discriminate
+versus a perfectly competitive market. These testable predictions are: (i) The
+imposition of a ME standard in a perfectly competitive market would predict an
+increase in the price of products that are close substitutes to those eliminated
+by the standard. On the other hand, in a market with imperfect competition in
+which ﬁrms have been engaging in second-degree price discrimination, the imposition of a more stringent ME standard would impose downward pressure on prices
+
+4
+
+MONTH YEAR
+
+across the market, and in particular on mid- to low-end market segments; (ii) The
+predicted eﬀect of a simultaneous change in both the ME and ES standards on the
+price of products that remain ES certiﬁed across the standard change is ambiguous in the imperfectly competitive market. However, an observed drop in these
+prices would be consistent with price discrimination and not perfect competition;
+and ﬁnally (iii) in an oligopolistic market, the imposition of a ME standard could
+stimulate expansion upward in the provision of eﬃciency in the market, and potentially increase product diversity on other dimensions besides eﬃciency as well.
+This would not necessarily be the case in a perfectly competitive setting. I show
+evidence consistent with an oligopolistic market structure for all three of these
+points.
+The implication for these results is that, in addition to negative environmental externalities, energy eﬃciency regulation directly addresses a second market
+failure imposed by market power and the resulting under-provision of, and overcharging for, energy eﬃciency relative to the social optimum. Additionally, because of this market failure, the imposition of increasingly stringent regulation
+does not necessarily result in the short-run trade-oﬀ of higher consumer prices
+generally assumed in current federal ME standard regulatory impact analyses.
+This point has important implications for projected welfare eﬀects of regulation,
+both in terms of greater welfare gains, as well as a redistribution of the costs of
+regulation away from consumers towards producers.
+This paper will proceed as follows. Section I provides background on the history
+of energy eﬃciency regulation at the federal level in the US; section II presents
+the price-discrimination model and discusses the predictions for how the comparative static eﬀect on prices and product provision diﬀer between the competitive
+and oligopolistic cases across the market; section III discusses the data; section IV demonstrates the empirical results of the average drop in prices in the
+clothes washer market concurrent with the new standard eﬀective dates; section
+V presents results from empirically testing the speciﬁc model predictions by look-
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+5
+
+ing at the heterogeneous eﬀects of the standard changes across diﬀerent market
+segments; and ﬁnally section VI concludes.
+I.
+
+Policy Background
+
+In 1975 the Energy Policy and Conservation Act (EPCA) laid the initial groundwork at the national level for a variety of energy eﬃciency measures including test
+procedures, labels and targets. EPCA was amended in 1979 to include energy efﬁciency standards to be established by the Department of Energy (DOE). In 1987
+the National Appliance Energy Conservation Act (NAECA) established legislation stipulating that the minimum eﬃciency benchmark be periodically increased
+for a variety of appliances sold in the US. Further legislation, including the Energy
+Policy Act (EPAct) of 1992, as well as EPAct of 2005, and the Energy Independence and Security Act (EISA) of 2007 have continued to extend the number of
+products subject to standards, as well as update standards, test procedures, and
+review schedules.
+Clothes washers were among the initial set of products for which ME standards
+were established through NAECA; in 1987 Congress adopted the ﬁrst federal
+standard for clothes washers to be eﬀective in 1988. DOE adopted the second
+federal clothes washer standard in 1991, which went into eﬀect in 1994. This
+analysis focuses on the third federal clothes washer standard, which was adopted
+by DOE in 2001, and went into eﬀect in a two-tier process. The ﬁrst phase was
+eﬀective on January 1st, 2004, and the second phase on January 1st, 2007. Also
+in 2007, the fourth federal clothes washer standard was adopted by Congress, but
+would not be eﬀective until 2011.
+Clothes washers are also subject to the ES label. This is not a restrictive
+standard, but rather establishes a benchmark of eﬃciency above which products
+qualify for the ES label, signaling a model as highly eﬃcient to potential customers.
+Table 1 provides a breakdown of the federal ME and ES standards for clothes
+
+6
+
+MONTH YEAR
+
+washers enacted between 1991 and 2007. Before 2004, the ME standard was based
+on the Energy Factor (EF), which measures eﬃciency in terms of cubic feet per
+kWh per cycle. In 2004 the criteria for meeting the ME standard became based
+on the Modiﬁed Energy Factor (MEF). The MEF, also measured in cubic feet per
+kWh per cycle, expanded upon the EF by incorporating the energy required to
+dry moisture remaining in the clothing following the ﬁnal spin cycle. Similarly,
+starting in 2001 the ES benchmark (only established for standard-size models)
+was based oﬀ of the MEF. Beginning in 2007, the ES benchmark also became
+contingent on the Water Factor (WF), which is the number of gallons per cycle
+per cubic foot used by the washer.
+Table 1—US Federal Clothes Washer ME and ES Standards between 1991 and 2007
+
+Year
+Adopted
+
+Year
+Eﬀective
+
+Compact
+(TL)
+
+Standard
+(TL and FL)
+
+ES
+Requirment
+
+1991
+
+1994
+
+EF≥0.9
+
+EF≥1.18 (TL only)
+
+-
+
+1997
+
+2001
+
+-
+
+-
+
+MEF≥1.26
+
+2001
+
+2004
+
+MEF≥0.65
+
+MEF≥1.04
+
+MEF≥1.42
+
+2001
+
+2007
+
+(no change)
+
+MEF≥1.26
+
+MEF≥1.72
+WF≥8.0
+
+Note: This table shows adoption and eﬀective years of the federal ME and ES standards between 1991
+and 2007. The standards are set based on the energy factor (EF), modiﬁed energy factor (MEF), and
+water factor (WF). While the standards for clothes washers diﬀer between compact and standard-size
+models, the majority (approximately 99 percent) of observations in my data are standard-class (capacity
+greater than 1.6 cubic feet).
+Source: http://www.energystar.gov and http://www.appliance-standards.org/national
+
+II.
+
+Model
+
+There is an extensive theoretical literature discussing price discrimination with
+quality diﬀerentiation in imperfectly competitive markets. The classic case is
+a monopoly engaging in second-degree price discrimination. This form of price
+discrimination induces consumers to reveal otherwise unobservable information
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+7
+
+about their preferences for a quality characteristic of a product by structuring
+options and prices such that consumers sort themselves into purchasing the product that targets their willingness to pay for that characteristic. In this way the
+monopolist can extract more consumer surplus than if they supplied only one
+product type, or the socially optimal menu of products. Mussa and Rosen (1978)
+provide the original model with a monopoly supplier and a continuous distribution
+of consumer preferences for quality.
+In section II.A I restate the basic model of a price discriminating monopolist,
+and the predictions of how a ME standard change alone will aﬀect prices; in
+section II.B I discuss the implication of the market being oligopolistic or monopolistically competitive, rather than monopolistic; in section II.C I discuss the
+implication of the ME and ES standards changing simultaneously; and ﬁnally, in
+section II.D I summarize the predictions of the model.
+
+A.
+
+Monopoly Price Discrimination and Minimum Eﬃciency Standard Change
+
+I present here a simple reproduction, with N discrete types of consumers, of the
+key aspects of the classic Mussa and Rosen (1978) monopoly price discrimination
+model, pulling heavily from the characterization used by others (e.g., Donnenfeld
+and White 1988; Ronnen 1991; Fischer 2005; Houde 2012).I then outline, following
+Fischer (2005), the result of imposing a ME standard in this model.
+Assume consumers have unit demand for a good, here an energy consuming
+durable such as a clothes washer. Assume N types of consumers – low (type 1)
+to high (type N ) – characterized by having diﬀerent levels of willingness to pay
+for eﬃciency; assume θk is the valuation of consumer type k for eﬃciency where,
+without loss of generality, θ1 < ... < θN . In equilibrium there will be N models
+of clothes washers provided by the market, indexed by j, which vary in eﬃciency
+(ej ) and price (pj ). Equation 1 shows the utility of consumer type k for model j.
+
+8
+
+MONTH YEAR
+
+Ukj = θk ej − pj
+
+(1)
+
+Suppose there are M consumers and sk M have valuation θk , where
+
+￿N
+
+k=1 sk
+
+=
+
+1. The monopolist does not observe a consumer’s type, so they cannot perfectly
+price discriminate. Assume the cost of producing energy eﬃciency level ej is
+c (ej ), and that c (ej ) ≥ 0, c￿ (ej ) ≥ 0 and c￿￿ (ej ) > 0.1 Note that I’m using k
+to index consumer types and j to index model types. In equilibrium each model
+type will correspond to one consumer type, so k and j will be equivalent. At this
+point I make this explicit by indexing everything by j.
+A social planner would choose the eﬃciency levels of their menu of products
+to maximize total welfare. They would therefore solve the optimization problem
+presented in equation 2.
+
+(2)
+
+max W =
+
+e1 ,...,eN
+
+N
+￿
+j=1
+
+￿
+￿
+sj · θj ej − c (ej )
+
+￿ ￿
+The solution to the social planner’s problem is p∗ = c￿ e∗ = θj , ∀j ∈
+j
+j
+
+{1, ..., N }. This implies that the social planner would choose to increase the
+eﬃciency for each model up until the point that the marginal cost of producing
+that level of eﬃciency just equals the marginal consumer valuation. In a perfectly
+competitive setting with free entry of new ﬁrms, price above marginal cost would
+result in excess supply, so the socially optimal prices are also equal to marginal
+cost.
+Now I turn to the monopoly case. The monopolist picks the levels of eﬃciency
+and price (ej , pj ) for each of the N models it supplies in order to extract the
+1 The choice of a strictly convex cost of quality (or alternatively a concave-in-quality objective function) is a necessary condition for a separating price discrimination equilibrium to be optimal for the
+monopolist (Salant 1989).
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+9
+
+maximum consumer surplus from all N types of consumers. If the monopolist
+could perfectly price discriminate, they would have an incentive to provide the
+social welfare maximizing level of eﬃciency, and would set price such that each
+consumer would just be indiﬀerent between purchasing and not purchasing the
+product. However, if the monopolist cannot ex ante identify a consumer’s type,
+this outcome would not be an equilibrium.
+In the case where the monopolist cannot identify which type of consumer is
+which, they will engage in imperfect – or second-degree – price discrimination.
+The monopolist chooses the eﬃciency levels and prices of the N types of models
+they supply by maximizing their proﬁt subject to the IRj and ICjk constraints for
+all j and k ￿= j types of consumers, where IRj refers to the Individual Rationality
+(IR) constraint for the type j consumer, guaranteeing that all consumers will
+participate in the market,2 and ICjk refers to the Incentive Compatibility (IC)
+or self-selection constraint, assuring that consumer type j will be unwilling to
+purchase product type k ￿= j in equilibrium. In a separating equilibrium (i.e.
+
+pj ￿= pk and ej ￿= ek ∀j ￿= k), then θ1 < ... < θN implies that IR1 and ICjj−1 ∀j ∈
+{2, ..., N } are binding while all other IR and IC constraints are non-binding.The
+monopolist’s problem simpliﬁes to that shown in equation 3.
+
+(3)
+
+max
+
+p1 ,...,pN ,e1 ,...,eN
+
+π=
+
+N
+￿
+j=1
+
+sj · (pj − c (ej ))
+
+s.t.
+IR1 :θ1 e1 − p1 = 0
+ICjj−1 :θj ej − pj = θj ej−1 − pj−1 , ∀j ∈ {2, ..., N }
+The solution for the monopolist, (¯j , pj ), under second-degree price discriminae ¯
+tion is presented in equation 4.
+2 The monopolist may ﬁnd it more proﬁtable to only sell to a subset of consumer types, in which case
+the IR constraint for all types would not hold. For the time being I assume away this case.
+
+10
+
+MONTH YEAR
+
+(4)
+
+￿
+
+c (¯j ) =
+e
+
+pj =
+¯
+
+
+ j
+θ −
+ j
+θ
+
+ j
+ θ ej
+¯
+
+￿j+1
+
+k=1 sk
+sj
+
+￿
+
+θj+1 − θj
+
+
+pj−1 + θj (¯j − ej−1 )
+¯
+e
+¯
+
+￿
+
+if j ∈ {1, ..., N − 1}
+if j = N
+if j = 1
+if j ∈ {2, ..., N }
+
+These results, as originally demonstrated by Mussa and Rosen (1978), indicate
+that the second-degree price discriminating monopolist distorts downward the efﬁciency of all but the highest type products relative the social welfare maximizing
+case. At the same time they charge more for a given level of eﬃciency compared
+to the welfare maximizing case.3 In addition this price diﬀerential is higher for
+higher levels of eﬃciency.
+I now turn to a scenario in which a ME standard is imposed. This reproduces the same result as others who have discussed ME standards in a market
+facing this type of price discrimination (e.g., Fischer 2005). Assume in this simple example that the ME standard requires that the monopolist only supply
+products with eﬃciency level greater than or equal to the socially optimal eﬃciency level for the lowest type of consumer (i.e., the ME standard requires that
+ej ≥ e∗ ∀j ∈ {1, ..., N }). Note that this is a binding constraint for the monopolist.
+1
+For simplicity I assume the standard is non-binding for all other eﬃciency levels.
+The new monopoly solution of optimal price and eﬃciency levels given the
+standard is presented in equation 5.
+
+3 For example, note that p∗ (e ) = θ 2 e = θ 2 e + θ 2 (e − e ) while on the other hand p (e ) =
+¯ 2
+2
+1
+2
+1
+2
+2 2
+θ 1 e1 + θ 2 (e2 − e1 ). Therefore, so long as θ 2 > θ 1 , then for a given level of eﬃciency p2 (e2 ) > p∗ (e2 ).
+¯
+2
+
+VOL. VOLUME NO. ISSUE
+
+(5)
+
+
+θ j
+
+
+
+
+￿j+1
+￿
+￿
+￿ S
+c (ej ) = θj − k=1 sk θj+1 − θj
+sj
+
+
+
+ j
+θ
+
+ j ∗
+θ e
+j
+S
+pj =
+￿
+￿
+ S
+p
++ θ j eS − eS
+j−1
+j
+j−1
+
+The result is that
+and
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+∂pj
+∂Standard
+
+∂e1
+∂Standard
+
+> 0;
+
+∂ej
+∂Standard
+
+11
+
+if j = 1
+if j ∈ {2, ..., N − 1}
+if j = N
+if j = 1
+if j ∈ {2, ..., N }
+
+= 0 ∀j ∈ {2, ..., N };
+
+∂p1
+∂Standard
+
+> 0;
+
+< 0 ∀j ∈ {2, ..., N }. Although the type-1 customers face a price
+
+increase, it is oﬀset by the increase in their utility from improved eﬃciency, so
+they are no worse oﬀ from a welfare perspective. Indeed, Ronnen (1991) states
+that while the model predicts an increase in prices for this segment in nominal
+terms, prices may actually drop in eﬃciency-adjusted terms. All customer types
+above the lowest are made strictly better oﬀ, as they receive the same level of
+eﬃciency as before, but at lower prices.
+In the case of a perfectly competitive market on the other hand, the eﬃciencyprice schedule would already be socially optimal. Therefore, imposing a binding
+standard would result in
+
+∂p1
+∂Standard
+
+> 0 and
+
+∂pj
+∂Standard
+
+= 0, ∀j ∈ {2, ..., N }. How-
+
+ever, if the increase in price of the lowest eﬃciency group resulted in type-1 consumers substituting to higher eﬃciency levels, then this positive demand shock
+would potentially increase prices in higher eﬃciency segments as well.
+B.
+
+Oligopoly Case
+
+In the previous section I outlined the price eﬀect of the ME standard changing
+in a monopolistic market. However, the clothes washer market in the US is
+better described as oligopolistic or monopolistically competitive. The top four or
+ﬁve manufacturers, including their brand subsidiaries, control between 93 and 98
+
+12
+
+MONTH YEAR
+
+percent of the market.4 Whirlpool in particular controlled over 50 percent of the
+market on average in the period of this analysis according to the data used in this
+study.
+There is a rich literature demonstrating that even when the monopoly assumption is relaxed to allow for duopoly, oligopoly, or monopolistic competition, the
+unregulated case still results in an ineﬃcient range of quality, with a depression of
+quality on the low-end below the socially optimal level, and prices still higher than
+socially optimal. In particular Katz (1984) discusses a case with multiple ﬁrms
+each selling a range of product quality, and with market power due to brand
+loyalty. This brand loyalty is modeled as a premium incurred by consumers if
+they have to switch from their preferred brand. A key assumption is that consumers who are more quality-conscious are also more brand-conscious. In this
+setting, there are higher margins on the high-end segments of the market, and
+more competition in the low-end of the market. This means sales of high-end
+products are more proﬁtable, and it is therefore more important to capture and
+maintain the loyalty of those consumers on the high-end relative to the low-end.
+For this reason, quality on the low-end is depressed downwards to prevent high
+types from switching down. Therefore, quality is depressed on the low-end in the
+non-monopoly imperfect competition case, and price margins still increase with
+quality. Indeed De Meza and Ungern-Sternberg (1982) demonstrate it can even
+be the case that a monopolistically competitive market result in an even wider
+range of quality and even higher prices than in the monopoly case.
+Some more recent theoretical literature has returned to the price discrimination
+model and found some more ambiguous results when the market is oligopolistic
+(e.g., Armstrong and Vickers 2001; Rochet and Stole 2002; Fischer 2010). However, while there are some cases in which the equilibrium outcome is such that
+quality is not depressed on the low end, or price is not elevated on the high end, of
+4 The top manufacturers of clothes washers are Whirlpool, General Electric, Maytag (before their
+merger with Whirlpool in 2006), Electrolux, and LG Electronics.
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+13
+
+an unregulated oligopolistic market, these equilibria are not always unique (Armstrong and Vickers 2001), and are highly sensitive to the assumption that brand
+and quality preferences are uncorrelated (Armstrong and Vickers 2001; Rochet
+and Stole 2002). This is an empirical question, but the results when brand preference and quality are correlated do tend to be more consistent, and anecdotal
+evidence from informal discussions with people involved in the industry corroborates this description of the market. So, for now, I choose to defer to the earlier
+theoretical literature by Katz (1984) and others.
+Others have demonstrated the theoretical impact of minimum quality standards on quality-diﬀerentiated markets that are oligopolistic or monopolistically
+competitive. In particular Ronnen (1991) develops a model of an industry in
+which multiple ﬁrms face quality-dependent ﬁxed costs and compete in quality
+and prices. In this model, the introduction of a minimum quality standard causes
+high quality sellers to increase quality to alleviate price competition induced by
+the collapsing of the quality range on the low end. However, the assumption that
+c￿￿ (e) > 0 assures high quality producers raise quality less than the increase in
+quality on the low end induced by the minimum quality standard. This means
+price competition is intensiﬁed regardless of attempts by high-end ﬁrms to alleviate it, so in the end, prices (controlling for quality level) still drop. Crampes
+and Hollander (1995) extend the model developed by Ronnen (1991) by allowing
+the quality costs to be variable instead of ﬁxed. They ﬁnd the same qualitative
+results as did Ronnen, but while Ronnen showed that consumers necessarily gain
+from a minimum quality standard, Crampes and Hollander show that consumer
+welfare increases only if the high quality ﬁrm does not respond by raising quality
+too drastically.
+Therefore, predictions for an oligopolistic or monopolistically competitive market are qualitatively consistent with the monopoly case, contingent on the assumption that consumers who care more about quality are also more likely to be
+brand-conscious. This implies that the monopoly model is a reasonable proxy for
+
+14
+
+MONTH YEAR
+
+the non-monopoly imperfect competition setting.
+In addition to the consistency of the price predictions between the monopolistic and oligopolistic models, the literature on oligopolistic price discrimination
+discusses an additional implication of imposing a minimum quality standard in
+such a setting. Ronnen (1991) and Crampes and Hollander (1995) derive that
+following a new minimum quality standard, imperfectly competitive producers
+have an incentive to expand quality upwards to increase the spread of quality
+in the market again following the new standard. They do this to alleviate the
+increased price competition between products imposed by the quality distribution
+collapse following the new standard. Realistically speaking, there is more than
+one quality dimension for products supplied in these markets, so I would suggest
+that this process by which ﬁrms attempt to reduce competition may be multifaceted; they may indeed expand the collapsed quality dimension upward (in this
+case increase the eﬃciency of products at the high end of the market following a
+ME standard restriction), but increased product diﬀerentiation could take place
+on other dimensions as well. Therefore, increased product diversity in general
+many be indicative of this process.
+C.
+
+ENERGY STAR Standard Change
+
+Here I discuss the implications of a change in the ES standard in the model with
+quality diﬀerentiated products. Houde (2012) explores the result of an isolated
+increase in the ES standard for refrigerators in 2008, in which case a change in the
+ES standard has distinct price predictions. In the setting when the ME standard
+is changing simultaneously, the ES standard changing primarily serves to muddle
+the predictions on the price for higher eﬃciency market segments.
+Pulling somewhat from Houde (2012), you can see this by assuming consumers
+do not pay perfect attention to the eﬃciency level of the products they consider
+purchasing, and so ej represents a composite of eﬃciency-relevant signals picked
+up by the consumer. One may be the true energy eﬃciency of the product, while
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+15
+
+another may be the ES status of the product, etc.
+Products decertiﬁed from ES as a result of the ES standard change may be
+perceived as less energy eﬃcient once they no longer have the ES label, even if the
+actual energy eﬃciency levels of the products have not changed. A decertiﬁcation
+from ES might result in a negative demand shock, resulting in a drop in the
+price of these products. This would be true regardless of market structure, and
+so does not serve as a basis to empirically diﬀerentiate between competitive and
+price-discriminating markets.
+For products that were ES certiﬁed both before and after the new standard, the
+model provides ambiguous price predictions. The prices of products that qualiﬁed
+for ES both before and after the new standard are not predicted to change in a
+perfectly competitive market. In the imperfectly competitive model however, the
+fact that consumers may perceive products that are decertiﬁed from ES as less energy eﬃcient than before could allow producers to increase the prices of products
+that remain ES compliant, this is because
+
+∂pj
+∂ej−1
+
+< 0 in the monopolistic price-
+
+discrimination model. However, the ME standard is putting downward pressure
+on the prices of these products as well, rendering the price prediction ambiguous.
+However, a drop in the price of products that remain ES compliant both before
+and after the standard is consistent with imperfect competition, though not with
+perfect competition.
+D.
+
+Summary of Model Predictions
+
+In summary, there are three primary predictions of the eﬀect of a new ME
+standard in the imperfectly competitive model that are in contrast to the predictions implied by a perfectly competitive model: (i) The imposition of a ME
+standard in a perfectly competitive market would predict an increase in the price
+of products in the market, particularly those that are close substitutes to products eliminated by the standard. On the other hand, in a market with imperfect
+competition in which ﬁrms have been engaging in second-degree price discrimina-
+
+16
+
+MONTH YEAR
+
+tion, the imposition of a more stringent ME standard would result in downward
+pressure on prices across the market, and in particular on mid- to low-end market
+segments; (ii) The predicted eﬀect of a simultaneous change in both the ME and
+ES standards on the price of products that remain ES certiﬁed is ambiguous in
+the imperfectly competitive market. However, an observed drop in these prices
+would be consistent with price discrimination and not perfect competition; and
+ﬁnally (iii) in an oligopolistic market, the imposition of a ME standard could
+stimulate expansion upward in the levels of eﬃciency supplied to the market, and
+potentially increase product diversity on other dimensions as well. This would
+not necessarily be the case in a perfectly competitive setting.
+III.
+
+Data
+
+I use point-of-sale data for clothes washers, dryers and room air conditioners
+(RACs) from NPD Group.5 These data are acquired from an incomplete set of
+retailers in the US.6 The data are aggregated to the national level and consist of
+monthly total revenue and total quantity sold observations by individual model
+number.
+The NPD data for clothes washers were matched to energy usage data by model
+number and year from three sources: (1) the Federal Trade Commission (FTC)
+appliance energy database, (2) the ENERGY STAR database, and (3) the California Energy Commission (CEC) appliance energy database. The FTC data
+provide a measure of kilowatt-hours per year (kWh/year) energy usage, which
+corresponds to the Energy Guide label posted on products at the point of sale.
+Both the ENERGY STAR and CEC sources provide data on the EF, MEF and
+WF of products.7 However, these latter sources cover a much smaller subset of
+the model numbers in the NPD data. The way in which I use these three energy
+use data sources is explained in more detail below.
+5 NPD is not an acronym, but rather the name of the company: The NPD Group, Inc., The NPD
+Group/NPD Houseworld. Port Washington, NY.
+6 A list of participating retailers can be found in Appendix A.
+7 The EF, MEF and WF energy usage measures were deﬁned in section I.
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+17
+
+In order to control for changes in macroeconomic shocks to the appliance market, and to control for changes to the retailer mix in the NPD data over time, I use
+both dryers and RACs as counterfactual groups.8 Neither dryers nor RACs had
+any energy-eﬃciency policy changes during the study period. However, both of
+these appliances are imperfect counterfactuals in some ways. First, RACs, while
+arguably a relatively independent product from clothes washers, did experience
+more general price volatility and were more prone to seasonal price variability
+compared to clothes washers. Second, dryers and washers are likely compliments,
+so their prices and sales should be positively correlated. Therefore the price effects of policies imposed on clothes washers measured relative to dryers will likely
+be underestimates.
+The NPD data, while extensive in some ways, are imperfect in others. In
+particular, 40 percent of the observations had model numbers that were masked
+to ensure anonymity of the retailers. These observations therefore could not be
+matched to any of the energy usage data, and so had to be omitted from the
+analysis. Of the models that do have fully detailed model numbers, 12 percent
+of the observations were for model numbers not included in the FTC energy
+usage database, and therefore had to be omitted as well. In order to maintain
+comparability between clothes washers and the counterfactual appliance groups,
+masked model numbers were also dropped from the dryer and RAC data.
+As mentioned in Section I, the energy measures used to determine the compliance of washer models with ME and ES standards in 2004 and 2007 are the MEF
+and WF. These eﬃciency measures are not available for many of the models in
+the NPD data during this period. The ENERGY STAR and CEC data do provide these measures for a subset of models, speciﬁcally those that were at some
+point labeled as ES, or were sold in California. This means the MEF and WF
+data are only available for relatively high-eﬃciency models, and so cannot reli8 Some retailers did enter or exit the data at diﬀerent times in the series, however I was assured by
+NPD that the large retailers do not change over the study period.
+
+18
+
+MONTH YEAR
+
+ably be used to identify models that are made non-compliant with the new ME
+standards. However, they can more dependably identify whether or not models
+are ES qualiﬁed at various points in time. All models that could not be matched
+to the CEC or ENERGY STAR data are assumed to have never been ES qualiﬁed
+within the study period.
+While the FTC kWh/year measure does not correspond directly to the MEF or
+WF used to set the standards, it is an important indicator of energy consumption,
+particularly from the perspective of the consumer purchase decision, as it is posted
+on products at the retail outlet to inform consumers about the energy use of their
+potential purchases. I use the FTC energy use measure to identify models that
+are likely to have been eliminated by the new ME standards. This categorization
+is not exact, but provides a roughly intuitive way of stratifying the market to
+explore heterogeneous price eﬀects of changes in the standards. This process will
+be described in more detail in section V.
+There are 594 unique clothes washer models, 820 unique dryer models, and
+595 unique RAC models used in the analysis, summary statistics for which are
+provided in table 2. An individual appliance model number uniquely identiﬁes a
+particular design. Therefore, controlling for model-speciﬁc ﬁxed eﬀects will likely
+control for more or less all relevant unobserved characteristics of the models from
+a consumer perspective. If a major characteristic changes, then this is likely to
+result in a new unique model number.
+Looking more closely at the summary statistics in table 2, recall that the
+changes to clothes washer standards occurred on January 1st, 2004, and January
+1st, 2007. The real prices of clothes washers and dryers have risen on average
+between 2003 and 2007: approximately 5.3 percent for clothes washers and 26.8
+percent for dryers. On the other hand, the average real prices of RACs went down
+slightly (approximately 6.5 percent) over this time period. The FTC kWh/year
+energy use of clothes washers has signiﬁcantly decreased over this period, with
+a 56.3 percent reduction between 2003 and 2007. Additionally, the prevalence
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+19
+
+Table 2—Summary Statistics
+
+2003
+Dryer Price
+Number of Dryer Models
+RAC Price
+Number of RAC Models
+CW Price
+CW kWh per year
+Number of CW Models
+Share CW FL
+Share FL ES
+Share TL ES
+
+2004
+
+2005
+
+2006
+
+2007
+
+465.2
+(204.5)
+254
+
+519.8
+(265.9)
+219
+
+537.3
+(248.8)
+305
+
+548.6
+(249.1)
+358
+
+589.7
+(257.3)
+444
+
+391.8
+(219.1)
+295
+
+335.8
+(210.2)
+219
+
+334.3
+(210.1)
+277
+
+359.8
+(211.7)
+243
+
+366.5
+(217.8)
+211
+
+648.9
+(397.9)
+714.1
+(275.4)
+159
+
+694.9
+(416.8)
+446.9
+(192.8)
+237
+
+714.6
+(397.8)
+392.9
+(161.1)
+228
+
+707.0
+(382.8)
+368.0
+(154.1)
+241
+
+683.5
+(338.0)
+311.6
+(133.1)
+355
+
+0.18
+0.29
+0.05
+
+0.26
+0.75
+0.10
+
+0.33
+0.83
+0.16
+
+0.37
+0.88
+0.21
+
+0.46
+0.90
+0.11
+
+Note: This table shows annual averages (and standard deviations) of prices and energy consumption, as
+well as model counts, between 2003 and 2007 for the three products used in this analysis: clothes washers
+(CW), dryers, and room air conditioners (RAC). In addition, the share of CW models that are front load
+(FL); the share of FL models that are ES qualiﬁed; and the share of top load (TL) models that are ES
+qualiﬁed are shown for each year as well. Recall the minimum and ES standards changed for CW at the
+beginning of 2004 and 2007, while no energy eﬃciency policies aﬀected RAC or dryer during this period.
+Source: Author calculations.
+
+of front-loading washer models has steadily increased over time, making up 18
+percent of observations in 2003 and increasing to 46 percent in 2007. Finally,
+while the prevalence of ES qualiﬁcation has increased for both front- and top-load
+machines over this time period,9 it has generally been the case that front-load
+washers are much more likely to be ES qualiﬁed than top-load washers.
+Figure 1 shows the price trends – both on average and within-model – of the
+three appliances used in this analysis between 2002 and 2009, normalized to average prices in January 2002. Of particular interest in this ﬁgure is that the
+within-model prices drop steadily over this time period for all three appliances,
+9 Note that the indicator of ES qualiﬁcation is a proxy based on imperfect MEF and WF data,
+therefore the low rates of qualiﬁcation, particularly in 2003, may be an artifact of the data.
+
+20
+
+MONTH YEAR
+
+though less so for RACs. Note also the visible price drop, downward break in
+trend, or both, at both standard change dates for clothes washers (indicated by
+the vertical lines) but not for dryers or RACs. The next section quantiﬁes these
+price eﬀects.
+CW: Within−Model Price Change
+
+DR: Average Price Change
+
+DR: Within−Model Price Change
+
+RAC: Average Price Change
+
+RAC: Within−Model Price Change
+
+300 −600−300 0
+300 −600−300 0
+−600−300 0
+
+Price Relative to Jan. 2002
+
+300
+
+CW: Average Price Change
+
+2002m1
+
+2004m1
+
+2006m1
+
+2008m1 2002m1
+
+2004m1
+
+2006m1
+
+2008m1
+
+Month
+Average
+
+95% Confidence Intervals
+
+Figure 1. Market Average and Within-Model Price Trends
+Note: This ﬁgure shows the price trends, both on average (left-hand panels), and within-model (righthand panels) between 2002 and 2009 of the three products used in this analysis: clothes washers (CW),
+dryers (DR), and room air conditioners (RAC). The trends are shown relative to the average prices of the
+products in January 2002, which were $653.3 for CW, $442.7 for DR, and $424.3 for RAC. All prices are
+deﬂated using the consumer price index to December 2009 prices. The eﬀective dates of the two changes
+in the clothes washer standards are indicated by the vertical lines. Data from July 2008 was dropped in
+generating these ﬁgures, as the price data in that period was an extreme outlier and appears to be an
+anomaly.
+Source: Author calculations.
+
+IV.
+
+Results: Average Price Eﬀects
+
+In this section I estimate the market-average short-run price eﬀect at the time
+of the combined ME and ES standard changes for clothes washers. I limit all
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+21
+
+of the analysis in the remainder of the paper to one year prior to the standard
+change and one year after.10
+In order to quantify the eﬀects shown graphically in ﬁgure 1, I use two estimation strategies. First, I model time as ﬂexibly as possible by including dummy
+variables for each appliance-time-period (equation 6), and second I impose a linear time-trend assumption on prices (equation 7). In the former case, time is
+accounted for extremely ﬂexibly, and no structure is imposed on the prices over
+time, however the price eﬀect of the standard is primarily estimated oﬀ of the
+diﬀerences between prices in the month just prior to and the month in which
+the new standard became eﬀective, and so is sensitive to any anomalous shocks
+in these two months. In the latter case, I allow the linear trend to diﬀer across
+appliances and to change at the standard eﬀective date. Even given this, the
+assumption of a linear price trend is relatively restrictive. However, it does allow
+an estimation of the eﬀect of the standard on the rate of change of prices over
+time, as well as on the level change.
+The ﬁrst estimation strategy is presented in equation 6. In this equation pit is
+deﬂated price at time t of model i. The variable Ti is a dummy variable equal
+to one if the observation is for an appliance aﬀected by the standard (clothes
+washers) and equal to zero otherwise (dryers or RACs). The term Standardt is
+a dummy variable that turns on at the time the new standard takes eﬀect. The
+term τt represents a set of dummy variables for each time-period in the sample
+(with the month prior to, and the month of the standard change omitted). I run
+the regressions with and without ﬁxed eﬀects and with and without each of the
+counterfactual appliances. In the regressions with ﬁxed eﬀects the term µTi is
+omitted; in the regressions without ﬁxed eﬀects γi is omitted; and for regressions
+
+10 I limit the analysis to one year both before and after the policy change in order to isolate the analysis
+from other policy changes, and because the short-run is the most relevant lens for testing the imperfect
+competition price-discrimination model predictions presented in section II.
+
+22
+
+MONTH YEAR
+
+with no counterfactual group β2 = µ = 0.
+(6)
+
+pit =α + µTi + β2 Standardt + δTi · Standardt + τt + τt · Ti + γi + εit
+
+The second estimation strategy is presented in equation 7. In this equation
+pit , Ti and Standardt are deﬁned as above. Additionally, the term T rendt is a
+linear time trend. In the regressions with ﬁxed eﬀects the term µTi is omitted;
+in the regressions without ﬁxed eﬀects γi is omitted; and for regressions with no
+counterfactual group β1 = β2 = β3 = µ = 0.
+
+(7)
+
+pit =α + µTi + β1 T rendt + β2 Standardt + β3 Standardt · T rendt
++ ψTi · T rendt + δTi · Standardt + φTi · Standardt · T rendt
++ γi + εit
+
+The coeﬃcients of interest are the coeﬃcients on Ti · Standardt · T rendt and
+Ti ·Standardt . The coeﬃcient on Ti ·Standardt is interpreted as the discontinuous
+level change, in dollars, of the price at the eﬀective date of the new standard,
+and the coeﬃcient on Ti · Standardt · T rendt is interpreted as the change in the
+average incremental amount, in dollars, by which prices rise or fall each month
+following the standard relative to before the standard. In the regressions with a
+counterfactual, the eﬀects are interpreted relative to the counterfactual.
+Panel A of table 3 shows the results without ﬁxed eﬀects using the ﬁrst estimation strategy with appliance-speciﬁc time eﬀects, while panels B and C show
+the results with ﬁxed eﬀects using the ﬁrst and second estimation strategies, respectively. In all cases I present three sets of regression results. Columns 1 and 4
+present the results including CW alone; columns 2 and 5 present the results of the
+diﬀerence-in-diﬀerences (DD) regressions including dryers as the counterfactual,
+and ﬁnally columns 3 and 6 present the results of the DD regressions including
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+23
+
+RACs as the counterfactual. Columns 1 trough 3, and 4 through 6, show the
+results from the 2004 and 2007 standard changes, respectively.
+The average market price results in panel A of table 3 indicate that there is no
+consistent evidence of a statistically signiﬁcant change in average market prices at
+the time the 2004 standard came into eﬀect for clothes washers.11 In 2007 there
+is some evidence that average prices dropped for clothes washers by around $44
+concurrent with the standard change. If the change in standard only resulted in
+relatively inexpensive low-eﬃciency models being eliminated, the average market
+price would increase. These results point to the presence of some other price
+adjustment.
+Panels B and C of table 3 demonstrate that within-model prices discontinuously
+dropped signiﬁcantly by between $34 and $72 in 2004 and $15 and $32 in 2007
+on average, depending on the speciﬁcation. Additionally, in panel C there is
+evidence that prices began trending downward more quickly after the standard
+changes relative to before. The magnitude of this incremental increase in the rate
+of change of the downward trend in within-model prices was around $3 per month
+after the 2004 standard change and between $4 and $7 per month following the
+2007 standard change.
+As can be seen in ﬁgure 1, the prices of RACs (both on average and withinmodel) are more volatile and seasonally cyclical compared to the other two products. It is for this reason that the results presented in panels B and C of table
+3 relative to RACs vary the most. I am more inclined to favor the estimation
+strategy using the linear time trend for the case of RACs as the counterfactual,
+as this speciﬁcation is less sensitive to a random one-month shift in RAC prices.
+In sum, the eﬀect on average market prices was somewhat inconsistent, but
+there is some evidence that prices dropped on average at the time of the 2007 standard change. Within-model prices consistently demonstrated evidence of both a
+11 The average price of RACs dropped in January 2004, but jumped quickly back up again, so the large
+signiﬁcant estimate on T · Standard in column 3 of panel A in table 3 is based on a one-month drop in
+the RAC prices that did not persist.
+
+24
+
+MONTH YEAR
+Table 3—Average Price Effect at New Standard Effective Date
+
+Dependent Variable:
+Price
+
+2004 Standard Change
+no Control T=0: Dryers T=0: RAC
+(1)
+(2)
+(3)
+
+2007 Standard Change
+no Control T=0: Dryers T=0: RAC
+(4)
+(5)
+(6)
+
+Panel A: Average Price Effects at New Standard Date with Month Effects
+
+48.26
+(36.00)
+646.1***
+(33.04)
+
+179.2***
+(37.38)
+32.13
+(21.03)
+16.12
+(41.68)
+466.9***
+(17.51)
+
+288.7***
+(40.80)
+-52.17*
+(27.94)
+100.4**
+(45.57)
+357.4***
+(23.95)
+
+Yes
+
+Yes
+
+0.006
+
+0.070
+
+T
+Standard
+TxStandard
+Constant
+Model fixed effects
+TxTime fixed effects
+R-squared
+
+-44.27***
+(16.43)
+711.5***
+(26.30)
+
+151.0***
+(30.43)
+-2.995
+(9.311)
+-41.28**
+(18.87)
+560.5***
+(15.34)
+
+330.6***
+(36.65)
+-16.88
+(27.57)
+-27.39
+(32.10)
+380.9***
+(25.52)
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+0.167
+
+0.001
+
+0.045
+
+0.200
+
+Panel B: Within-Model Price Effects at New Standard Date with Month Effects
+
+-44.01***
+(11.86)
+693.2***
+(7.095)
+
+-6.534
+(5.471)
+-37.47***
+(12.97)
+592.3***
+(4.064)
+
+-21.55**
+(10.17)
+-22.45
+(15.66)
+552.4***
+(5.057)
+
+Yes
+Yes
+
+Yes
+Yes
+
+0.238
+
+0.214
+
+Standard
+TxStandard
+Constant
+Model fixed effects
+TxTime fixed effects
+R-squared
+
+-28.84***
+(6.806)
+746.1***
+(5.530)
+
+-13.21***
+(3.411)
+-15.63**
+(7.608)
+663.8***
+(3.175)
+
+3.106
+(8.946)
+-31.95***
+(11.28)
+620.0***
+(4.277)
+
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+Yes
+
+0.240
+
+0.324
+
+0.305
+
+0.303
+
+Panel C: Within-Model Price Effects at New Standard Date with Linear Trend
+
+-4.342***
+(0.815)
+-36.58***
+(11.16)
+-3.054***
+(1.098)
+791.2***
+(20.15)
+
+-3.600***
+(0.548)
+-1.683
+(4.290)
+0.413
+(0.974)
+-0.743
+(0.976)
+-34.90***
+(11.87)
+-3.468**
+(1.461)
+682.0***
+(11.24)
+
+-7.083***
+(0.905)
+36.10***
+(7.230)
+0.762
+(1.171)
+2.741**
+(1.220)
+-72.68***
+(13.34)
+-3.816**
+(1.609)
+669.9***
+(13.47)
+
+Yes
+-
+
+Yes
+-
+
+R-squared
+
+0.235
+
+Observations
+Number of Models
+
+3,637
+418
+
+Trend
+Standard
+TrendxStandard
+TxTrend
+TxStandard
+TxTrendxStandard
+Constant
+Model fixed effects
+TxTime fixed effects
+
+-5.754***
+(0.835)
+-13.23**
+(6.383)
+-7.079***
+(1.371)
+1,075***
+(48.17)
+
+-5.159***
+(0.648)
+-2.954
+(4.202)
+-2.438**
+(0.984)
+-0.595
+(1.056)
+-10.28
+(7.639)
+-4.641***
+(1.687)
+975.1***
+(29.54)
+
+-2.328***
+(0.795)
+14.50*
+(7.629)
+-0.744
+(1.306)
+-3.426***
+(1.158)
+-27.73***
+(9.981)
+-6.335***
+(1.901)
+885.3***
+(35.55)
+
+Yes
+-
+
+Yes
+-
+
+Yes
+-
+
+Yes
+-
+
+0.209
+
+0.223
+
+0.319
+
+0.300
+
+0.293
+
+7,283
+736
+
+6,422
+790
+
+4,793
+431
+
+10,655
+959
+
+7,129
+751
+
+Note: This table shows the regression results of the change in price of clothes washers concurrent with
+the January 1st, 2004 and January 1st, 2007 standard changes. The dependent variable is price deﬂated
+using the consumer price index. The term “T” is an indicator variable for clothes washers. The term
+“Standard” is a dummy variable that changes from zero to one starting on the standard eﬀective date.
+The term “Trend” is a linear time trend. Columns 1 and 4 show price change within clothes washers, while
+the rest of the speciﬁcations are relative to dryers (columns 2 and 5) or room air conditioners (RACs;
+columns 3 and 6). Standard errors clustered at the model-number level are shown in the parentheses.
+*** Signiﬁcant at the 1 percent level.
+** Signiﬁcant at the 5 percent level.
+* Signiﬁcant at the 10 percent level.
+Source: Author calculations.
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+25
+
+signiﬁcant drop in level, and increased downward trend at both standard changes.
+V.
+
+Results: Market-Segment Heterogeneity
+
+The previous section demonstrated that there was a clear drop in the withinmodel price on average, both in the form of a level drop and a increasingly rapid
+downward trend, at the time of both the 2004 and 2007 standard changes. Why
+might this price drop have occurred? To answer this question, I present empirical
+tests of the price discrimination model predictions presented in section II.
+The initial step in this process is to characterize relevant market segments.
+As I will demonstrate, the clothes washer market is made up of three primary
+market strata: front-load washers are the most eﬃcient, followed by mid- to higheﬃciency top-load washers, and ﬁnally low-eﬃciency top-load washers make up
+the bottom of the market.
+Figure 2 shows the distribution of kWh/year observations for clothes washers
+in the the year just prior to and the year just following the two standard changes
+examined here. The distributions of front-load and top-load washers are shown
+separately. I identify cut-oﬀs for top-load models based on these distributions.
+These cut-oﬀs are 700 and 520 kWh/year in 2004 and 2007, respectively. They
+are indicated by the vertical lines in the bottom two panels of ﬁgure 2. I posit
+that the new standard is most likely to be binding for those models above the
+cut-oﬀ. There are two additional observations of note in ﬁgure 2. First, front-load
+washers are signiﬁcantly more eﬃcient than top-load washers in general. Second,
+the 2004 standard change resulted in a relatively large shift in the energy use
+distribution for top-load washers. In contrast, the incremental shift following the
+2007 standard change was less extreme.
+Categorizing products based on observable energy-eﬃciency characteristics results in nine categories: (1) front-load models that span the standard change
+(FL); (2) front-load models that exit the market prior to the standard change
+(FL Exit); (3) front-load models that enter the market following the standard
+
+26
+
+MONTH YEAR
+
+Front−Load 2006 & 2007
+
+Top−Load 2003 & 2004
+
+Top−Load 2006 & 2007
+
+0
+.4
+
+(Efficiency Cut−off) High Low
+
+(Efficiency Cut−off) High Low
+
+0
+
+.1
+
+.2
+
+.3
+
+Fraction
+
+.1
+
+.2
+
+.3
+
+.4
+
+Front−Load 2003 & 2004
+
+0
+
+200
+
+400
+
+600
+
+800
+
+10000
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+kWh/year
+Pre Standard Change
+
+Post Standard Change
+
+Figure 2. Categorization of Low- and High-Efficiency Clothes Washer Models
+Note: This ﬁgure shows the distribution of annual energy consumption (based on the FTC kWh/year
+usage measure) for the year just prior to (solid histograms) and the year just following (outlined histograms) the two standard changes. The 2004 standard change case is shown in the left-hand panels,
+while the 2007 case is shown in the right-hand panels. The distributions for front-load models are shown
+in the top two panels, while the top-load model distributions are shown in the bottom two panels. Using
+these distributions, I deﬁne a cut-oﬀ value of annual energy consumption (700 kWh/year in 2004 and
+520 kWh/year in 2007) such that models consuming more than this are deﬁned as “low-eﬃciency” and
+are more likely to have been eliminated by the standard change.
+Source: Author calculations.
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+27
+
+change (FL Enter); (4) top-load models that remain in the market and remain
+ES qualiﬁed across the standard change (TL ES); (5) top-load models that were
+ES qualiﬁed and remain in the market across the standard change, but become
+decertiﬁed from ES qualiﬁcation as a result of the standard (TL Decert.); (6)
+relatively high-eﬃciency non-ES top-load models that span the standard change,
+were below the cut-oﬀ deﬁned in ﬁgure 2 prior to the standard change, and were
+therefore not likely to have been directly eliminated by the standard (TL High
+EE); (7) relatively low-eﬃciency non-ES top-load models that span the standard
+change, were above the established cut-oﬀs, and therefore were more likely to have
+been directly eliminated by the standard (TL Low EE); (8) top-load models that
+exit the market prior to the standard change (TL Exit); and ﬁnally, (9) top-load
+models that enter the market following the standard change (TL Enter).
+Table 4 provides summary information for each of these nine groups. Two key
+observations from this table are: (i) Most, though not all, products in the TL
+Low EE group are eliminated by the standard. Particularly in 2004 close to 15
+percent of the TL Low EE models were still in the market a full year after the
+standard was changed; and (ii) while almost all front-load models that enter the
+market just following either standard change are ES qualiﬁed, only 16 percent in
+2004 and 12 percent in 2007 of the many top-load models that enter the market
+following the standard change are ES qualiﬁed. This is indicative of a pattern I
+will elucidate further bellow, that new top-load models are introduced to maintain
+the low-end of the market, while new front-load models are introduced to spread
+the high-end of the market upward.
+Figure 3 shows the trends in (i) average real price; (ii) average within-model
+eﬃciency-adjusted price; and (iii) annual energy consumption, of the nine groups
+deﬁned in table 4. From this set of graphs the market categorizations are further
+clariﬁed. The front-load models make up the top of the market both in terms of
+energy consumption (lowest) and price (highest). The mid-range top-load models
+are mid-range both in terms of price and energy consumption, and the low-end
+
+28
+
+MONTH YEAR
+Table 4—Characterization of Market Segments
+
+FL
+
+Unique models
+kWh/year 2003
+kWh/year 2004
+Price 2003
+Price 2004
+Percent ES
+Percent exited
+by 2005
+
+Unique models
+kWh/year 2006
+kWh/year 2007
+Price 2006
+Price 2007
+Percent ES
+Percent exited
+by 2008
+
+FL
+Exit/
+Enter
+
+14
+237
+(74)
+215
+(58)
+1193
+(346)
+1091
+(340)
+29
+36
+
+12/46
+280
+(58)
+244
+(58)
+991
+(292)
+1165
+(398)
+50/98
+20
+
+76
+214
+(52)
+202
+(46)
+1046
+(336)
+879
+(331)
+97
+30
+
+Panel
+14/76
+10
+217
+252
+(51)
+(42)
+183
+262
+(36)
+(45)
+818
+761
+(284) (175)
+931
+687
+(300) (219)
+57/99 100
+13
+0
+
+TL
+ES
+
+TL
+Decert.
+
+TL
+High
+EE
+
+Panel A: 2003/2004
+0
+0
+14
+499
+(145)
+426
+(140)
+706
+(592)
+688
+(543)
+7
+57
+
+B: 2006/2007
+17
+54
+371
+421
+(109) (48)
+402
+415
+(108) (48)
+565
+545
+(153) (283)
+491
+492
+(153) (227)
+0
+47
+59
+
+TL
+Low
+EE
+
+TL
+Exit/
+Enter
+
+35
+923
+(66)
+731
+(202)
+510
+(201)
+440
+(174)
+0
+86
+
+84/128
+814
+(175)
+492
+(131)
+544
+(324)
+542
+(272)
+10/16
+24
+
+37
+576
+(43)
+581
+(49)
+401
+(86)
+357
+(87)
+0
+95
+
+33/85
+485
+(147)
+388
+(69)
+565
+(483)
+516
+(239)
+18/12
+25
+
+Note: This table characterizes the nine categories of products I deﬁne: front-load models that span the
+standard change (FL); front-load models that exit (enter) the market prior to (following) the standard
+change (FL Exit/Enter); top-load models that remain in the market and ES qualiﬁed across the standard
+change (TL ES); top-load models that were ES qualiﬁed and remain in the market across the standard
+change, but become decertiﬁed from ES qualiﬁcation as a result of the standard change (TL Decert.);
+relatively high-eﬃciency non-ES top-load models that span the standard change and are not likely to have
+been directly eliminated by the standard (TL High EE); relatively low-eﬃciency non-ES top-load models
+that span the standard change and are more likely to have been directly eliminated by the standard
+(TL Low EE); and ﬁnally, top-load models that exit (enter) the market prior to (following) the standard
+change (TL Exit/Enter). While the table indicates that there were no TL models that remained ES
+qualiﬁed and in the market across the 2004 standard change, in actuality in the data there was one
+model that was in this category. However, given that the variable is only a proxy for ES certiﬁcation,
+only one model in that category is within the margin of error for that category deﬁnition. I chose to
+include this one model in the TL High EE group in 2004 instead. The numbers in parentheses are
+standard errors of the mean price and kWh/year measures.
+Source: Author calculations.
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+29
+
+top-load models are both the cheapest, and the least eﬃcient.
+
+Real Price by Market Segment
+
+1100
+200
+
+200
+
+500
+
+800
+
+Average Real Price
+500
+800
+1100
+
+1400
+
+2007 Standard Change
+
+Real Price by Market Segment
+
+1400
+
+2004 Standard Change
+
+−5
+
+0
+Month
+
+5
+
+10
+
+−5
+
+0
+Month
+
+5
+
+10
+
+Within−Model Efficiency−Adjusted Price
+by Market Segment
+
+500
+
+800
+
+1100
+
+1400
+
+Within−Model Efficiency−Adjusted Price
+by Market Segment
+
+−10
+
+200
+
+Average Within−Model Efficiency−Adjusted Price
+200
+500
+800
+1100
+1400
+
+−10
+
+−10
+
+−5
+
+0
+Month
+
+5
+
+10
+
+−5
+
+0
+Month
+
+5
+
+10
+
+1000
+
+kWh/Year Use by Market Segment
+
+200
+
+200
+
+400
+
+600
+
+Average kWh/Year
+400
+600
+800
+
+800
+
+1000
+
+kWh/Year Use by Market Segment
+
+−10
+
+−10
+
+−5
+FL
+
+0
+Month
+
+5
+
+10
+
+FL Exit/Enter
+TL High EE
+
+TL Low EE
+
+TL Exit/Enter
+
+−10
+
+−5
+FL
+TL ES
+TL Low EE
+
+0
+Month
+FL Exit/Enter
+TL Decert.
+TL Exit/Enter
+
+5
+
+10
+
+TL High EE
+
+Figure 3. Heterogeneous Price and Energy-Use Shifts at Standard Effective Dates
+Note: This ﬁgure shows the average price trends (top two panels); within-model eﬃciency-adjusted price
+trends (middle two panels); and average annual energy use (bottom two panels), of the nine market
+segments deﬁned in table 4. The trends around the 2004 standard change are shown in the left-hand
+panels, while those for the 2007 standard change are shown in the right-hand panels. The veritical lines
+at month 0 indicate the months each standard came into eﬀect. All prices are deﬂated using the consumer
+price index to December 2009 price levels.
+Source: Author calculations.
+
+30
+
+MONTH YEAR
+
+Focusing on the annual energy consumption graphs in the bottom two panels of
+ﬁgure 3, it is clear that the 2004 standard precipitated a notable drop in annual
+energy consumption of available models at the bottom of the market. Existing
+TL Low EE models increased in eﬃciency, and models introduced following the
+standard change were signiﬁcantly more eﬃcient than those dropping out of the
+market the year before. The change in annual energy consumption at the 2007
+standard eﬀective date was less extreme, coming primarily in the form of ineﬃcient
+models dropping out of the market leading up to January 1st, 2007. Looking
+broadly at the price changes around the standard eﬀective dates, of note is that
+while there is some reorganization leading up to the standard, the imposition
+of the new standard is followed by a clear re-establishment of market ranking.
+Additionally, new front-load models ﬁll out the new high end, while new top-load
+models ﬁll out the new low end, both in terms of price and energy consumption.
+The magnitude and signiﬁcance of these particular price patterns will be discussed
+in more detail below.
+Figure 4 provides a visual description of eﬀects on the menu of products available in the market following the policy changes. In particular, consistent with the
+third prediction of the oligopolistic price discrimination model, the new standards
+resulted in an increase in the variety of front-load models oﬀered in the market
+(shown in the bottom two panels). Interestingly, it is clear that this was not at
+the expense of model variety - at least in terms of number of models available and
+purchased - of top-load models (shown in the top two panels). Indeed, the overall number of both front- and top-load models expanded around each standard
+change. New top-load models tended to replace the lowest eﬃciency products in
+both cases. This is evident when looking at the average kWh/year and average
+price levels for each of the groups in the year preceding and the year following
+each standard change shown in table 4; new top-load models entering after each
+standard change are of a similar eﬃciency and price-point as the TL High EE
+group now making up the low-end of the market, while new front-load models
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+31
+
+entering after each standard change are of a similar eﬃciency (and even higher
+price-point) compared to the existing front-load models in the market.
+2004 Standard Change
+150
+0
+
+0
+
+30
+
+60
+
+90
+
+120
+
+Number of Models Available
+30
+60
+90 120 150
+
+2007 Standard Change
+
+−10
+
+−5
+
+0
+Month
+
+5
+
+10
+
+−10
+
+TL High EE
+
+0
+Month
+
+TL ES
+TL Low EE
+
+5
+
+TL Decert.
+TL Exit/Enter
+
+10
+TL High EE
+
+120
+0
+
+0
+
+30
+
+60
+
+90
+
+Number of Models Available
+30
+60
+90
+120
+
+150
+
+TL Exit/Enter
+
+150
+
+TL Low EE
+
+−5
+
+−10
+
+−5
+
+0
+Month
+FL
+
+5
+FL Exit/Enter
+
+10
+
+−10
+
+−5
+
+0
+Month
+FL
+
+5
+
+10
+
+FL Exit/Enter
+
+Figure 4. Number of Models by Market Segment
+Note: This ﬁgure shows the number of individual models available in each of the nine market segments
+deﬁned in table 4, as well as overall, in each month surrounding both the 2004 (left-hand panels) and
+2007 (right-hand panels) standard changes.
+Source: Author calculations.
+
+Returning to the question of the price eﬀects within each of the deﬁned market
+segments, I run a series of regressions to quantify the price eﬀects separately for
+each of these groups. Once again, I use both an estimation strategy that ﬂexibly
+controls for time eﬀects (equation 8), and a strategy that assumes a linear time
+trend allowed to change at the standard date (equation 9). In these estimating
+equations pit,j , Standardt , T rendt , τt and γi are all deﬁned as in equations 7
+and 6. Now however, the j subscript is an index over the set of seven market
+segments deﬁned in table 4 (where models that enter following, or exit prior to,
+
+32
+
+MONTH YEAR
+
+the standard are grouped together for front- and top-load models separately). In
+the regressions without ﬁxed eﬀects γi is omitted. Note that for the two groups
+“FL Exit/Enter” and “TL Exit/Enter,” the individual models do not span the
+standard change date, so the term Standardt is omitted for these two groups
+in the ﬁxed-eﬀect regressions. Additionally, there are no models in the market
+segments “TL ES” or “TL ES Decert” during the 2004 standard change. Finally,
+the term kW hit,j , which is the FTC annual energy use measure, is included as
+well in order to capture the eﬃciency-adjusted change in price.
+
+(8)
+
+pit,j =αj + δj Standardt + νj kW hit,j + τt + γi + εit,j
+
+(9)
+
+pit,j =αj + ψj T rendt + δj Standardt + φj Standardt · T rendt
++ νj kW hit,j + γi + εit,j
+
+The results for each market segment are shown in tables 5, 6 and 7. In all cases
+columns 1, 2, 5 and 6 show the results using the estimation strategy shown in
+equation 8, while columns 3, 4, 7, and 8 show the results using the linear time
+assumption shown in equation 9. Columns 1 through 4 show results for the 2004
+standard change, while columns 5 through 8 show results for the 2007 standard
+change. Columns 1, 3, 5, and 7 omit ﬁxed-eﬀects, but show the eﬃciency-adjusted
+average price change by including kW hit,j . Finally, columns 2, 4, 6, and 8 control
+for both model-speciﬁc ﬁxed eﬀects and kW hit,j . The favored speciﬁcations are
+the those that include model-speciﬁc ﬁxed eﬀects.
+The results for the front-load categories, making up the top of the market, can
+be seen in table 5. Panel A of table 5 shows the results for front-load models that
+span the standard change (FL), while panel B shows the results for the models
+that exited prior to or entered following the standard change (FL Exit/Enter).
+The only clear pattern emerging from the front-load models is that within-model
+prices, particularly following the 2007 standard change, for both pre existing and
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+33
+
+new models, began trending downward more quickly following the standard eﬀective date relative to before. This pattern was also true for new front-load models
+following the 2004 standard change, though not for the models spanning the standard change in 2004. While the instantaneous price eﬀect tended to be negative
+across the board for pre existing front-load models, the eﬀect is only statistically
+signiﬁcant in a couple of cases. Front-load models introduced following the standard tended to be more expensive on average than those dropped prior to the
+standard change, though the diﬀerence is never statistically signiﬁcant.
+The results for the middle of the market are shown in table 6. Panel A of table
+6 shows the results for top-load models that were ES certiﬁed both before and
+after the standard change (TL ES); panel B shows the results for top-load models
+that were decertiﬁed from ES as a result of the standard change (TL Decert.);
+and panel C shows the results for top-load models that were not ES qualiﬁed,
+but were not likely to have been eliminated directly be the new standard (TL
+High EE). The middle of the market is made up of only the TL High EE group
+in 2004, which experienced within-model drops in price of $69, signiﬁcant at a 10
+percent conﬁdence level, shown in columns 2 and 4 of panel C in table 6. At the
+time of the 2007 standard change, the middle of the market is also made up of ES
+qualifying top-load models, and those decertiﬁed from ES by the 2007 standard.
+Decertiﬁed models experienced consistent and signiﬁcant drops in price of around
+$42 within-model, shown in columns 6 and 8 of panel B in table 6. This is
+consistent with the fact that these products have presumably lost a quality signal
+they previously had. Products that maintained their ES label across the standard
+change experienced a large signiﬁcant drop in price of around $110 within-model,
+shown in column 6 of panel A in table 6. This eﬀect is signiﬁcant even given that
+there were only ten models in this category, though only in the speciﬁcation using
+time ﬁxed eﬀects and not the linear trend assumption. This makes sense, given
+that there is a clearly nonlinear price pattern for this group prior to the standard
+change evident in center-right panel of ﬁgure 3. This implies that the imposition
+
+34
+
+MONTH YEAR
+
+Table 5—Heterogeneous Price Effects at New Standard Effective Date (Top of Market)
+
+Dependent
+variable:
+Price
+Standard
+StandardxTrend
+
+(1)
+
+2004 Standard Change
+(2)
+(3)
+
+(5)
+
+2007 Standard Change
+(6)
+(7)
+
+(8)
+
+Panel A: FL
+-101.5*
+(54.20)
+
+-56.09
+(48.21)
+
+-73.59
+(47.55)
+-21.65
+(12.61)
+4.349
+(9.504)
+
+-23.45
+(32.32)
+-1.303
+(8.188)
+-9.378
+(6.659)
+
+255
+0.165
+14
+
+255
+0.368
+14
+
+255
+0.147
+14
+
+255
+0.330
+14
+
+Trend
+Observations
+R-squared
+Number of models
+
+(4)
+
+-63.48*** -14.43
+(22.70) (14.13)
+
+1,374
+0.146
+76
+
+1,374
+0.522
+76
+
+-19.58
+18.37
+(18.02) (13.53)
+-6.736* -9.671***
+(3.612) (2.340)
+-12.02*** -10.76***
+(3.008) (1.532)
+1,374
+0.143
+76
+
+1,374
+0.514
+76
+
+199.5
+(174.7)
+
+137.7
+(142.7)
+-2.534
+(13.01)
+-0.634
+(10.79)
+
+-18.97*
+(10.10)
+2.581
+(9.189)
+
+521
+0.013
+90
+
+521
+0.230
+90
+
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Panel B: FL Exit/Enter
+Standard
+StandardxTrend
+
+54.39
+(151.8)
+
+98.95
+(139.4)
+-21.46* -15.53***
+(12.12) (2.028)
+12.03 -1.450**
+(10.07) (0.644)
+
+Trend
+R-squared
+Observations
+Number of models
+
+434
+0.111
+58
+
+Model fixed effects
+Time fixed effects
+Linear time trend
+kWh/year
+
+Yes
+Yes
+
+434
+0.103
+58
+Yes
+Yes
+Yes
+
+434
+0.461
+58
+
+521
+0.019
+90
+
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Note: This table shows the regression results for the top of the market product categories. The dependent
+variable in all cases is price deﬂated using the consumer price index to December 2009 prices. The term
+“Standard” is a dummy variable equal to zero prior to the standard eﬀective date, and equal to one
+starting on the standard eﬀective date. The term “Trend” is a linear time trend. Columns 1 through 4
+show results for the 2004 standard change, while columns 5 through 8 show results for the 2007 standard
+change. Columns 1, 3, 5 and 7 include no ﬁxed eﬀects, but show the eﬃciency-adjusted average price
+change by including kW hit ; ﬁnally, columns 2, 4, 6 and 8 control for both model-speciﬁc ﬁxed eﬀects
+and kW hit . Standard errors clustered at the model-number level are shown in the parentheses.
+*** Signiﬁcant at the 1 percent level.
+** Signiﬁcant at the 5 percent level.
+* Signiﬁcant at the 10 percent level.
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+35
+
+of the linear time trend is too restrictive in the TL ES case. Therefore, columns
+5 and 6 are the favored speciﬁcations for panel A of table 6.
+Finally, price eﬀects for the bottom of the market are shown in table 7. Panel A
+of table 7 shows the results for ineﬃcient top-load models that span the standard
+change, but were likely to be eliminated by the new standard (TL Low EE), while
+panel B shows the results for the top-load models that exited prior to or entered
+following the standard change (TL Exit/Enter). Within-model prices of the TL
+Low EE group dropped signiﬁcantly at the time of the 2004 standard change by
+between $49 and $58, shown in columns 2 and 4 of panel A in table 7. This may
+be due in part to discounting obsolete models that no longer meet the standard.
+The price drop of the TL Low EE group was less consistently signiﬁcant following
+the 2007 standard change, though there is some evidence that not only did withinmode prices drop by around $20, but they began trending downward around $6
+per month more quickly following the 2007 standard change relative to before,
+shown in columns 7 and 8 of panel A in table 7. New top-load models were
+signiﬁcantly less expensive in eﬃciency-adjusted terms than those dropped at the
+time of the new standard by over $200, though this diﬀerence is only signiﬁcant
+following the 2004 standard eﬀective date, shown in panel B of table 7.
+Taking ﬁgures 3 and 4, and tables 5, 6 and 7 as a whole, a clear pattern begins
+to emerge. As the new ME and ES standard becomes more restrictive, the price
+of models at the low end and mid-low end of the market dropped discontinuously
+in eﬃciency-adjusted terms. This was seen for the TL Low EE groups both in
+2004 and 2007, the TL High EE group in 2004 and the TL ES group in 2007.
+Models decertiﬁed from ES dropped in price as well, though there are not many
+of them, and over half exited the market within a year of the standard. New
+top-load models entering the market tended to replace the low end of the market.
+While they met the new standard, the majority were not ES qualiﬁed, and tended
+to replace relatively inexpensive, ineﬃcient models, although there was a modest
+high-end top-load segment maintained. The new top-load models introduced
+
+36
+
+MONTH YEAR
+
+Table 6—Heterogeneous Price Effects at New Standard Effective Date (Middle of Market)
+
+Dependent
+variable:
+Price
+
+(1)
+
+2004 Standard Change
+(2)
+(3)
+
+(4)
+
+(5)
+
+2007 Standard Change
+(6)
+(7)
+
+(8)
+
+Panel A: TL ES
+
+Standard
+
+-104.1*
+(53.65)
+
+185
+0.734
+10
+
+StandardxTrend
+
+-109.2*
+(53.29)
+
+185
+0.626
+10
+
+Trend
+Observations
+R-squared
+Number of models
+
+-16.71
+-1.794
+(21.93) (40.91)
+4.539
+12.77*
+(9.104) (6.766)
+-11.15* -19.82***
+(5.835) (5.138)
+185
+0.717
+10
+
+185
+0.535
+10
+
+Panel B: TL Decert.
+Standard
+
+-52.09** -42.10* -43.91** -42.15**
+(20.34) (21.92) (18.01) (15.15)
+4.310
+-0.153
+(4.791) (4.810)
+-7.024** -8.289***
+(2.696) (1.955)
+
+StandardxTrend
+Trend
+R-squared
+Observations
+Number of models
+
+297
+0.421
+17
+
+297
+0.498
+17
+
+297
+0.412
+17
+
+297
+0.470
+17
+
+Panel C: TL High EE
+Standard
+
+-66.27
+(131.1)
+
+-68.75*
+(37.10)
+
+-53.66
+(122.8)
+0.457
+(11.37)
+-9.503
+(12.77)
+
+-68.96*
+(35.46)
+4.877
+(6.037)
+-4.256
+(5.151)
+
+27.28*
+(15.10)
+
+3.631
+(5.774)
+
+R-squared
+Observations
+Number of models
+
+228
+0.228
+14
+
+228
+0.226
+14
+
+228
+0.221
+14
+
+228
+0.185
+14
+
+865
+0.081
+54
+
+865
+0.293
+54
+
+865
+0.078
+54
+
+865
+0.287
+54
+
+Model fixed effects
+Time fixed effects
+Linear time trend
+kWh/year
+
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+StandardxTrend
+Trend
+
+36.66**
+8.069
+(16.13) (6.315)
+-1.572 -8.593***
+(3.461) (2.616)
+-6.940** -2.724***
+(2.777) (0.774)
+
+Note: This table shows the regression results for the middle of the market product categories. The
+dependent variable in all cases is price deﬂated using the consumer price index to December 2009 prices.
+The term “Standard” is a dummy variable equal to zero prior to the standard eﬀective date, and equal
+to one starting on the standard eﬀective date. The term “Trend” is a linear time trend. Columns 1
+through 4 show results for the 2004 standard change, while columns 5 through 8 show results for the
+2007 standard change. Columns 1, 3, 5 and 7 include no ﬁxed eﬀects, but show the eﬃciency-adjusted
+average price change by including kW hit ; ﬁnally, columns 2, 4, 6 and 8 control for both model-speciﬁc
+ﬁxed eﬀects and kW hit . There were no models in the “TL ES” or the “TL Decert.” categories at the
+time of the 2004 standard change. Standard errors clustered at the model-number level are shown in the
+parentheses.
+*** Signiﬁcant at the 1 percent level.
+** Signiﬁcant at the 5 percent level.
+* Signiﬁcant at the 10 percent level.
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+37
+
+Table 7—Heterogeneous Price Effects at New Standard Effective Date (Bottom of Market)
+
+Dependent
+variable:
+Price
+Standard
+StandardxTrend
+Trend
+Observations
+R-squared
+Number of models
+
+(1)
+
+2004 Standard Change
+(2)
+(3)
+
+(4)
+
+(5)
+
+2007 Standard Change
+(6)
+(7)
+
+(8)
+
+Panel A: TL Low EE
+-34.92 -48.92*** -60.18* -57.71***
+(25.10) (15.81) (32.65) (15.51)
+-3.150
+-0.674
+(4.869) (1.750)
+-2.326 -5.584***
+(3.162) (1.003)
+500
+0.062
+35
+
+500
+0.517
+35
+
+500
+0.040
+35
+
+500
+0.485
+35
+
+-18.40
+(13.94)
+
+-21.16
+(12.60)
+
+538
+0.094
+37
+
+538
+0.300
+37
+
+-21.43* -19.31*
+(12.58) (10.60)
+-6.135** -5.357*
+(2.450) (2.809)
+-0.385
+-0.611
+(0.785) (0.755)
+538
+0.070
+37
+
+538
+0.216
+37
+
+-210.5
+(216.0)
+
+-220.5
+(200.3)
+-3.931
+(10.76)
+2.967
+(9.553)
+
+2.972
+(3.245)
+-6.436**
+(3.125)
+
+713
+0.223
+118
+
+713
+0.099
+118
+
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Panel B: TL Exit/Enter
+Standard
+StandardxTrend
+
+-202.0**
+(83.62)
+
+-202.0**
+(81.90)
+-7.275** -2.824***
+(3.168) (1.000)
+-3.627 -2.342***
+(2.613) (0.621)
+
+Trend
+R-squared
+Observations
+Number of models
+
+1,656
+0.213
+212
+
+Model fixed effects
+Time fixed effects
+Linear time trend
+kWh/year
+
+Yes
+Yes
+
+1,656
+0.211
+212
+Yes
+Yes
+Yes
+
+1,656
+0.152
+212
+
+713
+0.230
+118
+
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Note: This table shows the regression results for the bottom of the market product categories. The
+dependent variable in all cases is price deﬂated using the consumer price index to December 2009 prices.
+The term “Standard” is a dummy variable equal to zero prior to the standard eﬀective date, and equal to
+one starting on the standard eﬀective date. The term “Trend” is a linear time trend. Columns 1 through
+4 show results for the 2004 standard change, while columns 5 through 8 show results for the 2007 standard
+change. Columns 1, 3, 5 and 7 include no ﬁxed eﬀects, but show the eﬃciency-adjusted average price
+change by including kW hit ; ﬁnally, columns 2, 4, 6 and 8 control for both model-speciﬁc ﬁxed eﬀects
+and kW hit . Standard errors clustered at the model-number level are shown in the parentheses.
+*** Signiﬁcant at the 1 percent level.
+** Signiﬁcant at the 5 percent level.
+* Signiﬁcant at the 10 percent level.
+
+38
+
+MONTH YEAR
+
+after the 2004 standard also tended to experience a signiﬁcant large-magnitude
+price drop, in eﬃciency-adjusted terms, compared to those they replace, and their
+prices tended to trend downward more quickly following the standard relative to
+the price trend of those models that exited the market prior to the standard.
+These eﬀects are of similar magnitude concurrent with the 2007 standard, though
+not statistically signiﬁcant. At the high end of the market, new front-load models
+appear to be designed to expand eﬃciency available in the market upward, in
+that close to 100 percent of front-load models introduced following the standard
+changes were ES qualiﬁed. They did tend to be more expensive on average than
+those they replaced, though not statistically signiﬁcantly so. However, the prices
+of new front-load models dropped more quickly over time than the prices of those
+they replaced. Additionally, there is some evidence that the within-model prices
+of front-load models that remained in the market across the standard trended
+downward more quickly following the standard relative to before, particularly in
+2007.
+VI.
+
+Conclusion
+
+In this paper I corroborate evidence found by Chen, Dale and Roberts (2013)
+that prices of clothes washers dropped on average at the time the ME and ES standard restrictions came into eﬀect in 2007, and showed that this pattern was even
+more pronounced at the time these standards were restricted in 2004. I outline
+the classic Mussa and Rosen (1978) model of second-degree price discrimination,
+and extend previous discussions of the predictions in this model of imposing a
+more restrictive ME standard by discussing the implications of simultaneously
+changing the ES labeling standard as well. Using this model, I derive three primary predictions of the eﬀect of a more restrictive ME and ES standard in the
+imperfectly competitive model that are in contrast to the predictions implied by
+a perfectly competitive model: First, (i) the imposition of a ME standard in a
+perfectly competitive market would predict an increase in the price of products
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+39
+
+in the market, particularly low-end products that are close substitutes to products eliminated by the standard. On the other hand, in a market in which ﬁrms
+have been engaging in second-degree price discrimination, the imposition of a
+more stringent ME standard would impose downward pressure on prices across
+the market, particularly at the mid- to low-end. Second, (ii) the predicted effect of a simultaneous change in both the ME and ES standards on the price of
+products that remain ES certiﬁed, or are front-load models, is ambiguous in the
+imperfectly competitive market. However, an observed drop in these prices would
+be consistent with price discrimination. Finally, (iii) in an oligopolistic market,
+the imposition of a ME standard could stimulate expansion upward in the levels
+of eﬃciency supplied to the market, and potentially increase the general diversity
+of products available in the market in other dimensions as well. This would not
+necessarily be the case in a perfectly competitive setting.
+I have shown evidence consistent with price discrimination on all three of these
+points. The results from testing the ﬁrst two predictions are summarized in ﬁgure
+5. With regard to point (i), I have shown that as the new ME and ES standards
+became more restrictive, the price of models at the low-end and mid-low end of
+the market (the TL Low EE groups both in 2004 and 2007 and the TL High EE
+group in 2004) dropped discontinuously, particularly in eﬃciency-adjusted terms.
+Additionally, new top-load models entering the market replaced the low end of
+the market, were not in large part ES qualiﬁed, and tended to be signiﬁcantly
+less expensive, in eﬃciency-adjusted terms, compared to those they replaced,
+particularly following the 2004 standard. With regard to the second point (ii),
+the TL ES group experienced a statistically signiﬁcant price drop at the time of
+the 2007 standard change. Finally, with regard to point (iii), at the high end of
+the market new front-load models extended eﬃciency of products available in the
+market upward; close to 100 percent of front-load models introduced following the
+standard changes were ES qualiﬁed, compared to only around 15 percent of new
+top-load models. Additionally, the overall number of individual models available
+
+40
+
+MONTH YEAR
+
+in the market increased. This was especially true for front-load models, but was
+true for top-load models as well.
+300
+
+Competitive Prediction
+Price Discrimination Prediction
+
+200
+
+2004 Statistically
+significant
+at 90% level or more
+2004 Not statistically
+significant
+
+100
+
+0
+
+2007 Statistically
+significant
+at 90% level or more
+2007 Not statistically
+significant
+
+-100
+
+-200
+
+FL
+Exit/
+FL
+Enter a
+-300
+Most Efficient
+
+TL ES
+
+TL
+Decert
+
+TL
+High
+EE
+
+TL    
+Exit/  
+Enter  a  
+
+TL
+Low
+EE
+Least Efficient
+
+Figure 5. Price Results Summary
+Note: This ﬁgure depicts the point-estimates of the T · Standard coeﬃcients from the ﬁxed-eﬀect regression results (columns 2 and 4 for 2004, and 6 and 8 for 2007, in order left to right) of the eﬀect of
+the 2004 and 2007 standard changes on prices from tables 5, 6 and 7. The solid bars represent point
+estimates that were signiﬁcant at the 90% conﬁdence level or higher, while the outlined bars represent
+point estimates that were not statistically signiﬁcant. The rows of arrows at the top depict the model
+predictions for the price eﬀects in each of these market segments in the case of either perfect competition,
+or second-degree price discrimination.
+a The coeﬃcients for the FL Exit/Enter and TL Exit/Enter groups are from the regressions with no
+ﬁxed-eﬀects (columns 1, 3, 5 and, 7 in the regression tables).
+Source: Author calculations.
+
+This paper demonstrates evidence consistent with price discrimination in the US
+clothes washer market: concurrent with the eﬀective dates of both the 2004 and
+2007 standard changes, the pattern of the drop in prices across various eﬃciencyrelated market segments, as well as patterns of change in the menu of products
+oﬀered, are consistent with those predicted by the second-degree price discrimination model, and not readily consistent with a perfectly competitive market. The
+implication for these results is that, in addition to negative environmental externalities, energy eﬃciency regulation directly addresses an additional market failure – namely, market power and the resulting under-provision and over-charging
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+41
+
+for energy eﬃciency relative to the social optimum. To-date there has been almost
+no discussion of the implication of the oligopolistic structure of the supply side
+of the market in the policy implementation of ME appliance standards. Results
+from this study suggest that such a discussion may be warranted.
+REFERENCES
+
+Armstrong, Mark, and John Vickers. 2001. “Competitive price discrimination.” RAND Journal of Economics, 32(4): 579–605.
+Ashenfelter, Orley C, Daniel S Hosken, and Matthew C Weinberg.
+2011. “The Price Eﬀects of a Large Merger of Manufacturers: A Case Study
+of Maytag-Whirlpool.” National Bureau of Economic Research Working Paper
+17476.
+Chen, Xiaomei (Barbara), Larry Dale, and Michael J. Roberts. 2013.
+“Can Standards Increase Consumer Welfare? Evidence from a 2007 Change in
+Clothes Washer Energy Eﬃciency Requirements.” Lawrence Berkeley National
+Laboratory, Report Number LBNL-6024E.
+Crampes, Claude, and Abraham Hollander. 1995. “Duopoly and quality
+standards.” European Economic Review, 39(1): 71–82.
+De Meza, David, and Thomas von Ungern-Sternberg. 1982. “Monopoly,
+product diversity and welfare.” Regional Science and Urban Economics,
+12(3): 313–324.
+Donnenfeld, Shabtai, and Lawrence J White. 1988. “Product variety and
+the ineﬃciency of monopoly.” Economica, 55: 393–401.
+Fischer, Carolyn. 2005. “On the importance of the supply side in demand-side
+management.” Energy Economics, 27(1): 165–180.
+
+42
+
+MONTH YEAR
+
+Fischer, Carolyn. 2010. “Imperfect competition, consumer behavior, and the
+provision of fuel eﬃciency in light-duty vehicles.” Resources for the Future
+Discussion Paper 10-60 10-60.
+Houde, Sebastien. 2012. “Managing Energy Demand with Inﬁrmation and
+Standards.” PhD diss. Department of Management Science and Engineering,
+Stanford University.
+Katz, Michael L. 1984. “Firm-speciﬁc diﬀerentiation and competition among
+multiproduct ﬁrms.” Journal of Business, 57(1): 149–166.
+Mussa, Michael, and Sherwin Rosen. 1978. “Monopoly and Product Quality.” Journal of Economic Theory, 18: 301–317.
+Rochet, Jean-Charles, and Lars A Stole. 2002. “Nonlinear pricing with
+random participation.” The Review of Economic Studies, 69(1): 277–311.
+Ronnen, Uri. 1991. “Minimum quality standards, ﬁxed costs, and competition.”
+The RAND Journal of Economics, 22(4): 490–504.
+Salant, Stephen W. 1989. “When is inducing self-selection suboptimal for a
+monopolist?” The Quarterly Journal of Economics, 104(2): 391–397.
+Spurlock, C. Anna. 2013a. “Appliance Eﬃciency Standards and Price Discrimination.” Lawrence Berkeley National Laboratory, Report Number LBNL6283E.
+Spurlock, C. Anna. 2013b. “Essays in Energy Economics.” PhD diss. Agricultural and Resource Economics, University of California, Berkeley.
+Whitefoot, Kate, Meredith Fowlie, and Steven J Skerlos. 2012. “Product
+design response to policy intervention: Evaluating fuel economy standards using
+an engineering model of product design.” Working Paper.
+
+VOL. VOLUME NO. ISSUE
+
+MARKET STRUCTURE AND EFFICIENCY REGULATION
+
+43
+
+*
+
+Appendix A: Retailers in NPD Data
+”Projected” sales
+included for:
+
+Retailers in NPD data:
+BJs Wholesale Club
+Bloomingdales
+Boscovs
+Circuit City
+Dillard’s
+Fortunoﬀ
+Fred Meyer
+Gottschalks
+HH Gregg
+JC Penney
+a
+
+Meijer
+Nebraska Furniture Mart
+PC Richard & Sons
+Pamida
+RC Willey
+Sears
+Shopko
+Target
+Ultimate Electronics
+
+a
+
+Home Depot
+Menards
+Navy Exchange
+Queen City Appliance
+REX Stores
+Vanns
+
+Projected refers to the fact that NPD included estimates of sales for this subset
+of retailers in their data. They claim that the share of overall market sales was
+no greater that 5% for all projected retailers combined for a given time period.
+
+

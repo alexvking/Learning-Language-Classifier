@@ -1,0 +1,797 @@
+This article was downloaded by: [University of Toronto Libraries]
+On: 05 June 2012, At: 07:38
+Publisher: Psychology Press
+Informa Ltd Registered in England and Wales Registered Number: 1072954 Registered office: Mortimer House,
+37-41 Mortimer Street, London W1T 3JH, UK
+
+Basic and Applied Social Psychology
+Publication details, including instructions for authors and subscription information:
+http://www.tandfonline.com/loi/hbas20
+
+“Unskilled” Workers: Social Skills Stereotypes Affect
+Evaluations of Biracial Job Applicants
+a
+
+a
+
+Jessica D. Remedios , Alison L. Chasteen & Elvina Oey
+a
+
+a
+
+University of Toronto
+
+Available online: 05 Jun 2012
+
+To cite this article: Jessica D. Remedios, Alison L. Chasteen & Elvina Oey (2012): “Unskilled” Workers: Social Skills
+Stereotypes Affect Evaluations of Biracial Job Applicants, Basic and Applied Social Psychology, 34:3, 204-211
+To link to this article: http://dx.doi.org/10.1080/01973533.2012.674451
+
+PLEASE SCROLL DOWN FOR ARTICLE
+Full terms and conditions of use: http://www.tandfonline.com/page/terms-and-conditions
+This article may be used for research, teaching, and private study purposes. Any substantial or systematic
+reproduction, redistribution, reselling, loan, sub-licensing, systematic supply, or distribution in any form to
+anyone is expressly forbidden.
+The publisher does not give any warranty express or implied or make any representation that the contents
+will be complete or accurate or up to date. The accuracy of any instructions, formulae, and drug doses should
+be independently verified with primary sources. The publisher shall not be liable for any loss, actions, claims,
+proceedings, demand, or costs or damages whatsoever or howsoever caused arising directly or indirectly in
+connection with or arising out of the use of this material.
+
+BASIC AND APPLIED SOCIAL PSYCHOLOGY, 34:204–211, 2012
+Copyright # Taylor & Francis Group, LLC
+ISSN: 0197-3533 print=1532-4834 online
+DOI: 10.1080/01973533.2012.674451
+
+‘‘Unskilled’’ Workers: Social Skills Stereotypes Affect
+Evaluations of Biracial Job Applicants
+Jessica D. Remedios, Alison L. Chasteen, and Elvina Oey
+
+Downloaded by [University of Toronto Libraries] at 07:38 05 June 2012
+
+University of Toronto
+
+Why do Black=White workers earn wages similar to Black workers ($6.30 less per hour
+than White workers), despite encountering less negative, anti-Black sentiment from
+others? We propose that Black=White workers must contend with stereotypes suggesting
+that biracial people are socially unskilled. In the present study we observed that, regardless of whether job candidates were rejected for external reasons (interviewer prejudice)
+or whether candidates acted in undesirable ways (claimed discrimination), participants
+rated Black=White applicants as less socially skilled and as more likely to have demonstrated poor interview skills than Black applicants. Implications for biases against hiring
+biracial people are discussed.
+
+For the United States to meet the competitive demands
+of modern industry, it is crucial that employers empower
+both White and minority employees to be productive and
+successful in the workplace. Nevertheless, wage discrepancies between White and minority workers continue
+to exist (U.S. Census Bureau, 2001). Researchers have
+identiﬁed social factors, such as race-based discrimination, as contributing to these income disparities
+(Clark, Anderson, Clark, & Williams, 1999). Since
+2000, when Americans were ﬁrst able to identify with
+multiple racial groups on the census, wage discrepancies
+have also been found to exist between White and biracial
+Americans (U.S. Census Bureau, 2001). Speciﬁcally, census data reveal that biracial men of Black and White
+racial heritages (i.e., Black=White) report earning, on
+average, $6.30 less per hour than White men.1 This wage
+gap is statistically similar to the wage gap dividing White
+and Black male workers, and research shows that Black=
+White Americans report incomes commensurate with
+Black Americans (Fairlie, 2009).
+It is not the case, however, that Black=White and
+Black people encounter equal amounts of anti-Black sentiment. Indeed, research shows that people expect Black=
+White individuals to have lighter skin than individuals
+1
+This document did not report analyses including female workers.
+Correspondence should be sent to Jessica D. Remedios,
+Department of Psychology, University of Toronto, 100 St. George
+Street, Toronto, ON M5S 3G3, Canada. E-mail: jessica.remedios@
+utoronto.ca
+
+described as having only Black ancestry (Sanchez, Good,
+& Chavez, 2011). Light-skinned people, furthermore,
+are less likely than their dark-skinned counterparts to
+be perceived in terms of negative Black stereotypes
+(Maddox, 2004; Maddox & Gray, 2002). Given, then,
+that Black=White Americans may escape some of the
+negative, anti-Black sentiments that Black Americans
+face daily, how can research explain census data showing
+that Black=White and Black workers earn similarly
+low wages?
+According to Fairlie (2009), the assumption that
+Black=White people are treated less favorably than
+White people, but more favorably than Black people,
+implies that Black=White workers should earn signiﬁcantly more than Black workers. Census data do not
+support this prediction and show, instead, that Black
+and Black=White workers earn similar wages. We propose that, despite facing less anti-Black stereotyping than
+monoracial Black people, Black=White workers encounter prejudice based on biracial stereotypes that Black
+people do not face and that contribute to the disparate
+treatment of White and Black=White individuals. Perceivers stereotypically assume that biracial people are
+socially awkward and maladjusted (Chelsey & Wagner,
+2003; Jackman, Wagner, & Johnson, 2001; Sanchez &
+Bonam, 2009) because they are rejected by both majority
+and minority groups in society (Shih & Sanchez, 2005).
+Such stereotypical inferences likely affect how Black=
+White people are perceived in workplace environments
+
+STEREOTYPES AFFECT BIRACIAL JOB APPLICANTS
+
+and particularly in interview settings, given that initial
+rapport-building predicts hiring decisions and employment outcomes (Barrick, Swider, & Stewart, 2010).
+
+Downloaded by [University of Toronto Libraries] at 07:38 05 June 2012
+
+STEREOTYPES ABOUT BIRACIAL PEOPLE
+Do stereotypes about poor social skills characterize perceptions of Black=White job applicants? In other words,
+are perceivers more likely to infer that a job applicant has
+poor social skills if the applicant is Black=White as
+opposed to Black? Research has yet to examine this
+possibility despite evidence that widespread immigration
+and the increased acceptability of interracial relationships has resulted in a rising number of Americans who
+identify themselves as mixed-race (Shih & Sanchez,
+2009). Indeed, biracial people are currently recognized
+as one of the fastest growing minority groups in the
+United States (Shih & Sanchez, 2009) and are projected
+to account for approximately 21% of the American
+population by the year 2050 (Smith & Edmonston,
+1997). We address this gap in the literature in the current
+article by examining individuals’ perceptions of biracial
+job applicants. Using procedures developed by Kaiser
+and Miller (2003) to study attitudes toward job candidates, we test whether Black=White candidates are perceived as less sociable than Black candidates during an
+ostensibly genuine interview process. We hypothesize
+that people perceive Black=White applicants as socially
+unskilled primarily because of applicants’ biracial status,
+above and beyond any effects that undesirable actions
+(such as claiming discrimination) may have on applicants’ perceived sociability.
+As we mentioned previously, past research suggests
+that Black=White people experience less anti-Black
+prejudice than their Black counterparts. According to
+the Black Ancestry Prototype model, Black=White
+people are viewed as relatively poor matches with Black
+prototypes in terms of their appearances, traits, and
+experiences (Sanchez et al., 2011). In support of this
+model, research shows that as Black=White targets are
+described to have more Black ancestry (i.e., described
+as 25% vs. 50% vs. 75% Black), they are perceived to better align with Black prototypes. Increased Black ancestry
+relates to increased perceptions of Black=White targets
+as having dark skin, possessing stereotypically Black
+traits (i.e., athleticism), and encountering more stereotypically ‘‘Black’’ experiences (i.e., discrimination; Sanchez
+et al., 2011). Furthermore, minorities whose physical
+appearances are less phenotypically prototypical of their
+racial groups tend to be treated more positively by
+social perceivers (Maddox, 2004; Maddox & Gray,
+2002; Wilkins, Kaiser, & Rieck, 2010).
+As a result of their biracial status, however, Black=
+White people are targeted by negative stereotypes about
+
+205
+
+mixed-race individuals. According to past research,
+perceivers often infer that mixed-race individuals are
+awkward in social situations, are rejected by majority
+and minority group members, and will experience difﬁculties in adjustment during adulthood (Chelsey &
+Wagner, 2003; Jackman et al., 2001). To examine
+whether these attitudes reﬂect objective differences in
+adjustment between biracial and monoracial individuals,
+Shih and Sanchez (2005) conducted a meta-analysis of
+existing research. The authors concluded that although
+biracial individuals experience unique developmental
+challenges with which monoracial people do not have
+to contend, biracial people tend to be just as well adjusted
+as their monoracial peers. Nevertheless, Sanchez and
+Bonam (2009) discovered that negative attitudes continue to dominate general perceptions of biracial individuals. The authors asked undergraduate students to
+evaluate candidates for a minority scholarship. All of
+the target candidates were described as excellent students;
+however, the researchers manipulated whether the
+candidates were revealed to be Whites, monoracial minorities, or biracials. The authors discovered that both
+Black=White and East Asian=White candidates were
+judged as less worthy of receiving the minority scholarship than were Black and East Asian candidates, respectively. Sanchez and Bonam (2009) also found that
+participants perceived biracial candidates as less warm
+and sociable than their monoracial minority counterparts and that these perceptions partially explained
+ratings of low scholarship worthiness. Therefore,
+although past research suggests that both Blacks (Fiske,
+Cuddy, Glick, & Xu, 2002) and Black=Whites (Chelsey &
+Wagner, 2003; Jackman et al., 2001) are perceived as
+cold, the previous study directly compared these groups
+and showed that Black=White people are judged less
+positively than Black people. These ﬁndings support
+our prediction that Black=White job applicants will be
+viewed less as less sociable than Black job applicants.
+
+WHEN AND HOW DO BIRACIAL
+STEREOTYPES BIAS PERCEPTIONS?
+It is also important to distinguish between the content of
+Black and biracial stereotypes in order to understand
+why Black=White job candidates should be disadvantaged relative to Black job candidates during interviews.
+Black people tend to be stereotyped, speciﬁcally, as
+hostile and aggressive (Devine, 1989), whereas biracial
+people tend to be stereotyped as awkward, shy, and
+anxious (Chelsey & Wagner, 2003; Jackman et al.,
+2001). Stereotypes about poor social skills may be particularly likely to bias interviewers’ perceptions and lead to
+negative evaluations of candidates because candidates’
+interpersonal styles (e.g., ability to comfortably make
+
+Downloaded by [University of Toronto Libraries] at 07:38 05 June 2012
+
+206
+
+REMEDIOS, CHASTEEN, OEY
+
+‘‘small talk’’) factor heavily in employers’ hiring decisions
+(Barrick et al., 2010). We expect that observers are more
+likely to infer that biracial job applicants, as compared to
+monoracial minority job applicants, exhibit awkward
+social behavior during interviews. Whereas social
+awkwardness is perceived as highly relevant to interview
+performance (Barrick et al., 2010), it is unlikely that
+perceivers view job interviews as contexts in which applicants are likely to express hostility and aggression. Black
+stereotypes, in contrast, may be more likely to bias perceivers’ reactions to Black targets in highly threatening
+contexts in which targets are apt to aggress against
+perceivers (e.g., Correll et al., 2007).
+Social skills stereotypes may bias observers’ perceptions of rejected job applicants, leading people to assume
+that rejected biracial applicants were not hired because of
+their poor interview skills. There are circumstances,
+of course, under which minorities are clearly denied
+employment for reasons other than their objective interpersonal and professional skills. Racial minorities face
+varying degrees of discrimination in work environments,
+ranging from obvious to more subtle. This source of
+unequal treatment causes minorities to lose out on professional opportunities regardless of their qualiﬁcations
+and skills (Clark et al., 1999; Dion, 2002). According
+to Kaiser and Miller (2001, 2003), whose primary goal
+was to examine reactions to Black discrimination claimants, observers are generally insensitive to the amount
+of prejudice faced by Black job applicants who claim to
+have been discriminated against. The authors discovered
+that participants perceive discrimination claimants as
+troublemakers even when they are clearly rejected
+because of their race (Kaiser & Miller, 2003). Likewise,
+we reasoned that if observers strongly believe that biracial individuals’ interpersonal skills contribute to their
+inabilities to obtain employment, this belief should
+persist even when biracial job candidates face certain
+prejudice and claim to have been discriminated against.
+
+STUDY OVERVIEW AND HYPOTHESES
+The goal of the present study was to investigate whether
+stereotypes about poor social skills characterize perceivers’ impressions of biracial job applicants. We were
+interested, in particular, in whether such stereotypes bias
+perceptions of biracial applicants when it is clear that
+prejudice motivated the interviewer to render an unfavorable hiring decision. We compared observers’ perceptions of a Black and a Black=White job applicant who
+faced either a certain (high) or an ambiguous (low)
+amount of prejudice from a White interviewer. Job applicants, in addition, either acknowledged that they were
+not hired because of their own interview skills or claimed
+that discrimination had prevented them from obtaining
+
+the position. The main dependent variables of interest
+were participants’ ratings of how sociable the applicant
+seemed, as well as participants’ opinions regarding why
+the applicant was not hired.
+We hypothesized that (a) participants would perceive
+the Black=White candidate as less sociable than the Black
+candidate, reﬂecting general stereotypes that mixed-race
+people are socially unskilled, and (b) participants evaluating a Black=White candidate would be more likely than
+those evaluating a Black candidate to assume that the
+candidate was not hired because of his poor interview
+skills. We expected these effects to be robust, furthermore, and to occur regardless of whether the applicants
+faced certain prejudice or claimed to have been discriminated against.
+
+METHOD
+Participants and Design
+Participants were 162 undergraduate students (110
+female, 52 male) enrolled in an introductory psychology
+course at the University of Toronto who took part in the
+experiment for partial course credit. The majority of the
+participants were East and Southeast Asian (n ¼ 70) and
+White (n ¼ 50). Of the remaining participants, 15 were
+South Asian, 11 were Middle Eastern, 8 were Black, 3
+were Latin American, and 2 were Paciﬁc Islanders. Three
+participants (1.9%) did not specify their race. The participants’ average age was 18.90 years (SD ¼ 1.70). The
+experiment adopted a 2 (race of candidate: Black or
+Black=White) Â 2 (interviewer prejudice: low or high) Â 2
+(candidate attribution: interview skills or discrimination)
+between-subjects design.
+Procedure
+Participants completed the experiment in groups of up to
+four people while seated at private computer terminals. At
+the beginning of the session, the experimenter informed
+participants that their task would be to evaluate an
+employment interview process. After providing informed
+consent, participants viewed an introduction screen
+explaining that a portfolio describing an actual job interview process would be selected at random and that they
+would be asked questions about this portfolio after reading the provided information (Kaiser & Miller, 2003).
+All of the participants ﬁrst read a job description for a
+retail sales manager position that outlined qualiﬁcations
+for the position as well as information about salary and
+beneﬁts. Next, participants read about the person who
+conducted the job interview. As in Kaiser and Miller
+(2003), participants learned about the interviewer’s professional background and his appearance (blond hair
+
+Downloaded by [University of Toronto Libraries] at 07:38 05 June 2012
+
+STEREOTYPES AFFECT BIRACIAL JOB APPLICANTS
+
+and fair skin, indicating that he was White) as well as the
+questions he asked during the interview. Participants
+read, for example, that the interviewer asked the applicant to describe his relevant work experience and discuss
+how it prepared him for the position. We did not provide
+participants with the applicant’s answers to the interview
+questions. Participants also read a description of the
+room in which the interview was conducted.
+The participants then viewed information about
+the job candidate, including his qualiﬁcations for the
+position. The candidate’s previous work experience was
+matched to the requirements detailed in the job description, and his application was noted as being ‘‘above average’’ in overall quality. Instead of including a photograph
+of the job candidate as in Kaiser and Miller (2003), we
+included a demographic questionnaire that had been
+ostensibly ﬁlled out by the candidate. The form, which
+had been completed on paper, scanned, and inserted
+into the computer program as an image, listed several
+ethnic categories. The category selected by the candidate
+constituted our manipulation of candidate race. The
+form revealed that the candidate had checked either
+the ‘‘Black’’ or ‘‘Multiracial=Mixed-Race’’ category to
+describe himself. In the latter case, the candidate further
+speciﬁed, in handwriting, that he was Black=White.
+Next, participants reviewed the interviewer’s hiring
+decision and comments and learned that the candidate
+was not offered the job. The interviewer’s explanation
+for this decision was manipulated to reﬂect varying levels
+of prejudice. We retained Kaiser and Miller’s (2003)
+low-prejudice condition; however, we created our own
+high-prejudice condition that included less transparently
+prejudiced remarks than in the original study (see materials). Given that modern forms of bias are often subtle
+(Swim, Aikin, Hall, & Hunter, 1995), presenting less
+overtly prejudiced interviewer comments to participants
+increased the ecological validity of the manipulation.
+Participants then learned about the job candidate’s
+attribution for why he was rejected by the interviewer
+and completed questions about the candidate, the
+interviewer, and the interview process. Finally, the experimenter debriefed participants, described the true nature
+of the study, and thanked them for participating.
+Materials
+Interviewer prejudice manipulation. Participants in
+the low-prejudice condition viewed the following
+comments purportedly made by the interviewer:
+I do not recommend that the company hire this applicant. Although the candidate had pretty good credentials, I decided to offer the job to another candidate
+who seemed to have more potential to successfully
+manage the retail sales team.
+
+207
+
+In the high-prejudice condition, participants viewed
+the following interviewer comments:
+I do not recommend that the company hire this applicant.
+Although the candidate had pretty good credentials, I
+decided to offer the job to another candidate who seemed
+to have more potential to successfully manage the retail
+sales team. Recently I’ve had bad experiences with people
+from this group. Although some people like him work
+out well, it’s still a big ﬁnancial risk. It takes a lot of effort
+to train a new manager, and I’m not willing to invest
+that time into someone unless I’m certain that they will
+succeed.
+
+Candidate attribution manipulation. Information
+about the candidate’s attribution was conveyed through
+a survey completed by the job candidate about the interview process. The candidate rated the extent to which six
+possible factors, including discrimination and his personal interview skills, affected the hiring decision. The
+attribution scales ranged from 0 (not at all) to 10 (very
+much). The candidate rated only one factor as the main
+reason for his rejection; some of the participants saw that
+the candidate rated his interview skills, and some saw that
+he rated discrimination as highly responsible (i.e., 8). All
+other factors were rated by the candidate as not responsible (i.e., 1 or 2) for his failure to obtain the position.
+Manipulation checks. To examine the effectiveness
+of our prejudice manipulation, we asked participants to
+rate the extent to which they believed that the interviewer
+was racist. We also asked participants whether the candidate attributed his failure to get the job to discrimination
+or to his interview skills. These items assessed participants’ sensitivity to the attribution manipulation. All
+ratings were made on 7-point scales ranging from 1
+(strongly disagree) to 7 (strongly agree).
+Ratings of the job candidate. All ratings of the job
+candidate were made on 7-point scales ranging from 1
+(strongly disagree) to 7 (strongly agree). Participants
+were asked to provide their own opinions regarding
+why the candidate was not hired by rating: ‘‘In your opinion, to what extent was the quality of the job candidate’s interviewing skills responsible for the decision
+not to hire him?’’ (M ¼ 3.80, SD ¼ 1.61). We also asked
+participants to rate the extent to which the job candidate
+was sociable (i.e., the job candidate seems sociable, likable, easy to get along with, considerate, and good to
+have as a friend; a ¼ .70, M ¼ 4.50, SD ¼ .78). Following
+the measures administered by Kaiser and Miller (2003),
+we asked participants to rate the extent to which the job
+candidate was a troublemaker (i.e., the job candidate
+seems hypersensitive, like a complainer, irritating, like
+
+208
+
+REMEDIOS, CHASTEEN, OEY
+
+a troublemaker, and argumentative; a ¼ .75, M ¼ 3.34,
+SD ¼ .98).2 Critically, we did not expect perceptions of
+the Black=White and Black candidates to differ with
+respect to troublemaker evaluations. Instead, based on
+Kaiser and Miller’s (2001, 2003) ﬁndings, we predicted
+that all discrimination claimants, regardless of their race,
+would be perceived as troublemakers.3 We included this
+measure in order to replicate past research and to establish sociability as the critical dimension on which perceptions of biracial and monoracial targets differ.
+
+Downloaded by [University of Toronto Libraries] at 07:38 05 June 2012
+
+RESULTS
+In all of the analyses reported next, we conducted 2 (race
+of candidate: Black or Black=White) Â 2 (interviewer
+prejudice: low or high) Â 2 (candidate attribution: interview skills or discrimination) analyses of variance to
+examine our research questions.
+Manipulation Checks
+Interviewer prejudice manipulation check. The
+results revealed a signiﬁcant main effect of interviewer
+prejudice on participants’ ratings of the extent to which
+the interviewer seemed racist, F(1, 154) ¼ 8.40, p ¼ .004,
+g2 ¼ :05. Participants in the high-prejudice condition
+p
+(M ¼ 5.22, SD ¼ 1.63) rated the interviewer as more
+racist than participants in the low-prejudice condition
+(M ¼ 4.46, SD ¼ 1.72), indicating that our manipulation
+was successful in establishing that the job candidates
+faced different amounts of prejudice. We also found a
+signiﬁcant main effect of candidate attribution, F(1,
+154) ¼ 7.41, p ¼ .007, g2 ¼ :05. Participants in the disp
+crimination attribution condition believed that the interviewer was more racist (M ¼ 5.19, SD ¼ 1.72) than those
+in the interview skills attribution condition (M ¼ 4.50,
+SD ¼ 1.64). No main effect of candidate race or interactions emerged in this analysis.
+Candidate attribution manipulation check. Next, we
+examined participants’ sensitivity to the candidate
+attribution manipulation. The results revealed that, as
+expected, participants in the interview skills attribution
+2
+
+We did not separately examine responses to Kaiser and Miller’s
+(2003) niceness measure as sociability and niceness are likely very
+highly related.
+3
+As in Kaiser and Miller (2003), in the current study we examined
+whether participants felt that the job candidate had been true to himself (the job candidate seems true to himself, tackles problems head on,
+believes that expressing his true opinions is important; M ¼ 4.78,
+SD ¼ .88). Given the poor reliability of this scale (a ¼ .54), however,
+as well as low correlations among the separate items (rs ¼ .18–.37),
+we did not submit these items to statistical analysis.
+
+condition believed more strongly that the candidate
+had attributed his failure to get the job to his interview
+skills (M ¼ 5.01, SD ¼ 2.12) than those in the discrimination attribution condition (M ¼ 2.35, SD ¼ 1.54), F(1,
+154) ¼ 86.06, p < .001, g2 ¼ :40. Similarly, participants
+p
+in the discrimination attribution condition believed more
+strongly that the candidate had attributed his rejection to
+discrimination (M ¼ 6.63, SD ¼ .88) than those in the
+interview skills attribution condition (M ¼ 3.40,
+SD ¼ 1.63), F(1, 154) ¼ 244.82, p < .001, g2 ¼ :61. We
+p
+did not ﬁnd main effects of candidate race or interviewer
+prejudice, nor did we observe any interactions.
+Dependent Measures
+Opinion regarding candidate rejection. Next, we
+examined the extent to which participants believed that
+the quality of the candidate’s interview skills contributed
+to his rejection. Consistent with our predictions, we
+observed a main effect of candidate race, F(1, 154) ¼
+7.61, p ¼ .007, g2 ¼ :05. Participants who read about a
+p
+Black=White candidate believed more strongly that he
+was not hired because of his poor interview skills
+(M ¼ 4.09, SD ¼ 1.70) than participants who read about
+a Black candidate (M ¼ 3.40, SD ¼ 1.51). We also
+observed a marginal main effect of candidate attribution,
+F(1, 154) ¼ 3.55, p ¼ .06, g2 ¼ :02, such that participants
+p
+were more likely to believe that the candidate who
+blamed rejection on his interview skills was, in fact, more
+likely to have been rejected due to the quality of his interview skills (M ¼ 3.96, SD ¼ 1.69) than the candidate who
+claimed to have been discriminated against (M ¼ 3.51,
+SD ¼ 1.57). We did not observe a main effect of interviewer prejudice, nor did we uncover any interactions.
+This ﬁnding supports our hypothesis that participants
+evaluating a Black=White candidate would be more
+likely than those evaluating a Black candidate to assume
+that the candidate was not hired because of his poor
+interview skills.
+Sociability rating. The results also yielded a main
+effect of candidate race on perceptions of how sociable
+the candidate seemed, F(1, 154) ¼ 4.06, p < .05, g2 ¼
+p
+:03. Participants evaluated the Black candidate as more
+sociable (M ¼ 4.63, SD ¼ .81) than the Black=White candidate (M ¼ 4.37, SD ¼ .74). In addition, a signiﬁcant
+main effect of candidate attribution emerged, F(1,
+154) ¼ 4.36, p ¼ .04, g2 ¼ :03. Similar to Kaiser and
+p
+Miller’s (2003) ﬁndings for evaluations of niceness, participants in the discrimination attribution condition rated
+the job candidate as less sociable (M ¼ 4.37, SD ¼ .85)
+than participants in the interview skills attribution
+condition (M ¼ 4.63, SD ¼ .70). There was no main effect
+
+STEREOTYPES AFFECT BIRACIAL JOB APPLICANTS
+
+Downloaded by [University of Toronto Libraries] at 07:38 05 June 2012
+
+of interviewer prejudice, nor did we observe any
+signiﬁcant interactions.
+Troublemaker rating. The results revealed a signiﬁcant main effect of candidate attribution on participants’
+ratings of the extent to which the candidate was a
+troublemaker, F(1, 154) ¼ 40.21, p < .001, g2 ¼ :21.
+p
+Participants rated the job candidate as more of a troublemaker when he claimed that his rejection was due to discrimination (M ¼ 3.79, SD ¼ .85) than when he blamed
+his interview skills (M ¼ 2.91, SD ¼ .91). No other signiﬁcant main effects or interactions emerged in this analysis.
+Regardless of whether the candidate faced low or high
+levels of prejudice from the interviewer, he was rated as
+more of a troublemaker when he claimed to have been
+discriminated against than when he invoked his own skills
+as the reason that he did not get the job. This ﬁnding
+replicates results reported by Kaiser and Miller (2003).
+
+DISCUSSION
+The present study demonstrates that Black=White
+people are more likely than Black people to be perceived
+as lacking the interview skills necessary to obtain
+employment. Observers reviewed a portfolio describing
+a job interview process involving either a Black=White
+or Black applicant who was denied employment by a
+White interviewer. The results revealed that observers
+perceived the Black=White candidate as less sociable
+than the Black candidate overall, in line with stereotypes
+that biracial people are awkward in social situations.
+The ﬁndings also indicated that participants who evaluated a Black=White applicant were more likely than
+those who evaluated a Black applicant to believe that
+the applicant was rejected because of his poor interview
+skills. Participants attributed the interviewer’s unfavorable hiring decision to the Black=White applicant’s
+interview skills regardless of whether there was a clear,
+alternative reason (i.e., the interviewer was racist) that
+the applicant was not hired, and regardless of the candidate’s own attribution for why he failed to attain the
+position.
+It is important to note that we observed that the
+interviewer prejudice and candidate attribution manipulations worked as intended; participants perceived more
+racism in the high (as opposed to low) interviewer prejudice condition and were aware that at times the candidate attributed rejection to discrimination and other
+times attributed rejection to his interview skills. We
+are conﬁdent, therefore, that participants explicitly disregarded both the presence of racism and the candidate’s own appraisal of the interviewer’s decision when
+rendering judgments about the Black=White applicant’s
+
+209
+
+poor interview skills. Given that we did not test whether
+participants correctly recalled the race of the candidate
+at the end of the study, we were not able to exclude data
+from participants for whom candidate race was not salient. The observed bias against Black=White applicants,
+therefore, may well be conservatively estimated. The
+current study is the ﬁrst, to our knowledge, to examine
+how social skills stereotypes impact perceptions of
+biracial people in job interview settings. We provide
+evidence that stereotypes affect observers’ appraisals of
+biracial job applicants, biasing perceivers’ opinions
+regarding why mixed-race individuals encounter rejection in the job market. The ﬁndings present implications
+for understanding social factors that affect biracial
+people seeking employment and underscore the importance of studying perceptions of biracial people in
+settings that require exceptional interpersonal skills. In
+addition, we replicate past research showing that discrimination claimants are perceived as troublemakers,
+regardless of whether they face apparent prejudice from
+authority ﬁgures (Kaiser & Miller, 2001, 2003).
+Although the current study focused on the consequences
+of biracial stereotypes and not on perceptions of discrimination claimants per se, this replication effect
+serves as a striking reminder of the social costs of
+claiming discrimination!
+The present study was inspired by evidence of a wage
+gap between White and Black=White Americans. Examination of the 2000 census data reveals that, indeed,
+Black=White men report earning signiﬁcantly less than
+White men (controlling for age, educational attainment
+and region of employment). No wage disparities emerge
+between Black and Black=White male respondents (U.S.
+Census Bureau, 2001). Fairlie (2009) noted that, if we
+assume that Black=White people are treated less favorably than White people but more favorably than Black
+people, we would expect Black=White workers to earn
+signiﬁcantly more than Black workers. The prediction
+that Black=White people should report higher wages
+than Black people is also consistent with research suggesting that Black=White people face relatively little
+anti-Black stereotyping both because of their partial
+White ancestry (Sanchez et al., 2011) and their low phenotypically Black appearances (Maddox, 2004). According to census data, however, this prediction does not
+hold. As a result, we turned to research on stereotypes
+regarding mixed-race individuals’ poor social skills
+(Chelsey & Wagner, 2003; Jackman et al., 2001; Sanchez
+& Bonam, 2009) to examine ways in which Black=White
+job applicants may be disadvantaged relative to Black
+job applicants. Indeed, we observed that social skills
+stereotypes inﬂuence perceptions of Black=White people
+who are denied employment, leading observers to believe
+that biracial job applicants are likely to have been
+rejected because of their poor interview skills.
+
+210
+
+REMEDIOS, CHASTEEN, OEY
+
+Downloaded by [University of Toronto Libraries] at 07:38 05 June 2012
+
+Limitations and Future Directions
+In the current study we investigated perceptions of job
+applicants who were not hired, as opposed to examining
+opinions regarding who should be hired, because we were
+concerned that research participants would be reluctant
+to make unfavorable ‘‘do not hire’’ decisions when the
+race of a minority candidate was salient. Social norms
+dictate that minorities (particularly Blacks) should be
+treated positively, and people comply with these norms
+whether they personally value egalitarianism or believe
+that political correctness is necessary to avoid social
+sanctions (e.g., Devine, 1989; Shelton, Richeson, Salvatore, & Trawalter, 2005). Investigating hiring decisions,
+as a result, is complicated by potential social desirability
+biases toward making ‘‘hire’’ judgments that can obscure
+race-related differences in perceptions of the applicants’
+interpersonal skills. Instead, we examined perceptions
+of candidates who faced certain discrimination as compared to those who were rejected for ambiguous reasons.
+The present results provide compelling evidence that
+participants will disregard obvious situational explanations (i.e., the interviewer is racist) for candidate rejection in favor of their own stereotypical attitudes that
+biracial people are socially unskilled. Given this result,
+we hypothesize that observers, including actual interviewers in workplace contexts, are likely to perceive the
+social skills of Black=White people in biased ways. Such
+biases may lead employers to rate Black=White applicants as less hirable and Black=White employees as less
+suited for working in highly interpersonal environments
+(e.g., retail settings as in the current study, as well as positions emphasizing relationship building with clients).
+Ultimately, it is will be important for future research to
+examine the attitudes and behaviors of interviewers in
+actual workplace settings; therefore, additional work is
+needed to investigate the previous claims.
+It will be important, in addition, for future research to
+test whether biracial people are perceived to be more sociable in the context of some work environments and not
+others. Work environments in the United States are
+becoming more and more diverse, and researchers have
+started examining whether some people are better
+equipped than others to cope during interracial interactions (e.g., Trawalter, Richeson, & Shelton, 2009). It
+may be the case that biracial workers’ own complex racial
+backgrounds make them particularly suited to dealing
+with social issues of diversity and interracial harmony
+(Shih & Sanchez, 2005). Past research suggests that biracial people are, in fact, more comfortable engaging in
+interracial interactions than White people and monoracial
+minorities (Bonam & Shih, 2009). It remains unclear, however, whether observers take this comfort with interracial
+environments into account when evaluating the social
+skills of biracial job applicants. In particular, it would be
+
+interesting to test whether the negative consequences of
+social skills stereotypes dissipate in the case of biracial
+people seeking positions that emphasize the importance
+of skillfully negotiating interracial interactions.
+The present ﬁndings are limited, however, by the direct
+way in which we revealed the applicant’s biracial status to
+participants. Outside of the lab, mixed-race job applicants most likely do not disclose their biracial status in
+such an overt way. Surprisingly little research has examined whether people can infer biracial status during
+face-to-face interactions (as in interview situations); however, researchers generally agree that racial ambiguity is
+correlated with biraciality (Pauker et al., 2009; Peery &
+Bodenhausen, 2008; Remedios & Chasteen, 2011). Racial
+ambiguity, therefore, may be used by perceivers to infer
+biraciality when race is not disclosed. In addition, our
+direct manipulation of biracial status is consistent with
+other work in this domain (Sanchez & Bonam, 2009;
+Sanchez et al., 2011) and, despite its practical limitations,
+allows for experimental control that is particularly
+important in the early stages of examining perceptions
+of biracial people. In light of the current research it seems
+as though biracial people who are able to conceal their
+mixed-race heritages from interviewers should do so in
+order to escape biased judgments based on negative
+stereotypes. According to past research, however, biracial
+individuals who disclose information about their race to
+others experienced improved psychological well-being
+(Sanchez & Bonam, 2009). Mixed-race job applicants,
+therefore, may ﬁnd themselves forced to choose between
+making good ﬁrst impressions during interviews or feeling good about themselves.
+Conclusion
+The present research shows that social skills stereotypes
+affect evaluations of Black=White people who are denied
+employment. Black=White job candidates were rated as
+less sociable than Black job candidates overall and participants were more likely to infer that Black=White job
+applicants were rejected by interviewers because of their
+poor interview skills. We observed these stereotypical
+attitudes, it is important to note, even among participants who acknowledged that the interviewer was
+racist and who understood that applicants attributed
+their own rejection to discrimination. The current ﬁndings further our understanding of the social factors that
+may contribute to disparities in the treatment of Black
+and Black=White job applicants. By demonstrating that
+biracial people are perceived to perform more poorly
+than monoracial minorities during job interviews, we
+raise the possibility that people exhibit biases against
+hiring mixed-race job applicants. Additional research is
+needed to examine the contribution of anti-biracial
+prejudice to hiring and wage disparities.
+
+STEREOTYPES AFFECT BIRACIAL JOB APPLICANTS
+
+ACKNOWLEDGMENTS
+This research was supported by a grant from the Social
+Sciences and Humanities Research Council of Canada
+awarded to J. Remedios.
+
+Downloaded by [University of Toronto Libraries] at 07:38 05 June 2012
+
+REFERENCES
+Barrick, M. R., Swider, B. W., & Stewart, G. L. (2010). Initial evaluations in the interview: Relationships with subsequent interviewer
+evaluations and employment offers. Journal of Applied Psychology,
+95, 1163–1172. doi:10.1037=a0019918
+Bonam, C. M., & Shih, M. (2009). Exploring multiracial individuals’
+comfort with intimate interracial relationships. Journal of Social
+Issues, 65, 87–103. doi:10.1111=j.1540-4560.2008.01589.x
+Chelsey, G. L., & Wagner, W. G. (2003). Adults’ attitudes toward
+multiracial children. Journal of Black Psychology, 29, 463–480.
+doi:10.1177=0095798403256888
+Clark, R., Anderson, N. B., Clark, V. R., & Williams, D. R. (1999).
+Racism as a stressor for African Americans: A biopsychosocial
+model. American Psychologist, 54, 805–816. doi:10.1037=0003066X.54.10.805
+Correll, J., Park, B., Judd, C. M., Wittenbrink, B., Sadler, M., &
+Keesee, T. (2007). Across the thin blue line: Police ofﬁcers and racial
+bias in the decision to shoot. Journal of Personality and Social
+Psychology, 92, 1006–1023. doi:10.1037=0022-3514.92.6.1006
+Devine, P. G. (1989). Stereotypes and prejudice: Their automatic
+and controlled components. Journal of Personality and Social
+Psychology, 56, 5–18. doi:10.1037=0022-3514.56.1.5
+Dion, K. L. (2002). The social psychology of perceived prejudice and discrimination. Canadian Psychology, 43, 1–10. doi:10.1037=h0086899
+Fairlie, R. W. (2009). Can the ‘‘one-drop rule’’ tell us anything about
+racial discrimination? New evidence from the multiple race question
+on the 2000 census. Labour Economics, 16, 451–460. doi:10.1016=
+j.labeco.2009.01.003
+Fiske, S. T., Cuddy, A. J., Glick, P., & Xu, J. (2002). A model of (often
+mixed) stereotype content: Competence and warmth respectively
+follow from perceived status and competition. Journal of Personality
+and Social Psychology, 82, 878–902. doi:10.1037=0022-3514.82.
+6.878
+Jackman, C. F., Wagner, G. W., & Johnson, J. T. (2001). The attitudes
+toward multiracial children scale. Journal of Black Psychology, 27,
+86–99. doi:10.1177=0095798401027001005
+Kaiser, C. R., & Miller, C. T. (2001). Stop complaining! The social costs
+of making attributions to discrimination. Personality and Social
+Psychology Bulletin, 27, 254–263. doi:10.1177=0146167201272010
+Kaiser, C. R., & Miller, C. T. (2003). Derogating the victim: The
+interpersonal consequences of blaming events on discrimination.
+Group Processes and Intergroup Relations, 6, 227–237. doi:10.1177=
+13684302030063001
+
+211
+
+Maddox, K. B. (2004). Perspectives on racial phenotypicality bias. Personality and Social Psychology Review, 8, 383–401. doi:10.1207=
+s15327957pspr0804_4
+Maddox, K. B., & Gray, S. A. (2002). Cognitive representations of
+Black Americans: Reexploring the role of skin tone. Personality
+and Social Psychology Bulletin, 28, 250–259. doi:10.1177=
+0146167202282010
+Pauker, K., Weisbuch, M., Ambady, N., Sommers, S. R., Adams, R.
+B., Jr., & Ivcevic, Z. (2009). Not so Black and White: Memory
+for ambiguous group members. Journal of Personality and Social
+Psychology, 96, 795–810. doi:10.1037=a0013265
+Peery, D., & Bodenhausen, G. V. (2008). Black þ White ¼ Black:
+Hypodescent in reﬂexive categorization of racially ambiguous faces.
+Psychological Science, 19, 973–977. doi:10.1111=j.1467-9280.2008.
+02185.x
+Remedios, J. D., & Chasteen, A. L. (2011). The role of confusion in
+interpersonal contexts involving racial ambiguity. Unpublished
+manuscript, University of Toronto, Toronto, Canada.
+Sanchez, D. T., & Bonam, C. M. (2009). To disclose or not to disclose
+biracial identity: The effect of biracial disclosure on perceiver
+evaluations and target responses. Journal of Social Issues, 65, 129–
+149. doi:10.1111=j.1540-4560.2008.01591.x
+Sanchez, D. T., Good, J. J., & Chavez, G. (2011). Blood quantum and
+perceptions of Black=White biracial targets: The Black ancestry
+prototype model of afﬁrmative action. Personality and Social
+Psychology Bulletin, 37, 3–14. doi:10.1177=0146167210389473
+Shelton, J. N., Richeson, J. A., Salvatore, J., & Trawalter, S. (2005).
+Ironic effects of racial bias during interracial interaction. Psychological Science, 16, 397–402. doi:10.1111=j.0956-7976.2005.01547.x
+Shih, M., & Sanchez, D. T. (2005). Perspectives and research on the
+positive and negative implications of having multiple racial identities. Psychological Bulletin, 131, 569–591. doi:10.1037=0033-2909.
+131.4.569
+Shih, M., & Sanchez, D. T. (2009). When race becomes more complex:
+Towards understanding the landscape of multiracial identity and
+experiences. Journal of Social Issues, 65, 1–11. doi:10.1111=j.15404560.2008.01584.x
+Smith, J. P., & Edmonston, B. (1997). The new Americans. Washington, DC: National Academy of Science Press.
+Swim, J. K., Aikin, K. J., Hall, W. S., & Hunter, B. A. (1995). Sexism
+and racism: Old-fashioned and modern prejudices. Journal of
+Personality and Social Psychology, 68, 199–214. doi:10.1037=00223514.68.2.199.
+Trawalter, S., Richeson, J. A., & Shelton, J. N. (2009). Predicting
+behaviour during interracial interactions: A stress and coping
+approach. Personality and Social Psychology Review, 13, 243–268.
+doi:10.1177=1088868309345850
+U.S. Census Bureau. (2001). Overview of race and Hispanic origin:
+Census 2000 brief. Washington, DC: Government Printing Ofﬁce.
+Wilkins, C. L., Kaiser, C. K., & Rieck, H. (2010). Detecting racial
+identiﬁcation: The role of phenotypical prototypicality. Journal of
+Experimental Social Psychology, 46, 1029–1034. doi:10.1016=
+j.jesp.2010.05.017
+
+

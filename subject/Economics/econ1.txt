@@ -1,0 +1,3276 @@
+Payment Mechanisms and Anti-Poverty Programs:
+Evidence from a Mobile Money Cash Transfer Experiment in Niger
+
+Jenny C. Aker, Rachid Boumnijel, Amanda McClelland and Niall Tierney
+
+August 2014
+Abstract: Cash transfers have become an increasingly important component of social protection
+policies in both developed and developing countries. While such programs are often
+implemented electronically in developed countries, in many developing countries with weak
+financial infrastructure, such transfers are distributed manually, resulting in significant costs to
+program recipients and the public sector alike. The introduction of mobile money systems in
+many developing countries offers new opportunities for distributing cash transfers. Using data
+from a randomized experiment of a mobile money cash transfer program in Niger, we find
+evidence of benefits of this new system: Households receiving mobile transfers had higher diet
+diversity and children consumed more meals per day. These results can be partially attributed to
+increased time saving, as m-transfer program recipients spent less time traveling to and waiting
+for their transfer, as well as increased intra-household bargaining power for women. This
+suggests that electronic transfers may address key logistical challenges in implementing cash
+transfer programs in developing countries, but that sufficient investment in the payments
+infrastructure is needed.
+Keywords: Unconditional cash transfers, mobile money, electronic transfers, Africa
+JEL codes: O1, H84, I38, O33
+
+
+
+Jenny C. Aker, The Fletcher School and Department of Economics, Tufts University, 160 Packard Avenue,
+Medford, MA 02155; Jenny.Aker@tufts.edu. Rachid Boumnijel, Care International,
+Boumnijel@careinternational.org. Amanda McClelland, International Red Cross, amandamcc1@hotmail.com; Niall
+Tierney, Department of Foreign Affairs and Aid, Government of Ireland, niall_tierney@hotmail.com. We thank
+Concern Worldwide in Niger for their support in all stages of this project and would especially like to thank
+Adamou Hamadou and the data collection team in Niger. We greatly appreciate comments from Randall Akee,
+Steven Block, Pascaline Dupas, Frederico Finan, Alain de Janvry, Kelsey Jack, Robert Jensen, Charles Kenny,
+Stephan Klasen, Alan Gelb, Jessica Goldberg, Christopher Ksoll, Jake Kendall, Jeremy Magruder, Craig McIntosh,
+Pau, Julie Schaffner, Gabrielle Smith, Tavneet Suri, Frank-Borge Wietzke and participants at seminars at the Center
+for Global Development, UC-Berkeley, MWIDC, UC-Davis, UC-Santa Cruz, UC-Irvine, University of Southern
+California and the University of Gottingen. We are grateful for financial support from the European Commission,
+Irish Aid, the Hitachi Center and Tufts University. All errors are our own.
+
+.
+
+Conditional and unconditional cash transfers have become an increasingly common
+component of social protection policies in both developed and developing countries (World Bank
+2009, DFID 2011). As of 2013, 119 developing countries had some type of cash transfer
+program in place (Gentilini et al 2014). In higher and middle-income countries, such programs
+are often implemented electronically, either via bank transfers or pre-paid debit cards. Yet in
+developing countries with limited financial infrastructure, cash transfer programs often require
+physically distributing cash in small denominations to remote rural areas. This can result in
+substantial costs for both the implementing agency and program recipients, thereby affecting the
+potential effectiveness of cash transfers as compared with other anti-poverty programs and
+resulting in hidden costs to program recipients.
+The introduction of mobile phone-based money transfer systems (m-transfers, or mobile
+money) in many developing countries offers an alternative infrastructure for delivering such
+transfers. By transferring money via the mobile phone, mobile money (m-money) could
+potentially reduce the costs associated with providing cash transfers. M-transfer systems may
+also prove easier for transfer recipients to collect their transfers, provided they have ready access
+to m-transfer agents. By bypassing public sector distribution agents and putting money directly
+into the accounts of beneficiaries, m-transfer systems could potentially lower leakage associated
+with social protection programs (Muralidharan et al 2013). Beyond its cost-saving potential, mtransfer systems may have broader implications for economic development by increasing access
+to informal private transfers (Blumenstock, Eagle and Fafchamps 2013, Jack and Suri 2014) or
+serving as an alternative savings device (Mas and Mayer 2012, Mbiti and Weil 2011).
+This potential “win-win” scenario, in which the public sector could lower the costs of
+implementing anti-poverty programs and the poor could receive other benefits, is attractive for
+policymakers, donors and implementing agencies alike (Banerjee et al 2013). In 2012, the
+“Better than Cash” Alliance was formed, advocating for governmental and non-governmental
+organizations to move to digital payments for payroll, government benefits and humanitarian aid,
+citing cost savings, transparency and financial inclusion as potential benefits.1 This has been
+
+1
+
+http://betterthancash.org/about/. The “Better than Cash” Alliance seeks to “empower people through electronic
+payments.”
+
+1
+
+echoed by a number of other organizations, such as the Gates Foundation, which has made
+digital payments a key aspect of its financial inclusion strategy.
+What is surprising about the calls for a shift to electronic payments is the scarcity of
+rigorous empirical evidence to support these claims. A priori, it is not clear that electronic
+transfers will be unambiguously welfare-improving. For example, much of the proposed cost
+savings associated with electronic transfers depends upon the existence of a well-functioning
+electronic distribution system, such as a mobile agent network that allows recipients to “cash
+out”. While over 140 m-money platforms have been deployed in 80 countries worldwide,
+adoption has remained surprisingly low in most countries, potentially due to weak agent
+infrastructures (GSMA 2013).2 In the absence of this infrastructure, distributing cash transfers
+via m-money might actually increase costs for recipients who cannot access m-transfer agents or
+use the technology. Furthermore, electronic transfers could increase the likelihood of leakage if
+m-transfer agents can more easily extract the transfer from program recipients than public sector
+agents.
+Using a randomized experiment, we examine the effects of using mobile money in
+delivering a public cash transfer program in Niger. In response to a devastating drought, targeted
+households in 96 villages received a monthly unconditional cash transfer, with women as the
+primary beneficiary. The first delivery channel provided the cash transfer manually, whereby
+cash was distributed in individual envelopes (the standard mechanism). The second delivery
+channel provided the cash transfer electronically, whereby program recipients received the
+transfer via the m-transfer system, as well as a m-money-enabled mobile phone. The third
+delivery mechanism was the same as the manual cash mechanism, but households also received a
+m-money-enabled mobile phone. As we were unable to collect data from a pure comparison
+group, our analysis focuses on the relative costs and benefits of different transfer mechanisms.
+Overall, our results provide evidence that the m-transfer system had benefits:
+Households in the m-transfer group used their cash transfer to buy more diverse types of goods
+and allocated a greater proportion of their transfer to protein and energy-rich foodstuffs. These
+
+2
+
+Outside of Kenya, the most notable mobile money success story, m-money adoption has remained surprisingly low
+in other African countries, estimated at less than 10 percent. Yet m-money adoption and agent penetration are even
+lower in some of the poorest countries, which arguably could benefit the most from this type of technology.
+
+2
+
+diverse uses of the transfer also resulted in a 10-16 percent improvement in diet diversity,
+primarily due to increased consumption of beans and oil, and children consumed 1/3 more of a
+meal per day. We do not find evidence that m-transfer households reduced their ownership of
+other durable and non-durable goods, suggesting that other household members were not
+decreasing their contribution to household goods as a result of the transfer.
+These results can be partially explained by the time savings to m-transfer program
+recipients in obtaining the transfer, as well as increased bargaining power for women. Mtransfer program recipients traveled shorter distances and waited for shorter periods of time to
+obtain their transfer as compared with their manual cash counterparts. 3 While the magnitude of
+average time savings was relatively small – approximately two days over a five-month period –
+we believe that this is a conservative lower bound on actual time savings. In addition, this
+savings occurred during a period of year when opportunity costs were high, implying that the
+time savings could have enabled m-transfer program recipients to engage in other productive
+activities or invest more time in child care. While we do not have data on the latter channel, the
+empirical evidence appears to support the former claim: M-transfer households were more likely
+to cultivate marginal cash crops that are primarily grown by women.4
+In addition to the cost savings, we provide additional evidence that the m-transfer
+mechanism affected intra-household decision-making. Program recipients, all of whom were
+women, reported that the m-transfer was less observable to other household members, thereby
+allowing them to temporarily conceal the arrival of the transfer. We find that m-transfer program
+recipients were more likely to obtain the transfer on their own, travel to weekly markets and be
+involved in selling household grains than their manual cash counterparts. The results, taken
+together, suggest that the m-transfer technology might have shifted women’s bargaining power
+within the household.
+
+3
+
+This result would not be surprising in a context such as Kenya, with over 50,000 mobile money agents,
+approximately 10 percent of the total number of agents in sub-Saharan Africa. In West Africa, there are fewer than
+45 mobile money agents per 1,000 people in countries such as Senegal and Ivory Coast, two countries with the most
+well-developed m-money platforms. This is less than the number of Western Union or MoneyGram points of sale in
+such countries, which are in direct competition with mobile money.
+4Unlike Muralidharan et al 2013, we do not find evidence that the m-transfer mechanism had any impacts on
+leakage, defined as the difference in the amount of the cash transfer reportedly paid by the public sector and
+received by program recipients.
+
+3
+
+A key issue with the introduction of technological infrastructure platforms is whether
+such platforms are cost effective. Comparing the electronic (m-money) and manual cash transfer
+mechanisms, the initial costs of the m-transfer delivery system were higher, primarily due to the
+costs of mobile phones. However, the variable costs per program recipient were 20 percent
+lower for the m-transfer as compared with the manual cash transfer mechanism. Furthermore,
+the additional time savings to m-transfer program recipients were equivalent to, or larger than,
+the additional costs of the program.
+Our paper makes two substantive contributions. First, while there has been substantial
+literature on the costs of transfer programs (Caldes, Coady and Maluccio 2004, Handa and Davis
+2006), there is scant literature on the relative benefits and costs of electronic versus manual
+transfers. More recently, Muralidharan et al (2013) have found that electronic transfers
+combined with biometric identification resulted in significant cost reductions for beneficiaries,
+whereas Blumenstock, Callen, and Ghani (2013) found that mobile salary payments significantly
+reduced firms’ costs in areas where adequate mobile network and agent coverage existed.
+Second, our experiment adds to a strand of literature on the impact of m-transfer systems on
+household welfare (Jack and Suri 2014, Blumenstock, Eagle and Fafchamps 2013). That
+literature has primarily focused on the use of m-money for private transfers. Yet both of these
+strands of literature are unable to disentangle the impact of the technology from the transfer
+mechanism. In contrast, our experiment exogenously varies access to both the mobile phone
+handset and the m-transfer technology, thereby allowing us identify different behavioral
+responses to each. In addition, we are able to measure both the costs and benefits to program
+recipients.
+Combined with these studies, our results suggest that the use of technology for antipoverty programs can help to address key logistical challenges in implementing such programs.
+In our context, the m-transfer intervention also improved program performance: It greatly
+reduced program recipients’ costs and generated important benefits as compared with the manual
+cash transfer. Yet this system requires the existence of a robust agent infrastructure, which is
+only available in a handful of developing countries, and often not in the poorest countries where
+such systems could arguably have the greatest impact in reducing transaction costs. In addition,
+
+4
+
+it is not clear that such systems will improve households’ financial inclusion or generate longerterm benefits, as its proponents suggest.
+The rest of the paper proceeds as follows. Section I describes the context and the
+experimental design. Section II describes the different datasets and estimation strategy. We
+discuss the results in Section III before discussing mechanisms (Section IV) and alternative
+explanations (Section V). Section VI presents the costs to the public sector and Section VII
+concludes.
+
+I.
+
+Setting and Research Design
+Niger, a landlocked country located in West Africa, is one of the poorest countries in the
+
+world. With a per capita GNP of US$360 and an estimated 85 percent of the population living
+on less than US$2 per day, Niger is one of the lowest-ranked countries on the United Nations’
+Human Development Index (UNDP 2011). Rainfall ranges from 200 millimeters (mm) per year
+in the northern regions to 800 mm in the south and is subject to high intra- and inter-annual
+variability (Nicholson, Some and Kone, 2000). For example, Niger experienced six droughts
+between 1980 and 2005 (Government of Niger 2007). In 2009/2010, the time period of this
+study, Niger experienced both drought and harvest failures, with 2.7 million people classified as
+vulnerable to extreme food insecurity (FEWS NET 2010).
+The first m-transfer system in Niger was introduced in January 2010. Known as “Zap”,
+the product was developed by the primary mobile phone service provider (Zain, now Bhartia
+Airtel). Like most m-transfer systems, Zap allowed users to store value in an account accessible
+by the handset, convert cash in and out of the account and make transfers by using a set of text
+messages, menu commands, and personal identification numbers (PINs) (Aker and Mbiti 2010).
+While mobile phone coverage has grown substantially in Niger over the past decade, initial
+coverage, usage and growth of Zap was limited and geographically focused in the capital city
+(Niamey) and regional capitals. The cost of making a $USD45 transfer using Zap cost USD$3
+during this period.5
+
+A. Cash Transfer Delivery Mechanisms
+5
+
+In 2010, it cost $1.50 to make a transfer between $20-$40, whereas a transfer greater than $USD 40 cost $3.
+
+5
+
+In response to the 2009/2010 drought and food crisis in Niger, an international nongovernmental organization, Concern Worldwide, designed a short-term social protection
+program. The program sought to prevent increases in malnutrition and asset depletion by
+providing unconditional cash transfers to approximately 10,000 drought-affected households
+during the “hungry season”, the five-month period before the harvest.
+The first experimental treatment was the manual cash intervention (Cash), whereby
+households received an unconditional cash transfer of 22,000 CFA per month (approximately
+$US45) over a five-month period.6 The total value of the transfer was slightly less than 2/3 of
+the total annual GDP per capita, larger than cash transfer programs in Latin America and subSaharan Africa (Handa and Davis 2006, Garcia and Moore 2012).7 Payments were made on a
+monthly basis, with cash counted into individual envelopes and transported via armored vehicles
+to distribution centers.8 As is common in these types of programs in Niger, one village was
+chosen as a distribution point for a group of villages, although Concern tried to ensure that the
+cash distribution points were as close as possible to each village (Niang et al 2012, Hoddinott et
+al 2014). Program recipients were informed of the date and location of their cash transfer via a
+phone call, primarily by contacting a point person within the village the day before or the
+morning of the transfer, and had to travel to their designated location on that given day to receive
+the cash transfer. The manual cash transfer system was similar to that of other anti-poverty
+programs in Niger in response to the food crisis.
+The two additional interventions were variants of the basic intervention, one of which
+was aimed at reducing the costs of distributing cash to remote, sparsely-populated and in some
+cases insecure rural areas. In the second experimental treatment (Zap), program recipients
+received their cash transfer via the mobile phone. On the day of the cash transfer, Zap program
+6
+
+The value of the transfer varied monthly, with three transfers of 20,000 CFA ($US 40) and two transfers of 25,000
+CFA ($US 50).
+7
+Conditional cash transfer programs in Latin America range from 8-25 percent of average per capita annual income
+(Handa and Davis 2006). The size of unconditional cash transfer programs in sub-Saharan Africa varies
+considerably, ranging from US$8 per month in Mali to US$37 and US$42 per month in Kenya and Rwanda,
+respectively (Garcia and Moore 2012). These represent between 20-40 percent of per capita income in those
+countries. The program was the same magnitude as the government’s current safety net program, which provides
+10,000 CFA per month over 12 months, although the timing is concentrated during the hungry season.
+8Despite the fact that Niger is one of the largest countries in Africa, the total road network was estimated to be
+15,000 km as of 2005, of which only 8 percent were paved. There is less than 1 bank for every 100,000 people,
+making it one of the most “unbanked” countries in sub-Saharan Africa (Demirguc-Kunt and Klapper 2012).
+
+6
+
+recipients would receive a message with a special “beep” on their mobile phone, informing them
+that the transfer had arrived. After receiving this notification, recipients had to take the mobile
+phone to an m-transfer agent located in their village, a nearby village or a nearby market to
+obtain their cash. The m-transfer agent would then remove the value of the cash transfer and
+“cash out”, paying the value of the cash transfer to the program recipient. As less than 30
+percent of households in the region owned mobile phones prior to the program and the mtransfer technology was relatively new to Niger, Concern also provided program recipients with
+mobile phones equipped with a m-money account and training on how to use the technology, and
+only the female program recipients could cash out.9 In addition, as Zap was introduced into
+Niger a few months’ prior to the intervention, there were a limited number of Zap agents in rural
+areas. Concern therefore encouraged the mobile phone operator to register m-money agents
+within the program area, but did not have any control over the location or density of those
+agents. The second intervention thereby differs from the Cash intervention with respect to the
+transfer delivery mechanism, as well as the provision of the handset and the m-transfer
+technology.
+In an effort to disentangle the impact of electronic delivery mechanism from that of the
+mobile phone, we also implemented a third experimental treatment (Mobile). The Mobile
+intervention mirrored the manual cash intervention, but program recipients also received a
+mobile money-enabled mobile phone and training on how to use it.
+As these treatments differ in the cash transfer delivery mechanism, as well as the type of
+technology provided (m-transfer or a mobile phone handset), comparing outcomes under the
+different treatments will allow us to determine whether the m-transfer technology affected costs
+and other outcomes. In particular, comparing outcomes between the Mobile and Cash groups
+will allow us to measure the additional effect of mobile phone ownership, conditional on the
+manual cash transfer program. Comparing outcomes between the Zap and Mobile interventions
+
+9While
+
+the transfer fee and the first withdrawal fee were paid by Concern, program recipients would have had to pay
+the “cash out” (withdrawal) fee for any additional withdrawals. This would have cost approximately $US .25 for
+each withdrawal.
+
+7
+
+will allow us to detect the additional effect of m-transfer delivery mechanism, conditional on
+mobile phone ownership and the cash transfer program. 10
+Due to the humanitarian nature of the intervention and the political situation at the time
+of the crisis, we were unable to assign villages to or collect data from a comparison group before
+the program. Hence, while we can estimate the causal effect of the m-transfer delivery
+mechanism as compared with the manual cash transfer mechanism, we cannot estimate the
+causal impact of the cash transfer program.
+
+B. Experimental Design
+Prior to the intervention, Concern Worldwide identified 116 intervention villages in one
+region of Niger. Eligible villages were those classified by the Government of Niger as having
+produced less than 50 percent of their consumption needs during the 2009 harvest.11 Of these,
+some villages were prioritized for either the Cash or Zap intervention based upon their lack of
+mobile phone coverage (Cash) and proximity to the Niger-Mali border (Zap), thereby reducing
+our sample size to 96 eligible villages. Among these villages, we first stratified by
+administrative division (commune) and then randomly assigned villages to the Cash, Mobile or
+Zap interventions. In all, 32 villages were assigned to the Cash group, 32 to the Mobile group
+and 32 to the Zap group.12
+Prior to program assignment, eligible households within each village were identified by a
+village-level vulnerability exercise. Using indicators such as livestock ownership, landholdings
+and the number of household members, households were classified into four vulnerability
+categories (A, B, C and D), with C and D as the poorest categories. Households from the C and
+D vulnerability categories were selected for the program. The number of recipient households
+per village ranged from 12 to 90 percent of the village population, covering an average of 45
+10Concern
+
+also implemented a seed distribution program in one-third of targeted villages, whereby recipient
+households could replace two of their cash transfer payments with the equivalent value in seeds, which was provided
+by Concern. There is not a statistically significant difference in the presence of a seed distribution program across
+treatments.
+11
+To calculate a food “deficit”, the Government of Niger estimated village-level millet production and compared this
+with estimated consumption “needs”, defined as 190 kg of millet/capita/year. A village that produced less than 50
+percent of its estimated consumption needs was considered to be food deficit, and was therefore eligible for
+assistance in 2009/2010.
+12
+The average distance between villages of different treatments was 48 km, with a minimum distance of 3 km.
+
+8
+
+percent of the population. In all treatments, the cash transfer (as well as the mobile phone and
+training in the Zap and Mobile treatments) was provided to the woman within the household.13
+The study timeline is presented in Figure 1.
+
+C. Why should m-transfers matter?
+We expect that the m-transfer delivery mechanism might affect household outcomes
+through different channels. First, if the m-transfer mechanism reduces program recipients’ costs
+involved in obtaining the transfer or their uncertainty with respect to these costs, then this could
+reduce program recipients’ opportunity costs during a time of year when such costs were
+relatively higher. Alternatively, if the new technology makes it more difficult for program
+recipients to access their cash – either due to the limited number of m-transfer agents, difficulty
+in using the technology or charging the phone – this could increase costs for the Zap households
+to obtain the cash transfer program. Furthermore, while we might expect such transfers to
+reduce leakage (Muralidharan et al 2013), electronic transfers could increase the likelihood of
+leakage if m-transfer agents can more easily extract the transfer from program recipients.
+Second, the m-transfer system could simply change the way in which households spend
+the cash transfer. For example, if Zap program recipients obtain their cash from an agent and
+kiosk-owner within the village, program recipients might be exposed to different products (or
+prices) at the kiosk. The m-transfer technology could encourage program recipients to store
+some of the transfer on their phone, thus increasing the mental costs associated with unplanned
+expenditures (Dupas and Robinson 2013). Finally, since the m-transfer mechanism involved a
+training on how to use the technology, Zap program recipients could have been better informed
+about the program, including the time, date and frequency of the cash transfers, thereby allowing
+those households to more efficiently plan their use of the cash transfer.
+Third, access to the m-transfer technology could provide households with an alternative
+means of receiving money transfers and increase their access to informal private transfers from
+
+13Concern
+
+Worldwide only distributed the cash transfer in the Cash and Mobile treatments to the female program
+recipient (after presenting the beneficiary ID card), unless the program recipient was disabled. The requirement was
+the same for the Zap treatment group: m-money agents were instructed to only “cash out” to the intended program
+recipient, upon presentation of the mobile phone, PIN number and beneficiary ID card.
+
+9
+
+their social network, thereby helping households to better cope with risks and shocks
+(Blumenstock, Eagle and Fafchamps 2013, Jack and Suri 2014).
+Fourth, since m-transfers reduce the observability of the amount and timing of the cash
+transfer, this could affect inter-household sharing, thereby leaving more income available for the
+household (Jakiela and Ozier 2012). Changing the observability of the transfer could, in turn,
+affect women’s bargaining power within the household, thus changing the intra-household
+allocation of resources (Duflo and Udry 2004, Doepke and Tertilt 2014, Ashraf et al 2014).14
+Finally, access to the mobile phone technology could have reduced households’
+communication costs with members of their social network. This could have increased
+households’ access to information, thereby allowing them to improve their decision-making with
+respect to agriculture, migration and consumption. Since female program recipients in the Zap
+and Mobile treatments received mobile phones, in theory, this should not be a potential
+mechanism. However, this might be a potential channel if households in the Zap group used
+their handsets in different ways, or if women had greater control of the phone.
+
+II.
+
+Data and Estimation Strategy
+
+A. Data
+This paper uses four primary datasets. The first dataset is a household survey of 1,152
+program recipients in 96 intervention villages across three rounds. The primary respondent for
+the household surveys were program recipients (for participating households). The baseline
+survey was conducted in May 2010, with follow-up surveys in December 2010 and May 2011.
+The research team located over 94 percent of households for the follow-up surveys. Attrition
+was not differential across the experimental arms either in December 2010 or May 2011 (Table
+A1). The main sample in this paper therefore consists of those households who were located
+
+14Ashraf
+
+et al (2014) provide a voucher for concealable contraceptives either to women alone or jointly with their
+husbands, and find that women who were privately provided a voucher were more likely to use the contraceptives
+and have fewer births.
+
+10
+
+during the follow-up surveys and had basic covariate data: 1,081 households.15 Sample attrition
+is discussed below.
+The household survey included modules on household demographics, food security
+agricultural production and sales, mobile phone usage, asset ownership and shocks. For the
+follow-up surveys, we also included modules on the uses of the cash transfer. As the surveys
+were conducted during a humanitarian crisis and over a short time frame, we were mindful of the
+time burden on respondents. As a result, the household surveys did not include a full income and
+expenditure module, so we are unable to measure the impact of the program on total household
+expenditures. Rather, we collected data on proxies for well-being, such as asset accumulation
+(as a wealth proxy) and food security (including a 24-hour recall for diet diversity).16
+The second dataset is a village-level survey, collected during the same periods of the
+household-level surveys. The village surveys collected information from a focus group of male
+and female village residents on topics such as mobile phone coverage, access to markets and the
+number of Zap agents.
+The third dataset includes is weekly price information for six products in forty-five
+markets between May 2010 and January 2011, as well as the date of each cash transfer in each
+village. We use these data to test for differential effects of the cash transfer delivery mechanism
+(Zap or Cash) on local market prices and supply.
+The final dataset is anthropometric data among children under five collected in May
+2011. These data were collected from program recipient households from a randomly chosen
+subset of intervention villages, for a total sample of 30 villages and 691 households.
+
+B. Pre-Program Balance of Program Recipients
+Table 1 suggests that the randomization was successful in creating comparable groups
+along observable dimensions. Differences in pre-program household characteristics are small
+and generally insignificant. Average household size was nine, and a majority of respondents
+15
+
+For those regressions that focus on the specific uses of the transfer (e.g., Tables 4, 6 and 9), 1,052 households
+received the transfer (out of 1,081). The regressions in these tables are conditional on the household having
+received the transfer, but results are robust to imputing zero values for households that did not receive the transfer.
+16
+The household diet diversity index is a standard index developed by the Food and Nutrition Technical Assistance
+(FANTA) for surveys in developing countries. It includes a list of twelve food categories, including cereals, tubers,
+legumes, milk, fish, meat, oils, condiments, fruits, vegetables and sugar. FANTA 2006.
+
+11
+
+were members of the Hausa ethnic group. Average household education was .58 years, and 72
+percent of households were in monogamous marriages. Less than thirty percent of households
+owned a mobile phone prior to the start of the program, yet 63 percent of respondents had used a
+mobile phone in the few months prior to the baseline. Overall, Zap program recipients were
+older and more likely to be from the Fulani or Touareg ethnic groups as compared with the
+Mobile group (Panel A). The presence of a seed program in the village was also balanced,
+although the estimates are less precise. Overall we made 100 comparisons and found 13
+variables that were statistically significant at the 10 percent level, 9 that were statistically
+significant at the 5 percent level and 1 at the 1 percent level. As we would expect ethnicity and
+the seed distribution intervention to play an important role in household consumption, we control
+for these variables in the regression specifications.
+Table 2 provides further evidence of the comparability of the different interventions for
+key outcomes. Household diet diversity was 3 (out of 12 food categories), and households
+reported having sufficient food for 2 out of the past 6 months. Over 90 percent of households
+relied upon agriculture as a primary income source and approximately 50 percent had at least one
+seasonal migrant in the past year. None of the differences in mean outcomes are statistically
+significant at conventional levels.
+
+C. Estimation Strategy
+To estimate the impact of different cash transfer delivery mechanisms on a variety of
+outcomes, we use a simple reduced form regression specification comparing outcomes in the
+immediate post period (December 2010), as well as pooled data from the December 2010 and
+May 2011 rounds. This takes the following form:
+(1)
+
+Yiv = 0 + 1Zapv + 2Mobilev + X’iv0 +seedv + C + iv
+
+The variable Yiv represents the outcome of interest (costs, uses of the cash transfer, food security
+and assets) of individual or household i in village v. Zapv is an indicator variable for whether the
+village participated in the m-transfer program, whereas Mobilev is an indicator variable for
+whether the village was in the Mobile group. C are geographic fixed effects at the commune
+level, the level of stratification. We also include a vector of household baseline covariates that
+differed at baseline, X’iv0, such as ethnicity. Finally, we control for the presence of a seed
+
+12
+
+distribution program at the village level.17 The error term consists of iv, which captures
+unobserved individual or household characteristics or idiosyncratic shocks. We cluster the error
+term at the village level to account for the program design and correct for heteroskedasticity. The
+coefficients of interest are 1 and 2, which capture the average impact of the two treatments as
+compared to the basic cash intervention. We also test whether these coefficients are equal. Most
+regression specifications presented in this paper use the December 2010 household data. When
+household data are available for two post periods, as is the case for Table 4, we pool the data and
+include a linear time trend variable.18 Nevertheless, we also conduct separate analyses by time
+period (December or May), which allows us to measure the immediate and longer-term effects of
+the program. In those cases where the December or May results differ from the pooled results,
+these are noted in a footnote.19
+
+III.
+
+Results
+
+A. Uses of the Transfer
+As the cash transfer was unconditional, program recipients were free to spend the cash
+transfer how they wished. Overall, households in the manual cash villages used their transfer to
+purchase 4.40 different categories of goods, including staple grains (99%), cowpeas (42%), meat
+(40%), oil (70%), condiments (70%), health expenses (28%), seeds (20%), school fees (7%),
+debt reimbursement (7.4%) and labor costs (2%). (Respondents could list more than one use of
+the cash transfer, so the total can exceed 100%.) Consistent with other studies on cash transfers,
+fewer than 1% of households used the cash transfer to buy “temptation goods”, defined in this
+context as food from the kiosks (such as doughnuts and cookies) and tea (Evans and Popova
+2014). Thus, program recipients primarily used the transfer to ensure immediate consumption
+needs, but also to make limited agricultural investments and avoid asset depletion.
+
+17
+
+All results are robust to excluding the variable for presence of a seed distribution program.
+For the food security outcomes, we also control for the baseline value of the dependent variable in a value-added
+specification. The results are robust to this specification.
+19
+Additional tables showing the differences between the pooled, December and May data estimations are available
+upon request.
+18
+
+13
+
+Table 3 shows the different uses of the cash transfer by treatment group, using data only
+from the December 2010 round.20 The results paint a picture of more diverse uses of the cash
+transfer by Zap households. Households in Zap villages purchased .78 more types of food and
+non-food items as compared with the Cash group, and .84 more types of items as compared with
+the Mobile group, with a statistically significant difference between each pair. While the
+likelihood of purchasing staple grains did not differ by the cash transfer mechanism, program
+participants in the Zap group were 18-19 percentage points more likely to purchase non-staple
+grains (rice and corn), 9 percentage points more likely to purchase cowpea, and 12-18 percentage
+points more likely to purchase meat, condiments and oil as compared with those in the Cash and
+Mobile groups (Panel A). With the exception of cowpea, all of these differences are statistically
+significant at the 1 percent level.
+Table 3 (Panel B) shows the uses of the cash transfer for non-food items, namely school
+fees, health expenses and clothing. While relatively fewer households used the transfer for these
+purposes, there was no difference between the Zap, Mobile and Cash groups. The patterns are
+similar when looking at the percentage of program recipients in the village (Table A2) and only
+for the last transfer (Table A3).
+While Table 3 shows the extensive margin of the cash transfer, we might be interested in
+the intensive margin. Given potential recall error associated with earlier transfer periods, we
+only collected data on the amount spent for the last transfer and for specific categories (i.e. those
+that were easily able to quantify, such as grains or oils, rather than vegetables, fruits or
+condiments). The amount of the last cash transfer was $US 40, about 7 percent higher than the
+average price of a 100-kg bag of millet at the time. Table A4 shows the differential effects of the
+program on the amounts purchased of specific food items. Ninety-two percent of Cash
+households purchased a wholesale bag of millet with the last transfer, leaving approximately
+$US 8 to purchase other items. Zap households spent relatively less on the staple grains as
+
+20
+
+A potential concern with this measure is that program recipients could simply list the first (or largest) expenditures
+made after receiving the transfer, which could differ by treatment groups. Thus, we might see a treatment effect on
+measured expenditures rather than actual expenditures. This concern is alleviated by the way in which the question
+was measured; after program recipients cited specific categories, enumerators were instructed to go through a
+comprehensive list of all potential categories and ask the recipient if they spent the cash transfer on that particular
+category.
+
+14
+
+compared with both the Cash and Mobile groups, but spent more on other grains and oil as
+compared with the Mobile and Cash groups, consistent with the findings in Table 3.
+
+B. Food Security and Nutritional Status
+While the results in Table 3 suggest that Zap households used the cash transfer
+differently, without a full expenditure module, this would not necessarily indicate a net welfare
+improvement. Spouses of Zap program recipients’ spouses could have contributed fewer goods
+to the household as a result of the cash transfer, potentially leading to consumption distortions.
+While we are unable to assess the impact of the program on household expenditures, Table 4
+estimates the impact of the different delivery mechanisms on household food security and child
+nutritional status.21
+Table 4 (Panel A) shows the intent to treat estimates of the effect of different transfer
+delivery mechanisms on household food security, using pooled data from the December 2010
+and May 2011 rounds. Households in Zap villages had a household diet diversity that was .31
+points (10 percent) higher as compared with the Cash villages, with a statistically significant
+difference at the 5 percent level. Zap households also consumed .50 more food groups as
+compared with the Mobile group (Panel A), an increase of 16 percent. In particular, Zap
+households were 6-7 percentage points more likely to consume beans and 9-11 percentage points
+more likely to consume fats than Cash and Mobile households. All of these differences are
+statistically significant at the 1 or 5 percent levels. Overall, these effects represent a 30-percent
+increase in consumption of beans and fats, particularly important food groups given the high
+prevalence of protein-energy malnutrition in Niger (DHS 2012). Furthermore, this increased
+household diet diversity is correlated with the more diverse purchases observed in Table 3.22
+
+21
+
+Household diet diversity is defined as the number of different foods or food groups consumed over a given
+reference period. In this case, the reference period was the past 24 hours. A more varied diet is associated with a
+number of improved outcomes in areas such as birthweight (Rao et. al. 2001), child anthropometric status (Allen et.
+al., 1991; Hatloy, Hallund, Diarra and Oshaug, 2000; Onyango, Koski and Tucker, 1998) and food expenditures
+(Hoddinott and Yohannes 2002). However, improved nutritional status is only positively correlated with household
+diet diversity when diet diversity is greater than 3 food groups (Labadarios et al 2011).
+22
+While Zap households purchased more meat with the cash transfer (Table 3), they did not consume more meat
+(Table 4). This could be partially due to the different reference periods for the two tables. Table 3 asked households
+how they used the cash transfer (the last transfer in October 2010), whereas Table 4 asked about household
+consumption in the past 24 hours (December 2010). While grains, oils and beans are storable, meat is perishable
+
+15
+
+These results are also largely robust to alternative specifications, namely, controlling for baseline
+diet diversity measures and using only the December 2010 or May 2011 data, suggesting that the
+results persisted in the short- and longer-term.23
+Panel B shows the results of the cash transfer delivery mechanism on child health, as
+measured by child diet diversity and weight-for-height z-scores (WHZ) for children under 5.
+Overall, children in Cash villages ate 3.16 meals per day, whereas children in Zap households ate
+an additional 1/3 meal as compared with those in the Mobile and Cash groups. These differences
+are statistically significant at the 5 and 10 percent levels, respectively. Turning to nutritional
+status, while children in Zap villages had higher average WHZ and a lower prevalence of
+malnutrition as compared with those in the Mobile and Cash groups, none of these differences
+are statistically significant. This could be partially due to the imprecision of the estimates, as
+nutritional status data were only available from a subset of households in May 2011.
+While asset accumulation would not have been expected during the program, we test for
+impacts on household asset ownership to verify that other household members were not reducing
+their contribution to household public or private goods (Panel C). Overall we find that Zap
+households owned .16 more asset categories as compared with those in the Cash group, and .31
+more assets as compared with those in the Mobile group, although only the latter comparison is
+statistically significant at conventional levels. The program did not have an impact upon durable
+asset ownership (carts, plows and bikes). However, there was a marginal increase in non-durable
+asset ownership: Zap households had .12-.19 more non-durable assets (lamps and flashlights) as
+compared with the Mobile or Cash groups, with a statistically significant difference at the 10 and
+1 percent levels, respectively. Overall, this suggests that other household members were not
+reducing their allocation of these goods to the households. These results are consistent when
+using only data from the December or May rounds separately.
+
+unless dried. Thus, we would not expect to see an increase in meat consumption two months’ after the last cash
+transfer.
+23
+The results on diet diversity in Panel A are largely consistent when using only the December 2010 or the May
+2011 rounds, suggesting that these results hold in the short and longer-term. For the December 2010 data, the only
+difference is that the statistical significance of the household diet diversity indicator (Column 2) drops to the 10
+percent level. For the May 2011 data, the only difference is that the statistical significance of bean consumption
+(Column 2) drops to the 10 percent level, and there is a statistically significant difference for meat consumption for
+both pairwise comparisons.
+
+16
+
+IV.
+
+Potential Mechanisms
+
+One of the core results in this paper is that receiving a cash transfer via mobile money led to
+different uses of the transfer and increased household diet diversity. Our experimental design
+allows us to conclude that these results are due to the m-transfer mechanism, and not to the
+mobile phone. This section presents evidence on the channels through which the observed
+impacts occurred.
+A. Program Recipients’ Costs of Obtaining the Transfer
+A key claim of those supporting the use of electronic transfers is that they will reduce the
+costs of implementing the program. Yet whether these cost reductions accrue to program
+recipients depend upon the local electronic payments infrastructure, in this case, m- money
+agents. While Concern Worldwide tried to distribute the manual cash transfers as close as
+possible to program recipients’ villages, a standard (but not exclusive) practice in such programs,
+they did not have control over the location of registered m-money agents, which was managed by
+the mobile phone operator.
+Figure 2 shows the recipients’ travel costs related to obtaining the cash transfer. As both the
+Mobile and Cash groups received the cash transfer via the same mechanism, we pool the two
+groups. Overall, program participants in Zap villages incurred significantly fewer costs for
+obtaining the cash transfer. Whereas Cash and Mobile program recipients travelled an average
+of 4.04 km (round-trip) from their home village to obtain the transfer, Zap program recipients
+only travelled .9 km to “cash out” at the nearest agent, with a statistically significant difference at
+the 1 percent level.24 This is equivalent to a travel time savings of approximately 1 hour for each
+cash transfer, or 5 hours over the entire program. However, this analysis excludes the Cash
+program recipients’ waiting time during the transfer, which averaged three hours per cash
+transfer, as compared with 30 minutes for Zap recipients.25 Including wait time, the average cost
+savings to Zap program recipients over the program period would have been approximately 16
+
+24
+
+Hoddinott et al (2014) find that the average travel and wait time for cash transfers in Niger was one hour, using a
+portable ATM system.
+25
+While the average wait time for manual cash transfers was four hours, this ranged from 1 to 8 hours. The
+corresponding wait time for Zap recipients was 15 minutes to 1 hour.
+
+17
+
+hours. Based upon an average daily agricultural wage of US $3, this would translate into US $6
+over the cash transfer period, equivalent to 20-kg of grain.26
+This time savings occurred during the agricultural planting season in Niger, a period when
+program recipients’ opportunity costs were relatively higher. This suggests that the time savings
+estimates above are, in all likelihood, a lower bound, as most program recipients had to travel
+from their fields – often located 1.5 hours from their home village – before obtaining the transfer.
+While this distance would have been the same on average for Zap and Cash recipients, since Zap
+recipients could cash out at any time, they had greater flexibility in choosing a time to cash out.
+In theory, this could have freed up Zap program recipients’ time to engage in more productive
+agricultural activities at a particularly busy time of year, or potentially spend a greater portion of
+time on childcare, searching for water or food preparation. While we do not have time use data
+on child care or food preparation, we do have empirical evidence of the former channel: Zap
+program recipients were 17 percentage points more likely to plant okra and vouanzdou than their
+manual cash counterparts, with a statistically significance difference at the 1 percent level (Table
+A5). While part of this shift in cultivation was observed for the Mobile program recipients as
+well, there is a statistically significant difference between the Zap and Mobile program
+recipients, suggesting that the shift was not entirely driven by the presence of the mobile phone
+handset. There is no observed effect for other staple food and cash crops, namely millet,
+sorghum or cowpea, and this did not translate into higher production or sales. As okra and
+vouandzou are marginal cash crops grown by women, this suggests that the time savings was
+used for more productive agricultural activities.27 As women had to negotiate land with their
+spouses to cultivate these crops, this also suggests a potential shift in intra-household bargaining,
+which is discussed below.
+While the Zap transfer mechanism reduced recipients’ costs of obtaining the transfer, there
+might have been differential loss, theft or leakage between the different systems (Muralidharan et
+al 2013). Overall, leakage (defined as the amount reported as being disbursed versus received)
+was very low: 99% of Cash recipients reported receiving their transfer and received 99,000 CFA
+
+26
+
+A kilogram of millet costs an average of US$ .20 in Niger.
+This increase in the likelihood of planting these cash crops did not appear to have an income effect, as the amount
+harvested and sold was extremely small, with no statistically significant difference among the different groups.
+27
+
+18
+
+($US 200) over 4.6 transfers (Table 5). None of these differences were statistically significant
+across the three treatment arms. Part of the difference between the cash transfer balance received
+($US 200) as compared with the target ($US 225) can be explained by the seed distribution
+program, whereby a cash transfer was replaced with a similar value of seeds. At the same time,
+we cannot reject that this difference is, in part, due to some leakage. If this is the case, leakage
+would represent approximately 10% of the value of the transfer among Cash households,
+whereas leakage in the Zap and Mobile villages (as compared with the Cash villages) ranged
+from $US 1.50 to $7.50, less than 4 percent of the total value of the transfer.28
+B. Timing and Location of the “Cash Out” and Expenditures
+Table 6 provides some insights into program recipients’ receipt of their cash transfer and the
+timing and location of their expenditures. Unsurprisingly, almost all of the Cash households
+received their transfer on the same day that it was available, as most households did not have a
+choice (Panel A). By contrast, Zap households were 66 percentage points less likely to receive
+their cash on the same day that it was available, “cashing out” 1-4 days after receiving the
+notification. The lag time between being informed of the transfer and actually receiving the
+transfer in Zap villages was 1-2 days longer than the lag time in the Cash and Mobile villages,
+who were informed the day before (or day of) the cash transfer. Nevertheless, these additional
+days provided program recipients with greater flexibility during a particularly busy time.
+Zap program recipients also had the option of withdrawing the money in smaller amounts,
+thereby allowing them to use the mobile phone as a savings device and avoid unplanned
+expenditures. The cash-out data reveals that this was not the case. For all transfers, over 98% of
+Zap households withdrew the entire amount of their cash transfer at one time (Personal
+Correspondence with Zain 2011). This could, in part, be due to the fact that Zap households
+would have had to pay a fee for any additional withdrawals. In fact, less than 5 percent of
+households had any value remaining in their mobile phone one month after the last transfer, and
+those that did saved less than US $0.15.
+
+28
+
+In an effort to reduce the likelihood of theft during the manual cash distribution, either at the bank, en route or
+during the distribution, Concern Worldwide monitored all activities and hired security to guard the cash during its
+transport. In fact, those costs represented over 60 percent of the manual cash transfer distribution budget.
+
+19
+
+The slight change in the timing of the withdrawal could have modified the timing of
+household expenditures of the transfer (Panel B). Yet over 60 percent of Cash households spent
+their transfer all at one time (Table 6, Panel B), without a statistically significant difference in the
+timing of purchases between the Zap, Mobile and Cash groups.
+Turning to the location of expenditures, forty-three percent of recipients in the Cash villages
+spent at least part of their transfer at a kiosk within the village, whereas sixty-one percent spent
+at least part of the cash transfer at a market outside of the village. While these percentages were
+relatively higher in Zap villages, there is not a statistically significant difference between the
+pairs (Table 6, Panel C). Overall, these results suggest that the m-transfer mechanism changed
+the lag time between learning of and receiving the cash transfer, but did not affect the timing or
+location of the uses of the transfer. 29
+
+C. Using Mobile Money for Private Transfers
+By having access to the m-transfer technology, program recipients in Zap villages could have
+received more private transfers, thereby augmenting their income and increasing the diversity of
+their purchases or diets (Jack and Suri 2014). Table 7 shows the results of regressions for a
+variety of indicators related to private money transfers (person-to-person). Zap households were
+5-6 percentage points more likely to receive remittances, a relatively large impact that is not very
+precisely measured. However, there were no statistically significant differences in frequency or
+amount of remittances across treatments. Moreover, households in all villages primarily
+received remittances via Western Union (34 percent) or friends (53 percent), with less than 1
+percent of households receiving remittances via the m-transfer technology (Panel A). These
+results are similar for those households affected by a shock in 2010 or 2011, although the results
+are less precise due to the smaller sample size (Table 7, Panel B). These results are perhaps not
+surprising, as the agent network was not widespread and the m-transfer system could not be used
+for transfers outside of the West African currency zone, the destination of a majority of migrants
+
+29
+
+Finally, the “innovation” of the m-transfer technology could have increased program recipients’ awareness of the
+cash transfer program, thereby reducing uncertainty about the cash transfer and allowing households to more
+optimally allocate expenses over time. Yet only 28 percent of Cash program participants could correctly cite the
+total amount or duration of the cash transfer prior to the program, with no statistically significant difference between
+the Zap, Cash and Mobile treatments (Table 6, Panel D).
+
+20
+
+from Niger. This suggests that the results are not explained, at least in the short-term, by the
+impact of the m-transfer technology on private transfers.30
+
+D. Inter-Household Sharing
+As m-money transfers were more difficult for outsiders to observe, this could have changed
+inter-household sharing within villages, thereby affecting income available to the household.
+Table 8 shows the impact of the program on sharing of the transfer and goods purchased from
+the transfer with different groups within and outside of the village.
+Overall, the Zap mechanism did not appear to have a strong effect on inter-household
+sharing. Seventeen percent of Cash households shared their cash transfer with another
+household, whereas 60 percent of Cash households shared goods purchased from the cash
+transfer with another household. Contrary to the prediction, Zap households were 7 percentage
+points more likely to share their cash transfer than those in Cash villages, although there was not
+a statistically significant difference between the Zap and Mobile treatments or for other sharing
+behaviors. These results suggest that the Zap transfer mechanism did not decrease the likelihood
+of inter-household sharing, thereby increasing the income available to the household and
+changing expenditure patterns.
+
+E. Intra-Household Decision-Making
+Unlike the manual cash mechanism, the Zap transfer mechanism made it more difficult for
+program recipients’ spouses or family members to observe the arrival of the transfer, at least for
+a period of time, as the program recipient was notified of the transfer arrival via a discrete
+“beep”. This was particularly relevant for Zap transfer recipients, many of whom wore their
+phones around their necks so that they could be notified of the m-transfer at any place or time.31
+In theory, this could have allowed Zap program recipients to have private information about the
+transfer before other household members, thereby affecting their bargaining power with respect
+
+30
+
+The regressions in Table 7 were estimated conditional on the household having had a migrant, as well as by
+imputing a zero value for all households without a migrant. The results are robust to both specifications.
+31
+While we do not have administrative data on the actual timing of the m-transfers or the time of the day that the
+beeps were received, Concern Worldwide transferred the money during the day. These are times when female
+program recipients would typically be away from home, searching for water and firewood or working in the field.
+
+21
+
+to how the cash transfer was used.32 In practice, this is what was reported: Zap program
+recipients reported that once they received the beep, they did not immediately inform their
+spouses, but waited until the evening. As a result, they were able to discuss how to use the
+transfer with their spouse in the privacy of their home. By contrast, since Cash and Mobile
+program recipients had to travel to obtain their transfer, and often with household members, they
+reported that they immediately provided the cash transfer to that family member, with little
+opportunity to discuss how the transfer would be used.
+Table 9 tests for the impact of the Zap intervention on intra-household decision-making more
+formally, using a variety of direct and indirect measures.33 Overall, the transfer was primarily
+spent by the program recipient’s husband or son: 52 percent of program recipients in the Cash
+villages reported that they were responsible for spending at least part of the cash transfer, with no
+statistically significant difference among the three groups (Panel A).34 Almost all recipients (99
+percent) stated that they were consulted on how to spend the cash transfer. Yet there was a stark
+difference in who was responsible for obtaining the transfer: While only 8 percent of Cash
+program recipients travelled without a household member to obtain their transfer, over 47
+percent of Zap households did so, with a statistically significant difference between the Zap and
+Mobile/Cash treatments.
+Panels B and C assesses the impact of the m-transfer on other proxy indicators of intrahousehold decision-making, namely participating in household agricultural activities and
+clothing expenditures, the latter of which are common in much of the female empowerment
+literature (Deopke and Tertilt 2014, Bobonis 2009, Attanasio and Lechene 2002). As reported in
+Table A5, women in Zap villages were more likely to plant okra and vouandzou, both of which
+32
+
+Because the program was implemented an area of Niger where socio-cultural norms often do not permit younger,
+married women of the Hausa ethnic group to travel to markets (Coles and Mack 1991). As most of the women in our
+sample are married and less than 45 years old, we would not expect to find strong effects of the m-transfer
+mechanism on women’s visible control over the cash transfer, such as spending it on their own.
+33
+In order to formally test for differences in intra-household decision-making, we would ideally want to test
+outcomes across each of the three interventions between households with male and female program recipients. As
+all program recipients were women, we are unable to do this. In addition, a large number of zero expenditures for
+males does not allow us to compute the ratio of women to male expenditures.
+34
+Program recipients who were primarily responsible for spending the cash transfer were female-headed households
+(17 percent of the sample) and those of the Fulani and Touareg ethnic groups, for whom the travel restriction was
+not a primary constraint. Nevertheless, even in these cases, fewer than 2 percent of these households were solely
+responsible for spending all of the cash transfer. We do not have sufficient variation to estimate heterogeneous
+results by ethnicity.
+
+22
+
+required negotiating access to land from their spouses. In addition, women in Zap villages were
+more likely to travel to weekly markets and be involved in the sale of household grains than
+households in the Mobile or Cash villages, suggesting that women were more involved in key
+household agricultural activities. Turning to women’s clothing expenditures, we find that Cash
+households spent an average of 14000 CFA (US$25) on women’s clothing during this period,
+whereas households in Zap villages spent 16-18 percent more on clothing as compared with the
+Cash and Mobile treatments, respectively.35
+While not conclusive, taken together, the results in Tables A4 and Table 9 suggest that the mtransfer mechanism affected intra-household decision-making.36 Yet there are several possible
+mechanisms through which these changes could have affected the uses of the transfer and
+household food security: Either male household members in Zap households were less likely to
+spend the transfer on temptation goods or more willing to invest extra effort in finding lower
+prices for staple foods, thereby freeing up income; or women were able to better hide the transfer
+amount from their husbands, allowing them to purchase more diverse foodstuffs on their own; or
+women in Zap households were better able to convince their husbands to spend more on higher
+quality foods. As we do not have data on temptation good spending, we are unable to rule out
+the first hypothesis. The second hypothesis, while likely, is not strongly supported by the data on
+the location of expenditures (Table 5, Panel B).37 We posit that the third mechanism is
+potentially at work, although we do not have conclusive support of this.
+
+F. Mobile Phone Usage
+By having access to the mobile phone handset, Zap households could have had increased
+access to price information, thereby affecting their purchasing decisions and diet diversity. While
+35
+
+While much of the literature calculates the ratio of male to female clothing expenditures (Lundberg, Pollak and
+Wales 1997), very few households spent any money on male clothing during this period, so we concentrate on
+women’s clothing expenditures.
+36
+An additional test of the intra-household bargaining channel would be to measure the impacts of the Zap program
+for male and female-headed households. If the program truly changed intra-household bargaining, then the effects
+should only be apparent for male-headed households. While we conduct this analysis, we cannot conclude that there
+is a statistically significant difference between the two groups. This could be partly due to the limited number of
+female-headed households in our sample (less than 15 percent), as well as the fact that the male and female-headed
+households differ in observable and unobservable ways.
+37We have suggestive evidence that men in Zap households were willing to travel 3 km farther to larger markets,
+suggesting that the third mechanism could have taken place.
+
+23
+
+the “mobile phone channel” would, in theory, yield similar results in both the Zap and Mobile
+groups, in practice Zap program recipients could have felt a greater sense of “ownership” of (or
+control over) the mobile phones, as the transfer was specifically linked to the handsets.
+Table 10 shows the impact of the program on mobile phone ownership and usage for each
+type of intervention. Unsurprisingly, the Zap program increased mobile phone ownership and
+the frequency of mobile phone usage, with a statistically significant difference between the Zap
+and Cash villages (for ownership), as well as between the Zap, Mobile and Cash villages (for
+usage). While respondents in Zap villages were more likely to make calls or send and receive
+beeps as compared to Mobile and Cash villages, there was not a statistically significant
+difference in their probability of writing or receiving SMS or transferring money via the mtransfer system (Panel A). Overall, households in Zap villages were more likely to communicate
+with friends and family members within Niger, specifically to communicate a shock, but there is
+not a statistically significant difference between the Zap and Mobile groups for this latter
+variable or other mobile phone uses (Panel B). Taken together, these results suggest that
+households in Zap villages used the phone in more active ways as compared to those in the
+Mobile and Cash groups. However, these operations were primarily associated with the mtransfer operations – such as beeping or receiving a zap transfer or SMS – rather than for private
+uses. Thus, while we cannot entirely rule out that increased use of the mobile phone handset
+affected Zap households’ outcomes in some unforeseen ways, it did not lead to increased access
+to price information or increased incomes via private transfers, at least in the short-term. 38
+
+V.
+
+Alternative Explanations
+
+There are several potential confounds to the above findings. A first potential confounding
+factor could emerge if the registration of Zap agents (who were already village residents or
+traders) provided new types of financial or commercial services to households, thereby
+improving Zap households’ access to foodstuffs and agricultural inputs. Table 11 (Panel B)
+shows that this is not the case. Only 3 percent of Cash villages had a Zap agent, without a
+
+38
+
+The regressions in Table 10 were estimated conditional on the household having had a mobile phone, as well as by
+imputing a zero value for all households without a mobile phone. The results are robust to both specifications. Table
+A6 shows that knowledge of mobile phone commands did not differ across the three groups.
+
+24
+
+statistically significant difference between the Zap, Mobile and Cash villages. While these
+results are not very precisely measured, they suggest that Zap agents were evenly distributed
+across different villages, and that differential access to m-transfer agents is not driving the
+results.
+The presence of mobile phone handset could have enabled households to obtain better
+information about labor markets, thereby resulting in differential effects on seasonal migration
+(Aker, Ksoll and Clemens 2011). Table A7 shows the effect of the different transfer
+mechanisms on seasonal migration. Overall, the probability and intensity of seasonal migration
+was higher among Zap and Mobile households as compared to those in the Cash groups.
+Nevertheless, there is not a statistically significant difference between the Zap and Mobile
+groups, suggesting that the impact is primarily driven by the provision of the mobile phone.
+These changes also did not result in increases in the frequency or amount of remittances received
+over the time period of the study.
+In Figure 2 and Tables 3 and 4 (our primary outcomes of interest), we examined the impact
+of the Zap program on 22 different outcomes for three treatment interventions. This raises
+concerns that the observed effects cannot be attributed to the Zap intervention, but are rather
+simply observed by chance among all of the different outcomes. Following Sankoh et al (1997),
+we use a Bonferroni correction that adjusts for the mean correlation among outcomes, focusing
+on the key outcomes of interest. Using an alpha of 10 percent, and assuming an inter-variable
+correlation of .08 (for transfer uses) to .35 (for household diet diversity), the Bonferroni p-value
+(adjusting for correlation) would therefore be between .002 and .005.39 The outcomes that
+remain significant at these adjusted levels are program recipients’ cost of obtaining the cash
+transfer (Figure 3), the different uses of the cash transfer in Table 3 (with the exception of
+cowpea and condiments) and the increased consumption of fats and higher diet diversity (for the
+Zap group as compared with the Mobile group) in Table 4.40 Thus, despite using the restrictive
+Bonferroni corrections, we are confident that the Zap intervention affected recipients’ costs in
+39
+
+The Bonferroni correction without accounting for inter-outcome correlation would yield an adjusted p-value of
+.001. However, in the case of correlated outcome variables, the mean correlation between outcome variables can be
+included as a parameter in the Bonferroni adjustment (Sankoh et al 1997, Simple Interactive Statistical Analyses). A
+mean correlation of zero would yield the full Bonferroni adjustment, whereas a mean correlation of one would mean
+no adjustment.
+40
+All of the results in Table 4, Panel A are robust to the Bonferroni correction when using the May 2011 data only.
+
+25
+
+obtaining the cash transfer, recipients’ use of the transfer, fat consumption and household diet
+diversity for one of the pairwise comparisons.41
+A final potential confounding factor is the effect of the transfer mechanism on prices. If the
+manual cash transfer mechanism put greater inflationary pressure on local markets as compared
+with the m-transfer mechanism, this could have reduced the value of the cash transfer in those
+villages and decreased the number of goods purchased or consumed. Or, if the m-transfer
+increased prices more quickly and producers were price elastic, this could have encouraged
+households to consume goods that were less affected by the price increase, or increased
+incentives for traders to supply those goods to the market.42 Yet Table A8 shows that different
+cash transfer delivery mechanisms did not have differential impacts on the number of
+wholesalers and semi-wholesalers on the market, or the number of products available on the
+market.
+As over 83 percent of program recipients’ purchases in took place in weekly markets,
+primarily outside of the village, we collected weekly market price data between May and
+December 2010 from over 45 markets in the region. The randomized nature of the program
+implies that some markets were linked to both Cash and Zap villages, thereby making it difficult
+to differentiate the impact of each and implying that the stable unit treatment value assumption is
+almost certainly violated.
+We estimate the impact of the cash transfer delivery mechanism on weekly prices by using
+the following regression:
+(2)
+
+ln(pij,t) = α + β1zapj,t + β2cashj,t + θt + θj + εij,t
+
+where ln(pij,t) is the log price of agricultural good i in market j at week t, zapj,t is an indicator
+variable equal to one if a village within a 10 km-radius of the market received a transfer via zap
+during week t, 0 otherwise; cashj,t is an indicator variable equal to one if a village within a 10-km
+radius of the market received a manual cash transfer during week t, 0 otherwise; θt represents a
+full set of time fixed effects, either monthly or weekly, whereas θj are a set of market-level fixed
+
+41
+
+A comparison of the original p-value and Bonferroni-adjusted p-value for Figure 3, Tables 3 and 4 is available
+upon request. A less restrictive test than the Bonferroni adjustment would be the use of False Discover Rate (FDR)
+techniques (Anderson 2008).
+42
+For a discussion of the potential impact of m-money on the velocity of money and inflation, see Jack, Suri and
+Townsend (2010).
+
+26
+
+effects, which capture market characteristics. We also include a variable for the number of
+villages within a certain radius of the market receiving the Cash or Zap transfer at that time. To
+partially account for non-stationarity, we estimate equation (2) via first differences. Standard
+errors are clustered at the market level. To control for differential price trends across markets
+during the period of interest, we also include market-specific time trends.
+Table 12 presents the results of these regressions. Overall, the presence of a cash transfer in a
+particular market during the week did not have a statistically significant impact upon food prices
+(Panel A). The absence of results suggests that local supply on these markets was able to absorb
+the potential additional demand from the cash transfer program, especially for staple food crops,
+although this is not a causal interpretation. 43
+Panel B measures the impact the cash transfer delivery mechanism on weekly food prices.
+Overall, the results are consistent with those in Panel A. The presence of the m-transfer or
+manual cash transfer program in a nearby village did not have an impact upon staple grain prices,
+cowpea or vegetable oil, and there is no statistically significant difference between the two cash
+transfer mechanisms. The one difference was for retail rice prices: the presence of a Zap transfer
+during a particular week increased rice prices by 3 percent, with a statistically significant
+difference between the zap and manual cash transfer mechanisms. This is consistent with the
+finding that Zap households were more likely to purchase other cereals.44 Overall, the analysis
+suggests that were not strong price effects due to the different transfer mechanisms.
+
+VI.
+
+Was the Mechanism Cost Effective?
+
+A key question for the introduction of a new technological payment infrastructure is the cost
+of such programs. Figure 3 shows the per program recipient costs of each transfer mechanism
+for Concern Worldwide, including fixed and variable costs, for each month of the program. The
+initial investment costs of the program included expenses for identifying program recipients,
+purchasing mobile phones and training recipients in how to use them, the latter of which were
+43
+
+While the results in Table 12 suggest that markets were able to respond to increased demand, these results only
+show relative changes in prices. Welfare could have decreased on these markets due to the cash transfer if the influx
+of cash increased prices higher than average prices during this period of year. This requires a comparison of average
+prices on these markets during the previous (non-drought) marketing season, which we do not have.
+44
+Given the price of a bag of millet, households typically purchased small quantities (e.g., 1 kg) of rice. Rice is not
+produced in these areas of Niger, so the increase in rice prices could not have increased incentives to produce rice.
+
+27
+
+only for the Zap intervention. Variable costs for the manual cash distributions included transport
+and security costs, as well as costs associated with counting the cash into individual envelopes.
+Equivalent variable costs for the m-transfer mechanism included the fees associated with making
+the transfers and staff time in managing the transfer process.45 While the initial costs of the Zap
+program were significantly higher, primarily due to the purchase of mobile phones, the pertransfer costs of the Zap transfer mechanism were approximately 20 percent lower than pertransfer cost of the manual cash distribution. The average per recipient cost was US$16.43 in
+Cash and Mobile villages, well within the range of per recipient costs for other cash transfer
+programs in sub-Saharan Africa (DFID 2011).46 The average per recipient cost in Zap villages
+was US$24.14, or US$7.70 more per recipient. Excluding the cost of the mobile phones, the perrecipient cost of the Zap intervention falls to $6.78 per recipient. These calculations suggest that
+the monetary value of the additional time savings for program recipients were equivalent to, or
+larger than, the additional cost of the program.47
+
+VII.
+
+Conclusion
+
+Cash transfer programs are an important part of the social protection policies in many
+developing countries. While there is significant evidence on the impact of such programs on
+improving specific outcomes, there is more limited evidence on their cost-effectiveness as
+compared with other types of interventions. Yet understanding the costs of implementing these
+programs is particularly important in countries where distributing cash involves significant
+logistical, operational and security costs, as is the case in many countries sub-Saharan Africa.
+An intervention that provided a cash transfer via the mobile phone strongly reduced the costs
+of program recipients in obtaining the cash transfer, and reduced the implementing agency’s
+variable implementation costs. This suggests that mobile telephony could be a simple and low45
+
+The key variable costs for the Zap intervention included the transfer cost to the program recipients and program
+recipients’ withdrawal fees.
+46
+The annual per recipient costs of cash transfer programs in sub-Saharan Africa range from US$7 (Malawi) to
+US$35 (Ethiopia) (DFID 2011).
+47
+The cost comparison primarily focuses on the cost to the Concern Worldwide for implementing the program,
+rather than the costs to the private sector (such as the cost of maintaining the agent network, which were managed
+solely by the mobile phone operator). While this might omit some important costs to the mobile phone operator, this
+is fairly standard in cost comparisons; for example, most electronic transfer programs do not compare the costs for
+maintaining a banking sector or SmartCards infrastructure after the initial investment.
+
+28
+
+cost way to deliver cash transfers once the necessary infrastructure is in place. Yet beyond the
+cost reduction, distributing cash transfers electronically also affected household behavior: Zap
+households bought more types of food items and increased their diet diversity, all while retaining
+their durable and non-durable assets. These observed differences are primarily due to the mtransfer intervention, and not to the presence of the mobile phone, suggesting that a program that
+jointly distributes mobile phones and cash transfers would not yield the same impacts.
+While these results are promising, they suggest that electronic transfers may not lead to
+improved financial inclusion for all households or in all contexts, as proponents might suggest.
+Unlike the mobile money “revolution” in Kenya, mobile money registration and usage has not
+grown substantially in other parts of sub-Saharan Africa, including Niger. This suggests that
+substantial investment to register clients and agents would be required to establish mobile
+payment systems. In addition, while program recipient households in our study used mobile
+money to receive their transfer, they did not use it to receive remittances or to save, two
+important aspects of financial inclusion. This is potentially related to the limited m-money agent
+network in the country, a common issue in other West African countries.
+Like many field experiments, the generalizability of our results may be limited. Our
+study exploits variation in the transfer mechanism during a food crisis, when the marginal utility
+of income can be high. In addition, as we do not have full income and expenditure data, we are
+unable to estimate the Engel curves of these households, a relevant question for many cash
+transfer programs (Attansio et al 2012). And finally, since Niger is one of the poorest countries
+in the world, with low rates of literacy, financial inclusion and mobile money adoption, the
+context might be different from other countries where governments are considering electronic
+payments. Nonetheless, Niger’s educational, financial and mobile money indicators are not
+vastly different from other countries in West Africa, suggesting that our results might be
+informative for those contexts (UNESCO 2012, Demirguc-Kunt and Klapper 2012).48
+Despite these caveats, the widespread growth of mobile phone coverage and m-transfer
+services in developing countries suggests that these constraints could be easily overcome. In
+
+48
+
+For example, countries in the West Africa region have some of the lowest educational indicators in the world, and
+fewer than 10 percent of individuals had used mobile money in 2012, ranging from 1-2% in Togo and Ghana to 19%
+in Liberia (Demirguc-Kunt and Klapper 2012).
+
+29
+
+addition, the benefits of the program in a context such as Niger -- a country with limited road
+infrastructure, low literacy rates and high financial exclusion -- suggests that the approach could
+thrive in less marginalized countries and during periods when the marginal utility of income is
+lower. This is particularly the case in other areas of West Africa, such as Burkina Faso, Mali,
+northern Ghana and Senegal, which have similar education and mobile money indicators.
+Nevertheless, transferring these responsibilities to the private sector could potentially increase
+the likelihood of corruption or leakage, especially if m-transfer agents exert some type of power
+vis-à-vis program recipients. In addition, such programs could potentially crowd out certain
+segments of the private sector, especially smaller traders and shopkeepers who are unable
+register as agents.
+
+30
+
+References
+Aker, Jenny C. 2010. “Information from Markets Near and Far: Mobile Phones and Agricultural
+Markets in Niger.” American Economic Journal: Applied Economics, 2(3): 46–59.
+Aker, Jenny C., Christopher Ksoll and Travis Lybbert. “Can Mobile Phones Improve
+Learning? Evidence from a Field Experiment in Niger.” Forthcoming, American
+Economic Journal: Applied Economics.
+Aker, Jenny C. and Isaac M. Mbiti. 2010. “Mobile phones and economic development in
+Africa.” Journal of Economic Perspectives, 24(3): 207–232.
+Ashraf, Nava. 2009. "Spousal Control and Intra-Household Decision Making: An Experimental
+Study in the Philippines." American Economic Review 99, no. 4.
+Ashraf, Nava, Erica Field, and Jean Lee. 2014. "Household Bargaining and Excess Fertility:
+An Experimental Study in Zambia." American Economic Review 104, no. 7 (July 2014).
+Attanasio, O., Battistin, E. and Mesnard, A. 2012. “Food and Cash Transfers: Evidence from
+Colombia.” The Economic Journal, 122: 92–124.
+Atanassova, Antonia, Marianne Bertrand, Sendhil Mullainathan and Paul Niehaus.
+“Targeting with Agents.” American Economic Journal: Economic Policy, forthcoming.
+Baird, Sarah, Craig McIntosh and Berk Ozler. 2011. “Cash or Condition? Evidence from a
+Randomized Cash Transfer Program.” Quarterly Journal of Economics.
+Banerjee, Abhijit, Esther Duflo, Rachel Glennerster and Cynthia Kinnan. 2013. “The
+Miracle of Microfinance? Evidence from a Randomized Evaluation.” NBER Working
+Paper No. 18950.
+Barrera-Osorio, Felipe, Marianne Bertrand, Leigh L. Linden, and Francisco Perez-Calle.
+2011. "Improving the Design of Conditional Transfer Programs: Evidence from a
+Randomized Education Experiment in Colombia." American Economic Journal: Applied
+Economics, 3(2): 167–95.
+Barrientos, Armando, Miguel Niño-Zarazúa and Mathilde Maitrot. 2010. Social Assistance
+in Developing Countries Database: Version 5.0. DFID and the Brooks World Poverty
+Institute, The University of Manchester, United Kingdom.
+Blumenstock, Joshua, Nathan Eagle and Marcel Fafchamps. 2013.
+“Motives for Mobile-Based Giving: Evidence in the Aftermath of Natural Disasters.”
+Unpublished manuscript.
+Bobonis, Gustavo J. 2009. “Is the Allocation of Resources within the Household Efficient? New
+Evidence from a Randomized Experiment.” Journal of Political Economy. 117 (3): 453–
+503.
+Caldes, N., Coady, D. and Maluccio, J. 2004. “The Cost of Poverty Alleviation Transfer
+Programmes: A Comparative Analysis of Three Programmes in Latin America.” FCND
+Discussion Paper N. 174, IFPRI, Washington DC
+
+31
+
+Coles, Catherine and Beverly Mack, eds. 1991. Hausa Women in the 20th Century. Madison,
+WI: University of Wisconsin Press
+Cunha, Jesse M., Giacomo De Giorgi and Giacomo De Giorgi and Seema Jayachandran.
+2013. “The Price Effects of Cash Versus In-Kind Transfers.” Unpublished manuscript.
+Dhaliwal, Iqbal, Esther Duflo, Rachel Glennerster, Caitlin Tulloch. August 2011.
+“Comparative Cost-Effectiveness Analysis to Inform Policy in Developing Countries: A
+General Framework with Applications for Education.” Abdul Jameel Poverty Action
+Lab.
+De Janvry A, Sadoulet E, Pantelis Solomon and Renos Vakis. 2006. “Uninsured Risk and
+Asset Protection: Can Conditional Cash Transfer Programs Serve as Safety Nets?” World
+Bank Discussion Paper 0604. World Bank Publications: Washington, D.C.
+DFID. April 2011. “Cash Transfers Evidence Paper.” Evidence Paper Policy Division.
+London, UK.
+Doepke, Matthias and Michele Tertilt. 2014. “Does Female Empowerment Promote
+Economic Development?” Unpublished manuscript.
+Demirguc-Kunt, Asli and Leora Klapper. 2012. “Measuring Financial Inclusion: The Global
+Findex Database.” Policy Research Working Paper 6025. Washington, D.C. The World
+Bank.
+Demographic and Health Surveys. 2012. Enquete Demographique et de Sante et Indicateurs
+Multiples du Niger. (EDSN-MICS IV). Rapport Preliminaire. Niamey, Niger and
+Calverton, MD: 2012.
+Doss, Cheryl. 2006. “The Effects of Intra-household Property Ownership on Expenditure
+Patterns in Ghana.” Journal of African Economies 15 (1): 149–180.
+Duflo, Esther, and Christopher Udry. 2004. May. “Intra-household Resource Allocation in
+Cote d’Ivoire: Social Norms, Separate Accounts and Consumption Choices.” Working
+paper 10498, National Bureau of Economic Research.
+Dupas, Pascaline and Jonathon Robinson. 2013. “Why don’t the poor save more? Evidence
+from Health Savings Experiments.” American Economic Review. 103(4), pp. 1138-71,
+June 2013.
+Engle, Patrice L. 1993. “Influences of Mothers’ and Fathers’ Income on Children’s Nutritional
+Status in Guatemala.” Social Science Medicine 37 (11): 1303– 1312.
+Evans, David K. and Anna Popova. 2014. “Cash Transfers and Temptation Goods: A Review
+of Global Evidence.” World Bank Policy Research Working Paper 6886. Washington,
+D.C.: The World Bank Group.
+Famine Early Warning Systems Network (FEWS NET). 2005. Niger: An evidence base for
+understanding the current crisis. Washington DC: FEWS NET.
+Famine Early Warning Systems Network (FEWS NET). 2010. Niger Food Security Outlook
+2010. Washington DC: FEWS NET.
+
+32
+
+Food and Nutrition Technical Assistance (FANTA. 2006. Household Dietary Diversity Score
+(HDDS) for Measurement of Household Food Access: Indicator Guide. AED:
+Washington, D.C.
+Ferraz, Claudio and Frederico Finan. 2008. “Exposing Corrupt Politicians: The Effect of
+Brazil’s Publicly Released Audits on Electoral Outcomes”, with Claudio Ferraz,
+Quarterly Journal of Economics, 123(2): 703-745.
+Garcia, Marito and Charity M.T. Moore. 2012. The Cash Dividend: The Rise of Cash
+Transfer Programs in Sub-Saharan Africa. The World Bank: Washington, D.C. e
+Gentilini, Ugo, Maddalena Honorati and Rsulan Yemtsov. 2014. The state of social safety
+nets 2014. Washington, DC : The World Bank Group.
+Government of Niger. 2007. Plan National de Contingence: Volet Sécurité Alimentaire et
+Nutritionnelle. Niamey, Niger.
+GSMA. 2013. “State of the Industry: Results from the 2012 Global Mobile Money Adoption
+Survey”.
+Handa, Sudhanshu and Benjamin Davis. 2006. “The Experience of Conditional Cash
+Transfers in Latin America and the Caribbean.” Development Policy Review. 24 (5):
+513-536
+Hoddinott, John, and Lawrence Haddad. 1995. “Does Female Income Share Influence
+Household Expenditures? Evidence From Cote D’Ivoire.” Oxford Bulletin of Economics
+and Statistics 57 (1): 77–96.
+
+Hoddinott, John, Susanna Sandstrom and Joanna Upton. 2014. “The Impact of Cash
+and Food Transfers: Evidence from a Randomized Intervention in Niger.” IFPRI
+Discussion Paper 01341. IFPRI: Washington, D.C.
+Hoddinott, John and Yisehac Yohannes. 2002. “Dietary Diversity as a Food Security
+Indicator.” FCND Discussion Paper No. 136. IFPRI: Washington, D.C.
+Jack, William, Tavneet Suri and Robert Townsend. 2010. “Monetary Theory and Electronic
+Money: Reflections on the Kenyan Experience.” Economic Quarterly. Volume 96,
+Number 1: 83–122
+Jack, William and Tavneet Suri. 2014. “Risk-Sharing and Transaction Costs: Evidence from
+Kenya’s Mobile Money Revolution.” American Economic Review. 104(1): 183-223.
+Jakiela, Pamela and Owen Ozier. 2012. “Does Africa Need a Rotten Kin Theorem?
+Experimental Evidence from Village Economies.” Unpublished manuscript.
+Jensen, Robert. 2007. “The Digital Provide: Information (Technology), Market Performance,
+and Welfare in the South Indian Fisheries Sector.” Quarterly Journal of Economics,
+122(3): 879–924.
+Gibson, John, David McKenzie and Steven Stillman. 2011. “The Impacts of International
+Migration on Remaining Household Members: Omnibus Results from a Migration
+Lottery Program.” Review of Economics and Statistics. 93(4): 1297-1317.
+
+33
+
+Kendall, J., N. Mylenko, and A. Ponce. 2010. Measuring Financial Access around the World.
+World Bank Policy Research Working Paper 5253.
+Labadarios, Demetre, Zandile June-Rose Mchiza, Nelia Patricia Steyn, Gerda Gericke,
+Eleni Maria Winifred Maunder, Yul Derek Davids and Whadiah Parker. 2011.
+“Food Security in South Africa: A Review of National Surveys.” Bulletin of the World
+Health Organization. 89:891-89.
+Lundberg, Shelly J., Robert A. Pollak, and Terence J. Wales. 1997. “Do Husbands and
+Wives Pool Their Resources? Evidence from the United Kingdom Child Benefit.” The
+Journal of Human Resources. 32 (3): 463–480.
+Mas, Ignacio and Mayer, Colin. “Savings as Forward Payments: Innovations on Mobile
+Money Platforms.” March 2012. Working Paper.
+Mbiti, Isaac M. and David Weil. 2011. “Mobile Banking: The Impact of M-Pesa in Kenya.”
+NBER Working Paper No. w17129.
+Morawczynski, Olga and Mark Pickens. 2009. “Poor People Using Mobile Financial Services:
+Observations on Customer Usage and Impact from M-PESA.” CGAP: Washington,
+D.C.
+Muralidharan, Karthik, Paul Niehaus and Sandip Sukhtankar. 2013. “Payment
+Infrastructure and the Performance of Public Programs: Evidence from Biometric
+Smartcards in India.” Technical Paper, BREAD.
+Ousmane Niang, Ousmane, Véronique Mistycki and Soukeynatou Fall. 2012. “The impact
+of safety nets on the resilience of vulnerable households in Niger.” 55. Humanitarian
+Exchange Magazine.
+Nicholson, S.E. , B. Some and B. Kone. 2000. “An Analysis of Recent Rainfall Conditions in
+West Africa, Including the Rainy Seasons of the 1997 El Nino and the 1998 La Nina
+Years.” Journal of Climate. Vol. 13.
+Olken, Benjamin. 2006. “Corruption and the Costs of Redistribution.” Journal of Public
+Economics 90 (4-5), pp. 853-870.
+Olken, Benjamin. 2007. “Monitoring Corruption: Evidence from a Field Experiment in
+Indonesia” Journal of Political Economy, vol. 115, issue 2, April 2007, pp. 200-249.
+Reinikka, Ritva, and Jakob Svensson. 2004. “Local Capture: Evidence From a Central
+Government Transfer Program in Uganda.” The Quarterly Journal of Economics. 119(2):
+678–704.
+Sankoh AJ, Huque MF, Dubey SD. “Some comments on frequently used multiple endpoint
+adjustments methods in clinical trials. Statistics in Medicine 1997;16:2529-254.”
+
+Thorne-Lyman, Andrew, Natalie Valpiani, Kai Sun, Richard D. Semba, Christine L. Klotz,
+Klaus Kraemer, Nasima Akhter, Saskia de Pee, Regina Moench-Pfanner, Mayang
+Sari and Martin W. Bloem. 2010. “Household Dietary Diversity and Food
+Expenditures Are Closely Linked in Rural Bangladesh, Increasing the Risk of
+Malnutrition Due to the Financial Crisis.” Journal of Nutrition, January 2010. 140:
+182S-188S .
+34
+
+UNDP. 2011. Human Development Report 2011: Sustainability and Equity: A Better Future for
+All. UNDP: New York.
+UNESCO. 2012. Education for All Global Monitoring Report.
+http://www.unesco.org/new/en/education/themes/leading-the-internationalagenda/efareport/statistics/.
+World Bank. 2009. Conditional Cash Transfers: Reducing Present and Future Poverty. World
+Bank Publications: Washington, DC.
+
+35
+
+Figure 1. Timeline of Data Collection and Implementation
+Year
+
+January
+
+March
+
+April
+
+May
+
+2010
+
+Village
+selection
+
+Identification
+and selection
+of program
+recipients
+
+Program
+preparation
+
+Baseline
+household and
+village-level
+survey in 96
+treatment
+villages
+
+June
+
+July
+
+August
+
+September
+
+Hungry season and planting season
+Monthly cash transfers in 116 villages
+
+October
+
+November
+
+Harvest period
+
+Price data collected in 45 markets in all communes
+2011
+
+Final
+household and
+village-level
+survey in 96
+treatment
+villages
+Nutrition
+survey in 30
+villages
+
+Hungry season and planting season
+
+36
+
+Harvest period
+
+December
+Midterm
+household and
+village-level
+survey in 96
+treatment
+villages
+
+Figure 2. Program Recipients’ Costs of Obtaining the Cash Transfer by Cash
+Transfer Delivery Mechanism
+2.3
+
+1.8
+
+1.3
+
+0.8
+
+0.3
+
+-0.2
+
+Manual Cash/Placebo
+
+M-Transfer
+
+Distance (km) to Cashpoint
+
+Distance (hours) to Cash Point
+
+Notes: This figure shows the mean cost (in km and hours), by transfer mechanism, for program recipients’
+travel to the nearest cash point to obtain their cash transfer. Data were obtained from the household surveys
+and Concern Worldwide’s list of distribution points for the manual cash villages.
+
+37
+
+Figure 3. Per Program Recipient Distribution Costs ($US) by Cash Transfer
+Delivery Mechanism
+
+14
+
+Cost (US$) Per Program Recipient
+
+12
+10
+8
+6
+4
+2
+0
+May
+
+June
+
+July
+M - transfer
+
+Aug
+
+Sept
+
+Manual cash
+
+Notes: This figure shows the per program recipient costs (in $US) for the manual cash and m-transfer
+mechanisms for each month of the program. For the m-transfer mechanism, costs include the fixed costs of
+purchasing the mobile phones, training program recipients in how to use the mobile phones and the variable
+costs associated with the monthly distribution. For the manual cash mechanism, costs include primarily
+variable costs associated with manually counting the cash, transport, security and staff time.
+
+38
+
+Table 1: Baseline Individual and Household Covariates (by Program Status)
+(1)
+(2)
+(3)
+ZapMobileCash
+Cash
+Cash
+
+(4)
+ZapMobile
+
+Mean
+(s.d.)
+
+Respondent is member of Hausa ethnic group
+Number of household members
+Number of household members over 15
+Average years of household education
+Panel B: Household Income Sources and Assets
+Agriculture is an income source
+Livestock is an income source
+Remittances are an income source
+Number of income source categories
+Number of asset categories
+Panel C: Mobile Phone Ownership and Usage
+Household owns mobile phone
+Respondent is owner of mobile phone
+Respondent has used mobile phone since last harvest
+Used phone to make call since last harvest
+Used phone to send or receive m-money transfer
+
+39
+
+1.78
+(1.60)
+0.05
+(0.03)
+0.02
+(0.04)
+-0.06
+(0.08)
+-0.64
+(0.62)
+0.07
+(0.25)
+-0.01
+(0.03)
+
+-1.17
+(1.46)
+0.01
+(0.04)
+0.00
+(0.04)
+0.08
+(0.07)
+-0.40
+(0.46)
+-0.05
+(0.19)
+0.04
+(0.03)
+
+2.95*
+(1.59)
+0.04
+(0.03)
+0.02
+(0.04)
+-0.14*
+(0.08)
+-0.24
+(0.56)
+0.12
+(0.24)
+-0.05
+(0.03)
+
+-0.02
+(0.02)
+0.01
+(0.05)
+-0.03
+(0.04)
+-0.03
+(0.10)
+-0.04
+(0.17)
+
+-0.01
+(0.02)
+-0.08
+(0.06)
+-0.04
+(0.04)
+-0.19
+(0.11)
+-0.18
+(0.17)
+
+-0.01
+(0.02)
+0.09
+(0.06)
+0.01
+(0.04)
+0.16
+(0.10)
+0.14
+(0.17)
+
+0.29
+(0.45)
+0.25
+(0.43)
+0.63
+(0.48)
+0.29
+(0.45)
+0.01
+(0.00)
+
+Polygamous household
+
+Coeff
+(s.e.)
+
+0.97
+(0.16)
+0.62
+(0.48)
+0.35
+(0.48)
+2.46
+(1.07)
+3.59
+(1.56)
+
+Respondent is household head
+
+Coeff
+(s.e.)
+
+33.73
+(11.12)
+0.13
+(0.34)
+0.28
+(0.45)
+0.82
+(0.39)
+9.34
+(4.92)
+3.53
+(2.09)
+0.58
+(0.31)
+
+Panel A: Socio-Demographic Characteristics
+Age of respondent
+
+Coeff
+(s.e.)
+
+-0.01
+(0.04)
+-0.05
+(0.07)
+-0.02
+(0.05)
+-0.07*
+(0.04)
+0.01
+(0.01)
+
+-0.06
+(0.05)
+-0.07
+(0.06)
+-0.05
+(0.05)
+-0.06
+(0.05)
+0.01
+(0.01)
+
+0.05
+(0.05)
+0.00
+(0.00)
+0.03
+(0.05)
+-0.01
+(0.05)
+0.01
+(0.01)
+
+Panel D: Shocks
+Household experienced drought in past year
+
+0.99
+(0.12)
+0.82
+(0.27)
+1150
+
+Number of observations
+Panel E: Village-Level Covariates
+Market located within the village
+Distance to nearest market
+Presence of a seed distribution program
+Number of observations
+
+0.01
+(0.01)
+-0.07
+(0.05)
+1150
+
+-0.01
+(0.01)
+0.01
+(0.05)
+1150
+
+0.25
+(0.44)
+7.60
+(6.42)
+0.28
+(0.45)
+96
+
+Household experienced crickets in past year
+
+-0.00
+(0.01)
+-0.06
+(0.05)
+1150
+-0.04
+(0.10)
+-0.23
+(0.44)
+-0.01
+(0.07)
+96
+
+-0.11
+(0.09)
+1.14
+(7.62)
+-0.09
+(0.06)
+96
+
+0.08
+(0.09)
+-1.37
+(9.84)
+0.08
+(0.08)
+96
+
+Notes: This table presents a comparison of individual and household covariates in each of the different treatment areas.
+Column 1 shows the mean and s.d. of the basic treatment (Cash) households, whereas Columns 2 and 3 show the average
+difference between the different treatments and the cash households. Column 4 shows the average difference between the
+Zap and Mobile treatment households. All regressions control for commune-level fixed effects and the presence of a seed
+program in the village. Heteroskedasticity-consistent s.e. are clustered at the village level(for Panels A-C) are presented in
+parentheses. *** significant at the 1 percent level, ** significant at the 5 percent level, * significant at the 10 percent level.
+
+40
+
+Table 2: Baseline Individual and Household Outcomes (by Program Status)
+(1)
+(2)
+(3)
+
+(4)
+
+Mean (s.d.)
+
+Zap-Cash
+Coeff
+(s.e.)
+
+MobileCash
+Coeff
+(s.e.)
+
+ZapMobile
+
+1.9
+(1.56)
+3.07
+(2.04)
+0.46
+(0.50)
+
+0.12
+(0.16)
+-0.10
+(0.21)
+0.06
+(0.09)
+
+0.03
+(0.17)
+-0.31
+(0.19)
+0.10
+(0.08)
+
+0.08
+(0.16)
+0.21
+(0.21)
+-0.04
+-0.08
+
+0.49
+(0.50)
+0.64
+(0.80)
+2.11
+(1.27)
+0.05
+(0.21)
+
+0.01
+(0.06)
+0.05
+(0.10)
+-0.28
+-0.17
+-0.00
+(0.03)
+
+0.01
+(0.05)
+0.06
+(0.08)
+-0.18
+(0.22)
+0.01
+(0.03)
+
+-0.01
+(0.05)
+-0.01
+(0.10)
+-0.09
+(0.22)
+-0.02
+(0.03)
+
+0.98
+(0.13)
+0.97
+(0.18)
+269
+(354)
+0.87
+(0.34)
+10.81
+(32)
+0.04
+(0.19)
+1150
+
+-0.01
+(0.01)
+-0.00
+(0.01)
+4.20
+(48.70)
+-0.00
+(0.04)
+2.03
+(2.87)
+-0.00
+(0.02)
+1150
+
+-0.00
+(0.01)
+0.01
+(0.01)
+-35.42
+(46.00)
+-0.02
+(0.04)
+0.48
+(3.19)
+0.00
+(0.02)
+1150
+
+-0.01
+(0.01)
+-0.02
+(0.01)
+39.63
+(44.66)
+0.02
+(0.04)
+1.55
+(3.51)
+-0.01
+(0.02)
+1150
+
+Cash
+
+Panel A: Food Security Outcomes and Coping Strategies
+Number of months of household food provisioning (scale of 6)
+Household diet diversity index (scale of 12)
+Reduced meals
+Panel B: Migration and Remittances
+One household member migrated since the last harvest
+Number of household members who migrated since last harvest
+Number of remittances received
+Received remittance via m-money transfer (zap)
+Panel C: Agricultural Production and Livestock
+Cultivate land
+Produce millet
+Quantity of millet produced (kg)
+Produce cowpea
+Quantity of cowpea produced (kg)
+Sold millet
+Number of observations
+
+Coeff
+(s.e.)
+
+Notes: This table presents a pre-treatment comparison of individual and household outcomes in each of the different treatment areas.
+Column 1 shows the mean and s.d. of the basic treatment (Cash) households, whereas Columns 2 and 3 show the average difference
+between the different treatments and the cash households. Column 4 shows the average difference between the Zap and Mobile
+treatment households. All regressions control for commune-level fixed effects and the presence of a seed program in the village.
+Heteroskedasticity-consistent s.e. clustered at the village level are presented in parentheses. *** significant at the 1 percent level, **
+significant at the 5 percent level, * significant at the 10 percent level.
+
+41
+
+Table 3: Uses of the Cash Transfer
+(1)
+Cash
+average
+Mean
+(s.d.)
+Panel A: Uses of Cash Transfer for Food Items
+4.46
+Number of food and non-food items purchased with cash transfer
+(2.45)
+Transfer used to buy staple grains (millet, sorghum)
+0.99
+(0.05)
+Transfer used to buy other grains (corn, rice)
+0.58
+(0.50)
+Transfer used to buy cowpea
+0.42
+(0.49)
+Transfer used to buy condiments
+0.69
+(0.46)
+Transfer used to buy oil
+0.69
+(0.46)
+Transfer used to buy meat
+0.40
+(0.49)
+Panel B: Uses of Cash Transfer for Non-Food Items
+Transfer used to pay school fees
+.07
+(0.25)
+
+(2)
+Zap-Cash
+
+(3)
+MobileCash
+
+(4)
+ZapMobile
+
+Coeff(s.e.) Coeff(s.e.) Coeff(s.e.)
+0.78***
+-0.06
+0.84***
+(0.24)
+(0.25)
+(0.25)
+-0.01
+-0.00
+-0.00
+(0.01)
+(0.01)
+(0.01)
+0.18***
+-0.01
+0.19***
+(0.05)
+(0.05)
+(0.06)
+0.09*
+-0.01
+0.10**
+(0.05)
+(0.05)
+(0.05)
+0.12**
+-0.00
+0.12***
+(0.05)
+(0.04)
+(0.04)
+0.15***
+-0.00
+0.15***
+(0.05)
+(0.05)
+(0.05)
+0.16***
+-0.02
+0.18***
+(0.04)
+(0.04)
+(0.04)
+
+0.00
+
+-0.02
+
+0.03
+
+(0.03)
+
+(0.04)
+
+(0.03)
+
+.04
+
+0.02
+
+0.02
+
+-0.00
+
+(0.19)
+
+(0.01)
+
+(0.02)
+
+(0.02)
+
+1052
+
+Observations
+
+-0.01
+(0.02)
+
+(0.45)
+Transfer used to buy clothes
+
+-0.01
+(0.02)
+
+.29
+
+Transfer used to pay health expenses
+
+-0.01
+(0.02)
+
+1052
+
+1052
+
+Notes: This table presents a simple difference comparison of households in each of the different treatment areas. Column 1 shows the
+mean and s.d. of the basic treatment (Cash) households, whereas Columns 2 and 3 show the average difference between the different
+treatments and the cash households. Column 4 shows the average difference between the Zap and Mobile treatment households. All
+regressions control for geographic-level fixed effects and for the presence of a seed distribution program in the village. Heteroskedasticityconsistent s.e. clustered at the village level are presented in parentheses. *** significant at the 1 percent level, ** significant at the 5
+percent level, * significant at the 10 percent level.
+
+42
+
+Table 4: Impact on Food Security, Nutritional Status and Asset Ownership
+(1)
+
+Fruit
+Number of observations
+Panel B: Child Nutritional Status
+Number of meals eaten by children under 5 in past 24 hours
+Weight-for-Height Z-score (WHZ)
+Prevalence of wasting (WHZ less than -2 s.d.)
+
+Coeff
+(s.e.)
+
+0.31**
+(0.16)
+
+-0.19
+(0.13)
+
+0.50***
+(0.14)
+
+-0.01
+(0.01)
+0.07**
+(0.03)
+0.09***
+(0.03)
+0.02
+(0.02)
+-0.00
+(0.05)
+0.02*
+(0.01)
+2162
+
+-0.01
+(0.01)
+0.01
+(0.02)
+-0.02
+(0.03)
+-0.00
+(0.02)
+-0.07*
+(0.04)
+-0.01
+(0.01)
+2162
+
+-0.01
+(0.01)
+0.06**
+(0.03)
+0.11***
+(0.03)
+0.03*
+(0.01)
+0.07*
+(0.04)
+0.03***
+(0.01)
+2162
+
+0.30**
+(0.13)
+0.04
+(0.11)
+-0.02
+(0.03)
+691
+
+-0.02
+(0.18)
+0.02
+(0.14)
+-0.05
+(0.06)
+691
+
+0.24*
+(0.13)
+0.07
+(0.14)
+0.00
+(0.05)
+691
+
+3.03
+(1.22)
+0.16
+(0.45)
+1.61
+(0.88)
+
+Condiments
+
+Coeff
+(s.e.)
+
+3.16
+(1.72)
+-1.10
+(0.90)
+0.16
+(0.37)
+
+Meat
+
+Coeff
+(s.e.)
+
+0.99
+(0.11)
+0.17
+(0.38)
+0.29
+(0.45)
+0.06
+(0.24)
+0.36
+(0.48)
+0.03
+(0.16)
+
+Fats
+
+MobileCash
+
+3.14
+(1.69)
+
+Beans
+
+ZapCash
+
+(4)
+ZapMobile
+
+Mean
+(s.d.)
+
+Consumption of:
+Grains
+
+(3)
+
+Cash
+average
+
+Panel A: Food Security
+Household diet diversity score (out of 12)
+
+(2)
+
+0.16
+(0.11)
+-0.00
+(0.04)
+0.12*
+(0.07)
+2162
+
+-0.15
+(0.13)
+-0.05*
+(0.03)
+-0.07
+(0.08)
+2162
+
+0.31***
+(0.09)
+0.05
+(0.03)
+0.19***
+(0.07)
+2162
+
+Number of observations
+Panel C: Durable and Non-Durable Goods
+Number of asset categories owned (out of 12)
+Durable assets
+Non-durable assets
+Number of observations
+
+Notes: This table presents the simple difference estimates for each of the different treatment areas. Column 1 shows the mean and s.d. of
+the basic treatment (cash) households, whereas Columns 2 and 3 show the difference in means between the different treatments and the
+cash households. Column 4 shows the difference in means for zap and Mobile treatments. All regressions control for commune-level
+fixed effects and the presence of a seed program in the village. Heteroskedasticity-consistent s.e. clustered at the village level are
+presented in parentheses. *** significant at the 1 percent level, ** significant at the 5 percent level, * significant at the 10 percent level.
+Panels A and C include pooled data from the December and May rounds, whereas Panel B only includes data from the May round.
+
+43
+
+Table 5: Leakage
+(1)
+
+Amount of money received (CFA)
+Number of observations
+
+Zap-Cash
+
+MobileCash
+
+0.99
+(0.05)
+4.60
+(1.02)
+99,254
+(26239)
+
+Number of transfers received
+
+(3)
+
+Cash
+average
+
+Program recipient received cash transfer
+
+(2)
+
+-0.00
+0.00
+(0.01)
+(0.00)
+-0.16
+-0.17
+(0.11)
+(0.13)
+-868.12
+-3,651.53
+(2,514.04) (2,906.76)
+
+1081
+
+1081
+
+1081
+
+(4)
+ZapMobile
+
+-0.01
+(0.01)
+0.02
+(0.12)
+2,783.41
+(2,579.33)
+1081
+
+Notes: This table presents a simple difference comparison of households in each of the different treatment areas. Column 1
+shows the mean and s.d. of the basic treatment (Cash) households, whereas Columns 2 and 3 show the average difference
+between the different treatments and the cash households. Column 4 shows the average difference between the Zap and
+Mobile treatment households. All regressions control for geographic-level fixed effects and for the presence of a seed
+distribution program in the village. Heteroskedasticity-consistent s.e. clustered at the village level are presented in
+parentheses. *** significant at the 1 percent level, ** significant at the 5 percent level, * significant at the 10 percent level.
+
+44
+
+Table 6: Location, Knowledge and Timing of Cash Transfer Expenses
+(1)
+(2)
+Cash
+Zapaverage
+Cash
+Panel A: Timing of Receipt of Transfer
+Obtained transfer the same day
+0.89
+-0.66***
+(0.30)
+(0.05)
+Value (CFA) saved on mobile phone
+102
+5.44
+(134)
+(43.29)
+Panel B: Timing of Expenditures
+Spent money all at once
+0.61
+-0.04
+(0.49)
+(0.04)
+Spent money at least two times
+0.45
+0.03
+(0.50)
+(0.04)
+Spent money more than two times
+0.28
+0.05
+(0.45)
+(0.04)
+Pane C: Location of Expenditures
+Spent transfer at kiosk in village
+
+(3)
+MobileCash
+
+(4)
+ZapMobile
+
+0.00
+(0.02)
+-39.13
+(43.25)
+
+-0.66***
+(0.05)
+44.58
+(27.15)
+
+-0.04
+(0.05)
+0.01
+(0.05)
+0.03
+(0.04)
+
+-0.00
+(0.04)
+0.03
+(0.04)
+0.02
+(0.03)
+
+0.42
+(0.49)
+0.22
+(0.42)
+0.62
+(0.49)
+
+Spent transfer at market outside village
+Panel D: Knowledge of Cash Transfer
+Knew correct amount of cash transfer
+Knew correct duration of cash transfer
+Number of observations
+
+-0.04
+(0.05)
+0.06
+(0.08)
+-0.05
+(0.08)
+
+0.08
+(0.06)
+-0.05
+(0.08)
+0.04
+(0.08)
+
+0.28
+(0.44)
+0.26
+(0.44)
+
+Spent transfer at market within village
+
+0.04
+(0.06)
+0.02
+(0.09)
+-0.00
+(0.09)
+-0.00
+(0.05)
+-0.01
+(0.05)
+1052
+
+0.00
+(0.05)
+-0.06
+(0.05)
+1052
+
+-0.01
+(0.06)
+0.05
+(0.06)
+1052
+
+Notes: This table presents the simple difference estimates for each of the different treatment areas. Column 1 shows the mean and s.d.
+of the basic treatment (Cash) households, whereas Columns 2 and 3 show the difference in means between the different treatments and
+the cash households. Column 4 shows the difference in means for the Zap and Mobile treatments. All regressions control for
+commune-level fixed effects and the presence of a seed program in the village. Heteroskedasticity-consistent s.e. clustered at the village
+level are presented in parentheses. *** significant at the 1 percent level, ** significant at the 5 percent level, * significant at the 10
+percent level.
+
+45
+
+Table 7. Private Transfers
+(1)
+Cash
+average
+
+Received remittance via Western Union
+Received remittance via friend
+Received remittance via Zap
+Transferred credit via Zap
+Number of observations
+Panel B: Households affected by drought
+Received remittances as income
+Amount of remittances received for last transfer (CFA)
+Number of remittances since last harvest
+Received remittance via Western Union
+Received remittance via friend
+Received remittance via Zap
+Transferred credit via Zap
+Number of observations
+
+Coeff
+(s.e.)
+
+Coeff
+(s.e.)
+
+Coeff
+(s.e.)
+
+0.06
+(0.04)
+-537.89
+(2516)
+0.28
+(0.65)
+-0.05
+(0.07)
+0.04
+(0.08)
+0.00
+(0.01)
+0.01
+(0.01)
+1081
+
+0.00
+(0.04)
+-1,324.95
+(2393)
+-0.41
+(0.53)
+-0.08
+(0.05)
+0.08
+(0.06)
+-0.00
+(0.00)
+0.01
+(0.01)
+1081
+
+0.05
+(0.03)
+787.07
+(1761)
+0.69
+(0.45)
+0.03
+(0.06)
+-0.04
+(0.07)
+0.01
+(0.01)
+-0.00
+(0.01)
+1081
+
+0.18
+(0.39)
+18887.00
+(12527)
+2.55
+(6.48)
+0.32
+(0.48)
+0.61
+(0.50)
+0.02
+(0.16)
+0
+(0.00)
+639
+
+Number of remittances since last harvest
+
+(4)
+ZapMobile
+
+0.23
+(0.41)
+21156
+(14618)
+2.47
+(4.94)
+0.38
+(0.48)
+0.53
+(0.50)
+0.01
+(0.10)
+0
+(0.00)
+1081
+
+Amount of remittances received for last transfer (CFA)
+
+Zap-Cash
+
+(3)
+MobileCash
+
+Mean (s.d.)
+Panel A: Full Sample
+Received remittances as income
+
+(2)
+
+0.07
+(0.05)
+1,854.68
+(2646)
+0.38
+(1.02)
+0.01
+(0.09)
+0.00
+(0.11)
+-0.02
+(0.01)
+0.01
+(0.01)
+639
+
+0.05
+(0.05)
+1,348.90
+(2521)
+-1.21
+(0.79)
+-0.01
+(0.07)
+0.06
+(0.09)
+-0.01
+(0.01)
+0.01
+(0.01)
+639
+
+0.02
+(0.05)
+505.78
+(2234)
+1.59**
+(0.66)
+0.02
+(0.08)
+-0.06
+(0.09)
+-0.00
+(0.00)
+-0.00
+(0.01)
+639
+
+Notes: This table presents the simple difference estimates for each of the different treatment areas. Column 1 shows the mean and s.d. of the
+basic treatment (Cash) households, whereas Columns 2 and 3 show the difference in means between the different treatments and the cash
+households. Column 4 shows the difference in means for the Zap and Mobile treatments. While the overall sample size for the first row of
+Panel A is 1,098 households, the other regressions are conditional on the household having received a remittance, and so are therefore
+approximately 600 observations. All regressions control for commune-level fixed effects and the presence of a seed program in the village.
+Heteroskedasticity-consistent s.e. clustered at the village level are presented in parentheses. *** significant at the 1 percent level, **
+significant at the 5 percent level, * significant at the 10 percent level.
+
+46
+
+Table 8: Inter-Household Sharing
+(1)
+Cash
+average
+
+Shared cash transfer
+Shared cash transfer with friend or family within village
+Shared cash transfer with friend or family outside of village
+Shared goods from cash transfer
+Number of observations
+
+Mean
+(s.d.)
+0.17
+(0.37)
+0.91
+(0.31)
+0.02
+(0.13)
+0.60
+(0.49)
+1052
+
+(2)
+ZapCash
+
+(3)
+MobileCash
+
+(4)
+ZapMobile
+
+Coeff
+(s.e.)
+0.07*
+(0.04)
+0.03
+(0.05)
+-0.03
+(0.02)
+-0.01
+(0.04)
+1052
+
+Coeff
+(s.e.)
+0.03
+(0.04)
+0.03
+(0.06)
+0.02
+(0.03)
+-0.03
+(0.04)
+1052
+
+Coeff
+(s.e.)
+0.04
+(0.04)
+0.00
+(0.05)
+-0.05
+(0.04)
+0.02
+(0.05)
+1052
+
+Notes: This table presents the simple difference estimates for each of the different treatment areas. Column 1 shows the mean and
+s.d. of the basic treatment (Cash) households, whereas Columns 2 and 3 show the difference in means between the different
+treatments and the cash households. Column 4 shows the difference in means for the Zap and Mobile treatments. All regressions
+control for commune-level fixed effects and the presence of a seed program in the village. Heteroskedasticity-consistent s.e.
+clustered at the village level are presented in parentheses. *** significant at the 1 percent level, ** significant at the 5 percent
+level, * significant at the 10 percent level.
+
+47
+
+Table 9: Women's Empowerment and Intra-Household Decision-Making
+(1)
+(2)
+(3)
+Cash
+Mobileaverage Zap-Cash
+Cash
+
+(4)
+ZapMobile
+
+Mean
+(s.d.)
+
+Program recipient involved in deciding how transfer
+Program recipient travelled without household member to receive money
+Number of observations
+Panel B. Women's Empowerment
+Program recipient visited market in past week
+Program recipient involved in selling grains for household
+Panel C: Clothing Expenditures for Muslim Festivals
+Log(Household Expenditures on Women's Clothing for Muslim
+Festivals)
+Number of observations
+
+Coeff
+(s.e.)
+
+Coeff(s.e.)
+
+0.52
+(0.50)
+0.99
+(0.09)
+0.08
+(0.28)
+1081
+
+-0.01
+(0.03)
+0.01
+(0.01)
+0.39***
+(0.05)
+1081
+
+-0.02
+(0.04)
+0.01
+(0.01)
+0.03
+(0.03)
+1081
+
+0.01
+(0.04)
+0.00
+(0.01)
+0.36***
+(0.04)
+1081
+
+0.18
+(0.38)
+0.82
+(0.38)
+
+Panel A: Decision-Making Regarding Cash Transfer
+Program recipient responsible for spending part of cash transfer
+
+Coeff(s.e.)
+
+0.09***
+(0.04)
+0.09**
+(0.04)
+
+-0.01
+(0.04)
+0.03
+(0.04)
+
+0.10***
+(0.04)
+0.06*
+(0.03)
+
+14195
+(13878)
+
+0.16*
+(0.09)
+794
+
+-0.01
+(0.09)
+794
+
+0.18**
+(0.08)
+794
+
+Notes: This table presents the simple difference estimates for each of the different treatment areas. Column 1 shows the mean and s.d. of
+the basic treatment (Cash) households, whereas Columns 2 and 3 show the difference in means between the different treatments and the
+cash households. Column 4 shows the difference in means for the Zap and Mobile treatments. All regressions control for communelevel fixed effects and the presence of a seed program in the village. The data only include observations from male-headed households.
+Heteroskedasticity-consistent s.e. clustered at the village level are presented in parentheses. *** significant at the 1 percent level, **
+significant at the 5 percent level, * significant at the 10 percent level.
+
+48
+
+Table 10: Mobile Phone Ownership and Usage
+(1)
+(2)
+Cash
+Zapaverage
+Cash
+
+(3)
+MobileCash
+
+(4)
+ZapMobile
+
+Mean
+(s.d.)
+
+Made calls
+Wrote or received SMS
+Sent or received a "beep"
+Transferred credit via Zap
+Received credit via Zap
+Number of observations
+Panel B: Uses of Mobile Phones
+Communicate with family/friends inside Niger
+Communicate with commercial contacts inside Niger
+Communicate with family/friends outside Niger
+Used mobile phone to communicate death/ceremony
+Used mobile phone to share general information
+Used mobile phone to obtain price information
+Used mobile phone to ask for help/support
+Number of observations
+
+Coeff
+(s.e.)
+
+0.64***
+(0.06)
+0.32***
+(0.05)
+0.29***
+(0.06)
+0.01*
+(0.01)
+0.15***
+(0.03)
+0.01
+(0.01)
+0.97***
+(0.01)
+1081
+
+0.54***
+(0.07)
+0.14***
+(0.05)
+0.21***
+(0.06)
+0.01
+(0.01)
+0.06**
+(0.03)
+0.01
+(0.01)
+0.01
+(0.02)
+1081
+
+0.10
+(0.07)
+0.18***
+(0.05)
+0.08
+(0.05)
+0.00
+(0.01)
+0.08***
+(0.03)
+-0.00
+(0.01)
+0.95***
+(0.01)
+1081
+
+0.39
+(0.49)
+0.00
+(0.00)
+0.40
+(0.49)
+0.14
+(0.35)
+0.64
+(0.48)
+0.02
+(0.14)
+0.14
+(0.35)
+666
+
+Used mobile phone since last harvest
+
+Coeff
+(s.e.)
+
+0.23
+(0.42)
+0.52
+(0.50)
+0.26
+(0.44)
+0.00
+(0.00)
+0.07
+(0.25)
+0.00
+(0.00)
+0.01
+(0.12)
+1081
+
+Panel A: Mobile Phone Ownership
+Program recipient owns a mobile phone
+
+Coeff
+(s.e.)
+
+0.22***
+(0.06)
+0.01
+(0.01)
+-0.04
+(0.06)
+0.11***
+(0.04)
+0.04
+(0.04)
+-0.01
+(0.01)
+-0.00
+(0.04)
+666
+
+0.14***
+(0.05)
+0.02**
+(0.01)
+-0.05
+(0.06)
+0.11***
+(0.04)
+0.01
+(0.04)
+0.01
+(0.02)
+0.03
+(0.04)
+666
+
+0.08*
+(0.05)
+-0.01
+(0.01)
+0.02
+(0.04)
+0.00
+(0.03)
+0.03
+(0.04)
+-0.02
+(0.02)
+-0.03
+(0.03)
+666
+
+Notes: This table presents the simple difference estimates for each of the different treatment areas. Column 1 shows the mean and s.d.
+of the basic treatment (Cash) households, whereas Columns 2 and 3 show the difference in means between the different treatments and
+the cash households. Column 4 shows the difference in means for the Zap and Mobile treatments. All regressions control for
+commune-level fixed effects and the presence of a seed program in the village. The total sample is 1052, but most regressions have a
+sample size of 666 observations (conditional on whether the respondent or household had used a mobile phone). Heteroskedasticityconsistent s.e. clustered at the village level are presented in parentheses. *** significant at the 1 percent level, ** significant at the 5
+percent level, * significant at the 10 percent level.
+
+49
+
+Table 11. Alternative Explanations
+(1)
+
+Zap agent in village
+Number of Zap agents in village
+Number of observations
+
+MobileCash
+
+ZapMobile
+
+Coeff
+(s.e.)
+
+Coeff (s.e.)
+
+Coeff
+(s.e.)
+
+-0.01
+(0.05)
+0.02
+(0.03)
+1081
+
+0.03
+(0.05)
+-0.01
+(0.03)
+1081
+
+-0.04
+(0.05)
+0.03
+(0.03)
+1081
+
+0.25
+(0.44)
+7.60
+(6.42)
+0.03
+(0.19)
+0.07
+(0.37)
+96
+
+Distance to nearest market
+
+ZapCash
+
+0.66
+(0.47)
+0.74
+(0.44)
+1081
+
+Number of observations
+Panel B: Access to Village-Level Infrastructure
+Market located within the village
+
+(4)
+
+Mean (s.d.)
+
+Household was affected by illness in 2010/2011
+
+(3)
+
+Cash
+average
+
+Panel A: Shocks
+Household was affected by drought in 2010/2011
+
+(2)
+
+-0.04
+(0.10)
+-0.23
+(0.44)
+-0.03
+(0.03)
+-0.07
+(0.07)
+96
+
+-0.11
+(0.09)
+1.14
+(7.62)
+0.04
+(0.06)
+-0.00
+(0.08)
+96
+
+0.08
+(0.09)
+-1.37
+(9.84)
+-0.07
+(0.05)
+
+-0.06
+(0.04)
+96
+
+Notes: This table presents the simple difference estimates for each of the different treatment areas. Column 1 shows the
+mean and s.d. of the basic treatment (Cash) households, whereas Columns 2 and 3 show the difference in means between the
+different treatments and the cash households. Column 4 shows the difference in means for the Zap and Mobile treatments.
+All regressions control for commune-level fixed effects and the presence of a seed program in the village.
+Heteroskedasticity-consistent s.e. clustered at the village level are presented in parentheses. *** significant at the 1 percent
+level, ** significant at the 5 percent level, * significant at the 10 percent level.
+
+50
+
+Table 12: Impact of Cash Transfers on Agricultural Prices
+(1)
+Millet (tia)
+Dependent variable: Log of prices
+
+(2)
+Millet
+(100-kg
+bag)
+
+(3)
+
+(4)
+
+Sorghum
+(tia)
+
+Cowpea
+(tia)
+
+(5)
+Cowpea
+(60-kg
+bag)
+
+(6)
+
+(7)
+
+Rice (1
+kg)
+
+Rice (50kg)
+
+(8)
+Vegetable
+Oil (1
+liter)
+
+Coeff (s.e.)
+Panel A: Impact of Cash Transfer on Prices
+Any cash transfer
+Panel B: Impact of Cash Transfer Mechanism on Prices
+Zap
+Cash/Mobile
+H0: Zap-Cash/Mobile
+P-value of F-statistic
+Mean Price (CFA) of Non-Cash Transfer Markets
+Number of observations
+
+Coeff (s.e.)
+
+Coeff (s.e.)
+
+Coeff
+(s.e.)
+
+Coeff (s.e.)
+
+Coeff
+(s.e.)
+
+Coeff
+(s.e.)
+
+Coeff (s.e.)
+
+-0.00
+(0.01)
+
+0.00
+(0.01)
+
+0.01
+(0.02)
+
+-0.00
+(0.01)
+
+0.02*
+(0.01)
+
+0.01
+(0.01)
+
+-0.00
+(0.01)
+
+-0.01
+(0.01)
+
+0.00
+(0.01)
+-0.01
+(0.02)
+
+0.01
+(0.01)
+0.00
+(0.01)
+
+0.03
+(0.02)
+-0.01
+(0.02)
+
+0.00
+(0.01)
+-0.01
+(0.01)
+
+0.01
+(0.01)
+0.03*
+(0.02)
+
+0.03**
+(0.02)
+-0.01
+(0.01)
+
+0.01
+(0.01)
+-0.01
+(0.01)
+
+-0.01
+(0.01)
+-0.01
+(0.01)
+
+0.76
+516
+476
+
+0.30
+20,927
+412
+
+0.35
+466
+370
+
+0.70
+794
+469
+
+0.16
+15923
+343
+
+0.03
+435
+495
+
+0.28
+19,376
+427
+
+0.29
+1033
+459
+
+Notes: Each column shows a separate regression. "Any cash transfer" is a binary variable equal to 1 at time t if there was a cash transfer on market i during that week, 0 otherwise. "Zap
+transfer" is equal to 1 in week t if there was a zap transfer on market i during that week, 0 otherwise. All regressions control for market-specific time trends and week fixed effects. First
+differences are used to control for non-stationarity. Heteroskedasticity-consistent s.e. clustered at the market-level are presented in parentheses. *** significant at the 1 percent level, **
+significant at the 5 percent level, * significant at the 10 percent level.
+
+51
+
+

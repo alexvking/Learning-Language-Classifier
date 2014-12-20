@@ -1,0 +1,4105 @@
+Journal of Development Economics 107 (2014) 1–16
+
+Contents lists available at ScienceDirect
+
+Journal of Development Economics
+journal homepage: www.elsevier.com/locate/devec
+
+Borders, ethnicity and trade☆
+Jenny C. Aker a, Michael W. Klein b, Stephen A. O'Connell c, Muzhe Yang d
+a
+
+The Fletcher School and Department of Economics, Tufts University, USA
+The Fletcher School, Tufts University, USA
+c
+Department of Economics, Swarthmore College, USA
+d
+Department of Economics, Lehigh University, USA
+b
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 30 April 2011
+Received in revised form 19 September 2013
+Accepted 2 October 2013
+Available online 26 October 2013
+JEL classiﬁcation:
+F1
+O1
+Q1
+
+a b s t r a c t
+This paper uses unique high-frequency data on prices of two agricultural goods to examine the additional costs
+incurred in cross-border trade between Niger and Nigeria, as well as trade between ethnically distinct markets
+within Niger. We ﬁnd a sharp and signiﬁcant conditional price change of about 20 to 25% between markets
+immediately across the national border. This price change is signiﬁcantly lower when markets on either side of
+the border share a common ethnicity. Within Niger, trade between ethnically distinct regions exhibits an ethnic
+border effect that is comparable, in its magnitude, to the national border effect between Niger and Nigeria. Our
+results suggest that having a common ethnicity may reduce the transaction costs associated with agricultural
+trade, especially the costs associated with communicating and providing credit.
+© 2013 Elsevier B.V. All rights reserved.
+
+Keywords:
+Africa
+Border costs
+Agriculture
+Ethnicity
+
+1. Introduction
+The positive allocative and growth effects of international trade are
+an important motivation for research that examines the extent to
+which national borders hinder trade among countries. A central branch
+of this research analyzes price dispersion between locations on opposite
+sides of a national border as compared to locations within the same
+country. Most of this research focuses on effects across the borders of
+high-income countries (Engel and Rogers, 1996; Gopinath et al., 2011;
+Parsley and Wei, 2001).1 But the allocative and growth effects of international trade may well be greater for low-income countries. Furthermore, the pure “border effect” may be more apparent in situations
+where national borders were drawn without regard for natural boundaries, or cultural or ethnic linkages, as was the case in West Africa. For
+
+☆ This research was partially funded by the National Bureau of Economic Research Africa
+Project. We would like to thank three anonymous reviewers, Chris Udry (Co-Editor),
+Jonathan Robinson, and seminar participants at Boston College, the Center for Global
+Development, National Bureau of Economic Research, Northeast Universities Development
+Conference (NEUDC), Université de Clermont-Ferrand and University of Gottingen for their
+helpful comments and suggestions. All errors are our own.
+E-mail addresses: Jenny.Aker@tufts.edu (J.C. Aker), michael.klein@tufts.edu
+(M.W. Klein), soconne1@swarthmore.edu (S.A. O'Connell), muzheyang@lehigh.edu
+(M. Yang).
+1
+The magnitude of these estimates has been questioned by Gorodnichenko and Tesar
+(2009) who show that differences in underlying price volatility across countries contribute
+to the estimated border effect.
+0304-3878/$ – see front matter © 2013 Elsevier B.V. All rights reserved.
+http://dx.doi.org/10.1016/j.jdeveco.2013.10.004
+
+both of these reasons, an analysis of the border effect in West Africa is
+a potentially fruitful and important area of research.
+There has been limited analysis of the border effect in this region,
+however, presumably due to the absence of high-frequency price data
+on narrowly deﬁned goods in spatially distinct locations.2 We are able
+to address this issue by using data we have gathered on monthly consumer prices for two agricultural goods—millet and cowpea—from 49
+markets in Niger and northern Nigeria between October 1999 and
+September 2007. We also have constructed data sets on additional variables that may affect price differences across markets, including rainfall,
+market size, the geographic location of the market, road distances and
+fuel prices, which enables us to estimate the additional transaction costs
+incurred when markets are located near the border shared by Niger and
+Nigeria. We ﬁnd a price change at the border of 17 to 26% for millet,
+and a slightly larger effect for cowpea, using an analysis like that of
+Gopinath et al. (2011). In the presence of limited trade ﬂows between
+markets located near the border, these estimated additional costs represent lower bounds on the costs imposed by the border.
+A novel feature of our study, and one particularly appropriate for the
+countries in our analysis, is the examination of the impact of ethnicity
+on trade. Common ethnicity plays a potential role across the Niger–
+Nigeria border, while ethnic differences play a potential role for trade
+within Niger, across a de facto spatial separation between two ethnic
+2
+Research on the border effect in developing countries includes Morshed (2007) and
+Araujo-Bonjean et al. (2008).
+
+2
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+
+groups in that country. To our knowledge, this is the ﬁrst study of the
+effects of ethnicity on domestic and cross-border trade.3 We ﬁnd that
+common ethnicity mitigates the estimated costs of cross-border trade
+signiﬁcantly: price gaps are smaller between the Hausa regions of
+Niger and Nigeria than between cross-border markets that do not
+share a common ethnic composition. We also ﬁnd that the lower
+bound on the cost of trade across the internal Hausa-Zarma “border”
+is about as large as the one incurred by trades across the Niger–
+Nigeria national border.
+We provide further but somewhat more speculative evidence on the
+mechanisms behind the ethnic “border” cost by examining traders'
+characteristics and behavior close to the Hausa–Zarma “border.” While
+markets on either side of the “border” have similar geographic characteristics and institutions, there are signiﬁcant differences in language,
+the gender composition of traders, and borrowing and lending behaviors between the two ethnic groups. We posit that these differences
+have important implications for the role of intra-ethnic social networks
+in lowering the transaction costs associated with trade. This is consistent with a substantial literature on rural institutions in Africa
+(Fafchamps, 2001) as well as with global evidence documenting the
+effects of ethno-linguistic fractionalization on outcomes such as growth
+(Easterly and Levine, 1997), corruption (Mauro, 1995), contributions to
+local public goods (Alesina et al., 1999) and participation in groups and
+associations (Alesina and La Ferrara, 2000).
+The rest of the paper is organized as follows. Section 2 provides the
+context of our empirical study by discussing some relevant characteristics of the regions, including agricultural trade patterns, the geographic
+nature of ethnic groupings, and the establishment of the Niger–Nigeria
+border. Section 3 describes our data, and Section 4 presents the empirical strategy. Section 5 presents our estimates for the Niger–Nigeria
+border analysis. Section 6 investigates the role of a de facto ethnic
+“border” between Hausa and Zarma in creating internal barriers to
+trade and the potential microeconomic mechanisms. Section 7
+concludes.
+2. Trade, markets, and ethnicity in Niger and Nigeria
+2.1. Historical roots of trade between Niger and Nigeria
+Niger is one of the poorest countries in the world and one of the
+lowest-ranked countries on the recent United Nations' Human Development Index (UNDP, 2013). The majority of the population consists of
+rural subsistence farmers who depend upon rainfed agriculture as
+their main source of food and income. A landlocked country, Niger
+trades with its contiguous neighbors, primarily the coastal countries of
+Benin and Nigeria, and the landlocked countries of Burkina Faso and
+Mali.
+Niger's trade links with Nigeria have a long and rich history. In the
+centuries prior to the arrival of the colonial powers, the Hausa ethnic
+group in modern-day northern Nigeria and Niger was linked to the
+rest of the continent through a set of long-distance trading routes. One
+of these was the trans-Saharan trade route connecting Katsina and
+Kano (Nigeria) to Tripoli (Libya) via Niger. Trade along this route was
+primarily in slaves, textiles, livestock, grains and salt. A second route
+was the westward trade in kola nuts between Niger and Nigeria and
+what is now Ghana (Hashim and Meagher, 1999).
+The 1500-km border between the French colony of Niger and the
+British colony of Nigeria was established in the wake of the 1884–85
+Berlin Conference. The placement of the border was the result of opposing territorial interests of the French and British colonial administration,
+rather than reﬂecting any geographic features that would serve as a
+3
+Studies of cross-border trade in West Africa have typically been restricted to a few locations and time periods (Azam, 2007). Araujo-Bonjean et al. (2008) estimate a vector
+autoregression model using monthly market-level grain price data for markets in Niger,
+Mali and Burkina Faso and ﬁnd a statistically signiﬁcant border effect within the CFA zone.
+
+natural division between the two countries; thus, there are no natural
+barriers, such as rivers or mountain ranges, separating the two countries.4 The border that emerged in 1906 divided the Hausa, Fulani and
+Kanuri ethnic groups between the two countries.5 It also created a Niger
+that included eight primary ethnic groups (Hausa, Songhai/Zarma,
+Toureg, Fulani, Kanuri, Arab, Toubou and Gourmantche) that were,
+for the most part, situated in geographically distinct regions (shown
+in Fig. 1). These regions inhabited by these ethnic groups have been
+relatively stable over time; ethnographic maps from the late 1950s
+show a similar pattern of settlement as those from 2008.
+Few road networks were developed to link Niger and Nigeria during
+the colonial period and, as a result, there were relatively few ofﬁcial
+border crossings by the time of Niger's and Nigeria's independence in
+1960. As building more crossing stations was a low priority for the
+newly independent states, the Niger–Nigeria border was relatively
+porous post-independence. Both countries have been members of the
+Economic Community of West African States (ECOWAS) since the
+mid-1990s. ECOWAS is a regional customs union that allows trade in
+locally produced agricultural products (such as millet, sorghum, maize
+and cowpea) to be largely free of trade restrictions or governmental
+regulations.
+2.2. Present-day agricultural trade
+Trade in agro-pastoral products within and between Niger and
+northern Nigeria is conducted through a system of traditional markets,
+each of which is held on a weekly basis. Markets are primarily located
+in a speciﬁc geographic area, such as a village, town or urban center.
+The density of grain markets within each country varies considerably
+by geographic region, with inter-market distances for which trade occurs ranging from 10 km to over 1,000 km. The number of traders operating on each market ranges from 24 to 353, with retailers accounting
+for over 50% of all traders.
+In this study we focus on two of the most heavily traded goods in
+these markets, millet and cowpea. Millet is a staple grain in both countries
+and is produced and consumed in almost all regions, especially those located near the Niger–Nigeria border. Cowpea is produced in most agroclimatic zones of both countries and functions as a cash crop for rural
+households. Both commodities are heavily traded across the Niger–
+Nigeria border, although with different trade ﬂows. While cross-border
+trade occurs throughout the year, millet is more heavily imported into
+Niger from Nigeria during the pre-harvest period, and cowpea is more
+heavily exported from Niger to Nigeria immediately after the harvest.
+Aker (2010) shows that millet and cowpea are relatively homogeneous goods in these markets, and that there do not appear to be systematic price premiums either within or across markets based upon size or
+color of these commodities. While there have been attempts to introduce
+improved varieties over the course of the past decade, the primary type of
+millet cultivated and sold in southern Niger and northern Nigeria is pearl
+millet, Pennisetum glaucum (Ndjeunga and Nelson, 2005); the primary
+cowpea variety is black-eyed cowpea (Lambot, 2000).6
+Despite the absence of natural or political barriers to trade between
+the two countries, there are several potential barriers to trade in agropastoral goods at the international border. One possible source of trade
+4
+The Niger River is the principal river of West Africa. The river originates in Guinea and
+empties into the Niger Delta in southern Nigeria. While the river traverses both Niger and
+Nigeria, it forms an international border only between Niger and Benin.
+5
+The Niger–Nigeria border created a “partitioned culture area” among Hausa and Fulani
+populations (Asiwaju, 1985). At the outset of the international demarcation, inhabitants
+with farmland straddling the boundary had to choose one colonial side or the other, as
+French subjects were not supposed to farm on British territory, and vice versa (Miles,
+2005).
+6
+The color of cowpea in West Africa can be white, black, brown or red (Lambot, 2000).
+In Niger, white and red cowpea varieties are available, but for all of the markets in our
+sample, only white cowpea was available. In our statistical analysis, we address potential
+concerns about the homogeneity of these commodities and the services provided across
+different markets.
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+
+3
+
+Fig. 1. International borders and ethnic groups in Niger and (northern) Nigeria. Notes: A map of the current international borders for Benin, Burkina Faso, Mali Niger and Nigeria, as well as
+the geographic location of major grain markets. Each symbol reﬂects the ethnic composition of traders operating on a particular market. Data on ethnicity are provided market-level data
+collected between 2005 and 2007, as well as household-level surveys in 2008.
+
+friction arises from currency exchange costs between the Communauté
+Financière Africaine (CFA) franc of Niger and the Nigerian Naira.7 Furthermore, there are often costs due to delays at the border (e.g. due to waiting
+for customs papers) or bribes paid to police ofﬁcers and customs' ofﬁcials.
+8
+Finally, linguistic differences (between the ofﬁcial languages of Niger
+and Nigeria, French and English, respectively) may also add to transaction
+costs if trade is conducted in these languages.
+
+3. Data
+This study constructs ﬁve primary and secondary datasets. The ﬁrst
+includes monthly market-level consumer price data for millet and cowpea over an eight-year period from October 1999 to September 2007.9
+These data were collected from Niger's Agricultural Market Information
+System (AMIS) and include prices from 49 markets in Niger and northern Nigeria. The price data from Nigerian markets were also collected
+by Niger's AMIS, in Naira, and converted into CFA using the CFA/
+Naira exchange rate of that day. We do not have access to the original
+
+7
+There was a devaluation of the CFA in 1994, and the peg was shifted from the French
+franc to the Euro when the latter replaced the French franc in 1999. While these events
+may have affected the CFA-Naira exchange rate, they predate our sample period.
+8
+Some authors (e.g., Azam, 2007) have pointed to banditry as an important cost in the
+cross-border trade of certain goods, such as petrol. Banditry and theft do not appear to be a
+factor in the cross-border trade in agricultural products. According to our transporter survey conducted between 2005 and 2007, fewer than 5% of transporters had items stolen
+during transport over the two-year period, and none of these transporters cited banditry
+as a primary constraint to trade.
+9
+Price data are the average price in the market on a particular market day for a given
+weight.
+
+price data in Naira, nor to the daily CFA/Naira exchange rate used for
+the price conversion.
+The second dataset includes information on the latitude and longitude of each market and of the Niger–Nigeria border. These data allow
+us to calculate the distances for market pairs and to control for the location of each market relative to the international border.
+The third dataset includes monthly data on gasoline prices and the
+CFA/Naira exchange rate, as well as market-level monthly data on rainfall, the date of mobile phone coverage and road quality. These data
+were collected from a variety of primary and secondary sources, including the Direction de la Meteo, the mobile phone companies, and the
+Nigerien oil company (SONIDEP).
+The fourth dataset is a unique survey of traders, transporters and
+market resource persons collected by one of the authors between
+2005 and 2007. These survey data draw on interviews with 400 traders
+and 205 farmers located in 35 markets and 40 villages across Niger and
+northern Nigeria. The dataset includes a census of all traders on each
+market, as well as detailed information on socio-demographic characteristics (including ethnicity) and traders' commercial operations.
+The ﬁfth dataset includes detailed information on the ethnic composition of villages and markets located in a speciﬁc area in Niger, namely
+the area that divides the Hausa and Zarma ethnic regions. These data
+include the latitude and longitude of each village, the current ethnic
+composition of village residents and the ethnic composition of the village in 1960, the year of Niger's independence.
+Table 1 presents summary statistics for both countries between
+October 1999 and September 2007. It includes data for markets located
+within 250 km of the international border. The average price (CFA/kg)
+for millet during this time period was higher in Niger, with a statistically
+signiﬁcant difference between the two countries. In contrast, average
+
+4
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+
+Table 1
+Summary statistics and mean comparisons by country (1999–2007).
+Markets located within
+
+Difference in means
+(standard error)
+
+Market level data
+
+Southern Niger
+
+Northern Nigeria
+
+Variables
+
+Mean (standard deviation)
+
+Mean (standard deviation)
+
+Millet price (CFA/kg)
+Cowpea price (CFA/kg)
+Ethnic composition of traders
+Hausa
+Zarma
+Kanuri
+Paved road to market (1/0)
+Market size (number of traders)
+Mobile phone coverage (1999–2007)
+Drought between 1999 and 2007
+Urban center (at least 35,000 people)
+
+124.00 (33.00)
+173.00 (56.00)
+
+112.00 (31.00)
+176.00 (56.00)
+
+11.60*** (3.30)
+−3.21 (8.20)
+
+0.58 (0.51)
+0.29 (0.46)
+0.08 (0.27)
+0.71 (0.46)
+105.08 (90.00)
+0.36 (0.48)
+0.03 (0.16)
+0.33 (0.49)
+
+0.80 (0.45)
+0
+0.20 (0.45)
+0.80 (0.44)
+176.75 (149.00)
+0.45 (0.50)
+0.03 (0.16)
+0.80 (0.45)
+
+−0.21 (0.21)
+0.29*** (0.10)
+−0.12 (0.19)
+−0.09 (0.21)
+−71.66 (69.00)
+−0.08 (0.11)
+0.00 (0.01)
+0.46** (0.21)
+
+Notes: Data are from the Niger trader survey and secondary sources collected by one of the authors. Prices are deﬂated by the Nigerien Consumer Price Index. Markets in Southern Niger
+or Northern Nigeria are located within 250 km of the Niger–Nigeria border. Standard errors are robust to market level clustering. * Signiﬁcant at the 10% level, ** signiﬁcant at the 5% level,
+*** signiﬁcant at the 1% level.
+
+Table 2
+Difference in trader-level characteristics between Niger and northern Nigeria.
+Niger
+
+Nigeria
+
+Difference in means
+
+Trading behavior variables:
+
+Mean
+
+Standard deviation
+
+Mean
+
+Standard deviation
+
+Coefﬁcient
+
+Standard error
+
+Number of markets followed
+Number of market contacts
+Number of purchase and sales markets
+Trade in cross-border markets within a 50-km radius
+Quantity traded in 2005/2006 (kg)
+Number of police controls
+Market size (number of traders)
+
+4.35
+4.24
+4.36
+0.27
+12,936
+3.80
+97.30
+
+3.90
+3.89
+2.85
+0.22
+59,696
+0.90
+80.70
+
+5.29
+5.00
+5.38
+0.55
+10,025
+4.00
+176.75
+
+2.21
+5.59
+1.92
+0.07
+14,106
+1.00
+149.00
+
+−0.93
+−0.76
+−1.01
+−0.28**
+−2911
+−0.17
+−79.42
+
+0.84
+2.12
+0.68
+0.05
+36,096
+0.69
+73.02
+
+Notes: Data are from the Niger trader survey between 2005 and 2007 and secondary sources collected by one of the authors. The sample includes 415 traders across 37 markets. Robust
+standard errors are reported in the last column. * Signiﬁcant at the 10% level, ** signiﬁcant at the 5% level, *** signiﬁcant at the 1% level.
+
+cowpea prices are lower in Niger, although the difference is not statistically signiﬁcant. These price differences are consistent with the prevailing direction of trade described earlier, with Niger a net importer of
+millet from Nigeria and Niger exporting cowpea to Nigeria. While markets have slightly more traders in northern Nigeria and are more likely
+to be located in an urban center, we do not reject the equality of means
+across countries for most observable characteristics of markets located
+within 250 km of the international border. The primary exception is
+the prevalence of traders from the Zarma ethnic group, who are not
+present in these markets in northern Nigeria.
+Fig. 1 shows the international border between Niger and northern
+Nigeria, as well as the location of ethnic groups in these markets. As
+shown in this ﬁgure, as well as in Table 1, the Nigerian markets in our
+sample are composed exclusively of the Hausa and Kanuri ethnic
+groups.10
+The Niger–Nigeria border is not completely closed to trade in millet
+and cowpea. While we do not have data on trade ﬂows between markets, our trader-level survey data, which covers the period from 2005
+to 2007, suggest that traders engage in cross-border trade. The statistics
+in Table 2 show that, during this period, 27% of traders in Nigerien markets located near the border bought and sold millet and cowpea in
+northern Nigeria, and 55% of Nigerian traders bought and sold agricultural products from Nigerien markets. We also ﬁnd that the trading operations are similarly active on either side of the border, with no
+statistically signiﬁcant differences. These statistics are not deﬁnitive
+about the occurrence and persistency of cross-border trade during the
+full sample period for which we have price data, but they do suggest
+
+10
+While members of the Zarma ethnic group live within Nigeria, they constitute a small
+percentage of the population (0.001%) and are geographically focused in the northwest region of the country, near the Benin–Niger border.
+
+that, at a minimum, sporadic trade occurred. Consequently, we can consider the extent to which the border contributed to price differences
+across markets although, as discussed in the next section, these estimates will only provide a lower bound.
+
+4. Empirical strategy
+The key questions for our study are the extent to which the national
+border contributed to price differences across markets, and also, within
+Niger, the extent to which there were price differences across markets
+solely because these markets were in regions dominated by different
+ethnic groups. To address these questions we use a market-pair approach and a single-market approach. Both approaches compare prices
+in markets that are close to each other geographically, since price arbitrage (in the absence of a border) is more plausible over shorter distances. While we do have trade ﬂow data from a subset of markets for
+a two-year period, we do not have data on the frequency and persistency of trade ﬂows between all markets during all time periods. As a result,
+we cannot prove that there is trade between all market pairs in our sample for all time periods. In the absence of this information, both the
+market-pair and the single-market analysis estimate a lower bound on
+the border cost, the cost of transacting across a border.11
+
+11
+Arbitrage can only constrain price differences when the price differential between
+markets, in the absence of arbitrage, would exceed the transaction cost associated with
+selling the marginal unit in the high-price rather than the low-price market. These transaction costs are prohibitive if (and only if) they exceed the equilibrium price differential, in
+which case the markets are segmented and the observed differential must be equal to or
+below the transaction cost (Gopinath et al., 2011).
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+
+4.1. Market-pair analysis
+In line with the macroeconomic literature on border effects in industrialized countries, we examine the cross-border price differences of
+market pairs between countries, as compared with the same differences
+within each country (Engel and Rogers, 1996). Our regression model for
+the market-pair analysis is the following:
+
+!
+
+
+P it  
+ 
+
+
+′
+′
+ ¼  lnpit − ln pjt  ¼ α 0 þ α 1 Borderij þ x it α 2 þ x jt α 3
+ ln
+
+P jt 
+′
+
+þ w ij α 4 λi þ δ j þ ηt þ εijt ;
+
+1
+
+where Pit and Pjt are the prices (in CFA), at time t in market i and market
+j, respectively.12 “Borderij” is a dummy variable equal to one if market i
+and market j are in different countries (Niger or Nigeria) and zero if both
+markets are in the same country; xit and xjt are vectors of time-varying
+variables such as drought and mobile phone coverage for market i and
+market j, respectively; wij is a vector of time-invariant observables
+shared by market i and market j, such as the distance and the transport
+cost (estimated based on the distance) between the two markets; λi and
+δj are ﬁxed effects for market i and market j, respectively; ηt denotes the
+monthly time effect; and εijt is the mean-zero disturbance term.
+In this model, α1 represents the average increment in the difference
+between log prices—equivalently, the percent change in the magnitude
+of the price ratio—exclusively attributable to crossing the Niger–Nigeria
+border, conditional on market-level observables and transport costs between markets. However, the inclusion of market pairs separated by
+long distances may introduce unobserved heterogeneities in our estimated lower bound on the border cost. Therefore, we constrain our
+sample to market pairs no more than 250 km apart, the mean distance
+between markets in our sample.13 Also, because differences in underlying price volatility in two countries can bias the estimate of the border
+effect upward (Gorodnichenko and Tesar, 2009),14 we include indicator
+variables for country-speciﬁc pairs.
+
+5
+
+experiencing drought; wi includes the latitude and the longitude of
+market i16; γt denotes the monthly time effect; and εit is the mean
+zero disturbance term.
+In the regression model the lower bound on the border cost is represented by β1, which measures the percent change in price from
+relocating a market just across the border.17 The coefﬁcient β1 will be
+positive (negative) if prices are generally higher (lower) in Niger than
+in Nigeria, conditional on the covariates in the regression model. This
+assumption of a prevailing direction of potential cross-border trade,
+even if cross-border prices are indeed arbitraged (through either actual
+trade or the potential for trade at the margin) is the same as that used by
+GGHL.18 The coefﬁcient on the border dummy variable will be biased
+downward to the degree that potential cross-border trade is not unidirectional in equilibrium. We aim to distinguish transaction costs from
+the border cost by controlling for the distance variable and by restricting
+the sample to markets relatively close to the border.19 Ideally, we would
+restrict the sample to markets very close to the border, to avoid irrelevant comparisons and sharpen the identiﬁcation of any border discontinuity in prices. However, few of the long-standing markets that
+constitute our sample are located arbitrarily close to the Niger–Nigeria
+border.20 Thus, we consider markets located within different bandwidths (5 km, 20 km, 30 km and 50 km) from the border. Additionally,
+we proxy for price determinants that may vary nonlinearly with location by including distance from the border, both linearly and as a higher
+order polynomial.
+4.3. Comparison of the two approaches
+
+Where pit denotes the price of a good, measured in CFA, sold in market
+i at time t; “Nigeri” is a dummy variable equal to one if market i is in Niger
+and zero if market i is in Nigeria; Di denotes the algebraic distance15 of
+market i north of the Niger–Nigeria border in kilometers (positive for
+markets in Niger and negative for markets in Nigeria), which can be
+seen as a normalized proxy variable for transport cost of shipping
+goods from Nigeria to Niger (lower in Nigeria with Di b 0 and higher in
+Niger with Di N 0); xit is a vector of time-varying variables for market i
+at time t, which includes access to mobile phone coverage and
+
+The potential downward bias in the single-market border coefﬁcient
+suggests that these estimates may deliver smaller border effects than
+those from the market-pair analysis, because the latter are robust to
+the existence of bi-directional trade either over time or along different
+portions of the border. But the opposite conclusion tends to emerge if
+there is a prevailing direction of potential trade, that is, if prices tend
+to be uniformly higher on one side of the border than the other, as
+they do both in our own case and in that of GGHL.21 In such cases, as
+we show in Appendix B, the coefﬁcient on the border variable in our
+single-market regressions is robust to random, mean-zero price variation on either side of the border, precisely because that variation averages to zero. But, in this situation, the border coefﬁcient is biased
+towards zero in the market-pair analysis because the “counterfactual”
+pairs—the ones that lie fully within one or the other country—have a
+positive average absolute price gap even if their average algebraic price
+gap is zero. Note that this is essentially the same point made by
+Gorodnichenko and Tesar (2009), whose study shows how different
+intra- versus inter-country heterogeneities can bias the border effect
+estimates.
+The comparability of the single-market and market-pair approaches
+in our analysis is also affected by a lack of comparability between the
+samples used for each. Ideally, we would restrict both analyses to markets that are relatively close to the border and also relatively close to
+each other. Unfortunately, we have too few markets in our data that
+meet both of these criteria. We restrict our single-market analysis to
+markets that are relatively close to the border, necessarily including
+some markets that are not close to each other (because the border is
+long). The sample in the market-pair analysis is restricted to markets
+
+12
+Most market-pair analyses regress a measure of price dispersion between two markets on a binary variable that equals one if the two markets are separated by a border
+(Ceglowski, 2003; Engel and Rogers, 1996; Parsley and Wei, 2001). Also use a price gap
+analysis, with the same dependent variable as the one used in our speciﬁcation.
+13
+To check the robustness of the results, we also use alternative measures of intermarket distance, namely, those markets that are no more than 150 km apart.
+14
+Gorodnichenko and Tesar (2009) control for country-speciﬁc variability by including
+indicator variables for country-speciﬁc market pairs and ﬁnd vastly different estimates
+of the US–Canada border effect.
+15
+Here, we use exactly the same term—algebraic distance—as Gopinath et al. (2011).
+
+16
+In this way we attempt to control for location-speciﬁc time-invariant unobservable
+characteristics of market i.
+17
+This approach is equivalent to using a uniform kernel regression (Imbens and
+Lemieux, 2008) for a regression discontinuity design.
+18
+For more detailed discussions, see Appendix A.
+19
+GGHL restrict the sample to markets within 500 km of the U.S.–Canada border, although they ﬁnd very similar results for bandwidths of 100 km or 350 km.
+20
+This aspect of these markets limits our ability to employ a standard graphical analysis
+typically associated with a regression discontinuity design analysis.
+21
+In Appendix B we provided detailed discussions on this conclusion.
+
+4.2. Single market analysis
+As suggested above, the effects of unobserved heterogeneity might
+be mitigated by restricting the sample to markets relatively proximate
+to each other. An alternative approach to controlling for unobserved
+heterogeneity is to limit the sample to markets located very close
+to the border. For our single-market analysis, we use the same regression model as the one used by Gopinath et al. (2011):
+0
+
+0
+
+lnpit ¼ β0 þ β1 Nigeri þ β2 Di þ β3 Nigeri Á Di þ xit β4 þ wi β5 þ γt
+þ εit
+
+ð2Þ
+
+6
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+
+Table 3
+Estimates of the Niger–Nigeria Border effect based on market pair regressions.
+Millet
+
+Cowpea
+
+Dependent variable: |ln (Pit/Pjt)|
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+Niger–Nigeria border
+
+0.021***
+(0.003)
+
+0.024***
+(0.003)
+
+0.024***
+(0.003)
+0.008
+(0.009)
+
+0.032***
+(0.007)
+
+0.104***
+(0.012)
+
+0.018**
+(0.009)
+
+0.023***
+(0.008)
+
+0.023***
+(0.008)
+0.024**
+(0.012)
+
+0.047***
+(0.009)
+
+−0.004
+(0.056)
+
+Niger market
+
+0.052***
+(0.003)
+
+0.052***
+(0.003)
+
+−0.008
+(0.009)
+0.052***
+(0.003)
+
+0.092***
+(0.003)
+Yes
+Yes
+23,760
+
+0.084***
+(0.008)
+Yes
+Yes
+23,760
+
+0.092***
+(0.003)
+Yes
+Yes
+23,760
+
+Nigeria market
+ln (transport costs)
+Same ethnicity
+Same ethnicity × Niger–Nigeria border
+Constant
+Other covariates
+Monthly time effects
+Sample size
+
+0.161***
+(0.000)
+No
+Yes
+23,760
+
+0.048***
+(0.003)
+−0.010**
+(0.005)
+−0.085***
+(0.011)
+0.107***
+(0.006)
+Yes
+Yes
+23,760
+
+0.068***
+(0.004)
+
+0.276***
+(0.000)
+No
+Yes
+22,689
+
+0.069***
+(0.004)
+
+−0.024**
+(0.012)
+0.069***
+(0.004)
+
+0.188***
+(0.006)
+Yes
+Yes
+22,689
+
+0.164***
+(0.012)
+Yes
+Yes
+22,689
+
+0.188***
+(0.006)
+Yes
+Yes
+22,689
+
+0.067***
+(0.010)
+−0.024
+(0.022)
+0.030
+(0.057)
+0.206***
+(0.008)
+Yes
+Yes
+22,689
+
+Notes: Data are from the Niger trader survey and secondary sources collected by one of the authors. The estimation samples include market pairs no more than 250 km apart. The “Niger–
+Nigeria border” variable equals one for market pairs located in different countries, and zero otherwise. The “Niger market” variable equals one for market pairs located only in Niger, and
+zero otherwise. The “Nigeria market” variable equals one for market pairs located only in Nigeria, and zero otherwise. The “same-ethnicity” variable equals one if both markets in a pair
+have the same ethnic composition, and zero otherwise. Other covariates include the presence of drought, mobile phone coverage and urban status. Standard errors clustered by month are
+reported in parentheses. * Signiﬁcant at the 10% level, ** signiﬁcant at the 5% level, *** signiﬁcant at the 1% level.
+
+that are within 250 km of each other (and as a robustness check,
+150 km), which necessitates our use of market pairs that may be quite
+distant from the border.
+
+5. Estimates of the Niger–Nigeria border cost
+In this section we present the estimates from our two methods of
+analysis, with the market-pair results presented in Section 5.1 and the
+single-market results in Section 5.2. While both methods attempt to estimate the price effect of the international border, the market-pair analysis tends to deliver a smaller estimate, for the reasons alluded to above
+and more fully explored in Section 5.3. We also discuss the robustness of
+our results in Section 5.4.
+
+5.1. Market-pair analyses
+The market-pair analyses of the lower bound on the Niger–Nigeria
+border cost for millet (columns 1–5) and cowpea (columns 6–10) are
+presented in Table 3. The sample is restricted to market pairs that are
+no more than 250 km apart.22
+Columns (1) and (6) present the lower bound estimates for millet
+and cowpea, respectively. For both commodities, the difference in the
+logarithm of prices is equal to about 2% and is statistically signiﬁcant
+at conventional levels. The estimated lower bound on the border cost increases slightly when other covariates are included in the regression,
+such as the log of transport costs, drought, urban status and mobile
+phone coverage (columns 2 and 7). We take into account the possibility
+that these estimated differences reﬂect differences in price variability
+within countries, rather than a border effect, by including country
+ﬁxed effects for market pairs that lie within Niger (columns 3 and 8)
+or Nigeria (columns 4 and 9). The stability of the border coefﬁcient estimates across these two alternatives (comparing the results in these
+columns to those in columns 2 and 7, respectively) contrasts starkly
+with the large differences found by Gorodnichenko and Tesar (2009)
+who ﬁnd a great deal of sensitivity in their results, depending upon
+22
+The border effect estimates are robust to an analysis in which we only use market pairs
+no more than 150 km apart, even though this cuts the sample by almost half. These results
+are reported in Appendix Table A1.
+
+which set of country ﬁxed effects are included in their analysis of price
+differentials between the United States and Canada.23
+Columns (5) and (10) represent our examination of the potential
+role of ethnicity in inter-market trade. The estimations in these columns
+augment the speciﬁcation of columns (2) and (7) by including two additional binary indicators; “same ethnicity,” which equals one if a majority of traders located in both markets of a market pair are from the
+same ethnic group, and the interaction between “same ethnicity” and
+the Niger–Nigeria border variable. In this speciﬁcation, the effect of
+the Niger–Nigeria border on the difference (in absolute value terms) between log prices in two markets with different ethnicities is represented
+by the coefﬁcient on the “Niger–Nigeria border” variable. The estimated
+border effect for two markets with a common ethnicity is the sum of the
+coefﬁcient on the border variable and the coefﬁcient on the interaction
+term. The estimated effect of a common ethnicity on within-country
+price differences is the coefﬁcient on the “same ethnicity” variable.
+The results presented in column (5) show that the estimated price
+ratio for millet, for a within-country market pair with the same ethnicity,
+is about one percent lower than the price ratio for a within-country market pair with different ethnicities, conditional on other covariates. The estimated effect is more than twice as large for cowpea, but in this case the
+estimate is not statistically signiﬁcant (column 10). For cross-border markets, having a common ethnicity lowers the price ratio by about 8% for
+millet (column 5), with a statistically signiﬁcant effect. There is no effect
+of common ethnicity on cross-border price ratios for cowpea (column
+10). Overall, these results suggest that the ethnic composition of a market
+pair may play a role in determining transaction costs between the two
+markets, although primarily for millet. We further explore the role of ethnicity in Section 6.
+5.2. Single-market analysis
+The results of the single-market analysis of the effects of the Niger–
+Nigeria border are reported in Table 4. As discussed above, a statistically
+23
+Additional evidence of the unimportance of the Gorodnichenko and Tesar (2009) effect for this data set is obtained by comparing  kernel densities of the residuals from
+the
+
+
+
+country-speciﬁc regressions of the form  ln Pit  ¼ α 0 þ x′ ijt α 1 þ ηt þ λij þ εijt ; for millet
+P jt
+and cowpea. See Appendix Figure A1. The kernel densities for Niger and Nigeria overlay
+each other very closely, suggesting that the underlying variations of market-pair price differences are similar in both countries for millet and cowpea.
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+
+7
+
+Table 4
+Estimates of the Niger–Nigeria border effect on millet price based on single market regressions.
+Dependent variable
+
+Within 5 km of the Niger–Nigeria Border
+
+Within 30 km of the Niger–Nigeria Border
+
+Within 30 km of the Niger–Nigeria Border
+
+Log of millet price
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+(11)
+
+(12)
+
+Niger (1/0)
+
+0.225***
+(0.035)
+4.729***
+(0.007)
+Yes
+Yes
+No
+No
+625
+
+0.173*
+(0.076)
+4.755***
+(0.014)
+Yes
+Yes
+No
+No
+625
+
+0.238***
+(0.041)
+3.569***
+(0.760)
+Yes
+Yes
+No
+No
+625
+
+0.079**
+(0.030)
+1.671***
+(0.176)
+Yes
+Yes
+No
+No
+472
+
+0.219***
+(0.038)
+4.752***
+(0.019)
+Yes
+Yes
+Yes
+No
+682
+
+0.169**
+(0.073)
+4.774***
+(0.016)
+Yes
+Yes
+Yes
+No
+682
+
+0.230***
+(0.051)
+3.577***
+(0.952)
+Yes
+Yes
+Yes
+No
+682
+
+0.005
+(0.023)
+0.860***
+(0.124)
+Yes
+Yes
+Yes
+No
+529
+
+0.188***
+(0.043)
+4.738***
+(0.012)
+Yes
+Yes
+Yes
+No
+867
+
+0.178**
+(0.076)
+4.741***
+(0.016)
+Yes
+Yes
+Yes
+No
+867
+
+0.263***
+(0.070)
+2.836**
+(0.933)
+Yes
+Yes
+Yes
+No
+867
+
+−0.066
+(0.067)
+1.776*
+(0.843)
+Yes
+Yes
+Yes
+No
+618
+
+Constant
+Distance to the Border
+Niger × Distance
+Distance squared
+Distance cubic
+Sample size
+
+Within 50 km of the Niger–Nigeria Border
+
+Within 200 km of the Niger–Nigeria Border
+
+(13)
+
+(14)
+
+(15)
+
+(16)
+
+(17)
+
+(18)
+
+(19)
+
+(20)
+
+(21)
+
+(22)
+
+(23)
+
+(24)
+
+Distance to the border
+Niger × Distance
+Distance squared
+Distance cubic
+Sample size
+
+0.168***
+(0.048)
+4.743***
+(0.014)
+Yes
+Yes
+Yes
+Yes
+1304
+
+0.155**
+(0.069)
+4.745***
+(0.016)
+Yes
+Yes
+Yes
+Yes
+1304
+
+0.183**
+(0.083)
+3.163***
+(0.632)
+Yes
+Yes
+Yes
+Yes
+1304
+
+−0.150
+(0.091)
+3.112***
+(0.801)
+Yes
+Yes
+Yes
+Yes
+804
+
+0.106*
+(0.055)
+4.762***
+(0.029)
+Yes
+Yes
+Yes
+Yes
+3496
+
+0.104*
+(0.055)
+4.760***
+(0.027)
+Yes
+Yes
+Yes
+Yes
+3496
+
+0.103
+(0.062)
+4.130***
+(0.514)
+Yes
+Yes
+Yes
+Yes
+3496
+
+0.054
+(0.046)
+2.157***
+(0.633)
+Yes
+Yes
+Yes
+Yes
+2081
+
+0.089*
+(0.045)
+4.685***
+(0.011)
+Yes
+Yes
+Yes
+Yes
+4017
+
+0.085*
+(0.046)
+4.682***
+(0.015)
+Yes
+Yes
+Yes
+Yes
+4017
+
+0.068
+(0.061)
+3.935***
+(0.499)
+Yes
+Yes
+Yes
+Yes
+4017
+
+0.072
+(0.054)
+2.005***
+(0.681)
+Yes
+Yes
+Yes
+Yes
+2321
+
+Time-variant covariates
+Time effect (monthly)
+Time-invariant covariates
+Markets only in Hausa
+
+No
+No
+No
+No
+
+Yes
+Yes
+No
+No
+
+Yes
+Yes
+Yes
+No
+
+Yes
+Yes
+Yes
+Yes
+
+No
+No
+No
+No
+
+Yes
+Yes
+No
+No
+
+Yes
+Yes
+Yes
+No
+
+Yes
+Yes
+Yes
+Yes
+
+No
+No
+No
+No
+
+Yes
+Yes
+No
+No
+
+Yes
+Yes
+Yes
+No
+
+Yes
+Yes
+Yes
+Yes
+
+Niger (1/0)
+Constant
+
+Full sample
+
+Notes: Estimations are based on monthly market-level data. The estimation samples in columns (1) through (20) include markets located within X km of the Niger–Nigeria border (X = 5,
+20, 30, 50 and 200). The estimation samples in columns (21) through (24) include all markets. The “Niger” variable is binary: equal to one for a market located in Niger and equal to zero for
+a market located in Nigeria. The “distance” variable is measured in kilometers and is algebraic, being positive for markets in Niger and negative for markets in Nigeria. Time-variant covariates include having mobile phone coverage (equal to one) or not (equal to zero) and having experienced drought (equal to one) or not (equal to zero). Time-invariant covariates include the latitude and longitude of a market location. Standard errors robust to market level clustering are reported in parentheses. * Signiﬁcant at the 10% level, ** signiﬁcant at the 5%
+level, *** signiﬁcant at the 1% level.
+
+signiﬁcant coefﬁcient on the border variable indicates a lower bound on
+the percent change in prices at the border between proximate markets
+in Niger and Nigeria, conditional on the covariates included in the regression model.
+Based on a bandwidth of 5 km, the estimates in Table 4 indicate that
+millet prices increase at least by 22.5% when crossing from Nigeria to
+Niger (column 1). These ﬁndings are robust to the inclusion of other covariates that may affect price changes, including monthly time effects,
+drought and mobile phone coverage (column 2), and to the inclusion
+of the geographic location of the market (column 3). The results are
+also robust to alternative bandwidth speciﬁcations (20 km, 30 km,
+50 km and 200 km). As expected, and consistent with the arguments
+presented above, the estimated lower bound on the border cost decreases and becomes less statistically signiﬁcant as the bandwidth
+increases.
+The lower bound on the border cost for millet is much smaller
+between markets of common ethnicity than between markets with different ethnicities. This is shown by the estimates in the last column of
+each panel, which restrict the sample to markets in the extensive
+Hausa region that spans the Niger–Nigeria border, by comparison with
+the other three columns of each panel. For example, the results in column (4) suggest that the transaction cost of crossing the border from
+(Hausa) Nigeria to (Hausa) Niger increases by at least 7.9%, by comparison with 23.8% if crossing the border from Nigeria to Niger in a region
+that may or may not have the same ethnicity. The possible impact of
+ethnicity in mitigating the border cost appears to be more marked
+when we increase the bandwidth.
+Table 5 repeats this analysis for cowpea prices. The results are consistent with those for millet. Cowpea prices change by 27% at the border
+(column 1). This lower bound estimate on the border costs decreases
+once time-variant covariates and monthly time effects are included
+(column 2), but remains robust to the inclusion of time-invariant covariates, such as the geographic location of the market (column 3). As in the
+
+case of millet, having common ethnicity in two cross-border markets
+appears to reduce the lower bound on the border cost (column 4): the
+lower bound is estimated at 20.2% for cross-border markets, as compared to close to zero (and not statistically signiﬁcant) for those sharing
+a common ethnicity.
+5.3. Discussions on the magnitudes of the market-pair and single-market
+estimates
+The magnitude of the border effect estimate varies signiﬁcantly between the two approaches, with the market-pair estimates signiﬁcantly
+smaller than the single-market estimates.24 While both border effect estimates represent a lower bound on the cost imposed by trading across
+the national border, the single-market analysis is likely to deliver a
+higher lower bound than the market-pair analysis when there is a prevailing direction of trade, as discussed in Section 4.3 and demonstrated
+in Appendix B.
+In the case of trade direction reversals, meaning that trade does not
+ﬂow from one country to the other country consistently in all time periods, the border effect estimates obtained by the single-market approach will be biased downwards. For our single-market analysis, we
+would ideally estimate the border effect for each month of our sample
+period; the estimates obtained monthly would each represent a lower
+bound on the border cost for a given month. If the underlying costs
+were time-invariant, the maximum of these monthly estimates would
+be interpretable as the tightest lower bound on the border cost. Matters
+are more complicated if the border costs are time-varying due to seasonal effects or other variations in local conditions, because in this case the
+24
+Gopinath et al. (2011) ﬁnd a similar pattern across the U.S.–Canada border: Using a
+market-pair analysis, they ﬁnd that the median price gap is 14.6% for cross-border pairs
+(p. 2459), as compared to a “median discontinuous change of 24% at the (U.S.–Canada)
+border” using a single-market analysis (p. 2450).
+
+8
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+
+Table 5
+Estimates of Niger–Nigeria border effect on cowpea price based on single market regressions.
+Dependent variable
+
+Within 5 km of the Niger–Nigeria Border
+
+Within 20 km of the Niger–Nigeria Border
+
+Within 30 km of the Niger–Nigeria Border
+
+Log of cowpea price
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+(11)
+
+(12)
+
+Niger (1/0)
+
+0.266***
+(0.048)
+5.050***
+(0.025)
+Yes
+Yes
+No
+No
+563
+
+0.195*
+(0.080)
+5.104***
+(0.034)
+Yes
+Yes
+No
+No
+563
+
+0.202***
+(0.051)
+3.799***
+(0.757)
+Yes
+Yes
+No
+No
+563
+
+−0.064
+(0.080)
+5.322***
+(0.145)
+Yes
+Yes
+No
+No
+417
+
+0.272***
+(0.040)
+5.060***
+(0.026)
+Yes
+Yes
+Yes
+No
+620
+
+0.214***
+(0.060)
+5.096***
+(0.028)
+Yes
+Yes
+Yes
+No
+620
+
+0.218***
+(0.047)
+3.974***
+(0.810)
+Yes
+Yes
+Yes
+No
+620
+
+−0.095
+(0.078)
+5.329***
+(0.125)
+Yes
+Yes
+Yes
+No
+474
+
+0.305***
+(0.043)
+5.062***
+(0.026)
+Yes
+Yes
+Yes
+No
+806
+
+0.221***
+(0.045)
+5.102***
+(0.027)
+Yes
+Yes
+Yes
+No
+806
+
+0.216***
+(0.054)
+1.844
+(1.793)
+Yes
+Yes
+Yes
+No
+806
+
+0.111**
+(0.032)
+7.969***
+(1.146)
+Yes
+Yes
+Yes
+No
+564
+
+Constant
+Distance to the border
+Niger × Distance
+Distance squared
+Distance cubic
+Sample size
+
+Within 50 km of the Niger–Nigeria Border
+
+Within 200 km of the Niger–Nigeria Border
+
+Full sample
+
+(13)
+
+(14)
+
+(15)
+
+(16)
+
+(17)
+
+(18)
+
+(19)
+
+(20)
+
+(21)
+
+(22)
+
+(23)
+
+(24)
+
+Distance to the border
+Niger × Distance
+Distance squared
+Distance cubic
+Sample size
+
+0.279***
+(0.048)
+5.070***
+(0.028)
+Yes
+Yes
+Yes
+Yes
+1247
+
+0.268***
+(0.063)
+5.086***
+(0.027)
+Yes
+Yes
+Yes
+Yes
+1247
+
+0.214**
+(0.092)
+4.921***
+(0.949)
+Yes
+Yes
+Yes
+Yes
+1247
+
+0.032
+(0.241)
+3.610
+(2.113)
+Yes
+Yes
+Yes
+Yes
+744
+
+0.049
+(0.078)
+5.172***
+(0.058)
+Yes
+Yes
+Yes
+Yes
+3345
+
+0.042
+(0.074)
+5.174***
+(0.047)
+Yes
+Yes
+Yes
+Yes
+3345
+
+0.040
+(0.079)
+4.854***
+(0.674)
+Yes
+Yes
+Yes
+Yes
+3345
+
+−0.071**
+(0.030)
+3.374***
+(0.646)
+Yes
+Yes
+Yes
+Yes
+1963
+
+0.017
+(0.070)
+5.120***
+(0.038)
+Yes
+Yes
+Yes
+Yes
+3862
+
+0.011
+(0.068)
+5.123***
+(0.026)
+Yes
+Yes
+Yes
+Yes
+3862
+
+−0.016
+(0.069)
+4.498***
+(0.639)
+Yes
+Yes
+Yes
+Yes
+3862
+
+−0.057
+(0.034)
+2.887***
+(0.742)
+Yes
+Yes
+Yes
+Yes
+2203
+
+Time-variant covariates
+Time effect (monthly)
+Time-invariant covariates
+Markets only in Hausa
+
+No
+No
+No
+No
+
+Yes
+Yes
+No
+No
+
+Yes
+Yes
+Yes
+No
+
+Yes
+Yes
+Yes
+Yes
+
+No
+No
+No
+No
+
+Yes
+Yes
+No
+No
+
+Yes
+Yes
+Yes
+No
+
+Yes
+Yes
+Yes
+Yes
+
+No
+No
+No
+No
+
+Yes
+Yes
+No
+No
+
+Yes
+Yes
+Yes
+No
+
+Yes
+Yes
+Yes
+Yes
+
+Niger (1/0)
+Constant
+
+Notes: Estimations are based on monthly market-level data. The estimation samples in columns (1) through (20) include markets located within X km of the Niger-Nigeria border (X = 5,
+20, 30, 50 and 200). The estimation samples in columns (21) through (24) include all markets. The “Niger” variable is binary: equal to one for a market located in Niger and equal to zero for
+a market located in Nigeria. The “distance” variable is measured in kilometers and is algebraic, being positive for markets in Niger and negative for markets in Nigeria. Timevariant
+covariates include having mobile phone coverage (equal to one) or not (equal to zero) and having experienced drought (equal to one) or not (equal to zero). Time-invariant
+covariates include the latitude and longitude of a market location. Standard errors robust to market level clustering are reported in parentheses. * Signiﬁcant at the 10% level,
+** signiﬁcant at the 5% level, *** signiﬁcant at the 1% level.
+
+maximum monthly estimate yields a lower bound on the maximum border cost over time. In both cases, however, the pooled estimates provide
+a lower bound on the average border cost over the sample period.
+Using the markets located within 50km of the Niger–Nigeria border,
+we conduct the month-by-month estimations and report the results in
+Fig. A2. The ﬁgure shows the variation over time in the border effect estimates. In the period of 2003–2007, during which the CFA/Naira exchange rates were relatively stable, the maximum border-effect
+estimates are 0.471 for millet and 0.772 for cowpea. Note that our
+data have limited statistical power to detect a non-zero border effect
+in every month of our sample period, as demonstrated by the conﬁdence intervals shown on Fig. A2. We have a relatively small number
+of markets, and for some of these markets the price data are missing
+in certain months. Despite these limitations, however, and the resulting
+lack of statistical signiﬁcance, the averages of all the monthly estimates
+obtained between 2003 and 2007 are 0.205 for millet and 0.197 for cowpea, which are very close to the estimates obtained from our estimation
+sample pooling all periods (2003–2007) together (0.201 for millet and
+0.186 for cowpea shown in columns 15 of Tables 7 and 8). Thus, using
+the single-market approach and the pooled sample, we are estimating
+a time-averaged lower bound on the possibly time-varying border cost.
+A second possible explanation for the observed difference in lower
+bound estimates relates to the greater potential inﬂuence, in the market
+pair analysis, of cross-border markets that do not engage in trade. Ideally, our empirical analysis would be restricted to markets that are “very
+close,” in other words, with sufﬁciently low transaction costs to allow
+for direct or indirect arbitrage.25 Yet due to data limitations, securing a
+sufﬁcient sample in the market pair analysis required us to include
+25
+Because border costs may discourage arbitrage regardless of how close the markets
+(Gopinath et al., 2011), we have interpreted our estimates as lower bounds, closer to
+the true transaction costs imposed by the border the more frequently the cross-border
+pairs are arbitraged.
+
+pairs with intra-market distances greater than or equal to 150 km,
+which might not be considered as “very close.” If the choice of this distance increases the proportion of non-trading cross-border pairs relative to the proportion of non-trading internal pairs in our sample,26
+then this would tend to further bias the market pair estimates downwards as a lower bound on the transaction costs added by the border.
+The single market analysis, by contrast, includes markets close to the
+border and relies on the continuity assumption (of unobserved characteristics) rather than the assumption of arbitrage among internal market pairs. This could also explain the gap between the two estimates.
+
+5.4. Robustness Checks
+There are several potential concerns about the results presented in
+Tables 4 and 5. First, observable or unobservable determinants of the
+prices might systematically differ on either side of the border. In particular, the single-market analysis assumes that the cost of transporting
+goods across the border can be modeled as a smooth function of the algebraic distance to the border, with a discontinuous change at the border. While it is impossible to directly test for this assumption, we may
+assess its validity by testing whether the observed characteristics of
+cross-border markets are similar within a bandwidth. Table 6 tests for
+this by examining the cross-border differences in characteristics that
+may affect price levels. Using both the market panel and trader-level
+datasets, the observable characteristics appear to be balanced on either
+side of the Niger–Nigeria border. These results suggest that the estimated lower bound on the border cost is not serving as a proxy for crossborder differences in observable characteristics.
+26
+This could occur, for example, if none of the cross-border pairs added through an expansion of the intra-market bandwidth were arbitraged but all of the additional withinborder pairs were arbitraged.
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+Table 6
+Differences in means for market-level characteristics near the Niger–Nigeria border.
+Differences in means for the following variables:
+
+Markets located within X
+km of the Niger–Nigeria
+border
+
+(Niger = 1, Nigeria = 0)
+
+X = 15
+
+X = 50
+
+0.03
+(0.02)
+−0.01
+(0.01)
+−0.25
+(0.38)
+0.00
+(0.35)
+1,917
+
+−0.01
+(0.02)
+−0.00
+(0.00)
+−0.25
+(0.28)
+−0.17
+(0.28)
+3,834
+
+−12.11
+(13.31)
+0.09
+(0.25)
+127
+
+2.85
+(6.54)
+−0.15
+(0.19)
+232
+
+Panel A: Market level data (1999–2007)
+Having mobile phone coverage (1) or not (0)
+Having experienced drought (1) or not (0)
+Market located in an urban center (1) or not (0)
+Paved road (1) or not (0)
+Sample size
+Panel B: Trader level data (2005–2007)
+Market size (the number of traders)
+Number of police controls
+Sample size
+
+Notes: Estimations are based on monthly market-level data (Panel A) and trader-level
+data (Panel B). Mobile phone coverage is measured at market level in each month. The
+drought variable for a market in a month equals one if 1) the market receives rainfall
+less than or equal to two standard deviations below its average rainfall level during the
+rainy season, or 2) if there are 15 consecutive days without rainfall during the rainy season,
+and zero otherwise. The urban variable for a market equals one if the market is located in
+an urban center with at least 35,000 people, and zero otherwise. Robust standard errors
+are reported in parentheses. * Signiﬁcant at the 10% level, ** signiﬁcant at the 5% level,
+*** signiﬁcant at the 1% level.
+
+Second, much of the literature in this ﬁeld has shown that crosscountry price differences are highly correlated with exchange rates,
+and has used exchange rates as an exogenous shock to measure the
+speed and extent of pass-through. Thus, exchange rate ﬂuctuations
+could be responsible for an observed price gap. Fig. 2 shows the monthly
+CFA/Naira exchange rate from October 1999 to September 2007. There
+was a signiﬁcant appreciation of the CFA (relative to the Naira) between
+2000 and 2001, and again between 2002 and 2003. As the entire
+Nigerian price data were converted into CFA by the AMIS, we do not explicitly control for exchange rate ﬂuctuations in the regression. Therefore, as a robustness check, we estimate the lower bound on the
+border cost using data only from 2003 to 2007, the period of time during
+which there was less exchange rate volatility. We report the results in
+Tables 7 and 8, which are very similar to the ones based on 1999–2007
+(shown in Tables 4 and 5).
+An additional potential concern is the heterogeneity of the goods
+and services across cross-border markets. If millet and cowpea are not
+truly homogeneous products, then the estimate of the lower bound on
+7
+6.5
+6
+5.5
+5
+4.5
+4
+3.5
+3
+Oct-99 Jul-00 Apr-01 Jan-02 Oct-02 Jul-03 Apr-04 Jan-05 Oct-05 Jul-06 Apr-07
+
+Fig. 2. CFA/Naira exchange rate between 1999 and 2007. Notes: This shows the average
+monthly CFA/Naira exchange rate between October 1999 to December 2007. Data were
+collected from the Niger Agricultural Market Information System (AMIS).
+
+9
+
+the border cost could just be explained by the differences in physical
+attributes. Similarly, traders on either side of the border could provide
+different services (such as cleaning, bagging or threshing) that are
+included in the price, which would then appear as a border cost.27
+While no agricultural commodity can ever be completely homogeneous in terms of size, quality, color and smoothness, Table 9 provides
+some evidence that the physical attributes of millet, as well as the services provided, are similar on either sides of the international border.
+Using observations from markets located within 50 km of the Niger–
+Nigeria border, the results suggest that there are not systematic differences in services, willingness to pay for quality, or the “high-quality”
+varieties available on these markets. Overall, only 25% of traders provide
+any type of service, including bagging, cleaning, threshing or drying
+(column 1). Of these, the primary service provided is bagging; there is
+not a statistically signiﬁcant difference in these services provided on either side of the border (column 2). 81% of traders stated that they were
+willing to pay for higher quality, with a slightly higher percentage in
+markets in northern Nigeria as compared with those in Niger (column
+3). While traders in Nigeria stated that they were more likely to pay
+for “quality” as compared with traders in Niger, there is not a statistically signiﬁcant difference at conventional levels. In addition, the availability of higher-quality millet varieties (guero and haini) was similar in
+both Nigerien and Nigerian border markets. While some of these results
+may be due to the imprecision of our estimates, overall they suggest no
+systematic differences in trader's services and product quality across
+cross-border markets in our sample.
+6. The Hausa–Zarma Border in Niger
+The results in Section 5 suggest that a common ethnicity may reduce
+the lower bound on the border cost. Conversely, can a de facto ethnic
+“border” within a country add to the transaction cost? Niger offers a
+particularly favorable setting for addressing this question, given its
+persistent geographic separation among ethnic groups. While this is a
+feature of many countries within sub-Saharan Africa, we know of no
+other studies that have investigated the impact of spatial ethnic diversity on intra-national trade.28
+We begin this section by ﬁrst identifying the de facto separating line
+between Niger's two ethnic regions, that is, the internal ethnic “border.”
+Next, we apply the analog of our single market analysis of the Niger–
+Nigeria border to estimate a lower bound on the transaction cost imposed by the ethnic “border” within Niger. We then conduct several robustness checks and discuss the potential mechanisms through which
+the ethnic “border” may discourage trade.
+6.1. Identiﬁcation of the ethnic “border”
+We deﬁne a de facto ethnic “border” as a dividing line between geographically contiguous areas that are homogeneous in ethnic composition but that differ in ethnic composition on the two sides of the
+border. We focus on the de facto border between the Hausa and Zarma
+areas of western Niger. To locate this border, we ﬁrst used primary
+data on the ethnic composition of villages and markets in Niger to deﬁne
+ethnically distinct regions. Speciﬁcally, we began by using our traderand village-level data to calculate the percentage of each ethnic group
+at a speciﬁc location (market or village) for 35 markets and 40 villages
+across the entire country, identifying those locations with a low or a
+27
+For example, Broda et al. (2009) show that prices can vary within cities based upon
+their location and associated amenities.
+28
+Michalopoulos (2012) argues that ethnic diversity within a country is driven by differences in land quality, particularly between herders and farmers, as well as by state institutions and history (particularly colonial history). These factors seem promising for
+understanding certain geographic patterns within Niger (for example, the divide between
+Touareg pastoralists in the North and Hausa and Zarma agriculturalists in the South). Their
+role in explaining the East–West differences we study in this paper, however, is considerably less clear.
+
+10
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+
+Table 7
+Estimates of the Niger–Nigeria border effect on millet price based on single market regressions using the 2003–2007 period.
+Dependent variable
+
+Within 5 km of the Niger–Nigeria Border
+
+Within 20 km of the Niger–Nigeria Border
+
+Within 30 km of the Niger–Nigeria Border
+
+Log of millet price
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+(11)
+
+(12)
+
+Niger (1/0)
+
+0.222***
+(0.034)
+4.725***
+(0.006)
+Yes
+Yes
+No
+No
+430
+
+0.176*
+(0.084)
+4.732***
+(0.009)
+Yes
+Yes
+No
+No
+430
+
+0.270***
+(0.036)
+3.555***
+(0.732)
+Yes
+Yes
+No
+No
+430
+
+0.107***
+(0.011)
+1.803***
+(0.176)
+Yes
+Yes
+No
+No
+316
+
+0.220***
+(0.034)
+4.747***
+(0.009)
+Yes
+Yes
+Yes
+No
+487
+
+0.178*
+(0.082)
+4.750***
+(0.012)
+Yes
+Yes
+Yes
+No
+487
+
+0.267***
+(0.044)
+3.525***
+(0.923)
+Yes
+Yes
+Yes
+No
+487
+
+0.026***
+(0.007)
+0.870***
+(0.110)
+Yes
+Yes
+Yes
+No
+373
+
+0.168***
+(0.047)
+4.732***
+(0.005)
+Yes
+Yes
+Yes
+No
+601
+
+0.174*
+(0.083)
+4.730***
+(0.006)
+Yes
+Yes
+Yes
+No
+601
+
+0.300***
+(0.047)
+2.928***
+(0.736)
+Yes
+Yes
+Yes
+No
+601
+
+0.024
+(0.048)
+1.998**
+(0.809)
+Yes
+Yes
+Yes
+No
+430
+
+Constant
+Distance to the border
+Niger × Distance
+Distance squared
+Distance cubic
+Sample size
+
+Within 50 km of the Niger–Nigeria Border
+
+Within 200 km of the Niger–Nigeria Border
+
+(13)
+
+(14)
+
+(15)
+
+(16)
+
+(17)
+
+(18)
+
+(19)
+
+(20)
+
+(21)
+
+(22)
+
+(23)
+
+(24)
+
+Distance to the border
+Niger × Distance
+Distance squared
+Distance cubic
+Sample size
+
+0.153***
+(0.049)
+4.736***
+(0.006)
+Yes
+Yes
+Yes
+Yes
+885
+
+0.148*
+(0.075)
+4.736***
+(0.008)
+Yes
+Yes
+Yes
+Yes
+885
+
+0.201**
+(0.083)
+3.030***
+(0.575)
+Yes
+Yes
+Yes
+Yes
+885
+
+−0.077
+(0.102)
+3.761***
+(0.987)
+Yes
+Yes
+Yes
+Yes
+543
+
+0.116**
+(0.055)
+4.740***
+(0.028)
+Yes
+Yes
+Yes
+Yes
+2245
+
+0.109*
+(0.055)
+4.742***
+(0.027)
+Yes
+Yes
+Yes
+Yes
+2245
+
+0.105
+(0.064)
+4.054***
+(0.540)
+Yes
+Yes
+Yes
+Yes
+2245
+
+0.065
+(0.049)
+2.360***
+(0.693)
+Yes
+Yes
+Yes
+Yes
+1346
+
+0.098**
+(0.046)
+4.664***
+(0.019)
+Yes
+Yes
+Yes
+Yes
+2580
+
+0.088*
+(0.048)
+4.665***
+(0.022)
+Yes
+Yes
+Yes
+Yes
+2580
+
+0.067
+(0.064)
+3.846***
+(0.517)
+Yes
+Yes
+Yes
+Yes
+2580
+
+0.081
+(0.057)
+2.126***
+(0.695)
+Yes
+Yes
+Yes
+Yes
+1511
+
+Time-variant covariates
+Time effect (monthly)
+Time-invariant covariates
+Markets only in Hausa
+
+No
+No
+No
+No
+
+Yes
+Yes
+No
+No
+
+Yes
+Yes
+Yes
+No
+
+Yes
+Yes
+Yes
+Yes
+
+No
+No
+No
+No
+
+Yes
+Yes
+No
+No
+
+Yes
+Yes
+Yes
+No
+
+Yes
+Yes
+Yes
+Yes
+
+No
+No
+No
+No
+
+Yes
+Yes
+No
+No
+
+Yes
+Yes
+Yes
+No
+
+Yes
+Yes
+Yes
+Yes
+
+Niger (1/0)
+Constant
+
+Full sample
+
+Notes: Estimations are based on monthly market-level data from 2003 to 2007. The estimation samples in columns (1) through (20) include markets located within X km of the Niger–
+Nigeria border (X = 5, 20, 30, 50 and 200). The estimation samples in columns (21) through (24) include all markets. The “Niger” variable is binary: equal to one for a market located in
+Niger and equal to zero for a market located in Nigeria. The “distance” variable is measured in kilometers and is algebraic, being positive for markets in Niger and negative for markets
+in Nigeria. Time-variant covariates include having mobile phone coverage (equal to one) or not (equal to zero) and having experienced drought (equal to one) or not (equal to zero).
+Time-invariant covariates include the latitude and longitude of a market location. Standard errors robust to market level clustering are reported in parentheses. * Signiﬁcant at the 10%
+level, ** signiﬁcant at the 5% level, *** signiﬁcant at the 1% level.
+
+Table 8
+Estimates of the Niger–Nigeria border effect on cowpea price based on single market regressions using the 2003–2007 period.
+Dependent variable
+
+Within 5 km of the Niger–Nigeria Border
+
+Within 20 km of the Niger–Nigeria Border
+
+Log of cowpea price
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+(11)
+
+(12)
+
+Niger (1/0)
+
+0.179**
+(0.051)
+5.059***
+(0.008)
+Yes
+Yes
+No
+No
+375
+
+0.174*
+(0.077)
+5.064***
+(0.012)
+Yes
+Yes
+No
+No
+375
+
+0.185**
+(0.057)
+5.147***
+(0.818)
+Yes
+Yes
+No
+No
+375
+
+−0.162***
+(0.018)
+5.277***
+(0.043)
+Yes
+Yes
+No
+No
+268
+
+0.189***
+(0.037)
+5.069***
+(0.011)
+Yes
+Yes
+Yes
+No
+432
+
+0.200**
+(0.059)
+5.053***
+(0.017)
+Yes
+Yes
+Yes
+No
+432
+
+0.206***
+(0.052)
+5.185***
+(0.853)
+Yes
+Yes
+Yes
+No
+432
+
+−0.158***
+(0.020)
+5.256***
+(0.035)
+Yes
+Yes
+Yes
+No
+325
+
+0.206***
+(0.043)
+5.068***
+(0.010)
+Yes
+Yes
+Yes
+No
+546
+
+0.194***
+(0.043)
+5.059***
+(0.017)
+Yes
+Yes
+Yes
+No
+546
+
+0.219***
+(0.055)
+2.742
+(2.086)
+Yes
+Yes
+Yes
+No
+546
+
+0.222
+(0.126)
+9.977***
+(1.483)
+Yes
+Yes
+Yes
+No
+382
+
+Constant
+Distance to the border
+Niger × Distance
+Distance squared
+Distance cubic
+Sample size
+
+Within 30 km of the Niger–Nigeria Border
+
+Within 50 km of the Niger–Nigeria Border
+
+Within 200 km of the Niger–Nigeria Border
+
+Full sample
+
+(13)
+
+(14)
+
+(15)
+
+(16)
+
+(17)
+
+(18)
+
+(19)
+
+(20)
+
+(21)
+
+(22)
+
+(23)
+
+(24)
+
+Distance to the border
+Niger × Distance
+Distance squared
+Distance cubic
+Sample size
+
+0.195***
+(0.045)
+5.075***
+(0.013)
+Yes
+Yes
+Yes
+Yes
+829
+
+0.255***
+(0.065)
+5.055***
+(0.017)
+Yes
+Yes
+Yes
+Yes
+829
+
+0.186*
+(0.098)
+5.220***
+(0.927)
+Yes
+Yes
+Yes
+Yes
+829
+
+0.105
+(0.220)
+5.680**
+(1.947)
+Yes
+Yes
+Yes
+Yes
+494
+
+0.047
+(0.064)
+5.100***
+(0.041)
+Yes
+Yes
+Yes
+Yes
+2147
+
+0.054
+(0.071)
+5.081***
+(0.040)
+Yes
+Yes
+Yes
+Yes
+2147
+
+0.044
+(0.079)
+4.832***
+(0.753)
+Yes
+Yes
+Yes
+Yes
+2147
+
+−0.060*
+(0.035)
+3.746***
+(0.686)
+Yes
+Yes
+Yes
+Yes
+1266
+
+0.019
+(0.059)
+5.059***
+(0.011)
+Yes
+Yes
+Yes
+Yes
+2482
+
+0.027
+(0.066)
+5.044***
+(0.016)
+Yes
+Yes
+Yes
+Yes
+2482
+
+−0.008
+(0.071)
+4.385***
+(0.701)
+Yes
+Yes
+Yes
+Yes
+2482
+
+−0.044
+(0.041)
+3.112***
+(0.770)
+Yes
+Yes
+Yes
+Yes
+1431
+
+Time-variant covariates
+Time effect (monthly)
+Time-invariant covariates
+Markets only in Hausa
+
+No
+No
+No
+No
+
+Yes
+Yes
+No
+No
+
+Yes
+Yes
+Yes
+No
+
+Yes
+Yes
+Yes
+Yes
+
+No
+No
+No
+No
+
+Yes
+Yes
+No
+No
+
+Yes
+Yes
+Yes
+No
+
+Yes
+Yes
+Yes
+Yes
+
+No
+No
+No
+No
+
+Yes
+Yes
+No
+No
+
+Yes
+Yes
+Yes
+No
+
+Yes
+Yes
+Yes
+Yes
+
+Niger (1/0)
+Constant
+
+Notes: Estimations are based on monthly market-level data from 2003 to 2007. The estimation samples in columns (1) through (20) include markets located within X km of the Niger–
+Nigeria border (X = 5, 20, 30, 50 and 200). The estimation samples in columns (21) through (24) include all markets. The “Niger” variable is binary: equal to one for a market located in
+Niger and equal to zero for a market located in Nigeria. The “distance” variable is measured in kilometers and is algebraic, being positive for markets in Niger and negative for markets
+in Nigeria. Time-variant covariates include having mobile phone coverage (equal to one) or not (equal to zero) and having experienced drought (equal to one) or not (equal to zero).
+Time-invariant covariates include the latitude and longitude of a market location. Standard errors robust to market level clustering are reported in parentheses. * Signiﬁcant at the 10%
+level, ** signiﬁcant at the 5% level, *** signiﬁcant at the 1% level.
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+
+11
+
+Table 9
+Traders' services and quality in markets within 50 km of the Niger–Nigeria border.
+Dependent variable
+
+Constant
+Sample size
+
+Bag product
+
+Willing to pay for quality
+
+(1)
+Niger (1/0)
+
+Transform product
+
+Haini variety on market
+
+Guero variety on market
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+0.06
+(0.12)
+0.25
+(0.07)
+228
+
+0.02
+(0.07)
+0.75
+(0.00)
+68
+
+−0.04
+(0.14)
+0.81
+(0.13)
+224
+
+0.01
+(0.01)
+0.22
+(0.00)
+120
+
+−0.05
+(0.16)
+0.86
+(0.14)
+144
+
+Notes: Data are from the Niger trader survey between 2005 and 2007 collected by one of the authors. The “Niger” variable equals one for a market located in Niger, and zero for a market
+located in Nigeria. Robust standard errors clustered at the market level are reported parentheses. * Signiﬁcant at the 10% level, ** signiﬁcant at the 5% level, *** signiﬁcant at the 1% level.
+
+Fig. 3. Ethnic composition of markets within the Dosso Region of Niger. Notes: This map was created using data from a ﬁeld survey conducted in October 2011. The ﬁeld survey collected
+data on the village latitude and longitude, the ethnic composition of the village population as of October 2011, as well as the ethnic composition of the village population at the time of
+Nigerien independence in 1960 (based upon recall). The categories included Hausa only, Zarma only, Fulani only, Hausa/Zarma, Hausa/Fulani, Zarma-Fulani, Hausa/Zarma/Fulani. The
+data shown in this map are from October 2011. Those villages with more than two ethnic groups (more speciﬁcally, at least a combination of the Hausa/Zarma ethnic group) were
+used to deﬁne the ethnic “border”, and distances to this border were deﬁned for all markets in our sample.
+
+high degree of ethnic diversity.29 Based upon these calculations, we
+collected additional primary data in October 2011 from villages and
+markets located in the “high ethnic diversity” region, but located primarily in the Hausa and Zarma zones of Niger.30 These data included information on the ethnic composition of residents within each village
+and market, as well as the ethnic composition of these locations in
+1960 (the time of Nigerien independence). Using these datasets, we
+
+29
+While a market is located within a town or village, we differentiate between the ethnic
+composition of a village (which includes the village residents) and the ethnic composition
+of a market (which includes traders on that market, many of whom are not based in that
+village and travel to the market on the market day).
+30
+While there are other internal “ethnic borders” within Niger, primarily North–South
+and between the Hausa and Kanuri to the far east, the highest density of markets within
+our sample occurs within the Hausa–Zarma zone.
+
+are able to identify the ethnic composition of markets and villages within the geographic area of Niger where the villages moves from exclusively Zarma to exclusively Hausa (a de facto border), as well as those
+locations with a mixed composition. The ethnic compositions in 1960
+provide a strong check on this process, by establishing the persistence
+of this de facto border.
+The results from this exercise are reported in Fig. 3. All of the observations are in Niger's Dosso region, in an area spanning roughly 900 km2.
+The set of villages in the western part of this region, from the westernmost village of Koikoré to the villages of Goubeydé, Tsoungoulma, Batama
+Beri and Daytagui, are all solely Zarma (with the exception of one mixed
+village in the north of Daytagui). There are several villages of mixed
+composition that include directly east of this region, and these villages include combinations of either Hausa and Zarma residents or Hausa, Zarma
+and Fulani residents (the villages of Mamoudou, Malam Koira, Dogon
+
+12
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+
+6.3. Regression Model
+
+Table 10
+Differences in trading behaviors between Hausa and Zarma regions.
+Variables
+
+Hausa Unconditional Conditional
+mean difference in
+difference
+means
+in means
+(1)
+
+(2)
+
+(3)
+
+Retailer (1/0)
+
+0.27
+
+Number of markets followed
+
+3.77
+
+Number of market contacts
+
+3.33
+
+Use mobile phone for trading (1/0)
+
+0.38
+
+Number of purchase and sales markets
+
+4.15
+
+Trade in markets within a 50-km radius (1/0)
+
+0.94
+
+Trade in markets across the Hausa–Zarma
+border (1/0)
+
+0.02
+
+0.04
+(0.07)
+−0.80
+(0.67)
+−0.18
+(0.50)
+0.06
+(0.07)
+−0.75*
+(0.29)
+−0.11*
+(0.05)
+0.04
+(0.02)
+
+−0.01
+(0.15)
+−0.50
+(0.57)
+−0.34
+(0.51)
+0.05
+(0.10)
+−0.70**
+(0.22)
+−0.12*
+(0.05)
+0.03
+(0.02)
+
+Notes: Data are from the Niger trader survey and secondary sources collected by one of the
+authors between 2005 and 2007. There are 400 traders across 35 markets. Column
+(1) shows the mean in Hausa markets located within 50 km of the Hausa–Zarma “border.”
+Column (2) shows the unconditional difference in means between Hausa and Zarma “border” markets. Column (3) shows the conditional difference in means between Hausa and
+Zarma “border” markets, controlling for the gender of the trader. Standard errors robust to
+market level clustering are reported in parentheses. * Signiﬁcant at the 10% level, ** significant at the 5% level, *** signiﬁcant at the 1% level.
+
+Dadji and Gawei). Further east, the composition of villages is uniformly
+Hausa.31
+Using these data, we were able to identify the de facto ethnic border
+related to these two groups: namely, a set of markets with high ethnic
+diversity that also separate two geographic regions with a low ethnic
+diversity. Deﬁning those markets and villages with diverse ethnic composition as the de facto ethnic border, we calculated the distance between
+the markets in our sample and this border.32
+
+6.2. Interpretation of the price gap
+As is discussed in Section 4.3, it is critical to know the general direction of trade between Hausa and Zarma markets in order to correctly
+interpret the estimated price gap. While we do not have complete
+time series data on trade volumes between markets, our trader-level
+survey data between 2005 and 2007 suggest that the rather limited
+trade between Hausa and Zarma markets in our sample ﬂows primarily
+from the Hausa to the Zarma region. As shown in Table 10, only 2%
+of Hausa traders in our survey reported trading across the ethnic border.
+But columns (2) and (3) in this table show that traders in both regions
+exhibit similar marketing behavior with respect to being retailers
+(rather than intermediaries or wholesalers), searching for price information, having similarly sized social networks, the number of markets in which they trade, and the distance between these markets.
+As before, if arbitrage is limited across ethnic regions, then our estimates identify a lower bound on the transactions costs imposed by
+the ethnic border.
+31
+We identify ethnically diverse geographic locations in one of two ways. First, we simply deﬁne those locations with only one ethnic group as areas of low diversity, while those
+comprised of two or more ethnic groups are high diversity. As this does not account for an
+ethnic group's share of the population, we then use the measure of Ethno-linguistic Fractionalization (ELF). In the case of k ethnic groups, where pk represents the share of each
+ethnic group in that village or market population, the ELF index for a given location is then
+
+Our regression model for estimating the internal border effect is similar to the one used for the Niger–Nigeria border33:
+′
+
+′
+
+ln pit ¼ γ 0 þ γ 1 Zarmai þ γ 2 Di þ γ3 Zarmai Á Di þ x it γ 4 þ w i γ 5 þ δt
+þ εit ;
+ð3Þ
+where pit denotes the price of an agricultural good in CFA sold in market
+i at time t; “Zarmai” is a dummy variable, which equals one if market i is
+in the Zarma region of Dosso and zero if it is in the Hausa region of
+Dosso; Di denotes the algebraic distance of market i to the Hausa–
+Zarma border in kilometers (positive for Zarma markets and negative
+for Hausa markets); xit is a vector of time-varying variables for market i
+at time t, which includes having mobile phone coverage and experiencing
+drought; wi includes the latitude and the longitude of market i, in an effort to control for location-speciﬁc time-invariant unobservable characteristics; δt denotes the monthly time effect; and εit is the mean-zero
+disturbance term. Here, the estimation sample includes markets in
+Niger only.
+In this regression model the lower bound on the ethnic border cost is
+represented by γ1, which implies a sharp price change at the junction of
+the two ethnic regions. While the Hausa–Zarma border is not deﬁned as
+unambiguously as the Niger–Nigeria border, the actual geographic clustering of markets by ethnicity does indicate the presence of a de facto
+divide along an ethnicity line, which prompts a unique opportunity for
+us to examine the added transaction cost due to the ethnic border within one section of Niger.
+Prior to estimating γ1 we test for the equality of means of some
+observable characteristics of markets located near the Hausa–Zarma
+border to see whether market conditions are fundamentally different
+in the two regions. Results are reported in Table 11. Here, we do not
+ﬁnd a statistically signiﬁcant difference for either urban status or the
+prevalence of drought, two of the most important determinants of supply and demand in these markets. Nor is there a difference in a market's
+elevation, a characteristic used by Michalopoulos (2012) as a determinant of ethnic diversity. However, markets in the Zarma region seem
+to be more likely to have mobile phone coverage between 1999 and
+2007, as mobile phone coverage arrived relatively earlier in the Zarma
+markets. We therefore control for mobile phone coverage in our regression model.
+6.4. Estimates of the Hausa–Zarma border cost
+Table 12 presents the estimates of the lower bound on the ethnic
+border cost for millet. For markets located within 20 km or 30 km to
+the ethnic border (which is practically close according to our empirical
+setting), we ﬁnd the lower bound on the border costs to be statistically
+signiﬁcant. Using the bandwidth of 20 km, millet prices increase at least
+by 21% at the Hausa–Zarma border (column 1). These results are robust
+to the inclusion of other covariates that may affect price changes, as well
+as to the inclusion of monthly time effects and the market's latitude and
+the longitude (column 2). They are also robust to comparing markets located within a 30-km radius on either side of the border, suggesting that
+prices change by at least 26% at the junction of Niger's Hausa and Zarma
+regions.
+
+K
+
+1−∑ p2 , ranging from a value of 0 (no ethnic diversity) to 1 (complete ethnic diversity).
+k
+k¼1
+
+In our context, the ELF ranges from 0 to 0.50. Any market or village with an ELF greater
+than or equal to 0.45 was deﬁned as having a relatively high degree of ethnic diversity
+in our sample.
+32
+While we rely on all of the villages in the sub-region to locate the Hausa–Zarma border, our empirical analysis is restricted to the subset for which we have price data.
+
+33
+We also estimate the internal border effect using the market pairs, but exclude these
+from the paper for parsimony. Similar to the ﬁndings of the Niger–Nigeria border analysis,
+the market-pair estimates are about 0.04–0.05, suggesting that price differences are about
+4–5% across the internal ethnic border, and statistically signiﬁcant at conventional levels.
+These are similarly smaller than the single market analyses for the international border
+effect.
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+Table 11
+Difference in means for market-level characteristics near the Hausa–Zarma border.
+Differences in means for the following variables
+
+Markets located within X
+km of the Hausa–Zarma
+border
+
+(Zarma = 1, Hausa = 0)
+
+X = 20
+
+X = 30
+
+0.31***
+(0.06)
+0.00
+(0.02)
+0.50
+(0.61)
+288
+
+0.22***
+(0.04)
+−0.00
+(0.02)
+0.17
+(0.58)
+480
+
+−0.02
+(0.02)
+15
+
+0.00
+(0.00)
+30
+
+Panel A: Market level data (1999–2007)
+Having mobile phone coverage (1) or not (0)
+Having experienced drought (1) or not (0)
+Market located in an urban center (1) or not (0)
+Sample size
+Panel B: Trader level data (October 2011)
+Elevation (in meters)
+Sample size
+
+Notes: Estimations are based on monthly market-level data (Panel A) and trader-level
+data (Panel B) collected from the October 2011ﬁeld survey on ethnic composition, including monthly time effects. Mobile phone coverage is measured at market level in each
+month. The drought variable for a market in a month equals one if 1) the market receives
+rainfall less than or equal to two standard deviations below its average rainfall level during
+the rainy season, or 2) if there are 15 consecutive days without rainfall during the rainy
+season, and zero otherwise. The urban variable for a market equals one if the market is located in an urban center with at least 35,000 people, and zero otherwise. Robust standard
+errors are reported in parentheses. * Signiﬁcant at the 10% level, ** signiﬁcant at the 5%
+level, *** signiﬁcant at the 1% level.
+
+For markets located far away from the border, which are used in the
+full-sample estimation, the border indicator is more likely to be correlated with unobserved differences between ethnically distinct regions.
+While we have no evidence of such differences near the border,
+Table 12 shows that the ethnic border coefﬁcient is not statistically signiﬁcant in the full sample. Together with the results in columns (1)–(4),
+Table 12 suggests that we are able to better control for unobservable
+
+Table 12
+Estimates of the Hausa–Zarma Border effect on millet price based on single market
+regressions.
+Dependent variable
+
+Within 20 km of
+the Hausa–Zarma
+border
+
+Log of millet price
+
+(1)
+
+Zarma (1/0)
+
+0.212***
+(0.011)
+Constant
+4.791***
+(0.011)
+Sample size
+333
+Distance to the border Yes
+Zarma × Distance
+Yes
+Distance squared
+No
+Distance cubic
+No
+Time effect (monthly) No
+Time-variant
+No
+covariates
+Time-invariant
+No
+covariates
+
+Within 30 km of
+the Hausa–Zarma
+border
+
+Full sample
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+0.173***
+(0.016)
+4.808***
+(0.008)
+420
+Yes
+Yes
+Yes
+No
+No
+No
+
+0.264***
+(0.036)
+4.351***
+(0.068)
+420
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+
+0.035
+(0.054)
+4.817***
+(0.040)
+3,206
+Yes
+Yes
+Yes
+Yes
+No
+No
+
+0.057
+(0.051)
+4.337***
+(0.375)
+3,206
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+
+Yes
+
+No
+
+Yes
+
+No
+
+characteristics near the border, thereby allowing for a more precise
+estimate of the costs due to differences in ethnicity.
+We repeat the same analyses for cowpea and report the results in
+Table 13.34 The results are similar to the ones for millet. Cowpea prices
+change by at least 22% at the Hausa–Zarma border (column 1), a result
+that is robust to the inclusion of both time-invariant and time-varying
+covariates and monthly time effects (column 2). The effect is slightly
+higher for markets located within 30 km of the border (columns 3 and
+4), but as with millet, there is no statistically signiﬁcant border effect
+when we use the full sample.
+The ethnic border is not as precisely deﬁned as the Niger–Nigeria
+border. While this could raise concerns about measurement errors in
+our algebraic distance variable, two characteristics of the estimates presented in Tables 12 and 13 suggest that these measurement errors may
+be minor. First, our estimates are similar with and without controls for
+the latitude and longitude of each market.35 Second, our estimates are
+similar whether we consider markets within 20 km or 30 km of the border.36
+Interestingly, our estimates of the lower bounds on the added transaction cost due to ethnicity (Hausa vs. Zarma) and those due to nationality
+(Niger vs. Nigeria) are quantitatively similar. This suggests that the added
+transaction costs due to the Hausa–Zarma divide within Niger may be as
+large as those imposed by the Niger–Nigeria border. An implication of this
+is that the deadweight losses from forgone internal trade and international trade may be of a similar order of magnitude (assuming that the volume of trade would be similar in the absence of these costs).
+Based on the arguments given in Section 5.3, we emphasize that the
+ethnic border effect estimated by our single-market approach and the
+pooled sample represents a time-averaged lower bound on the possibly
+time-varying border cost. Following our month-by-month estimations
+for the Niger–Nigeria border effect, we use markets located within
+20 km of the Hausa–Zarma border to estimate the ethnic border effect
+period by period. Data limitations restrict us to quarterly rather than
+monthly estimates. We report the results in Fig. A3, which shows the
+variation over time in the border effect estimates. For the period of
+2004–2006, during which our estimations are feasible, the maximums
+of the border effect estimates are 0.508 for millet and 0.362 for cowpea.
+As in the Niger–Nigeria border analysis, we have a small number of markets, and for some of these markets the price data are missing in certain
+quarters. The averages of the quarterly estimates between 2004 and
+2006 (0.236 for millet and 0.231 for cowpea) are nonetheless close to
+the estimates obtained from our estimation sample pooling all periods
+together (0.212 for millet and 0.215 for cowpea shown in columns 1
+of Tables 12 and 13).
+
+(6)
+
+0.278***
+(0.053)
+4.401***
+(0.406)
+333
+Yes
+Yes
+No
+No
+Yes
+Yes
+
+13
+
+Yes
+
+Notes: Estimations are based on monthly market-level data. All markets are located in
+Niger. The estimation samples in columns (1) through (4) include markets located within
+X km of the Hausa–Zarma border (X = 20 and 30). The estimation samples in columns
+(5) and (6) include all markets. The “Zarma” variable is binary: equal to one for a market
+located in Zarma and equal to zero for a market located in Hausa. The “distance” variable is
+measured in kilometers and is algebraic, being positive for markets in Zarma and negative
+for markets in Hausa. Time-variant covariates include having mobile phone coverage
+(equal to one) or not (equal to zero) and having experienced drought (equal to one) or
+not (equal to zero). Time-invariant covariates include the latitude and longitude of a market location. Standard errors robust to market level clustering are reported in parentheses.
+* Signiﬁcant at the 10% level, ** signiﬁcant at the 5% level, *** signiﬁcant at the 1% level.
+
+6.5. Potential mechanisms of the ethnic border effect
+It is striking that markets within Niger located close to the Hausa–
+Zarma border can have substantial price differences for homogeneous
+goods, even though we do not observe systematic cross-border differences in covariates. We offer some possible explanations for this
+ﬁnding in this section, drawing on results from our trader-level survey
+data collected during a subset of the sample period. These data suggest
+that ethnicity is associated with differences in language, the gender
+
+34
+In the case of markets within 20 and 30 km in Table 13, we were unable to include the
+algebraic distance variable or its interaction with the border indicator in the cowpea regressions due to numerical problems incurred in estimation, likely due to rather limited
+variation in the algebraic distance variable for cowpea markets.
+35
+For markets located on the same latitude or longitude, the measurement errors, likely
+to be common to these markets, would be differenced out with the latitude and longitude
+ﬁxed effects.
+36
+The small number of markets that are very close to the border precludes us from presenting a graphical analysis of the discontinuity effect that is typically presented in studies
+of this type.
+
+14
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+
+Table 13
+Estimates of Hausa–Zarma border effect on cowpea price based on single market
+regressions.
+
+Table 14
+Differences in trader-level characteristics between Hausa and Zarma regions.
+
+Within 20 km of
+the Hausa–Zarma
+border
+
+Within 30 km of
+the Hausa–Zarma
+border
+
+Log of cowpea price
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+0.222***
+(0.004)
+5.721***
+(0.195)
+267
+No
+No
+No
+No
+Yes
+Yes
+
+0.256***
+(0.029)
+5.047***
+(0.015)
+355
+Yes
+No
+No
+No
+No
+No
+
+0.295***
+(0.003)
+3.184***
+(0.290)
+355
+Yes
+No
+No
+No
+Yes
+Yes
+
+0.064
+(0.063)
+4.981***
+(0.035)
+3,094
+Yes
+Yes
+Yes
+Yes
+No
+No
+
+−0.071
+(0.088)
+6.105***
+(0.618)
+3,094
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+
+Yes
+
+No
+
+Yes
+
+No
+
+Yes
+
+Variables
+
+Full sample
+
+Zarma (1/0)
+
+0.215**
+(0.037)
+Constant
+4.966***
+(0.000)
+Sample size
+267
+Distance to the border No
+Zarma × Distance
+No
+Distance squared
+No
+Distance cubic
+No
+Time effect (monthly) No
+Time-variant covariNo
+ates
+Time-invariant covari- No
+ates
+
+Notes: Estimations are based on monthly market-level data. All markets are located in
+Niger. The estimation samples in columns (1) through (4) include markets located within
+X km of the Hausa–Zarma border (X = 20 and 30). The estimation samples in columns (5)
+and (6) include all markets. The “Zarma” variable is binary: equal to one for a market located in Zarma and equal to zero for a market located in Hausa. The “distance” variable is
+measured in kilometers and is algebraic, being positive for markets in Zarma and negative
+for markets in Hausa. Time-variant covariates include having mobile phone coverage
+(equal to one) or not (equal to zero) and having experienced drought (equal to one) or
+not (equal to zero). Time-invariant covariates include the latitude and longitude of a market location. Standard errors robust to market level clustering are reported in parentheses.
+* Signiﬁcant at the 10% level, ** signiﬁcant at the 5% level, *** signiﬁcant at the 1% level.
+
+Hausa
+mean
+
+Unconditional
+difference in
+means
+
+Conditional
+difference in
+means
+
+(1)
+
+Dependent variable
+
+(2)
+
+(3)
+
+−0.91
+(2.69)
+0.22***
+(0.06)
+−0.80***
+(0.06)
+
+−0.64
+(2.73)
+
+−0.40***
+(0.05)
+
+−0.13
+(0.08)
+−0.02
+(0.09)
+0.03
+(0.19)
+0.31*
+(0.14)
+0.01
+(0.16)
+0.11
+(0.14)
+−10.51*
+(4.90)
+0.09
+(0.08)
+0.05
+(0.09)
+0.08
+(0.06)
+−14.60
+(7.70)
+−0.05
+(0.12)
+
+−0.12
+(0.09)
+0.03
+(0.10)
+0.12
+(0.16)
+0.32**
+(0.12)
+0.08
+(0.13)
+0.20*
+(0.10)
+−9.53
+(4.89)
+0.12
+(0.12)
+0.06
+(0.10)
+0.10*
+(0.05)
+−14.57*
+(7.07)
+−0.03
+(0.12)
+
+Panel A: Socio-demographic characteristics
+Age
+44.13
+Gender
+
+0.06
+
+Speak Hausa language
+
+1
+
+Panel B: Borrowing and lending
+Have ﬁnancial account
+
+0.24
+
+Obtained loan for trading purposes
+
+0.41
+
+Borrowed from fellow trader
+
+0.50
+
+Borrowed from friend/family
+
+0.22
+
+Able to obtain supplier credit
+
+0.70
+
+Purchased on credit since last harvest
+
+0.60
+
+6.5.1. Language
+If traders are unable to communicate with each other due to linguistic
+differences, then these differences could potentially increase the transaction costs associated with inter-ethnic trade. The statistics in Table 14
+(Panel A) show notable linguistic differences across the Hausa and
+Zarma markets located close to the ethnic border: While all traders
+speak Hausa in Hausa markets, only about 20% of traders speak Hausa
+in Zarma markets (column 2). These differences are more pronounced
+for the Zarma language (not shown in the table), as fewer than 1% of
+traders in Hausa villages speak Zarma. These linguistic differences
+are in turn partially correlated with gender: once controlling for gender (column 3), we ﬁnd that the linguistic gap between the two markets decreases, although it is still large and statistically signiﬁcant.
+Even though price and quantity negotiations between Hausa and
+Zarma traders can be conducted with a very low level of linguistic
+proﬁciency, this still introduces a cost not present in intra-ethnic
+trade. But perhaps more importantly, language differences might
+be correlated with difﬁculties in restraining cheating with respect
+to quantity or quality, partly (but not solely) because these differences reﬂect an absence of long-run personal relationships and a lack of informal
+community-level enforcement mechanisms. Language differences may
+therefore increase transactions costs indirectly, by weakening these
+second-best enforcement mechanisms.
+6.5.2. Gender
+While women represent only 6% of traders on Hausa markets, they
+comprise over 25% of traders in Zarma markets (Panel A of Table 14).
+This pattern conforms with broader socio-cultural differences in the
+role of women between the two groups. According to anthropological
+studies, Zarma women are able to travel outside of their villages to
+visit family or engage in trade, a custom that is much less frequent
+among Hausa women (Coles and Mack, 1991). While we do not have
+
+17.42
+
+Implicit monthly interest rate (%)
+
+0.07
+
+Willing to provide client credit
+
+0.85
+
+Sold on credit since last harvest
+
+composition of traders, and lending and borrowing behaviors, each of
+which could generate extra transaction costs to trade across the
+de facto ethnic border.
+
+Duration of supplier credit (days)
+
+0.75
+
+Duration of client credit (days)
+
+24.00
+
+Implicit monthly interest rate (%)
+
+0.17
+
+Notes: Data are from the Niger trader survey and secondary sources collected by one of the
+authors between 2005 and 2007. There are 400 traders across 35 markets. Column
+(1) shows the mean in Hausa markets located within 50 km of the Hausa–Zarma “border.”
+Column (2) shows the unconditional difference in means between Hausa and Zarma “border” markets. Column (3) shows the conditional difference in means between Hausa and
+Zarma “border” markets, controlling for the gender of the trader. Standard errors robust to
+market level clustering are reported in parentheses. * Signiﬁcant at the 10% level, ** significant at the 5% level, *** signiﬁcant at the 1% level.
+
+direct evidence on the degree—if any—of within-village market segmentation by gender, any barrier to transactions between men and
+women can generate a difference in average prices across the Hausa–
+Zarma border. This may restrict the attractiveness of Zarma markets
+for Hausa traders and may reduce the intensity of cross-market arbitrage.37
+6.5.3. Credit networks
+Agricultural trade involves both spatial and temporal arbitrage, as well
+as a temporal dissociation between delivery and payment (Fafchamps,
+2000). Both supplier and client credit play an important role in agricultural markets in Niger. Since little credit is allocated via formal ﬁnancial institutions, much of it is allocated on the basis of trust (Fafchamps, 2000).38
+As in other countries where ﬁrms and traders cannot assess the riskiness
+37
+It is unlikely that male traders serve as intermediaries between male Hausa traders
+and female Zarma traders in Zarma markets because a majority of female traders are retailers (as opposed to wholesalers or intermediaries). Thus, while female retailers might
+purchase from male wholesalers, it is unlikely that male wholesalers would purchase from
+female retailers. This system is somewhat different in the far east of the country, where
+wholesalers purchase from intermediaries during certain periods of the year. However,
+these intermediaries are exclusively male. The intermediated transaction described above
+would therefore be subject to additional transaction costs.
+38
+Fafchamps (2000) points out that an ethnic bias in the attribution of credit can be due
+to both statistical discrimination and network effects.
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+
+15
+
+Table 15
+Differences in trader-level borrowing and lending between Hausa and Zarma regions.
+Variables
+
+Obtained
+loan for
+trade
+(1)
+
+Zarma
+
+0.05
+(0.05)
+Gender
+−0.27**
+(0.07)
+Age
+−0.00
+(0.00)
+Experience −0.01
+(0.01)
+Education 0.19
+(0.22)
+Retailer
+−0.01
+(0.16)
+Number of 0.01
+workers (0.02)
+Constant
+0.57
+(0.33)
+Sample
+296
+size
+
+Borrowed
+from fellow
+trader
+
+Borrowed Able to
+from
+obtain
+friend
+supplier
+credit
+
+Obtained supplier
+credit since last
+harvest
+
+Provide
+credit to
+clients
+
+Duration of supplier Duration of buyer
+credit (number of
+credit (number of
+days)
+days)
+
+Implicit interest
+rate supplier
+credit
+
+Implicit
+interest rate
+client credit
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+0.16
+(0.17)
+−0.14
+(0.26)
+0.01
+(0.01)
+0.01
+(0.00)
+−0.00
+(0.25)
+−0.09
+(0.24)
+0.01
+(0.01)
+−0.05
+(0.52)
+132
+
+0.29*
+(0.13)
+−0.11
+(0.39)
+0.00
+(0.01)
+0.00
+(0.01)
+−0.11
+(0.08)
+−0.10
+(0.15)
+−0.01
+(0.01)
+0.16
+(0.44)
+132
+
+0.05
+(0.14)
+−0.29***
+(0.06)
+0.00
+(0.00)
+−0.01
+(0.01)
+0.03
+(0.04)
+0.11
+(0.13)
+0.00
+(0.01)
+0.73***
+(0.14)
+312
+
+0.17
+(0.13)
+−0.37*
+(0.16)
+−0.00
+(0.01)
+0.00
+(0.01)
+0.00
+(0.06)
+0.35
+(0.18)
+0.00
+(0.02)
+0.47
+(0.35)
+272
+
+0.06
+(0.10)
+−0.02
+(0.14)
+0.00
+(0.00)
+0.00
+(0.00)
+−0.03
+(0.06)
+−0.10
+(0.07)
+−0.00
+(0.01)
+0.80***
+(0.19)
+312
+
+−6.74**
+(1.77)
+−3.41
+(3.93)
+0.36
+(0.32)
+0.40
+(0.37)
+−3.81
+(4.73)
+−11.30
+(8.07)
+−0.34
+(0.48)
+4.07
+(12.06)
+168
+
+−10.40*
+(4.09)
+−1.46
+(7.57)
+−0.17
+(0.15)
+0.11
+(0.43)
+16.90
+(14.72)
+−9.54*
+(3.97)
+−0.63
+(0.50)
+32.33***
+(6.24)
+232
+
+0.04
+(0.13)
+0.05
+(0.09)
+−0.01
+(0.01)
+−0.00
+(0.00)
+0.00
+(0.04)
+−0.40
+(0.35)
+−0.02
+(0.02)
+1.01
+(0.84)
+112
+
+−0.09
+(0.11)
+−0.09
+(0.12)
+−0.01*
+(0.00)
+−0.01
+(0.00)
+−0.08
+(0.07)
+−0.22**
+(0.08)
+−0.01
+(0.01)
+0.94**
+(0.34)
+152
+
+Notes: Data are from the Niger trader survey and secondary sources collected by one of the authors between 2005 and 2007. There are 400 traders across 35 markets. Standard errors
+robust to market level clustering are reported in parentheses. * Signiﬁcant at the 10% level, ** signiﬁcant at the 5% level, *** signiﬁcant at the 1% level.
+
+of suppliers and clients, ethnically-based social networks in Niger play an
+important role in circulating information about credit histories and risk
+preferences to potential trading partners.
+Traders often require ﬁnancial services to pre-ﬁnance their purchases
+or to respond to ﬂuctuating supply and demand. Panel B of Table 14
+shows that about 40% of traders obtained loans for their business operations, primarily from fellow traders (50%) or friends and family members
+(22%). Whereas 60% of traders received supplier credit (with an implicit
+monthly interest rate of 7%), over 75% sold on credit (for a longer duration
+and higher interest rate). The prevalence of the use of credit was similar in
+the Zarma and Hausa markets, but the duration of supplier and client
+credit differed signiﬁcantly: traders in Zarma markets were only able to
+obtain supplier credit for about one week (as compared with 2.5 weeks
+in Hausa markets), and were only able to offer client credit for about
+1.5 weeks (as compared with 3.4 weeks in Hausa markets). Most of
+these results remain after controlling for gender (column 3). Overall,
+this suggests that traders in Zarma markets have a shorter duration of
+borrowing and lending for their commercial operations.
+We examine this phenomenon in more detail and report the results
+in Table 15, controlling for factors that could simultaneously be correlated with living in a Zarma market and borrowing and lending behaviors.
+Overall, the patterns are consistent with those in Table 14: once controlling for gender, age, experience and number of workers, traders in
+Zarma markets have a shorter duration of borrowing and lending for
+their commercial operations.
+The difference in the duration of credit between Hausa and Zarma
+markets suggests that credit ﬂows predominate within, rather than between, ethnic groups. The difference in credit terms, in turn, suggests
+that this is driven at least in part by barriers to inter-ethnic trade in
+credit—that is, to transactions costs that are addressed more effectively
+within ethnic networks than between them. These barriers prevent
+traders from accessing or granting credit when conducting commodity
+transactions in cross-border markets, raising the effective transaction
+cost of inter-ethnic trade.39
+39
+
+Intra-network credit will generally be an imperfect substitute for credit accessed at
+the point of transaction: a trader encountering a buying opportunity in a cross-border
+market, for example, must have secured credit from his “home” network in advance, a
+costly proposition when the precise nature of this buying opportunity was unknown in advance. The ethnic border within Niger may therefore reﬂect, at least in part, the prevalence
+of credit market imperfections and the resulting reliance upon borrowing and lending
+within ethnic groups.
+
+6.5.4. Alternative explanations
+We also use our trader-level data to address some possible alternative explanations for our ﬁndings. One set of concerns is that colonial
+policies or historical political factors may have favored one ethnic
+group over another, thereby resulting in different institutions, investments or public services at the village or market level. None of these hypotheses are supported by the data. Table 16 presents results for
+institutions available in Hausa and Zarma markets, as well as potential
+outcomes correlated with institutional investment (such as education,
+experience and ﬁrm size). If these institutions were systematically different on either side of the border, then this could be a potential
+
+Table 16
+Differences in market institutions between Hausa and Zarma regions.
+Variables:
+
+Hausa
+mean
+
+Unconditional
+difference in
+means
+
+Conditional
+difference in
+means
+
+(1)
+
+(2)
+
+(3)
+
+0.16
+(0.46)
+0.17
+(0.16)
+−1.79
+(0.91)
+1.55
+(22.36)
+−0.14
+(0.08)
+−0.09
+(0.05)
+−0.03
+(0.05)
+−2.92
+(1.61)
+−0.56
+(0.83)
+
+0.05
+(0.43)
+0.17
+(0.16)
+−1.75
+(0.85)
+3.02
+(24.66)
+−0.06
+(0.11)
+−0.06
+(0.05)
+−0.01
+(0.05)
+−2.09
+−1.74
+−0.14
+(1.32)
+
+Road quality (1 = paved, 0 = unpaved)
+
+0.49
+
+Market tax (CFA/kg)
+
+0.75
+
+Number of police controls
+
+2.79
+
+Number of traders on market
+
+85.00
+
+Association membership
+
+0.47
+
+Years of education
+
+0.18
+
+Change original market
+
+0.11
+
+Years of experience
+Number of employees
+
+15.40
+4.00
+
+Notes: Data are from the Niger trader survey and secondary sources collected by one of the
+authors between 2005 and 2007. There are 400 traders across 35 markets. Column (1)
+shows the mean in Hausa markets located within 50 km of the Hausa–Zarma “border.” Column (2) shows the unconditional difference in means between Hausa and Zarma border
+markets. Column (3) shows the conditional difference in means between Hausa and
+Zarma border markets, controlling for the gender of the trader. Standard errors robust to
+market level clustering are reported in parentheses. * Signiﬁcant at the 10% level, ** significant at the 5% level, *** signiﬁcant at the 1% level.
+
+16
+
+J.C. Aker et al. / Journal of Development Economics 107 (2014) 1–16
+
+explanation for the observed price gap. Half of the Hausa markets are
+located near a paved road, and markets impose a market day tax of
+75 CFA/kg. There are on average 2.8 police controls in place during the
+market day, and an average of 85 agricultural traders (of all types). On
+average, traders have 15.4 years of experience and four employees.
+None of these unconditional statistics are statistically different from
+the respective values for Zarma markets, nor are there statistically
+signiﬁcant differences when controlling for the traders' gender (column
+3). While this could in part be due to the imprecision of our estimates,
+the results in Table 16 suggest that different institutional environments
+are not driving the price difference between markets located near the de
+facto line of the Hausa–Zarma separation.
+7. Conclusion
+Using unique high-frequency data on the prices of two agricultural
+goods, we ﬁnd that the international border shared by Niger and
+Nigeria seems to impose signiﬁcant transaction costs for cross-border
+trade. Furthermore, our study shows that the additional costs incurred
+at the border are lower if the trades are conducted within an ethnic region that spans the border (i.e., within the Hausa region of both Niger
+and Nigeria). This suggests that ethnicity plays an important role in
+the trade in agricultural goods, since a common ethnicity seems to facilitate trade between Niger and Nigeria. Consistent with this, we also ﬁnd
+that, within Niger, transactions costs are higher for trade between regions with distinct ethnicities as compared to within a region with a
+common ethnicity. We estimate a lower bound on the transactions
+costs associated with the de facto ethnic border that is about as large
+as the lower bound we estimate for the international border.
+Political maps are known to be important for the spatial geography of prices, and our results conﬁrm the relevance of this ﬁnding
+in a region in which the geographical placement of these borders is
+more plausibly unrelated to pre-existing local conditions than in
+most regions of the world. What is equally striking is the salience
+for prices and trade of an inter-ethnic geography that is readily identiﬁable using demographic data and that in the West African case appears to have predated the political geography. Much like national
+borders, de facto ethnic borders may play a key role in the spatial
+conﬁguration of prices in this region.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at http://dx.
+doi.org/10.1016/j.jdeveco.2013.10.004.
+
+References
+Aker, Jenny C., 2010. Information from markets near and far: the impact of mobile phones
+on grain prices in Niger. Am. Econ. J. Appl. 2, 46–59.
+Alesina, Alberto, La Ferrara, Eliana, 2000. Participation in heterogeneous communities. Q.
+J. Econ. 115 (3), 847–904.
+Alesina, Alberto, Baqir, R., Easterly, William, 1999. Public goods and ethnic divisions. Q.
+J. Econ. CXIV (4), 1243–1284 (November).
+Araujo-Bonjean, Catherine, Aubert, Magali, Egg, Jonhy, 2008. Commerce du Mil en Afrique
+de l'Ouest: Les Frontières Abolies? Paper prepared for CERDI Conference on “Intégration des Marchés et Sécurité Alimentaire dans les Pays en Développement, 3–4
+November. Université d'Auvergne, Clermont-Ferrand, France.
+Asiwaju, A.I. (Ed.), 1985. Partitioned Africa: Ethnic Relations Across Africa's International
+Boundaries, 1884–1984. St. Martin's Press, New York.
+Azam, Jean-Paul, 2007. Trade, Exchange Rate and Growth in Sub-Saharan Africa Cambridge.
+Cambridge University Press, UK.
+Broda, Christian, Leibtag, Ephraim, Weinstein, David, 2009. The role of prices in measuring
+the poor's living standards. J. Econ. Perspect. 23 (2), 77–97.
+Ceglowski, Janet, 2003. The law of one price: intranational evidence for Canada. Can.
+J. Econ. 36 (2), 373–400.
+Coles, Catherine, Mack, Beverly (Eds.), 1991. Hausa Women in the 20th Century. University
+of Wisconsin Press, Madison, WI.
+Easterly, William, Levine, Ross, 1997. Africa's growth tragedy: policies and ethnic divisions.
+Q. J. Econ. 112 (4), 1203–1250.
+Engel, Charles, Rogers, John, 1996. How wide is the border? Am. Econ. Rev. 86 (5),
+1112–1125.
+Fafchamps, Marcel, 2000. Ethnicity and credit in African manufacturing. J. Dev. Econ. 61,
+205–235.
+Fafchamps, Marcel, 2001. Networks, communities, and markets in sub-saharan
+Africa: implications for ﬁrm growth and investment. J. Afr. Econ. 10 (Suppl. 2),
+109–142 (September).
+Gopinath, Gita, Gourinchas, Pierre-Olivier, Hsieh, Chang-Tai, Li, Nicholas, 2011. International
+prices, costs and mark-up differences. Am. Econ. Rev. 101 (6), 2450–2486.
+Gorodnichenko, Yuriy, Tesar, Linda, 2009. Border effect or country effect? Seattle may
+not be so far from Vancouver after all. Am. Econ. J. Macroecon. 1 (1), 219–241.
+Hashim, Yahaya, Meagher, Kate, 1999. Cross-Border Trade and the Parallel Currency
+Market: Trade and Finance in the Context of Structural Adjustment. A Case Study
+from Kano, Nigeria. Nordiska Afrikainstitutet Research Report No. 113, Sweden.
+Imbens, Guido, Lemieux, Thomas, 2008. Regression discontinuity designs: a guide to
+practice. J. Econometrics 142 (2), 615–635.
+Lambot, C., 2000. Industrial Potential of Cowpea. Proceedings of the World Cowpea
+Conference III, International Institute of Tropical Agriculture (IITA), Ibadan,
+Nigeria, IITA, Ibadan, Nigeria.
+Mauro, Paolo, 1995. Corruption and growth. Q. J. Econ. 110 (3), 681–712.
+Michalopoulos, Stelios, 2012. The origins of ethnolinguistic diversity. Am. Econ. Rev. 102
+(4), 1508–1539.
+Miles, William F.S., 2005. Development, not division: local versus external perceptions of
+the Niger–Nigeria. The Journal of Modern African Studies, 43. Cambridge University
+Press, pp. 297–320.
+Morshed, A.K.M.M., 2007. Is there really a ‘border effect’? J. Int. Money Financ. 26 (7),
+1229–1238.
+Ndjeunga, Jupiter, Nelson, Carl, 2005. Towards understanding household preference for
+pearl millet in Niger. Agric. Econ. 32 (1).
+Parsley, David, Wei, Shang-Jin, 2001. Explaining the border effect: the role of exchange
+rate variability, shipping costs, and geography. J. Int. Econ. 55, 87–105.
+United Nations Development Program, 2013. Human Development Report 2013: The Rise
+of the South: Human Progress in a Diverse World. UNDP, New York, NY.
+
+

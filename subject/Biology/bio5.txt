@@ -1,0 +1,862 @@
+DEVELOPMENTAL
+
+BIOLOGY
+
+136.264-272
+(1989)
+
+Endo16, a Lineage-Specific Protein of the Sea Urchin Embryo,
+Is First Expressed Just prior to Gastrulation
+A. BRENNER,'AND SUSANG.ERNST
+
+CATHERINENOCENTE-MCGRATH,CAROL
+Department
+
+of Biology, Tufts University,
+
+Me&d,
+
+Massachusetts 02155
+
+Accepted July 6, 1989
+We have isolated and characterized a new endoderm-specific gene, designated Endol6, from a sea urchin gastrula
+stage cDNA library. Northern blot analysis and in situ hybridization experiments indicate that this gene is first
+expressed in the vegetal plate, a group of endodermal and mesenchymal precursor cells that are poised to invaginate in
+the first movement of gastrulation. Expression becomes progressively restricted to a subset of endodermal cells as
+development proceeds. To study the End016 gene product, a polyclonal antiserum was raised against bacterially
+expressed End016 protein. Indirect immunofluorescence experiments in midgastrula stage embryos reveal that the
+End016 protein is localized to the surface of endoderm and secondary mesenchyme cells. In Western blot experiments,
+the antiserum detects a small set of high molecular weight proteins ranging from 180 to >300 kDa. Analysis of the
+nucleotide-derived amino acid sequence from a partial End016 cDNA clone reveals a highly repetitive, extremely acidic
+protein segment that includes the Arg-Gly-Asp (RGD) tripeptide known to be important in cell binding domains of a
+number of extracellular proteins. Taken together, these data suggest that the End016 protein may be an adhesion
+molecule involved in gastrulation of the sea urchin embryo. o 1989
+AcademicPRSS,
+IX
+INTRODUCTION
+
+The use of cloned gene probes and monoclonal antibodies (McAb) has facilitated the identification of an
+expanding set of lineage-specific molecules in the sea
+urchin embryo (reviewed in Davidson, 1986; McClay and
+Wessel, 1985). Knowledge of how expression of these
+molecules is regulated as well as what role the gene
+products play in development is crucial to understanding how this complex multicellular
+organism arises
+from a single cell, the fertilized egg. In mesenchyme
+blastula stage sea urchin embryos five distinct lineages
+can be identified on the basis of morphological criteria
+and lineage-specific markers: the oral and aboral ectoderm, the primary mesenchyme, the small micromeres,
+and the vegetal plate, which later gives rise to endoderm and secondary mesenchyme. It is the vegetal plate
+cells that perform the morphogenetic movements that
+accomplish gastrulation in these embryos. These movements are accompanied by changes in cell shape, pulsatile behavior, filopodial activity, and extensive cell repacking (reviewed by Keller and Hardin, 1987). In a
+detailed analysis of sea urchin morphogenesis, Gustafson and Wolpert (1967) proposed that all of the cell
+rearrangements which occur in the course of embryogenesis could be explained in terms of dynamic changes
+in cell adhesions and cell migrations. Since the time of
+their proposal, a growing body of evidence has been
+Sequence data from this article have been deposited with the
+EMBL/GenBank/DDBJ Data Libraries under Accession No. M27296.
+1 Present address: Genelabs, Inc.,
+
+0012-1606/89$3.00
+Copyright
+All rights
+
+0 1989 by Academic Press, Inc.
+of reproduction
+in any form reserved.
+
+RedwoodCity, CA 94063.
+
+accumulating in support of the role of cell adhesion in
+sea urchin morphogenesis. Recently, several lines of experimental evidence implicate cell-cell and cell-matrix
+adhesions in sea urchin gastrulation. Inhibitors of Nlinked glycosylation (Heifetz and Lennarz, 1979), proteoglycan synthesis (Karp and Solursh, 1974;’ Katow
+and Solursh, 1979), and collagen synthesis or processing
+(Butler et aZ.,1987; Wessel and McClay, 1987), as well as
+McAb fragments directed against the apical extracellular matrix protein hyalin (Adelson and Humphries,
+1988), are all capable of preventing gastrulation. However, little is known about specific molecules expressed
+by vegetal plate cells and their descendants that participate in adhesive interactions involved in gastrulation.
+In this report we describe the isolation and characterization of a new endoderm-specific gene designated
+Endol6. Using in situ hybridization and indirect immunofluorescence, we have investigated the spatial and
+temporal expressions of the End016 transcript as well
+as localization of the End016 gene product. The results
+of these investigations, along with analysis of the nucleotide-derived amino acid sequence of the End016
+cDNA clone, lead us to propose that the End016 protein
+may play a role in cell adhesion and gastrulation in the
+sea urchin embryo.
+MATERIALS
+
+AND METHODS
+
+Animals. Adult Strongylocentrotus
+purpuratus
+were
+purchased from Alacrity Marine Biological Services
+(Redondo Beach, CA). Maintenance of animals, spawn-
+
+264
+
+NOCENTE-MCGRATH,
+
+BRENNER, AND ERNST
+
+ing, fertilization, and embryo culture were as previously
+described (Pittman and Ernst, 1984).
+Isolation and characterization of SpGl6 cDNA clone.
+All enzymes were purchased from Promega Biotech or
+New England Biolabs except as indicated. All isotopes
+were purchased from Amersham. Standard molecular
+biology techniques were used (Maniatis et al, 1982). The
+1.3-kb HindIII-BamHI
+fragment of the Caenorhabditis
+elegans ~01-1gene (Kramer et al., 1982) (~01-1gene, gift
+of J. Kramer and D. Hirsch; subclone, gift of Dr. H.
+Boedtker) was nick-translated and used to screen a S.
+purpuratus gastrula stage XgtlO cDNA library (gift of
+T. Thomas and E. Davidson) containing 10,000 recombinant clones. Hybridization conditions were 5X SSC, 5X
+Denhardt’s, 0.1% SDS at 55°C. Washing was performed
+under the same conditions. Positive clones were
+plaque-purified and phage DNA was isolated and digested with EcoRI to determine insert size. One clone,
+XSpG16, contained the largest cDNA insert and this
+insert was subcloned into pUC8 to create the plasmid
+pEndol6 and into m13mp18 for restriction mapping and
+sequence analysis. Sequencing was performed using the
+Sequenase kit (US Biochemicals) according to the manufacturer’s instructions. Asymmetric probes were prepared using standard sequencing reactions on Northern
+blot strips which were hybridized, washed, and exposed
+as described below.
+Genomic Southern blot. Sperm was collected from a
+single spawned animal and DNA isolated by the method
+of Kedes et al. (1975). Ten micrograms of genomic DNA
+was digested with EcoRI or HindIII, electrophoresed on
+a 0.65% agarose gel, and blotted to nitrocellulose. The
+filter was hybridized overnight with nick-translated
+End016 at 65°C in 5X SSC, 5X Denhardt’s, 0.1% SDS.
+Washing was done at 65°C in 1X SSC, 0.1% SDS. Autoradiography was for 24 hr using Kodak XAR-5 film and
+a DuPont Cronex intensifying screen.
+Northern blot analysis. RNA from egg, 16-cell, 128cell, 20-hr hatched blastula, 26-hr mesenchyme blastula, 36-hr gastrula, and 80-hr pluteus embryonic stages
+and adult tissues was prepared by the procedure of
+Chirgwin et al. (1979). Ten micrograms total RNA was
+electrophoresed on 1% agarose/formaldehyde gels and
+blotted to nitrocellulose. Nick-translated End016 and a
+control probe were used to probe filters. Hybridization
+and washing conditions were as for the genomic blot.
+Autoradiography
+was for 48 hr using Kodak XAR-5
+film and a DuPont Cronex intensifying screen.
+In situ hybridizations. The 550-bp EcoRl-HpaII fragment from pEndol6 was subcloned into the Sp6/T7
+transcription vector pGem-7Zf (Promega Biotech). This
+construct was used to synthesize either sense or antisense RNA probes with the Riboprobe kit (Promega
+Biotech) according to the manufacturer’s instructions
+
+Sea Urchin Lineage-Spe&ic
+
+Protein
+
+265
+
+with [35S]CTP(800 CVmmole, Amersham). Probes were
+synthesized to a specific activity of -1 X lo* cpm/pg.
+The final concentration of probe in the hybridization
+solution was 3.3 X lo6 cpm/ml.
+Embryos were fixed, embedded in paraplast, sectioned, and spread onto polylysine-coated slides as described by Cox et al. (1984). Hybridization and washing
+were performed according to the modifications of Hardin et al. (1988) for 35Sprobes except that no dehydration through a graded ethanol series was done preceding the formamide wash and 2X SSC was substituted
+for 0.3 M NaC1/20 mM Tris-HCl (pH 8.0). Slides were
+processed for autoradiography as described (Angerer
+and Angerer, 1981). Exposure time was 3 days for all
+sections shown, except pluteus stage which was for 9
+days.
+Fusion protein production and puri~cation. To construct the Trp-End016 fusion protein, the 550-bp
+EcoRI-HpaII fragment of the End016 cDNA was ligated into EcoRI-CZaI digested pATH1 (Dieckmann and
+Tzagoloff, 1985) and transformed into Escherichia coli
+strain RRI. This arrangement fuses the End016 fragment in frame with the truncated E. coli TrpE gene
+under the control of the Trp promoter/operator
+sequences. Induction of the fusion protein was accomplished by growing cells overnight in M9 media supplemented with 0.5% casamino acids, 20 pg/ml L-tryptophan, and 50 pg/ml ampicillin. The cells were then
+diluted 1:lO in the same media minus tryptophan and
+grown for 1 hr at 30°C with vigorous aeration. At this
+time 5 pg/ml indoleacrylic acid (Sigma) was added to
+the cultures and incubation continued for 2 hr. For sodium dodecyl sulfate-polyacrylamide gel (SDS-PAGE)
+analysis, 1 ml of culture was pelleted and resuspended
+in 50 ~1 of sample buffer (Laemmli, 1970). Ten microliters of sample was loaded per lane. The fusion protein
+was purified by preparative gel electrophoresis. Gels
+were stained briefly in 4 M Na acetate (Higgins and
+Dahmus, 1979) and bands were excised and eluted by
+crushing and soaking overnight in 3 vol of 1 mM TrisHCl, pH 7.5,0.1 mMEDTA, 0.05% SDS. The sample was
+dialyzed against 10 mMTris-HCl, pH 7.5,150 mMNaC1,
+1 mM EDTA, precipitated, and resuspended in phosphate-buffered saline (PBS). Protein concentrations
+were determined using the Bio-Rad protein assay kit.
+The P-gal-End016 fusion protein was constructed by
+ligating the 794-bp End016 cDNA into EcoRI cut
+pUR288 expression plasmid (Ruther and Mtiller-Hill,
+1983) and transformed into E. coli strain JMlOl. Induction of the fusion protein was accomplished by adding
+0.5 mM isopropylthio-fi-galactoside
+and growing at
+37°C for l-3 hr, and resulted in over production of a
+protein at the expected -150 kDa size (data not shown).
+Polyclonal antiserum. Preimmune serum was col-
+
+266
+
+V0~~~~136,1989
+DEVELOPMENTALBIOLOGY
+
+lected from the rabbit before antigen injections began.
+The primary immunization consisted of 200 pg TrpEEnd016 fusion protein emulsified in Freund’s complete
+adjuvant injected intradermally. The animal was given
+two booster injections at 3-week intervals consisting of
+150 pg TrpE-End016 fusion protein emulsified in
+Freund’s incomplete adjuvant.
+Western blot analysis. Total embryo protein lysates
+were prepared as described (Wessel and McClay, 1987);
+25 pg of lysate was loaded per lane of 10% SDS-PAGE
+and electroblotted to nitrocellulose (Towbin et ah, 1979).
+Filters were blocked in 5% dry milk/PBS for 1 hr, incubated in 1:lOOOdilution of preimmune or immune
+serum in PBS for 1 hr, washed in 5% dry milk/PBS for 1
+hr, incubated in 1:‘7500dilution of goat anti-rabbit:alkaline phosphatase conjugate (Promega Biotech) for 1
+hr, and washed again in 5% dry milk/PBS for 1 hr. The
+reaction was visualized by incubating in alkaline phosphatase substrate according to the manufacturer’s instructions (Promega Biotech).
+Indirect immunoJuorescence. Embryos were settled
+onto polylysine-coated coverslips and fixed in 90%
+methanol/seawater on ice for 30 min. Embryos were
+then rehydrated to PBS through a graded methanol
+series. Embryos were incubated in 3% BSA/PBS for 15
+min, 1:lOOdilution of immune serum in PBS for 1 hr, 3%
+BSA/PBS 1 hr, 1:lOO dilution of fluorescein-conjugated
+goat anti-rabbit antiserum (Polysciences) 1 hr, and 3%
+BSA/PBS 1 hr. The reaction was viewed and photographed under a Zeiss microscope equipped for epifluorescence using Kodak T-Max film at an ASA setting
+of 800.
+EXPERIMENTAL RESULTS
+
+Cloning and Sequence Analysis of the Endo
+
+cDNA
+
+The 794-bp End016 cDNA clone was selected from a
+sea urchin gastrula stage XgtlO cDNA library on the
+basis of low stringency hybridization to a C. elegans
+collagen type 1 probe. The restriction map and genomic
+representation of this clone are shown in Figs. la and
+lb. The End016 cDNA probe hybridizes to a single DNA
+fragment in both EcoRI and HindIII-digested
+sea urchin genomic DNA, indicating that the End016 mRNA
+is transcribed from a single copy gene (Fig. lb). The
+transcriptional orientation of this gene was determined
+by hybridizing strand-specific End016 probes to Northern blot strips of gastrula stage RNA. Only one of these
+two probes reacts with an mRNA transcript, 6.6 kb in
+length (Fig. lc). Sequence analysis of the cDNA clone
+revealed that the entire 794-bp insert is an open reading
+frame which could encode 265 amino acids (Fig. 2A).
+Although the DNA sequence of the sea urchin clone
+does contain short regions of up to 65% similarity to the
+
+C. elegans gene (data not shown), the predicted amino
+acid sequence of the sea urchin clone does not contain
+any collagen-related sequence, including that of recently reported sea urchin collagens (Venkatesan et al.,
+1986; Saitta et al., 1989). However, the deduced amino
+acid sequence does display several noteworthy features.
+The sequence includes an Arg-Gly-Asp (RGD; boxed in
+Fig. 2A), which has been shown to be important in the
+cell binding domain of many extracellular proteins (reviewed in Ruoslahti and Pierschbacher, 1987). Two potential N-linked glycosylation sites are present (underlined in Fig. 2A), although the proline containing site is
+probably not utilized (Hubbard and Ivat, 1981). In addition the sequence contains six clustered copies of a
+20-amino acid repeat (Fig. 2B), two of which are in tandem. Overall, this protein segment is very hydrophilic
+and extremely acidic, comprised of 30% glutamic and
+aspartic acid residues. A computer-assisted search,
+using the algorithm of Lipman and Pearson (1985), has
+not identified significant similarity of End016 with any
+sequences contained in the GenBank or EMBL nucleic
+acid databases, nor is the deduced amino acid sequence
+related to any protein sequence compiled in the NBRF
+or Institut Pasteur databases.
+Temporal and Spatial Expression of Endo
+during Embryogenesis
+
+Transcript
+
+Northern blot analysis was used to examine the developmental expression pattern of the End016 mRNA
+transcript. The results of this experiment are shown in
+Fig. 3. The 794-bp cDNA hybridizes to a single 6.6-kb
+transcript that is not detected in egg or morula stages,
+but is first detected at the hatched blastula stage. The
+transcript increases in abundance by the mesenchyme
+blastula stage, continues to increase during gastrulation, and declines in abundance by the time the formation of the pluteus larva is complete. The End016 transcript was not detected in any adult tissue examined,
+including testis, ovary, intestine, coelomocyte, and tube
+foot RNAs. A reprobing of this blot with a sea urchin
+actin probe demonstrated the integrity of all the RNA
+samples (data not shown).
+The embryonic distribution of End016 transcripts
+during development was determined by in situ hybridization. The results of these in situ hybridizations with
+radioactively labeled End016 antisense probes and developmentally staged embryo sections are shown in Fig.
+4. In 28-hr mesenchyme blastula embryos, the autoradiographic signal is concentrated over the vegetal plate
+region. These cells are poised to invaginate in the first
+movement of gastrulation to form the archenteron,
+which later gives rise to the endoderm and secondary
+mesenchyme tissues. No signal above background is de-
+
+NOCENTE-MCGRATH,BRENNER, AND ERNST
+
+Sea Urchin Lineage-Specific Protein
+
+b
+
+1
+
+2
+
+267
+c
+
+2.3 2.0-
+
+a
+pieI
+
+?glll
+
+pal
+
+ptfhll
+
+I
+
+~CoRl
+
+I
+
+I
+
+Awl
+
+2
+
+1
+
+:
+
+*
+
+I
+
+-1
+/
+
+Taql
+
+ECORI
+
+\
+
+Taql
+
+Hincll
+
+Taql
+
+Taql
+toobp
+
+FIG. 1. Characterization of the End016 cDNA clone. (a) Restriction map of pEndo16. Open box corresponds to the sea urchin cDNA insert;
+flanking plasmid sequences are represented as thin lines. Arrow indicates direction of transcription. (b) Genomic Southern blot. Ten micrograms of sea urchin sperm DNA was digested with either EcoRI (lane 1) or Hind111 (lane 2), electrophoresed, transferred to nitrocellulose, and
+probed with radiolabeled pEndo16. A single hybridizing fragment is detected in each digest. (c) Determination of transcriptional orientation.
+Strand-specific probes were prepared and hybridized to Northern blot strips containing 10 pg of total gastrula stage RNA as described under
+Materials and Methods. Only one of the probes (lane 1) detected a transcript, 6.6 kb in length.
+
+tected over primary mesenchyme or ectodermal cells. In
+36-hr gastrula stage embryos the End016 mRNA is detected in cells in all regions of the archenteron. By the
+72-hr prism stage, the archenteron has begun constriction to form a tripartite larval gut. At this stage, hybridization is restricted to the posterior two-thirds of
+the gut (mid- and hindgut) which will become the larval
+stomach and intestine. No signal is detected over secondary mesenchyme cells at this stage. Interestingly,
+hybridization to 90-hr pluteus stage larvae shows labeling of stomach only. We did not obtain any tissue sections in which all three digestive tract regions were
+clearly identifiable. However, sections which included
+esophagus and stomach or stomach and intestine all
+showed labeling of stomach tissue exclusively. A representative example of control hybridizations
+with
+End016 sense probes is shown in Figs. 4A and 4B. In
+these controls, a low level of background signal is present evenly distributed over the tissue sections. These
+results demonstrate that the End016 gene is expressed
+in a spatially regulated, lineage-specific manner and
+that this expression becomes restricted during differentiation.
+Production and Specificity of Polyclonal Antiserum
+To facilitate study of the End016 gene product, polyclonal antibodies were generated. A bacterial fusion
+
+protein was produced using one of the PATH series of
+plasmid vectors and employed as the source of antigen.
+The plasmids contain a truncated E. coli trpE gene with
+a synthetic polylinker at the 3’ end. A 550-bp restriction
+fragment of the End016 cDNA was subcloned into the
+polylinker of pATH1 so that the correct translational
+reading frame was preserved. Induction of the trp promoter by simultaneous tryptophan starvation and exposure to indoleacrylic acid results in the production of
+large quantities of the trpE fusion protein in cultures
+harboring the expression plasmid. Protein extracts
+from induced and uninduced cultures were analyzed by
+SDS-PAGE, and the appropriately sized fusion protein
+band was observed after staining with Coomassie blue
+(Fig. 5A). The fusion protein was purified by preparative gel electrophoresis and used for immunization of a
+Dutch Belted rabbit.
+To determine the reactivity of the resulting antiserum against the sea urchin portion of the fusion protein, we produced a second fusion protein using the pUR
+series of plasmid vectors. These vectors allow the expression of protein coding sequence as C-terminal addition to E. coli ,&galactosidase. Induction of the P-galEnd016 fusion protein resulted in overproduction of a
+protein of the expected -150-kDa size as judged by
+Coomassie blue staining of whole cell extracts electrophoresed on SDS-PAGE (data not shown). Figure 5B
+shows the results of Western blot experiments reacting
+
+268
+
+DEVELOPMENTALBIOLOGY
+
+V0~~~~136,1989
+
+A
+
+TCGGAATATGCTTCAGAACTTGCACAAGCCGATAATAATGCCCAGCTCCATTG
+SEYASELAQADNNVLAPAPL
+
+60
+
+ACGTTTGGAGGACGCGGAGACATTCGAACCTCCTCC~GCAGT~GTC~TCTCAG~TCT
+TFGGFII
+RTSKAVKSISES
+
+120
+
+ACAGTCGTTTCGAATTATGATGAAGACAACTTCCGATCC~TCATGCTGT~TCTCTTTGGGG~ 180
+TVVSNYDEDNFRSCCALFGE
+GCCCAACTGRAATGCTTCCATGCACTATATAATG
+AQLKCFQMHYSPNAPSSQME
+
+240
+
+AGTGAGGGATCTGCGAATCCGTCAACGATAGGCAGGCAGTGTGTCCGAGGGATATGTATCTG~
+300
+SEGSANPSTIGSVSEGYVSE
+AGCCAGGGGCAAGAAAGTGAGAGATCTGAAAGTW\AGGTT
+SQGQESERSESEGSEGEDSE
+
+360
+
+GAGACAGAGGGCGCTGAAGAACCACACATGAGC~TGG~GTG~GGGGGAGATCAGG~
+ETEGAEEPHEQMES
+EGGDQE
+
+420
+
+GAGTCAGAGGGCGCTGAACAACCACAGGAGCAAATGGAAACCCGAG
+ESEGAEQPQEQMESEGQEPE
+
+480
+
+TCAGAGGAAGATGTCGATTCTGGAGAAATAACTGATGGATC~ACATG~CATGCCAGGA
+SEEDVDSGEITDGS'DMNMPG
+
+540
+
+C~GGGAT~AT~TGA~GGAGG~GTT~~A~TA~A~T~~GG~G~~GATG~~~~ATCC
+PGSSDGGVPLGLTEVDEQTS
+
+600
+
+GATGGAGAGGAGC~~GAGGA~AG~GAG~~AGGAGGAG~~~GGA~~A~A~G~~AG
+DGEEPEEPEEPGGEQGPHEQ
+
+660
+
+ATGGAGAGCGAGGGAGAAGGAAATGRATCTGAAGAAGAGG
+MESEGEGNESEEEEVEEPQE
+
+720
+
+B
+15-94
+105-124
+
+E S
+
+TEG
+
+128-147
+148-167
+
+VDS
+
+GTGATAGAAAGTGAAGGACAACAGTCTGAATCAGAAGACCCAGAAAAAGAAGAAGAAGAA 780
+VIESEGQQSESEDPEKEEEE
+
+217-236
+
+EVE
+
+GAAGAMGAAGCGG 794
+E E R S G
+
+238-251
+
+EKE
+
+FIG. 2. Sequence analysis of Endol6. (A) Nucleotide sequence and derived amino acid sequence of the End016 cDNA. The nucleotide sequence
+of the coding strand (as determined by the strand-specific hybridization, Fig. lc) is shown. The entire 794-bp cDNA is an open reading frame
+encoding 265 amino acids. The sequence includes a potential cell attachment site (RGD, boxed) as well as two potential N-linked glycosylation
+sites (N x S/T, underlined). (B) End016 repeats. Six copies of a 20-amino acid repeat are present in the End016 sequence. Exact matches that
+are present in at least three repeats are boxed.
+
+the anti-End016 serum with both fusion proteins. As
+anticipated, the serum reacts strongly with the TrpEnd016 protein used in the immunization protocol. The
+serum also reacts very strongly with the P-gal-End016
+fusion protein, indicating that the sea urchin portion of
+the Trp-End016 fusion protein elicited a strong immune
+response. The lower molecular weight bands present
+must be due to breakdown products of the fusion protein since they are not present in the lane containing
+the parent plasmid. Therefore, the majority of the immune response was elicited against the Trp-End016 fusion protein and little response was directed at any contaminants present in the preparation used for immunization.
+To investigate the expression of the End016 gene
+product in sea urchin embryos, the polyclonal antiserum was reacted with total sea urchin gastrula stage
+protein extracts in Western blot experiments. Preimmune serum, collected from the animal before immunization, was used as a control. As shown in Fig. 5C, the
+anti-End016 serum reacts with a small set of high mo-
+
+lecular weight proteins, ranging from 180 to >300 kDa.
+These bands are not observed in the lane reacted with
+preimmune serum. It remains to be determined
+whether the multiple bands are the result of degradation, post-translational modification, or common epitopes shared by different proteins. The 6.6-kb End016
+mRNA can potentially encode a primary translation
+product with a maximum size of 240-250 kDa. Therefore, degradation in the protein sample cannot account
+for the higher molecular weight bands observed.
+Immunolocalixation of the End016 Gene Product in
+Gastrula Stage Embryos
+We reacted the anti-End016 serum with fixed, whole,
+midgastrula stage embryos in an effort to determine
+the spatial and cellular distribution of the End016 gene
+product. The reaction was visualized with fluoresceinconjugated goat anti-rabbit secondary antibody and
+observed with a fluorescence microscope. The results of
+this experiment, shown in Fig. 6, reveal that the End016
+
+NOCENTE-MCGRATH,
+
+E16MHBG
+
+POT
+
+BRENNER, AND ERNST
+
+I FC
+
+FIG. 3. Northern blot analysis of End016 expression. Ten micrograms of total RNA prepared from various developmental stages and
+adult tissues was eleetrophoresed, blotted onto nitrocellulose, and
+hybridized to radiolabeled pEndol6 as described under Materials and
+Methods. E, egg; 16, 5-hr 16-cell stage; M, 128-cell morula; H, 20-hr
+hatched blastula; B, 26-hr mesenchyme blastula; G, 36-hr gastrula; P,
+80-hr pluteus larva; 0, ovary; T, testis; I, intestine; F, tube foot; C,
+coelomocyte. The 6.6-kb End016 transcript is first detected at the
+hatched blastula stage, increases dramatically in abundance through
+the gastrula stage, and declines in abundance by the pluteus larva
+stage. An additional higher molecular weight RNA transcript is occasionally observed in some RNA preparations (lane B). The End016
+transcript is not detected in any of the adult tissue RNAs.
+
+protein is ,localized to the surface of endodermal cells of
+the archenteron and secondary mesenchyme cells. The
+immunolocalization of the End016 protein to the surface of endodermal cells is corroborated by the in situ
+hybridization experiments, which detected significant
+levels of End016 transcripts in these cells. However,
+although the End016 protein appears to be present on
+the surface of secondary mesenchyme cells at midgastrula stage (arrows in Fig. 6), these cells do not contain
+detectable End016 transcripts (Figs. 4E and 4F). There
+are several possible explanations to account for the observation of End016 protein in association with these
+cells. At earlier stages of development, our in situ hybridization experiments have shown that the End016
+gene is actively transcribed in vegetal plate cells and
+the archenteron, which includes the precursors of the
+secondary mesenchyme. Long-lived End016 protein,
+synthesized by the precursor cells, may persist in the
+cells through later stages of development. Alternatively, endodermal cells may be secreting the End016
+protein, which subsequently binds to the surface of secondary mesenchyme cells by means of specific receptors
+expressed by the secondary mesenchyme.
+DISCUSSION
+
+The results of Northern blot experiments demonstrate that the End016 gene is a member of the class of
+
+Sea Urchin Lineage-Speci$c Protein
+
+269
+
+so-called “embryonic late genes” (Davidson, 1986) defined as not being significantly expressed in oocytes but
+activated during early development. It is estimated that
+not more than 10% of all sequences utilized during
+early sea urchin development fall into this class (Flytzanis et ah, 1982). This pattern of expression is characteristic of spatially regulated genes (Davidson, 1986;
+Sargent et al, 1986) and in situ hybridization results
+confirm that End016 is expressed in a spatially regulated manner. Moreover, the gene is first transcribed in
+a group of endodermal and secondary mesenchymal
+precursor cells and transcription becomes progressively
+restricted to a subset of endoderm cells as development
+proceeds. Within the limits of resolution of our technique, we do not observe any differential expression of
+End016 among vegetal plate cells at early stages; however, we cannot completely rule out this possibility. Interestingly, the transcript has not been detected in any
+adult tissues examined, indicating that the function of
+the End016 gene product may be specific to embryogenesis.
+Several endoderm-specific markers have been identified previously by M&lay and colleagues using monoclonal antibodies generated against the insoluble fraction of sea urchin plutei and indirect immunofluorescence. Some of these antigens, for example, those
+recognized by McAbAAla3 and McAbLLEif7 (McClay
+and Wessel, 1984), are first detected in all regions of the
+egg and early embryo and only become localized to the
+endoderm later in development. Others, such as those
+recognized by McAb7B3, McAb4BlO (M&lay and Ettensohn, 1987), and the antigens designated Meso 2 and
+Endo 1 (Wessel and M&lay, 1985), are already localized
+to the vegetal plate or endoderm when first detected at
+mesenchyme blastula or very early gastrula stages. A
+recently isolated endoderm-specific cDNA clone, designated Lv1.4 (G. Wessel, personal communication), is
+first detected in early gastrula stage embryos and is
+present only in the mid- and hindgut regions of the
+embryo at all stages of development. The pattern of
+End016 expression that we have observed is unique
+among endoderm-specific molecules; nevertheless it
+does share a feature common to the majority of endodermal markers described to date. With the exceptions
+of Endo 1 and Lv1.4, expression of endoderm-specific
+markers becomes progressively restricted to a subset of
+vegetal plate derivatives as the archenteron differentiates into a tripartite gut and secondary mesenchyme.
+The portion of the End016 gene product encoded by
+the 794-bp cDNA displays several unique structural
+features which may provide clues to the biological
+function of the molecule. Overall, this region of the
+predicted End016 protein contains a very high density
+of negatively charged amino acids, with aspartate and
+
+270
+
+DEVELOPMENTAL
+BIOLOGY
+
+VOLUME136,1989
+A
+
+1
+
+23456
+
+B
+
+1
+
+234
+
+C
+
+12
+
+200116976643432929-
+
+FIG. 5. Production of anti-End016 polyclonal antiserum. (A) Induction of the TrpE-End016 fusion protein. Whole cell lysates of JMlOl
+cells harboring no plasmid (lanes 1 and 2), parental pATH1 plasmid
+(lanes 3 and 4), or the fusion construct (lanes 5 and 6) were prepared.
+Cultures were induced (lanes 2,4, and 6) by simultaneous tryptophan
+starvation and exposure to indoleacrylic acid. Extracts were electrophoresed on 15% SDS-PAGE gels and stained with Coomassie brilliant blue. Molecular weight marker positions are indicated in kilodaltons on the left. Induction of cells harboring the fusion construct
+results in production of the expected 60-kDa fusion protein (arrow).
+This protein was subsequently purified and used in the production of
+a polyclonal antiserum (see Materials and Methods). (B) Specificity of
+the polyclonal antiserum. Samples were electrophoresed on 15%
+SDS-PAGE gels, electroblotted to nitrocellulose membranes and
+reacted with preimmune (lane 1) or immune (lanes 2-4) sera, as described under Materials and Methods. Molecular weight markers are
+indicated on the left. Lanes 1 and 2,0.4 pg purified Trp-End016 fusion
+protein. Lane 3, whole cell extract prepared from E. coli JMlOl strain
+harboring pUR288 P-gal expression plasmid. Lane 4, whole cell extract from JMlOl harboring P-gal-End016 expression plasmid. The
+anti-End016 serum reacts strongly with both the Trp-End016 and the
+&gal-End016 fusion proteins. (C) Detection of the End016 protein in
+sea urchin embryonic lysates. Whole cell extracts were prepared from
+gastrula stage embryos, electrophoresed on 10% SDS-PAGE gels,
+electroblotted to nitrocellulose, and reacted with the anti-End016
+serum. Alkaline phosphatase-conjugated goat anti-rabbit secondary
+antibody was used to visualize the reaction. Lane 1, preimmune
+serum. Lane 2, anti-End016 serum. A small set of high molecular
+weight, cross-reacting proteins (180-300 kDa) are detected with the
+anti-End016 serum.
+
+glutamate accounting for more than 30% of the amino
+acid residues. In addition, this domain of the molecule is
+rich in glycine and proline residues, suggesting a flexible, extended structure. This highly charged, flexible
+segment could be involved in calcium binding, much like
+-
+
+FIG. 4. Localization of End016 transcripts by in situ hybridization.
+Corresponding bright-field (A, C, E, G, I) and dark-field (B, D, F, H, J)
+photographs of hybridizations with single-stranded, radiolabeled
+
+sense (A, B) or anti-sense (C-J) End016 probes are shown. (A, B)
+Gastrula stage control. A low level of background hybridization signal is evenly distributed over the tissue section. (C, D) Mesenchyme
+blastula. Hybridization signal is detected over the vegetal plate region (v) of the embryo. No signal is present over primary mesenchyme
+cells (arrows) or ectoderm (e). (E, F) Gastrula stage. Hybridization
+signal is present over the entire archenteron at this stage. (G, H)
+Prism stage. Hybridization signal is restricted to the posterior twothirds of the archenteron (mid- and hindgut) at this stage. Secondary
+mesenchyme cells (arrows) are not labeled. (I, J) Pluteus larva stage.
+Hybridization signal is limited to the stomach (midgut). Bar equals
+50 pm.
+
+NOCENTE-MCGRATH,
+
+BRENNER, AND ERNST
+
+Sea Urchin
+
+Lineage-Speci&
+
+Protein
+
+271
+
+FIG. 6. Localization
+of the End016 gene product in whole embryos. Whole 36-hr gastrula stage embryos were fixed and reacted with
+preimmune (A) or anti-End016 serum (B) as detailed under Materials and Methods. The reaction was visualized with fluorescein-conjugated
+goat anti-rabbit
+secondary antibody and photographed
+under the fluorescence microscope. No fluorescent staining is observed with the
+preimmune serum. The anti-End016 serum appears to stain the surfaces of archenteron (a) and secondary mesenchyme (arrows) cells at this
+stage. Bar equals 50 pm.
+
+cell-cell contacts and, as such, must involve molecules
+the similarly
+structured
+extracellular
+proteins
+prothrombin and osteocalcim (Wylie and Vanaman, at the surface of archenteron cells. We have shown that
+1988). Alternatively, this region of the End016 protein the End016 molecule is first expressed in the vegetal
+may interact with other matrix components that carry plate cells just prior to the onset of morphogenesis and
+positive charges or may modulate the binding of these that the gene product appears to be localized at the
+surface of archenteron cells. These properties raise the
+molecules to negatively charged ligands in the matrix
+intriguing possibility that End016 may be a cell surface
+such as heparin sulfate proteoglycans. Interestingly,
+this portion of the End016 cDNA also contains a series molecule involved in gastrulation. Clearly, the pattern
+of internal repeats-another
+structural feature com- of expression, localization, and sequence characteristics
+monly involved in physical interactions with other mol- of End016 suggest a possible role in morphogenesis. We
+ecules. This 20-amino acid segment, which occurs as six plan to utilize the anti-End016 serum in future expericlustered repeats, is not related to any known repeated ments designed to test the function of this molecule in
+sequences in other proteins. The predicted amino acid cell adhesion and morphogenesis. Further sequence
+sequence of the End016 cDNA clone also includes the analysis of additional cDNA clones will be necessary to
+determine whether any regions of the End016 protein
+RGD tripeptide which occurs in the cell attachment
+domain of a number of extracellular proteins (reviewed are related to previously described extracellular molein Ruoslahti and Pierschbacher, 1987). The importance cules or whether End016 may represent a novel class of
+of RGD cell attachment domains in both vertebrate and such proteins.
+invertebrate morphogenesis has been revealed by experiments utilizing synthetic RGD-containing peptides
+We thank John McGrath and Bob McIsaac for critical reading of
+the manuscript. We also thank Susan Francis for advice on in situ
+to block cell attachment function by saturating receptors for the sequence (Boucaut et al., 1984; Springer et hybridizations and Dr. George Ellmore for expert guidance on histological and photographic
+techniques. This work was supported by a
+al., 1984; Naidet et al, 1987). Elucidation of the function
+Biomedical Research Support Award and by the Betty Vernon and
+of the RGD sequence in End016 awaits further experi- Charles Taylor Vernon Fund for Biological Research to S.G.E.
+mental analysis. However, the inclusion of this sequence in a protein which appears to be localized to the
+REFERENCES
+cell surface leads us to postulate that it may serve as a
+cell attachment site in the End016 molecule.
+ADELSON, D. L., and HUMPHREYS, T. (1988). Sea urchin morphogenesis
+and cell-hyalin
+adhesion are perturbed by a monoclonal antibody
+It has been recently shown that active cell repacking
+specific for hyalin. Development 104, 391-402.
+is the primary mechanism responsible for the characANGERER, L. M., and ANGERER, R. C. (1981). Detection of poly(A)+
+teristic archenteron elongation in gastrulating sea urRNA in sea urchin eggs and embryos by quantitative
+in situ hybridchin embryos (Ettensohn, 1985; Hardin and Cheng,
+ization. Nucleic Acids Res. 9,2819-2840.
+1986). This repacking requires extensive changes in BOIJCAUT, J., DARRIBERE, T., POOLE, T. J., AOYAMA, H., YAMADA, K.,
+
+272
+
+DEVELOPMENTAL
+BIOLOGY
+
+and THIERY, J. P. (1984). Biologically active peptides as probes of
+embryonic development: A competitive peptide inhibitor of fibronectin function inhibits gastrulation in amphibian embryos and
+neural crest cell migration in avian embryos. J. Cell Biol. 99,
+
+VOLUME 136,1989
+
+LAEMMLI, U. K. (1970). Cleavage of structural proteins during the
+assembly of the head of bacteriophage T4. Nature (London) 227,
+680-685.
+
+LIPMAN, D. J., and PEARSON, R. (1985). Rapid and sensitive protein
+W.
+1822-1830.
+similarity searches. Science 227,1435-1441.
+J.
+BUTLER,E., HARDIN, J., and BENSON,S. (1987). The role of lysyl oxi- MANIATIS, T., FRITSCH,E., and SAMBROOK, (1982). “Molecular Clondase and collagen crosslinking during sea urchin development. Exp.
+ing: A Laboratory Manual.” Cold Spring Harbor Laboratory, Cold
+Cell Res. 173,174-182.
+Spring Harbor, NY.
+CHIRGWIN,J. M., PRZYBYLA,A. E., MACDONALD, R. J., and RUTTER, MCCLAY, D. R., and ETTENSOHN, A. (1987). Cell recognition during
+C.
+W. J. (1979). Isolation of biologically active RNA from sources
+sea urchin gastrulation. In “Genetic Regulation of Development,”
+enriched in ribonucleases. Biochemistry l&5294-5299.
+(William F. Loomis, Ed.), 111-128. A. R. Liss, New York.
+Cox, K. H., DELEON, D. V., and ANGERER,R. C. (1984). Detection of MCCLAY, D. R., and MARCHASE,R. B. (1979). Separation of ectoderm
+mRNAs in sea urchin embryos by in situ hybridization using asymand endoderm from sea urchin pluteus larvae and demonstration of
+metric RNA probes. Dev. Biol. 101,485-502.
+germ layer specific antigens. Dev. Biol. 71,289-296.
+DAVIDSON,E. (1986). “Gene Activity in Early Development.” 3rd ed. MCCLAY, D. R., and WESSEL,G. M. (1984). Spatial and temporal apAcademic Press, Orlando, FL.
+pearance and redistribution of cell surface antigens during sea urDIECKMANN,C. L., and TZAGOLOFF, (1985). Assembly of the mitoA.
+chin development. In “Molecular Biology of Development” (R. Firchondrial membrane system. CBPG, a yeast nuclear gene necessary
+tel and E. Davidson, Eds.), pp. 165-184. A. R. Liss, New York.
+for synthesis of cytochrome b. J. Biol. Chem. 260,1513-1520.
+MCCLAY, D. R., and WESSEL, G. M. (1985). The surface of the sea
+ETTENSOHN,C. A. (1985). Gastrulation in the sea urchin embryo is
+urchin embryo at gastrulation: A molecular mosaic. TIGS 1.12-16.
+accompanied by the rearrangement of invaginating epithelial cells. NAIDET, C., SEMERIVA, M., YAMADA, K., and THIERY, J. P. (1987).
+Dev. Biol. 112,383-390.
+Peptides containing the cell-attachment recognition signal ArgFLYTZANIS,C. N., BRANDHORST, R., BRITTEN, R. J., and DAVIDSON,
+B.
+Gly-Asp prevent gastrulation in Drosophila embryos. Nature (LanE. H. (1982). Developmental patterns of cytoplasmic transcript
+don) 325,348-350.
+prevalence in sea urchin embryos. Dev. Biol. 91,27-37.
+PITTMAN, D., and ERNST, S. G. (1984). Developmental time, cell linGUSTAFSON, and WOLPERT, (1967). Cellular movement and conG.,
+L.
+eage, and environment regulate the newly synthesized proteins in
+tact in sea urchin morphogenesis. Biol. Rev. 42,442-498.
+sea urchin embryos. Dev. Biol. 106,236-242.
+HARDIN, J. D., and CHENG, L. Y. (1986). The mechanisms and me- RUOSLAHTI,E., and PIERSCHBACHER, D. (1987). New perspectives
+M.
+chanics of archenteron elongation during sea urchin gastrulation.
+in cell adhesion: RGD and integrins. Science 238,491-497.
+Dev. Biol. 115,490-501.
+RIJTHER,C., and MULLER-HILL, B. (1983). Easy identification of cDNA
+HARDIN, P. E., ANGERER,L. M., HARDIN, S. H., ANGERER,R. C., and
+clones. EMBO J. 2,1791-1794.
+KLEIN, W. H. (1988). Spec 2 genes of Strongylocentrotus purpuratus.
+SAITTA, B., BUTTICE, G., and GAMBINO,R. (1989). Isolation of a putaStructure and differential expression in embryonic aboral ectotive collagen-like gene from the sea urchin Paracentrotus lividus.
+derm cells. J. Mol. Biol. 202, 417-431.
+Biochem. Biophys. Res. Commun. 158,633-639.
+HEIFEITZ, A., and LENNARZ,W. J. (1979). Biosynthesis of N-glucosidiSARGENT,T. D., JAMRICH, M., and DAWID, I. B. (1986). Cell interactally linked glycoproteins during gastrulation of sea urchin emtions and the control of gene activity during early development of
+bryos. J. Biol. Chem. 254,6119-6127.
+Xenopus laevis. Dev. Biol. 114, 238-246.
+HIGGINS, R. C., and DAHMUS, M. E. (1979). Rapid visualization of SPRINGER,W. R., COOPER,D. N. W., and BARONDES,S. H. (1984).
+protein bands in preparative SDS-polyacrylamide gels. Anal. Bia
+Discoidin 1 is implicated in cell-substratum attachment and orthem. 93,257-260.
+discoideum and resembles
+dered cell migration in Dictyostelium
+HUBBARD,S. C., and IVATT, R. J. (1981). Synthesis and processing of
+fibronectin. Cell 39, 557-564.
+asparagine-linked
+oligosaccharides. Annu. Rev. Biochem. 50, TOWBIN, H., STAEHELIN, T., and GORDON,J. (1979). Electrophoretic
+555-583.
+transfer of proteins from polyacrylamide gels to nitrocellulose
+KARP, G. C., and SOLURSH, (1974). Acid mucopolysaccharide meM.
+sheets: Procedure and some applications. Proc. Natl. Acad. Sci. USA
+tabolism, the cell surface, and primary mesenchyme cell activity in
+76,4350-4354.
+the sea urchin embryo. Dev. Biol. 41,110-123.
+VENKATESAN,M., DEPABLO,F., VOGELI, G., and SIMPSON, T. (1986).
+R.
+KATOW,H., and SOLURSH, (1979). Ultrastructure of blastocoel maM.
+Structure and developmentally regulated expression of a Strongyterial in blastulae and gastrulae of the sea urchin Lytechinus pictus.
+locentrotus purpuratus collagen gene. Proc. Natl. Acad. Sci. USA 83,
+J. Exp. 2001. 210, 561-567.
+
+3351-3355.
+
+KEDES,L. H., COHN,R. H., LOWRY,J. C., CHANG,A. C. Y., and COHEN, WESSEL,G. M., and MCCLAY, D. R. (1985). Sequential expression of
+S. N. (1975). The organization of sea urchin histone genes. Cell 6,
+germ-layer specific molecules in the sea urchin embryo. Dev. Biol.
+359-369.
+
+KELLER, R., and HARDIN, J. (1987). Cell behavior during active cell
+rearrangement: Evidence and speculations. In “Cell Behavior:
+Shape, Adhesion and Motility.” J. Cell Sci., S,(Suppl.).
+KRAMER,J. M., Cox, G. N., and HIRSCH,D. (1982). Comparisons of the
+complete sequences of two collagen genes from Caenorhabditis elegans. Cell 30, 599-606.
+
+111,451-463.
+
+WESSEL,G., and MCCLAY, D. (1987). Gastrulation in the sea urchin
+embryo requires the deposition of crosslinked collagen within the
+extracellular matrix. Dev. Biol. 121,149-165.
+WYLIE, D. C., and VANAMAN, T. C. (1988). Structure and function of
+the calmodulin family of calcium regulatory proteins. In “Calmodulin” (P. Cohen and C. Biklee, Eds.). Elsevier, New York.
+
+

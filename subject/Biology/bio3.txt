@@ -1,0 +1,1848 @@
+Trees (2011) 25:833–845
+DOI 10.1007/s00468-011-0559-5
+
+ORIGINAL PAPER
+
+Modeling the inﬂuence of differential sectoriality
+on the photosynthetic responses of understory saplings
+to patchy light and water availability
+Alexandra M. Thorn • Colin M. Orians
+
+Received: 9 July 2010 / Revised: 3 March 2011 / Accepted: 19 March 2011 / Published online: 11 April 2011
+Ó Springer-Verlag 2011
+
+Abstract Exploitation of patchy light is a key determinant of plant performance in the forest understory. While
+many adaptive traits are known, the role of stem vasculature in understory photosynthesis is not established.
+Sectoriality—the degree of vascular constraint to long
+distance transport—has been hypothesized to limit growth
+in heterogeneous light. We simulated the photosynthetic
+potential of sectored and integrated plants in patchy light,
+as a function of soil water potential (patchy or uniform).
+We used hydraulic parameters typical of temperate woody
+species in an Ohm’s law model including a tangential
+resistance parameter, and simulated cavitation by varying
+axial resistance of leaves, leaves and roots, or the whole
+plant. Our results suggest that differential sectoriality will
+not affect photosynthesis when water is plentiful, but can
+constrain stomatal conductance at more negative soil
+water potentials, especially when only a small portion of
+the crown receives light. This effect is strongest just
+below the turgor loss point, and depends on axial resistance and soil water heterogeneity. Increased resistance in
+high light leaves decreases photosynthesis regardless of
+sectoriality. However, when resistance is increased for
+
+Communicated by M. Zwieniecki.
+
+Electronic supplementary material The online version of this
+article (doi:10.1007/s00468-011-0559-5) contains supplementary
+material, which is available to authorized users.
+A. M. Thorn (&) Á C. M. Orians
+Department of Biology, Tufts University,
+Medford, MA 02155, USA
+e-mail: alexandra.thorn@tufts.edu
+C. M. Orians
+e-mail: colin.orians@tufts.edu
+
+leaves and roots or the whole plant, photosynthesis
+decreases more for sectored than for integrated plants.
+Moreover, the simulations suggest that sectoriality can
+further depress photosynthesis when water availability is
+asymmetrical. These results might explain why integrated
+species, such as Betula lenta, B. alleghaniensis, and Acer
+saccharum thrive in the forest understory and grow rapidly into canopy gaps, while sectored species, such as
+Quercus rubra, do not.
+Keywords Canopy gaps Á Photosynthesis Á Sectoriality Á
+Vascular architecture Á Water availability Á Xylem anatomy
+
+Introduction
+As sessile organisms, plants experience unique challenges
+in resource acquisition, especially in highly patchy environments. Young trees in the forest understory experience
+particular extremes in resource heterogeneity: these plants
+must be able to photosynthesize at baseline light levels
+5–10% of full sunlight, while maintaining the ability to
+efﬁciently exploit infrequent high light patches with
+intensities similar to full sunlight. Plants growing along the
+edges of forest gaps experience similar extremes. Transient
+light patches may strike individual branch for as little as
+seconds to hours at a time, but often represent the majority
+of photosynthetically active radiation that understory plants
+receive in a day (Singsaas et al. 2000; reviewed by Knapp
+1992). In shade-adapted plants, many physiological and
+anatomical leaf traits have been documented to increase
+plant performance when light comes as infrequent patches
+(e.g. Pearcy et al. 1997; Sack et al. 2003), but less is known
+about adaptive responses to light heterogeneity at the
+whole plant level. Speciﬁcally, is the ability to exploit high
+
+123
+
+834
+
+(a)
+
+Trees (2011) 25:833–845
+
+(b)
+
+Fig. 1 Diagram of portions of idealized tree considered in our
+simulation models. In each tree, the leaves exposed to a high light
+patch and the associated vasculature are shown in color. Integrated
+plants possess the ability to use uncolored, as well as colored stem
+tissue to supply water to leaves in high light. Highly sectored plants
+depend primarily on the colored stem tissue for water supply. For
+modeling purposes, we simulate the proportion of leaf area in high
+light relative to the rest of the plant by adjusting the relative resistance
+of stem, leaf, and roots for each of two ‘‘sectors’’, where the two
+sectors correspond to the portion of biomass in each of the two
+possible light environments. We simulate plants where equal portions
+of the leaf biomass are in high versus low light (a), and plants where
+one-tenth as much biomass is in high light relative to low light (b).
+We hypothesize that leaves in smaller light patches will beneﬁt more
+from integration than leaves in light patches shared by a larger portion
+of the crown
+
+light patches dependent upon the unimpeded transport of
+water and nutrients to that part of the crown? It has been
+shown that hydraulic conductivity can constrain photosynthesis in water-limited conditions (e.g. Jones et al.
+2010), but the role of whole plant hydraulics in patchy
+conditions has received less attention. In this context,
+vascular sectoriality—the degree to which long distance
+resource transport is constrained to speciﬁc pathways
+between root and shoots—could pose an important limitation on photosynthetic potential and ultimately on growth
+(sensu Gloser et al. 2008). Indeed, in a principal component
+analysis of 18 temperate woody species, Zanne et al.
+(2006) noted a strong negative correlation between sectoriality and shade tolerance, which the authors hypothesized
+to reﬂect the beneﬁts of low sectoriality under variable
+light conditions. We might also expect that under dry soil
+conditions, the ability to use the entire root system to
+supply water to high light leaves would extend the conditions in which leaves can effectively exploit light patches.
+
+123
+
+Sectoriality is known to vary considerably among
+woody species (Greenidge 1955; Kozlowski and Winget
+1963; Orians et al. 2004, 2005; Ellmore et al. 2006; Gloser
+et al. 2008). Members of the ring porous genus Quercus
+display high sectoriality compared to the members of the
+diffuse porous genus Acer, while Betula species have lower
+sectoriality still (Orians et al. 2004; Ellmore et al. 2006;
+Gloser et al. 2008). ‘‘Double saw cut’’ experiments demonstrate one aspect of the physiological impact of this
+variation. In these experiments, overlapping horizontal saw
+cuts are used to sever xylem vessels at different heights up
+the trunk, forcing any water ﬂow through the trunk to occur
+along indirect pathways (Tyree and Zimmerman 2002).
+Integrated species—those with low sectoriality—are able
+to maintain normal crown functioning with a much smaller
+distance between cuts than can high sectoriality species.
+For instance, Betula occidentalis was shown to maintain
+normal stem conductance with overlapping saw cuts as
+little as 1 cm apart through a *1 cm diameter portion of
+the main axis (Sperry et al. 1993). In contrast, leaves of
+Acer pseudoplatanus saplings quickly wilted when overlapping cuts were less than a critical distance of 2 cm apart
+(Mackay and Weatherly 1973). Even more extreme vascular changes cuts are observed in Quercus rubra, in which
+individual earlywood vessels can range from 1 to 10 m in
+length, resulting in vascular restriction over axial distances
+of many meters from a single saw cut (Tyree and Zimmerman 2002). Thus, saw cut experiments show that
+integrated species can tolerate and recover from greater
+extremes of physical damage than can sectored species, but
+the effect of sectoriality on responses to milder stressors
+such as patchy light and water is not known.
+Here, we present a modeling framework to examine the
+potential role of xylem sectoriality in limiting photosynthesis by understory trees. We simulate plant hydraulics
+using an Ohm’s law analogy circuit, modiﬁed to introduce
+a parameter to describe the stem tangential resistance to
+ﬂow between sectors. Combining this framework with
+published models for photosynthesis, we simulate the
+effects of soil water limitation on photosynthetic potential,
+for patchy light conditions and varied levels of sectoriality.
+This approach contrasts with more detailed xylem network
+models (e.g. Loepfe et al. 2007), in that we vary a single
+sectoriality parameter to capture overall patterns in tangential hydraulic resistance, without delving into anatomical details, such as the degree to which these patterns
+depend on vessel-to-vessel lateral connections and the
+presence of ‘‘cross-grained’’ vessels (Tyree and Zimmerman 2002; Orians et al. 2004; Nadezhdina 2010). Our
+purpose is to establish general expectations for the relationship between sectoriality and photosynthesis, to inform
+future empirical research.
+
+Trees (2011) 25:833–845
+
+835
+
+equations used to model the relationships among water
+status, water potential, transpiration, and photosynthesis.
+We then describe the simulations tested.
+
+Materials and methods
+Model overview
+We model photosynthesis in patchy light conditions by
+combining published models for stomatal conductance,
+carbon assimilation, and transpiration with a novel construct for modeling xylem sectoriality. To simulate sectoriality, we simplify the vasculature of a plant as divided
+into two sets of parallel pathways (‘‘sectors’’), each comprising the xylem vessels directly feeding a portion of the
+crown. These sectors may correspond to two equal halves
+of the plant (Fig. 1a), but can also be used to designate
+asymmetrical portions of the plant, e.g. one sector corresponding to a small portion of the crown receiving direct
+sunlight while the other sector corresponds to shaded
+portions of the crown (Fig. 1b). Leaf water status,
+dynamically determined by the balance of transpiration and
+water supply to the leaves of each sector, is the basis for
+water potential gradients within and between sectors. These
+gradients are simulated using the Ohm’s law analogy for
+plant hydraulics (Fig. 2; Tyree and Ewers 1991). In these
+models, the hydraulic resistance within a sector is inversely
+proportional to the biomass of leaves in that sector, and the
+hydraulic resistance to ﬂow between sectors is manipulated
+as a parameter characterizing xylem sectoriality.
+Parameters for all components of the model are summarized in Table 1 and additional variables are deﬁned in
+Table 2. In the next two subsections, we present the
+
+(a)
+
+(b)
+
+Fig. 2 Circuit model for hydraulic ﬂow at varied levels of sectoriality. We model sectored ﬂow through the plant using the circuit in a,
+where sectoriality increases with the value of the sectoriality
+parameter rt. For each sector (1 or 2), the hydraulic resistances
+(r) and water potential sources (W) are shown for different plant
+components (l leaves, b branches and leaves, a stem axis, r roots, and
+sr soil-root). The stem is axially divided into n repeating segments by
+n ? 1 tangential resistors. Only the bottom and top segments are
+
+Sectoriality model and hydraulic parameters
+To simulate the effects of sectoriality on leaf water supply
+and the resulting effects on photosynthesis, we use the
+Ohm’s law analogy to simulate hydraulic ﬂow through a
+pair of parallel pathways (‘‘sectors’’) running axially
+through a plant. The leaves and roots of each sector are
+independent, but the stem vasculature is interconnected.
+Speciﬁcally, the stem axial pathway is divided into
+n identical segments by the presence of n ? 1 tangential
+resistors which constrain ﬂow between the two sectors
+(Fig. 2). The resistance of each tangential resistor scales
+with a tangential resistance parameter rt and with the
+number of resistors included in the model (Fig. 2a). When
+the value of rt is zero, the plant is considered to be perfectly
+integrated, and the two axial pathways through the stem
+function as a pair of resistors in parallel (Fig. 2b). As the
+parameter rt approaches inﬁnity, the plant approaches
+perfect sectoriality (Fig. 2c). We assume that all hydraulic
+resistances and soil water potentials are constant, while the
+leaf water potentials vary dynamically as a function of leaf
+water content for each sector i. Water content increases
+with the ﬂux (qli) of water into the leaves sector i, and
+decreases with transpiration from those leaves (Eli). We
+simulate photosynthesis over time, using Kirchoff’s
+
+(c)
+
+shown, with the intervening segments indicated by dashed lines. The
+stem axial resistance for each sector i is subdivided into n equal
+resistors each with 1/n of the overall axial resistance, and the sectors
+are connected by n ? 1 resistors each with resistance rt (n ? 1). The
+arrows designate the hydraulic ﬂux (q) into the leaves of each sector.
+When the parameter rt is equal to zero, the model is equivalent to the
+circuit depicted in b. As rt approaches inﬁnity, the circuit approaches
+(c)
+
+123
+
+836
+
+Trees (2011) 25:833–845
+
+Table 1 Standard parameter values used in sectoriality model with citation and/or rationale
+Symbol
+
+Description
+
+Value
+
+Units
+
+Derived from
+
+Plant parameters
+Wli
+
+Dry mass of leaves of sector i (Eq. 2)
+
+Variable
+
+g
+
+N/A
+
+als
+
+Speciﬁc leaf area (Eqs. 5, 7, 8)
+
+0.02
+
+m2 g-1
+
+Estimated from temperate tree
+traits (Sack et al. 2003)
+
+e
+
+Elastic modulus of leaf cell walls (Eq. 2)
+
+5.0
+
+MPa
+
+Typical value for temperate trees
+(Sack et al. 2003)
+
+cdw
+
+Ratio of leaf dry weight to leaf water content at
+Wpli = 0 (Eq. 2)
+
+0.75
+
+g biomass g-1 water
+
+Estimated from temperate tree
+traits (Sack et al. 2003)
+
+Cs
+
+Concentration of osmotically active molecules in
+leaf cytoplasm (Eq. 3)
+
+7.5 9 10-4
+
+mol g-1 biomass
+
+Estimated from temperate tree
+traits (Sack et al. 2003)
+
+gb,C
+
+Boundary layer conductance to CO2 (Eqs. 4, 8, 10)
+
+2763.0
+
+m day-1
+
+Thornley and Johnson (2000)
+
+rCh
+
+Parameter determining how stomatal conductance
+changes with leaf water status (Eq. 4)
+
+0.29
+
+day m-1
+
+Thornley and Johnson (2000)
+
+rC
+
+Carbon ﬁxation constant (Eq. 5)
+
+5.4
+
+g C m-2 day-1
+
+Modiﬁed from Yang and Midmore
+(2005)
+
+s
+
+Relates saturating water vapor to air temperature
+(Eq. 7)
+
+1.01
+
+g m-3 deg K-1
+
+Thornley and Johnson (2000)
+
+u
+
+Solar energy available for evaporation (Eq. 7)
+
+3.456 9 107
+
+MPa g day-1 m-2
+
+Thornley and Johnson (2000)
+
+LH
+
+Latent heat of vaporization of water (Eq. 7)
+
+2450.0
+
+MPa
+
+Thornley and Johnson (2000)
+
+c
+Dqv
+
+Psychrometric parameter (Eq. 7)
+Water vapor deﬁcit of the atmosphere (Eq. 7)
+
+0.495
+7.5
+
+g deg K-1 m-3
+g m-3
+
+Thornley and Johnson (2000)
+Thornley and Johnson (2000)
+
+gb,w
+
+Boundary layer conductance to water (Eqs. 7, 10)
+
+4320.0
+
+m day-1
+
+Thornley and Johnson (2000);
+Eq. 10
+
+rri
+
+Resistance to water uptake by roots of sector i (Fig. 2)
+
+Variable
+
+MPa day g-1 water
+
+See text
+
+rai
+
+Resistance to axial ﬂow through stems of sector i
+(Fig. 2)
+
+Variable
+
+MPa day g-1 water
+
+See text
+
+rbi
+
+Resistance to axial ﬂow through branches and leaves
+of sector i (Fig. 2)
+
+Variable
+
+MPa day g-1 water
+
+See text
+
+8.3144
+
+MPa g deg-1 K-1 mol-1
+
+N/A
+
+Physical constants and environmental parameters
+R
+
+The gas constant (Eq. 3)
+
+T
+
+Temperature (Eq. 3)
+
+293
+
+Deg K
+
+N/A
+
+Ca
+
+Concentration of carbon dioxide in the atmosphere
+(Eq. 4)
+
+0.76
+
+g m-3
+
+Calculated for standard conditions,
+assuming 385 ppm CO2 in the
+atmosphere
+
+Li
+
+Relative measure of photon ﬂux density striking
+leaves of sector i (Eq. 5)
+
+Variable
+
+Unitless
+
+Yang and Midmore (2005)
+
+Wsri
+
+Soil-root water potential associated with sector i
+(Fig. 2)
+
+Variable
+
+MPa
+
+N/A
+
+voltage laws to calculate the ﬂux of water into the leaves of
+each sector i (qli).
+In both models, the ﬂow of water vertically in each
+sector of the plant is constrained by the hydraulic resistances to ﬂow through leaves and branches (rb), along the
+main stem axis (ra), and through the roots (rr). In general,
+rb is assumed to be 25% of the whole plant resistance, with
+the assumption that leaves present the primary resistance in
+the branches (Sack et al. 2003), and rr is assumed to be
+60% of whole plant resistance while the ra is the remaining
+15% (based on data from Nardini and Salleo 2000). Water
+ﬂow within and between sectors is driven by two sources of
+water potential in each sector i: the leaf water potential
+
+123
+
+(Wli)—calculated from the leaf water content (Eqs. 1–3),
+and the water potential difference between the soil and
+roots (Wsri)—a parameter representing the additive effects
+the soil matric potential and the difference in osmotic
+potential between the soil and the root xylem. The leaf
+water potential for sector i (Wli) is calculated as the sum of
+the osmotic (Woli) and pressure potentials (Wpli) of mesophyll tissue, with the assumption that gravitational potential will not signiﬁcantly affect ﬂow:
+Wli ¼ Wpli þ Woli :
+
+ð1Þ
+
+Models for pressure and osmotic potentials are adapted
+from Thornley and Johnson’s (2000) models for plant
+
+Trees (2011) 25:833–845
+
+837
+
+Table 2 Symbols and units for dynamic variables
+Symbol Description
+
+Units
+
+including vapor pressure deﬁcits and other environmental
+parameters (e.g. Collatz et al. 1991) are beyond the scope
+of this paper, but would be expected to yield qualitatively
+similar results.
+We assume that stomatal pores adjust in size to meet the
+carbon demands of photosynthesis, but that their maximum
+size is constrained by leaf water status. We model stomatal
+conductance to carbon dioxide (gCi) per leaf area in sector i
+as the minimum two possible models: a model based on
+potential carbon ﬁxation rates (UCpi) and a model based on
+leaf relative water content (hwli) (both adapted from
+Thornley and Johnson 2000):
+
+qli
+
+Hydraulic ﬂux into leaves of sector i
+(Fig. 1)
+
+g water day-1
+
+Wli
+
+Water potential of the leaves of sector i
+(Eq. 1)
+
+MPa
+
+Wpli
+
+Pressure component of water potential
+of leaves of sector i (Eq. 2)
+
+MPa
+
+Woli
+
+Osmotic component of water potential
+of leaves of sector i (Eq. 3)
+
+MPa
+
+Wwli
+
+Mass of water in leaves of sector i
+(Eqs. 2, 3, 11)
+
+g
+
+gsi,c
+
+Stomatal conductance to carbon
+dioxide (Eq. 4)
+
+m day-1
+
+gsi;C ¼ min ð1=½Ca =UCpi À 1=gb;C ; 1=½rCh ð1 À hwli ÞÞ;
+
+UCpi
+
+Potential carbon ﬁxation for leaves
+of sector i (Eq. 5)
+
+g carbon day-1
+
+hwli
+
+Relative leaf water content for leaves
+Unitless
+of sector i as mass fraction of saturating
+leaf water content (Eq. 6)
+
+Eti
+
+Transpiration from leaves of sector i
+(Eq. 7)
+
+where Ca,C is the CO2 concentration in the atmosphere, gb,C
+the boundary layer conductance to CO2, and rCh is a
+measure of how the stomatal resistance changes as the
+stomatal pores close. UCpi per unit leaf biomass is assumed
+for simplicity to increase linearly with leaf speciﬁc area
+(als), Wli, and relative light intensity on leaves (Li):
+
+UCi
+
+Actual carbon ﬁxation rate by leaves of
+g C day-1
+sector i, incorporating leaf water content
+into stomatal conductance (Eq. 8)
+
+g H2O day
+
+UCpi ¼ als Â Wli Â Li Â rC ;
+
+water potential as a function of whole plant water status.
+Leaf pressure potentials are always positive and are
+calculated by a linear function of leaf water content (Wwli):
+Wpli ¼ max ð0; e Â ðcdw Wwli =Wli À 1ÞÞ;
+
+ð2Þ
+
+ð4Þ
+
+ð5Þ
+
+where rC is the carbon ﬁxation constant.
+The relative water content of the leaves of sector i (hwli)
+is deﬁned as the ratio of water content of those leaves
+(Wwli) to the leaf water content at full turgor (Wwli; W=0):
+hwli ¼ ðWwli Þ=Wwli; W¼0 :
+
+ð6Þ
+
+where Wli is the dry weights of leaves in sector i, e is the
+elastic modulus of leaf cell walls, and cdw is the ratio of
+leaf dry weight to leaf water content at Wpli = 0. Osmotic
+potentials are a non-linear function of leaf water content:
+
+Note that Wwli; W=0 is computed by setting Wli to 0 and
+solving Eqs. 1–3 for Wwli as described in Thornley and
+Johnson (2000).
+Stomatal conductance (determined in Eq. 4) is used to
+compute the transpiration rate (Eti):
+
+Woli ¼ ÀRTCs Wli =Wwli ;
+
+Eti ¼ als Â Wli Â ðsu þ LH cgb;w Dqv Þ=
+
+ð3Þ
+
+where R is the gas constant, T is the absolute temperature, and
+Cs is the concentration of osmotically active molecules in the
+cytoplasm leaf cells expressed in moles per unit dry weight.
+Transpiration, photosynthesis, and leaf water status
+Photosynthetic responses to light patches depend on stomatal conductance, which, in turn, depends on a variety of
+internal and external factors, including leaf water status.
+Following models presented by Thornley and Johnson
+(2000), we model stomatal conductance as a function of
+light conditions and water status, photosynthesis and transpiration as a function of stomatal conductance, and
+dynamically model leaf water status as determined by
+transpiration and leaf ﬂux. Since our interest is in vascular
+architecture, and not the detailed dynamics of stomatal
+physiology, we chose to model stomatal closure as a simple
+function of leaf hydration. More detailed stomatal models
+
+½LH ðs þ cð1 þ gb;w =gsi;w ÞÞ;
+
+ð7Þ
+
+where s is a parameter relating the saturating water vapor
+content of the air to temperature, u the solar energy
+available for evaporation, LH the latent heat of vaporization
+of water, c a psychrometric parameter, Dqv the water vapor
+deﬁcit of the atmosphere, gb,w the boundary layer conductance to water vapor, and gsi,w is the stomatal conductance to water of the leaves of sector i.
+Similarly, since we assume that stomatal conductance
+either adjusts to maximize photosynthesis or—when water
+is limiting—constrains photosynthesis, stomatal conductance can be used to calculate the carbon assimilation rate
+(UCi) (Thornley and Johnson 2000):
+UCi ¼ als Â Wli Â Ca =ðgsi;C þ gb;C Þ:
+
+ð8Þ
+
+It should be noted that for the purposes of the model, the
+stomatal and boundary conductance to water vapor is
+assumed to relate to the stomatal conductance of CO2 by
+
+123
+
+838
+
+Water movement (mg s^(−1) m(−2))
+
+(a) 3.5
+3.0
+2.5
+2.0
+1.5
+
+T anspiration
+r
+
+Leaf flux
+
+complete integration
+r_t/r_a = 1.0
+r_t/r_a = 10.0
+r_t/r_a = 100.0
+complete sectoriality
+
+1.0
+0.5
+
+complete integration
+r_t/r_a = 1.0
+r_t/r_a = 10.0
+r_t/r_a = 100.0
+complete sectoriality
+
+0.0
+0
+
+1000
+
+2000
+
+3000
+
+4000
+
+5000
+
+6000
+
+7000
+
+(b) 0.80
+complete integration
+r_t/r_a = 1.0
+r_t/r_a = 10.0
+r_t/r_a = 100.0
+complete sectoriality
+
+0.75
+
+Relative leaf water
+
+Fig. 3 Simulated changes in
+transpiration, leaf ﬂux, relative
+leaf water, and photosynthesis
+rates in response to a light patch
+illuminating half of the crown.
+Dynamic changes in
+a transpiration and leaf ﬂux,
+b relative leaf water, and
+c photosynthesis are shown for
+plants with different tangential
+resistance parameters (indicated
+by the ratio of tangential to axial
+resistance). Transpiration is
+shown in black lines, and leaf
+ﬂux in gray lines. The simulated
+plant is exposed to uniform low
+light until time = 720 s, when
+the focal portion of the crown
+receives high light. Soil water
+potential is assumed to be
+uniformly -1.5 MPa, just
+slightly more negative than the
+point at which water begins to
+limit photosynthesis in high
+light. Whole plant axial
+resistance is
+4.0 MPa day g-1 m-2
+
+Trees (2011) 25:833–845
+
+0.70
+
+0.65
+
+0.60
+0
+
+1000
+
+2000
+
+3000
+
+4000
+
+5000
+
+6000
+
+7000
+
+Photosynthesis rate (umol/s/m^2)
+
+(c)
+8
+
+6
+
+4
+
+complete integration
+r_t/r_a = 1.0
+r_t/r_a = 10.0
+r_t/r_a = 100.0
+complete sectoriality
+
+2
+
+0
+0
+
+1000
+
+2000
+
+3000
+
+4000
+
+5000
+
+6000
+
+7000
+
+time (s)
+
+the ratio of the molecular masses for the two molecules
+(Thornley and Johnson 2000):
+gsi;w ¼ gsi;C ðlC =lw Þ1=2 ;
+
+ð9Þ
+
+gb;w ¼ gb;C ðlC =lw Þ1=2 ;
+
+ð10Þ
+
+123
+
+where lC and lw are, respectively, the molecular masses of
+CO2 and of water.
+Finally, for each sector, Wwli varies dynamically, with
+rate of change expressed as:
+dWwli =dt ¼ qli À Eti :
+
+ð11Þ
+
+Trees (2011) 25:833–845
+
+Photosynthesis rate (umol/s/m^2)
+
+(a)
+
+839
+
+(b)
+
+Unif soil water; Sym biomass
+10
+
+8
+
+8
+
+6
+
+Unif soil water; Biomass asym 1:10
+
+10
+
+6
+
+4
+
+2
+
+0
+−2.0
+
+4
+
+complete integration
+r_t/r_a = 1.0
+r_t/r_a = 10.0
+r_t/r_a = 100.0
+complete sectoriality
+
+−1.8
+
+−1.6
+
+−1.4
+
+−1.2
+
+−1.0
+
+complete integration
+r_t/r_a = 1.0
+r_t/r_a = 10.0
+r_t/r_a = 100.0
+complete sectoriality
+
+2
+
+−0.8
+
+0
+−2.0
+
+Soil water potential (MPa)
+
+Photosynthesis rate (umol/s/m^2)
+
+(a)
+
+−1.4
+
+−1.2
+
+−1.0
+
+−0.8
+
+biomass of the sector receiving high light) receives low light. Soil
+water potential is maintained uniformly at the levels shown on the xaxis. Whole plant hydraulic resistance is assumed to be
+4.0 MPa day g-1 m-2
+
+(b)
+
+Resist=2x; Symmetrical biomass
+10
+
+8
+
+8
+
+6
+
+6
+
+4
+
+4
+
+2
+
+Resist=2x; Biomass asymmetry 1:10
+
+10
+
+2
+
+0
+
+0
+−2.0
+
+(c)
+Photosynthesis rate (umol/s/m^2)
+
+−1.6
+
+Soil water potential (MPa)
+
+Fig. 4 Simulated photosynthesis in leaves of high light branches, as a
+function of uniform soil water potential, at different levels of
+sectoriality. Steady-state photosynthesis rates are shown on a per area
+basis when a half of the plant is simulated to be in high light, and
+b one branch is in high light while the rest of the plant (ten times the
+Fig. 5 Simulated
+photosynthesis in leaves of high
+light sector, as a function of
+uniform soil water potential for
+uniformly elevated leaf and root
+resistance. Steady-state
+photosynthesis rates are shown
+on a per area basis for plants
+with different sectoriality levels
+and with leaf and root
+resistances elevated to either 2
+times (a, b) or 10 times (c,
+d) their default resistances of
+1.0 MPa day g-1 m-2 for
+leaves and
+2.2 MPa day g-1 m-2 for roots.
+For each resistance, output is
+shown where half of the crown
+is in high light and the rest of
+crown is in low light (a, c) and
+where a small portion of the
+crown is in high light, while the
+rest of the crown (ten times the
+leaf biomass) is in low light (b,
+d). Simulated sectoriality is
+indicated by the ratio of
+tangential to axial resistance.
+Soil water potential is assumed
+to be uniform
+
+−1.8
+
+−1.8
+
+−1.6
+
+−1.4
+
+−1.2
+
+−1.0
+
+−0.8
+
+−2.0
+
+(d)
+
+Resist=10x; Symmetrical biomass
+10
+
+−1.0
+
+−0.8
+
+Resist=10x; Biomass asymmetry 1:10
+
+4
+
+2
+
+−1.2
+
+6
+
+4
+
+−1.4
+
+8
+
+6
+
+−1.6
+
+10
+
+8
+
+−1.8
+
+2
+
+0
+
+complete integration
+r_t/r_a = 1.0
+r_t/r_a = 10.0
+r_t/r_a = 100.0
+complete sectoriality
+
+0
+−2.0
+
+−1.8
+
+−1.6
+
+−1.4
+
+−1.2
+
+−1.0
+
+Soil water potential (MPa)
+
+Simulations
+To assess the importance of sectoriality as a constraint to
+photosynthesis, we consider patchy light scenarios, and the
+photosynthetic potential of the leaves exposed to high light
+
+−0.8
+
+−2.0
+
+−1.8
+
+−1.6
+
+−1.4
+
+−1.2
+
+−1.0
+
+−0.8
+
+Soil water potential (MPa)
+
+conditions. For integrated plants we simulate the photosynthetic potential of high light leaves when half of the tree
+is exposed to high light (i.e. with the two sectors of equal
+size and resistance), and when just a small portion of the
+crown is in high light. In the latter scenario, we treat the
+
+123
+
+840
+
+Photosynthesis rate (umol/s/m^2)
+
+(a)
+10
+
++0.1MPa Opposite; Biomass asymmetry 1:10
+
+10
+
+8
+
+6
+
+6
+
+4
+
+4
+
+2
+
+2
+
+0
+−2.0
+
+10
+
+−1.8
+
+−1.6
+
+−1.4
+
+−1.2
+
+−1.0
+
+−0.8
+
+0
+−2.0
+
+(d)
+
++0.5MPa Opposite; Symmetrical biomass
+
+−1.8
+
+−1.6
+
+−1.4
+
+−1.2
+
+−1.0
+
+−0.8
+
++0.5MPa Opposite; Biomass asymmetry 1:10
+
+10
+
+8
+
+8
+
+6
+
+6
+
+4
+
+4
+
+2
+
+2
+
+0
+−2.0
+
+complete integration
+r_t/r_a = 1.0
+r_t/r_a = 10.0
+r_t/r_a = 100.0
+complete sectoriality
+
+0
+−1.8
+
+−1.6
+
+−1.4
+
+−1.2
+
+−1.0
+
+Soil water potential (MPa)
+
+high light leaves and associated vasculature as one sector,
+and the remainder of the plant as a second sector, with ten
+times as much leaf biomass and one tenth of the hydraulic
+resistance for branches, stems, and roots (Fig. 1). Light
+patches (high light conditions; Ls = 1.0) represent ten
+times the light intensity of the baseline low light conditions
+(Ls = 0.1). We ﬁrst examine changes that occur immediately following an increase in light availability, and then
+focus on the simulated effects of sectoriality on steadystate photosynthesis that occurs after 1 h of patchy light at
+a range of soil water potentials. To examine the potential
+consequence of increased resistance due to droughtinduced embolisms, we simulated three different embolism
+scenarios, where in each case embolism in a tissue was
+simulated as increased resistance in that tissue (either 29
+or 109 the default resistance). The scenarios were (1)
+increased resistance in only the leaves in the high light
+branch, (2) increased resistance in all leaves, as well as in
+the roots, and (3) increased resistance axial resistance
+throughout the entire plant. Finally, we simulated the
+effects of non-uniform water supply, with soil water
+potential 0.1 or 0.5 MPa more positive for the shaded
+portion of the plant than for the high light sector.
+
+123
+
+(b)
+
++0.1MPa Opposite; Symmetrical biomass
+
+8
+
+(c)
+Photosynthesis rate (umol/s/m^2)
+
+Fig. 6 Simulated
+photosynthesis in leaves of high
+light sector as a function of soil
+water potential for the high light
+sector when water potential is
+more positive on the opposite
+side of the plant. Outputs are
+shown a, b for simulations
+where the opposite sector water
+potential is 0.1 MPa higher than
+the high light sector, and c,
+d where soil water potential for
+the opposite side is 0.5 MPa
+higher than for the high light
+sector. Graphs on the left (a,
+c) represent plants where half of
+the crown is high light, while
+graphs on the right (b,
+d) represent plants with one
+branch is in high light while the
+rest of the plant (ten times the
+biomass of the high light sector)
+receives low light. The whole
+plant hydraulic resistance is
+assumed to be
+4.0 MPa day g-1 m-2
+
+Trees (2011) 25:833–845
+
+−0.8
+
+−2.0
+
+−1.8
+
+−1.6
+
+−1.4
+
+−1.2
+
+−1.0
+
+−0.8
+
+Soil water potential (MPa)
+
+Results
+According to our model, when leaves are ﬁrst exposed to a
+light patch, transpiration (Fig. 3a) and photosynthesis
+(Fig. 3c) are unaffected by sectoriality, but when soil water
+potential is low transpiration outpaces hydraulic ﬂux into
+leaves and leaf water content is drawn down (Fig. 3b)
+resulting in lower rates of photosynthesis (Fig. 3c). This
+effect is stronger for sectored than for integrated plants. As
+leaf water content goes down, leaf water potential becomes
+more negative, and ﬂux into the leaf increases, while
+transpiration decreases (Fig. 3a), until (after approximately
+3600 s = 1 h) a steady state is reached with lower leaf
+water content and photosynthesis for sectored than integrated plants (Fig. 3b, c).
+At more positive soil water potentials, water never limits
+photosynthesis, and so no sectoriality effects are observed,
+while at strongly negative water potentials, water constrains photosynthesis for integrated as well as sectored
+plants (Fig. 4). When half of the crown experiences high
+light, the strongest beneﬁt of integration—with a theoretical maximum photosynthesis 5% higher for integrated than
+sectored plants—are observed just as leaves are beginning
+
+Trees (2011) 25:833–845
+
+to lose turgor (-1.5 MPa at a whole plant hydraulic
+resistance of 4.0 MPa day g-1 m-2; Fig. 4a). The potential effect is stronger when only a small portion of the
+crown experiences high light—photosynthesis 6% higher
+for perfectly integrated plants (Fig. 4b).
+When resistance is elevated only for the leaves on the
+high light portion of the plant, sectoriality effects decreased
+for large light patches, and slightly increased for small light
+patches (see supplemental material in Online Resource Fig.
+S1). However, when resistance is elevated for the leaves
+and roots of the entire plant, sectoriality becomes a much
+more important constraint (Fig. 5). When leaf and root
+hydraulic resistance is increased by a factor of two and half
+of the crown receives high light, the effect of sectoriality is
+only slightly different from the baseline resistance
+(Fig. 5a), but when only a small portion of the crown is
+illuminated, the potential photosynthetic beneﬁt of integration increases to about 20% at -1.5 MPa (Fig. 5b).
+When leaf and root resistance increased by a factor of ten,
+the photosynthetic rate for integrated plants is just over
+20% higher than for sectored plants at -0.95 MPa when
+half the crown is in high light (Fig. 5c) and this difference
+increases to 50% at -1.2 MPa when only a fraction of the
+crown is illuminated (Fig. 5d). Similar outputs, but with
+greater sectoriality effects, are observed when the resistance of the main axis is increased as well (see supplemental material in Online Resource Fig. S2).
+Even at baseline levels of whole plant axial resistance,
+the effects of sectoriality increase dramatically when soil
+water is assumed to be non-uniform (Fig. 6). If the roots
+directly feeding the shaded portion of the crown experience
+water potentials 0.1 MPa more positive than the roots
+directly connected to the high light portion of the crown
+(which would occur when higher transpiration rates in the
+high light patch reduces water availability in that sector of
+the plant), the potential beneﬁt of integration is 10% when
+half the crown is in high light (-1.6 MPa for the high light
+sector; Fig. 6a) and 19% when the high light sector represents one tenth the leaf area of the low light sector
+(-1.6 MPa for the high light sector; Fig. 6b). With a more
+extreme gradient of 0.5 MPa between the roots of high and
+low light sectors, the potential beneﬁt is greater still: 30%
+when half the crown is in high light (-1.8 MPa for the high
+light sector; Fig. 6c) and 56% when the high light sector
+represents one tenth the biomass of the low light sector
+(-2.0 MPa; Fig. 6d).
+
+Discussion
+Our model output supports the hypothesis that xylem sectoriality could constrain photosynthesis in patchy light
+conditions, but suggests that under uniform water supply
+
+841
+
+these effects would be slight—at least for temperate trees
+with no loss of stem conductance (Fig. 4). Under these
+conditions, the inﬂuence of sectoriality was somewhat
+stronger when a small portion of the crown is illuminated
+(Fig. 4b) than when half of the crown is in high light
+(Fig. 4a). Thus, the effects of sectoriality on photosynthesis
+are expected to be strongest when only a small portion of
+the crown is illuminated at any time, supporting the idea
+that integration is adaptive for trees growing in strongly
+shaded conditions, hypothesized by Zanne et al. (2006).
+The small effect of sectoriality depicted in Fig. 4 results
+from a low overall plant resistance, such that leaf water
+potential closely tracks root potential. As a result, when
+root water potential is uniform, there is never a substantial
+hydraulic gradient between sectors (sensu Zwieniecki et al.
+2003). We selected hydraulic resistance values from the
+literature, but it should be noted that these values for
+hydraulic resistance represent well-hydrated plants (Sack
+et al. 2003; Ellmore et al. 2006). At low water potentials,
+cavitation is common (Hacke et al. 2006). Published vulnerability curves show substantial cavitation in the -1.0 to
+-2.0 MPa range for non-desert species. For example:
+Betula occidentalis shows dramatic percent loss conductance at -1 MPa, reaching 50% loss by -1.5 MPa; Acer
+negundo shows steady loss of conductance at negative
+
+Fig. 7 Log–log plot of area per vessel (A mm2) versus vessel number
+(N vessels per mm2) for shade-tolerant species of different drought
+tolerances. Data for vessel areas and densities are taken from the
+supplemental data for Zanne et al. (2010). Ecological classiﬁcations
+are derived from Niinemets and Valladares (2006), where high
+tolerance is deﬁned as an index [3.5, and low tolerance is deﬁned as
+an index \2.5. Species included are: low drought-tolerance species
+Camellia japonica, Cleyera japonica, Cornus alternifolia, Cornus
+nuttalli, Diospyros virginiana, Fagus sylvatica, Ilex decidua, Nyssa
+ogeche, N. sylvatica, Prunus laurocerasus, and Viburnum dilatatum;
+medium drought tolerance species Aucuba japonica, Carpinus
+betulus, Cornus ﬂorida, Cornus racemosa, Corylus avellana, Eurya
+japonica, Ilex aquifolium, Ilex cassine, Ilex opaca, Illicium anisatum,
+Ligustrum lucidum, and Magnolia grandiﬂora; and high drought
+tolerance species Buxus sempervirens and Sorbus domestica
+
+123
+
+842
+
+pressures, with 50% loss at -2.5 MPa; and Populus tremuloides shows substantial cavitation at -2.0 MP, with
+50% loss by -2.5 MPa (Hacke et al. 2001). Ring porous
+species show steeper vulnerability curves but maintain
+conductivity at much lower water potentials. As an
+example of ring porous species, Q. gambelii experiences a
+50% loss around -0.5 MPa, but has mean cavitation
+pressures around -4.0 MPa, and similar curves were
+observed for other species of Quercus (Hacke et al. 2006).
+Thus, since sectoriality was only found to affect photosynthesis at low soil water potential, it is important to
+consider how sectoriality changes when the axial resistance
+of leaves, roots, and/or the main stem axis is increased.
+Leaves and roots tend to be particularly sensitive to
+embolism. In most trees, the greatest xylem tension—and
+thus greatest embolism risk—is in the leaves; but for a
+given xylem tension, roots are generally most vulnerable to
+embolism (cited in Choat et al. 2007). Our model outputs
+suggest that embolism only in the leaves exposed to high
+light will increase sensitivity to soil drying, but will not
+substantially increase the effects of sectoriality. When a
+large portion of the crown is illuminated, the sectoriality
+effects are (if anything) diminished, while a very slight
+increase in sectoriality effects may occur when a smaller
+portion of the crown is affected (see Online Resource Fig.
+S1). These outputs reﬂect the fact that with the strongest
+resistance in the leaves, the ability to use parallel stem and
+root transport pathways will not dramatically increase
+water supply to the leaves. In contrast, increasing overall
+resistance by a factor of two or more throughout the crown
+and roots (Fig. 5) or in the whole plant (see Online
+Resource Fig. S2) dramatically increases sectoriality
+effects. These increases to whole plant resistance result in a
+greater water potential drop between soil and leaves and a
+stronger gradient between sectors.
+The idea that cavitation could increase the beneﬁts of
+integration is an interesting one for several reasons. First of
+all, it underlines the importance of a variety of biotic and
+abiotic factors in determining the ecological role of sectoriality. Inter-species comparisons in sectoriality have
+generally focused on a single metric, such as anatomical
+traits (Ellmore et al. 2006), dye movement (Kozlowski and
+Winget 1963; Orians et al. 2004), isotope movement
+(Postlethwait and Rogers 1958; Orians et al. 2004, see also
+review by Watson and Casper 1984), or hydraulic resistance to tangential ﬂow (Ellmore et al. 2006; Zanne et al.
+2006; Orians et al. 2005). Our results further suggest that
+the degree of xylem crossover could depend on water
+status, cavitation susceptibility, and inherent axial resistances. In addition, leaf traits also affect the relationship between leaf water status and leaf water potential
+(Sack et al. 2003), and so are expected to inﬂuence the
+formation of hydraulic gradients between sectors. These
+
+123
+
+Trees (2011) 25:833–845
+
+considerations suggest probable differences between the
+‘‘realized sectoriality’’ as observed by the movement of
+water and nutrients through the xylem and the ‘‘intrinsic
+sectoriality’’ as determined by xylem anatomy. This distinction between realized and intrinsic sectoriality is not
+generally emphasized in papers examining the ecological
+signiﬁcance of inter-species differences in sectoriality (e.g.
+Zanne et al. 2006) but has been alluded to certain papers,
+e.g. in the changes in sectoriality of source-sink dynamics
+with ontogeny (Preston 1998). Our output suggests that
+while sectoriality correlates with embolism resistance,
+embolism formation may also result in lower ‘‘realized
+sectoriality’’ in light limited conditions.
+Secondly, there are fascinating questions to be addressed
+regarding the interactions between sectoriality and drought
+tolerance. A common hypothesis to explain the existence of
+high sectoriality species is that sectoriality helps prevent
+the spread of runaway embolism (Orians et al. 2004), and
+this idea is consistent with empirical studies showing a
+correlation between sectoriality and drought tolerance
+(Zanne et al. 2006; Schenk et al. 2008). Variation in sectoriality among desert and chaparral shrubs shows a strong
+positive correlation between drought tolerance and sectoriality (Schenk et al. 2008). Zanne et al. (2006) showed the
+same pattern for temperate trees, but none of the species
+examined in that study were characterized as both drought
+tolerant and shade tolerant. We know of no studies that
+have speciﬁcally examined the relationship between sectoriality and drought tolerance in understory or shade-tolerant species. Nonetheless, indirect support for the
+hypothesis that integration is beneﬁcial in understory species in dry conditions can be gleaned from the literature
+(Zanne et al. 2010). We took species described by Zanne
+et al. (2010) and separated them by shade and drought
+tolerance (classiﬁcations from Niinemets and Valladares
+2006). As predicted, the shade-tolerant species with the
+highest drought tolerance indices showed among the lowest
+vessel areas and higher vessel numbers (Fig. 7). Interestingly, the opposite trend was seen for shade-intolerant
+species (data not shown). For a given vessel area fraction,
+higher vessel number implies higher vessel surface area,
+more opportunities for vessel-to-vessel contact, and
+potentially higher integration (Zanne et al. 2010). Based on
+our model output and these published data, we suggest that
+exploration of sectoriality traits in shade-tolerant species
+from different moisture environments would be a fruitful
+line of future research.
+The above observations depend on the assumption that
+soil water potential is uniform. When water supply is
+patchy—due to heterogeneity of soil conditions, topography, throughfall, or hydraulic activity of either the focal
+plant or its neighbors (Stark 1994)—the simulated effects
+of sectoriality become more pronounced. In these
+
+Trees (2011) 25:833–845
+
+conditions, hydraulic gradients in the soil drive inter-sector
+ﬂow in the plant. When strong gradients in soil water
+correlate with light availability, such as would be expected
+if evapotranspiration under long-term light heterogeneity
+depletes soil water for roots in the high light sector, sectoriality becomes much more costly (Fig. 6). This situation
+may be most frequent when one side of the plant consistently receives high light, such as at a forest edge. Other
+sources of water heterogeneity may or may not correlate
+with light conditions. Hydraulic lift by neighboring trees
+can result in signiﬁcant water potential gradients, which
+could result in more positive water potentials closer to a
+large neighbor, where shade may also be greater. Gradients
+of 1.0 MPa have been documented between 0.5 and 5 m
+distance from the trunk of Acer saccharum, with more
+positive water potentials close to the trunk as a result of
+hydraulic lift (Dawson 1993 cited in Caldwell et al. 1998).
+On the other hand, decreases in soil water due to transpiration from neighboring trees would result in the opposite
+gradient, while rain throughfall is expected to be highest
+under canopy gaps where light is also higher (e.g. Breshears et al. 1997). When the soil water gradient is such that
+water content is higher for roots directly connected to high
+light branches, integration is expected to be costly, since it
+will tend to result in hydraulic redistribution toward the
+low light sector. Thus—depending on site characteristics—
+light heterogeneity may be positively or negatively related
+to water heterogeneity, or there may be no relationship.
+Data light and water heterogeneity at scales relevant to
+individual plants may provide important insights into the
+suitability of a particular site for high- versus low-sectoriality understory plants.
+Implications for species-speciﬁc sectoriality
+In addition to providing general predictions for the qualitative effect of sectoriality on photosynthesis, our model
+also sets up a quantitative framework for comparing sectoriality between different species. Our output suggests that
+photosynthesis is only sensitive to sectoriality when the
+overall tangential resistance is between 1 and 100 times the
+stem axial resistance, with the greatest variation between 1
+and 10 times axial resistance. This result illuminates the
+relationship between previously documented variation in
+interspecies sectoriality and the probable ecological relevance of this sectoriality. For instance, we estimate from
+published data that 1 cm diameter stems of Acer and Betula
+have an rt between 0.2 and 1 times the axial resistance
+(Sperry et al. 1993, data from Ellmore et al. 2006). In
+contrast, excised stem segments of the same diameter for
+Quercus rubra showed tangential resistance 30 times the
+stem axial resistance (Ellmore et al. 2006). This suggests
+that variation in sectoriality among relatively integrated
+
+843
+
+diffuse-porous species (Acer and Betula) would be more
+biologically meaningful than among highly sectored ringporous species (such as Quercus).
+Our model output therefore supports the hypothesis that
+vascular integration helps integrated species such as Betula
+alleghaniensis and Acer saccharum thrive in the forest
+understory and grow rapidly in response to gaps, while
+sectored species such as Quercus rubra do not (Kobe et al.
+1995; cited in Nowacki and Abrams 1997). Furthermore,
+our model output suggests that Betula and Acer saplings
+will continue to display some integration as trunk diameter,
+and therefore tangential resistance, increases. Small differences in sectoriality may have a large effect on the ability of
+these species to exploit patches as they increase in size.
+A. saccharum often spends 20 or more years growing in
+shaded conditions (Canham 1985), and B. alleghaniensis is
+documented to commonly achieve stem diameters of 18 cm
+before gap openings permit rapid increases in growth
+(Webster and Jensen 2007). Therefore, these species may
+experience substantial selection for decreased sectoriality in
+the understory.
+In contrast, our model suggests that 1 cm diameter
+Q. rubra already experience nearly complete sectoriality,
+which would only increase with diameter. A small change
+in the level of connection among parallel vessels would be
+unlikely to change this fact, reducing the likelihood sufﬁcient phenotypic variation for natural selection on the
+sectoriality in Q. rubra and closely related species. Indeed,
+dye injection experiments have shown that in both bur oak
+(Q. macrocarpa Michx.) and white oak (Q. alba L.), the
+width of the streak produced by dye movement through the
+transpiration stream was nearly constant with height
+(Kozlowski and Winget 1963). On the other hand, the same
+study documented a gradually widening dye streak for
+northern pin oak (Q. ellipsoidalis Hill), suggesting some
+hydraulic integration for this species. The high sectoriality
+for oak might be explained by the particular vulnerability
+of ring porous species to freezing-induced embolism
+(Davis et al. 1999) or to the large space between individual
+xylem vessels that is distinct to oaks (Ellmore et al. 2006).
+The relative simplicity of our model provides a useful
+framework for thinking about sectoriality that may be
+extended for a variety of applications. In particular, by
+characterizing sectoriality in terms of the parameters rt and
+ra, our model suggests a new approach for comparing
+sectoriality across species and across size classes. There is
+promising potential for adapting the model to predict species-speciﬁc allometric changes in sectoriality. For
+instance, ra is expected to increase with tree height, and
+with circumferential path traveled (i.e. with diameter), but
+to decrease with sapwood thickness and with sapwood
+cross-sectional area. These general relationships may be
+combined with existing allometric models (e.g. West et al.
+
+123
+
+844
+
+1999) to generate predictions for how sectoriality will
+change with growth. The model might also be used to scale
+the results of hydraulic experiments on stem segments (e.g.
+Zanne et al. 2006; Ellmore et al. 2006) to predict whole
+plant level in order to predict responses to defoliation,
+vascular damage, or light heterogeneity.
+Some limitations may exist in generalizing the model
+across size classes, however, particularly for very large
+trees. In large trees, sectoriality has been shown to depend
+not only on intervessel pitting (Orians et al. 2004; Ellmore
+et al. 2006) but also on ‘‘cross-grained’’ drift of vessels
+with height up the tree (Tyree and Zimmerman 2002; Kitin
+et al. 2004). While intervessel pitting constrains ﬂow
+between sectors in the presence of a hydraulic gradient, as
+is represented by our model, cross-grained drift is expected
+to result in tangential spread of resources independent of
+such a gradient (Nadezhdina 2010). Empirical work will be
+required to determine the applicability of the model in trees
+displaying substantial drift, and it should be noted that the
+frequency of drift in younger trees has not been established.
+It may be that the most realistic approach to modeling
+sectoriality across size classes would combine our Ohm’s
+law approach with xylem network topology models (Steppe
+et al. 2004) or modeling wood as an anisotropic solid
+(Schulte and Costa 2010), such as that presented by Steppe
+et al. (2004).
+
+Conclusions
+The model in this paper presents a novel framework for
+quantifying sectoriality, used here to predict the relationship between xylem sectoriality and photosynthesis for
+trees in the forest understory or along forest/gap edges.
+Simulation outputs suggest that under baseline hydraulic
+and environmental conditions, sectoriality should present
+only a modest constraint to photosynthesis, but that when
+xylem resistance is increased or water supply is non-uniform, this pattern can change dramatically. These predictions may be particularly valuable for understanding
+changes in species composition with climate change,
+especially with changes in precipitation. In moist regions,
+tree species may not previously have experienced selection
+based on vascular restrictions, but as drought becomes
+more frequent this could change. Previous research has
+emphasized the role of sectoriality in preventing the spread
+of embolisms (Schenk et al. 2008), but our results suggest
+that for understory trees experiencing drought, selection
+may be more complicated than previously recognized.
+Our model provides a quantitative means of relating
+hydraulic properties of excised stems to expected whole
+plant functionality in vivo, and may help establish a relationship between the ‘‘realized sectoriality’’ as observed
+
+123
+
+Trees (2011) 25:833–845
+
+through transport patterns and the ‘‘intrinsic sectoriality’’
+as characterized by xylem anatomy. Combined with allometric models for changes in hydraulics with stem diameter, our modeling framework can be used to generate
+speciﬁc biological predictions from hydraulic data. The
+development of allometric models for xylem sectoriality
+would be particularly useful in relating data from different
+types of studies, such as comparing experiments using
+1 cm diameter stems (e.g. Zanne et al. 2006; Orians et al.
+2004) to patterns of resource or dye movement in larger
+trees (e.g. Greenidge 1955; Kozlowski and Winget 1963).
+Our model could also be easily extended to include stem
+water storage, through the inclusion of capacitors in our
+circuit model, to examine the role of transport of stored
+water between sectors in more dynamic responses to
+heterogeneity.
+To our knowledge, the model presented here represents
+the ﬁrst functional model to describe the potential consequences of woody plant sectoriality. Our approach provides
+important insights into short-term hydraulic dynamics in
+response to patchy light. Future modeling efforts should
+examine the theoretical inﬂuence of vessel topology relative to inter-vessel pitting, in order to improve theoretical
+comparisons of sectoriality between species, and should
+include allometric scaling relationships to relate models for
+sectoriality of different sized saplings. In sum, our model
+presents a promising framework for making speciﬁc predictions about plant responses to heterogeneity. With
+adjustments to scale allometrically and to better adapt idiosyncracies of vessel anatomy, this framework can be
+adapted for tight partnership with empirical studies on
+species-speciﬁc responses to environmental heterogeneity.
+Acknowledgments We would like to thank the Tufts University
+Department of Biology for ﬁnancial and logistical support, Dr.
+Lawren Sack for advice on the modeling of leaf hydraulics, Dr. Amy
+Zanne for assistance relating the literature on vessel anatomy to
+sectoriality, and Dr. George Ellmore and Dr. Nathan Phillips for their
+comments on previous drafts.
+
+References
+Breshears DD, Rich PM, Barnes FJ, Campbell K (1997) Overstoryimposed heterogeneity in solar radiation and soil moisture in a
+semiarid woodland. Ecol Appl 7:1201–1215
+Caldwell MM, Dawson TE, Richards JH (1998) Hydraulic lift:
+consequences of water efﬂux from the roots of plants. Oecologia
+113:151–161
+Canham CD (1985) Suppression and release during canopy recruitment in Acer saccharum. Bull Torrey Bot Club 112:134–145
+Choat B, Cobb AR, Jansen S (2007) Structure and function of
+bordered pits: new discoveries and impacts on whole plant
+hydraulic function. New Phytol 177:608–626
+Collatz GJ, Ball JT, Grivet C, Berry JA (1991) Physiological and
+environmental regulation of stomatal conductance, photosynthesis
+
+Trees (2011) 25:833–845
+and transpiration: a model that includes a laminar boundary
+layer. Agric For Meteorol 54:107–136
+Davis SD, Sperry JS, Hacke UG (1999) The relationship between
+xylem conduit diameter and cavitation caused by freezing. Am J
+Bot 86:1367–1372
+Ellmore GS, Zanne AE, Orians CM (2006) Comparative sectoriality
+in temperate hardwoods: hydraulics and xylem anatomy. Bot J
+Linn Soc 150:61–71
+Gloser V, Libera K, Orians CM (2008) Contrasting below- and
+aboveground responses of two deciduous trees to patchy nitrate
+availability. Tree Physiol 28:37–44
+Greenidge KNH (1955) Studies in the physiology of forest trees. III.
+The effect of drastic interruption of conducting tissues on
+moisture movement. Am J Bot 42:582–587
+Hacke UG, Stiller V, Sperry JS, Pittermann J, McCulloh KA (2001)
+Cavitation fatigue: embolism and reﬁlling cycles can weaken the
+cavitation resistance of xylem. Plant Physiol 125:779–786
+Hacke UG, Sperry JS, Wheeler JK, Castro L (2006) Scaling of
+angiosperm xylem structure with safety and efﬁciency. Tree
+Physiol 26:689
+Jones TJ, Luton CD, Santiago LS, Goldstein G (2010) Hydraulic
+constraints on photosynthesis in subtropical evergreen broad leaf
+forest and pine woodland trees of the Florida Everglades. Trees
+Struct Funct 24:471–478
+Kitin PB, Fujii T, Abe H, Funada R (2004) Anatomy of the vessel
+network within and between tree rings of Fraxinus lanuginosa
+(Oleaceae). Am J Bot 91:779–788
+Knapp AK (1992) Leaf gas exchange in Quercus macrocarpa
+(Fagaceae): rapid stomatal responses to variability in sunlight in
+a tree growth form. Am J Bot 79:599–604
+Kobe RK, Pacala SW, Silander JA, Canham CD (1995) Juvenile tree
+survivorship as a component of shade tolerance. Ecol Appl
+5:517–532
+Kozlowski TT, Winget CH (1963) Patterns of water movement in
+forest trees. Bot Gaz 124:301–311
+Loepfe L, Martinez-Vilalta J, Pinol J, Mencuccini M (2007) The
+relevance of xylem network structure for plant hydraulic
+efﬁciency and safety. J Theor Biol 247:788–803
+Mackay JFG, Weatherly PE (1973) The effects of transverse cuts
+through the stems of transpiring woody plants on water transport
+and stress in the leaves. J Exp Bot 24:15–28
+Nadezhdina N (2010) Integration of water transport pathways in a
+maple tree: responses of sap ﬂow to branch severing. Ann For
+Sci 67:107
+Nardini A, Salleo S (2000) Limitation of stomatal conductance by
+hydraulic traits: sensing or preventing xylem cavitation? Trees
+Struct Funct 15:14–24
+¨
+Niinemets U, Valladares F (2006) Tolerance to shade, drought, and
+waterlogging of temperate Northern Hemisphere trees and
+shrubs. Ecol Monographs 76:521–547
+Nowacki GJ, Abrams MD (1997) Radial-growth averaging criteria for
+reconstructing disturbance histories from presettlement-origin
+oaks. Ecol Monographs 67:225–249
+Orians CM, van Vuuren MMI, Harris NL, Babst BA, Ellmore GS
+(2004) Differential sectoriality in long-distance transport in
+temperate tree species: evidence from dye ﬂow, 15N transport,
+and vessel element pitting. Trees Struct Funct 18:501–509
+Orians CM, Smith SDP, Sack L (2005) How are leaves plumbed
+inside a branch? Differences in leaf-to-leaf hydraulic sectoriality
+among six temperate tree species. J Exp Bot 56:2267–2273
+Pearcy RW, Gross LJ, He D (1997) An improved dynamic model of
+photosynthesis for estimation of carbon gain in sunﬂeck light
+regimes. Plant Cell Environ 20:411–424
+
+845
+Postlethwait SN, Rogers B (1958) Tracing the path of the transpiration stream in trees by the use of radioactive isotopes. Am J
+Bot 45:753–757
+Preston KA (1998) The effects of developmental stage and source leaf
+position on integration and sectorial patterns of carbohydrate
+movement in an annual plant, Perilla frutescens (Lamiaceae).
+Am J Bot 85:1695–1703
+Sack L, Cowan PD, Jaikumar N, Holbrook NM (2003) The
+‘hydrology’ of leaves: co-ordination of structure and function
+in temperate woody species. Plant Cell Environ 26:1343–1356
+Schenk HJ, Espino S, Goedhart CM, Nordenstahl M, Cabrera HIM,
+Jones CS (2008) Hydraulic integration and shrub growth form
+linked across continental aridity gradients. Proc Natl Acad Sci
+USA 105:11248–11253
+Schulte PJ, Costa DC (2010) Xylem anisotropy and water transport—
+a model for the doule sawcut experiment. Tree Physiol
+30:901–913
+Singsaas EL, Ort DR, DeLucia EH (2000) Diurnal regulation of
+photosynthesis in understory saplings. New Phytol 145:39–49
+Sperry JS, Alder NN, Eastlack SE (1993) The effect of reduced
+hydraulic conductance on stomatal conductance and xylem
+cavitation. J Exp Bot 44:1075–1082
+Stark JM (1994) Causes of soil nutrient heterogeneity at different
+scales. In: Caldwell MM, Percy RW (eds) Exploitation of
+environmental heterogeneity by plants. Academic Press, San
+Diego, pp 255–284
+Steppe K, Cnudde V, Girard C, Lemeur R, Cnudde JP, Jacobs P
+(2004) Use of X-ray computed microtomography for noninvasive determination of wood anatomical characteristics.
+J Struct Biol 148:11–21
+Thornley JH, Johnson IR (2000) Plant and crop modelling: a
+mathematical approach to plant and crop physiology. Blackburn
+Press Caldwell, New Jersey
+Tyree MT, Ewers FW (1991) Tansley Review No. 34. The hydraulic
+architecture of trees and other woody plants. New Phytol
+119:345–360
+Tyree MT, Zimmerman MH (2002) Xylem structure and the ascent of
+sap. Springer, Berlin
+Watson MA, Casper BB (1984) Morphogenetic constraints on
+patterns of carbon distribution in plants. Annu Rev Ecol
+Systematics 15:233–258
+Webster CR, Jensen NR (2007) A shift in the gap dynamics of Betula
+alleghaniensis in response to single-tree selection. Can J For Res
+37:682–689
+West GB, Brown JH, Enquist BJ (1999) A general model for the
+structure and allometry of plant vascular systems. Nature
+400:664–667
+Yang Z, Midmore DJ (2005) Modelling plant resource allocation and
+growth partitioning in response to environmental heterogeneity.
+Ecol Model 181:59–77
+Zanne AE, Sweeney K, Sharma M, Orians CM (2006) Patterns and
+consequences of differential vascular sectoriality in 18 temperate
+tree and shrub species. Funct Ecol 20:200–206
+Zanne AE, Westoby M, Falster DS, Ackerly DD, Loarie SR, Arnold
+SEJ, Coomes DA (2010) Angiosperm wood structure: Global
+patterns in vessel anatomy and their relation to wood density and
+potential conductivity. Am J Bot 97:207–215
+Zwieniecki MA, Orians CM, Melcher PJ, Holbrook NM (2003) Ionic
+control of the lateral exchange of water between vascular
+bundles in tomato. J Exp Bot 54:1399–1405
+
+123
+
+

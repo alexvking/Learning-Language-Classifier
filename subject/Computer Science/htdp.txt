@@ -1,0 +1,2335 @@
+To appear in Proceedings of the 2014 ACM SIGPLAN International Conference on Functional Programming (ICFP’14)
+
+On Teaching How to Design Programs
+Observations from a Newcomer
+Norman Ramsey
+Department of Computer Science, Tufts University
+nr@cs.tufts.edu
+
+Abstract
+
+The contributions of this paper are
+• To articulate a reﬁned, extended version of the design method
+
+This paper presents a personal, qualitative case study of a ﬁrst
+course using How to Design Programs and its functional teaching
+languages. The paper reconceptualizes the book’s six-step design
+process as an eight-step design process ending in a new “review
+and refactor” step. It recommends speciﬁc approaches to students’
+difﬁculties with function descriptions, function templates, data examples, and other parts of the design process. It connects the process to interactive “world programs.” It recounts signiﬁcant, informative missteps in course design and delivery. Finally, it identiﬁes
+some unsolved teaching problems and some potential solutions.
+
+presented in How to Design Programs, and to develop a view
+of the method, from a newcomer’s perspective, that can help a
+teacher prepare and lead a class (Section 2)
+• To identify, from observation, where students struggle with
+
+the method and what points can be emphasized to help them
+succeed (Section 3)
+• To communicate what it’s like for a functional programmer with
+
+no Scheme experience to work with the languages and tools
+(Section 4)
+
+Categories and Subject Descriptors D.1.1 [Applicative (Functional) Programming]; K.3.2 [Computer and Information Science
+Education]: Computer Science Education
+
+• To identify and learn from one beginner’s mistakes (Section 5)
+• To identify some open problems and sketch potential solutions
+
+(Section 6)
+
+Keywords Introductory programming course; Program by
+Design; How to Design Programs; Racket; Reﬂective practice
+
+1.
+
+I have written the paper for people who wish to use functional
+programming to teach an introductory course. I assume experience
+with typeful functional programming at the level of Haskell, ML, or
+System F. I also assume that you have read something about LISP
+or Scheme (McCarthy 1960; Sussman and Steele 1975; Abelson
+and Sussman 1985), but not that you have actual experience with
+LISP, Scheme, or Racket—although beta readers who do have
+such experience report ﬁnding some value in the paper. I address
+questions like those we ask graduating PhD students: what parts
+were hard, and when I do it again, what I will do differently.
+
+Introduction
+
+This paper is about teaching introductory programming using the
+method called Program by Design, which is explained in the book
+called How to Design Programs (Felleisen et al. 2001). The method
+uses functional-programming principles, and the book uses functional languages derived from Scheme. The method has proven effective in different educational contexts at many levels (Felleisen
+et al. 2004b, 2009; Bieniusa et al. 2008; Bloch 2010; Schanzer,
+Fisler, and Krishnamurthi 2013).
+
+I address these questions using the “humanities” approach to educational research (Burkhardt and Schoenfeld 2003), in which authors reﬂect on their experience. Burkhardt and Schoenfeld write
+that “the test of quality is critical appraisal concerning plausibility,
+internal consistency and ﬁt to prevailing wisdom. The key product
+of this approach is critical commentary.” My reﬂections and commentary are informed by empirical observations in the classroom,
+but the paper is purely reﬂective, with no controlled experiments or
+quantitative measurements. Information bearing on my credibility
+as a reﬂective practitioner appears in Appendix A.
+
+How to Design Programs argues eloquently that everyone should
+learn to program. And the book keeps the promise implied by its title; my students really did learn. But knowing that students learned
+is not enough; a teacher needs to know what “learning to program”
+means. What exactly did my students learn to do? How did they
+learn it? In the jargon of the educator, what were the learning outcomes? While I have come to love lambdas and round parentheses
+and cond expressions, these are not the kinds of learning outcomes
+that teachers need to know about in order to ensure students’ subsequent success in a second course. And although some valuable
+information is available from Bieniusa et al. (2008), from Crestani
+and Sperber (2010), and from Sperber and Crestani (2012), teachers need even more. This paper provides some.
+
+2.
+
+What is Program by Design?
+
+If you teach a course in Program by Design, using How to Design
+Programs, you can expect these outcomes:
+1. Your students will learn a step-by-step design process. The process is presented in six steps, but as explained below, I found it
+helpful to articulate eight steps.
+
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for proﬁt or commercial advantage and that copies bear this notice and the full citation
+on the ﬁrst page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior speciﬁc permission
+and/or a fee. Request permissions from permissions@acm.org.
+ICFP ’14, September 1–6, 2014, Gothenburg, Sweden.
+Copyright is held by the owner/author(s). Publication rights licensed to ACM.
+ACM 978-1-4503-2873-9 /14/09. . . $15.00.
+http://dx.doi.org/10.1145/2628136.2628137Reprinted from ICFP ’14, [Unknown Proceedings], September 1–6, 2014, Gothenburg, Sweden, pp. 1–WA-4.
+
+2. Your students will learn to apply the process to design functions
+that consume increasingly sophisticated forms of data: strings,
+images, numbers and numeric intervals; enumerations; products; general sums (including sums of products); and lists, trees,
+or other sums of products whose deﬁnitions incorporate selfreference or mutual reference. Each form of data engenders a
+specialized instance of the design process: a design recipe.
+1
+
+3. With additional guidance, your students will learn to design
+interactive programs that are composed of many functions.
+
+7. Review & Refactor
+
+Your students can also pick up one or two techniques that don’t
+ﬁt neatly into the model of “process plus data equals recipe.”
+Possibilities include using abstraction to eliminate duplicate or
+near-duplicate code; writing “generative” recursive functions; using higher-order functions on lists; using accumulating parameters;
+reasoning about costs; and programming with mutable state.
+
+6. Tests
+
+4. Function Template
+signature
+guides
+template
+
+Your students can achieve these outcomes using either the complete, ﬁrst edition of How to Design Programs or the incomplete
+second edition. (The choice is discussed in Web Appendix D.)
+With either edition, the key learning outcome is mastery of design
+recipes, and the distinctive aspect of the recipes is the design process.
+2.1
+
+write body
+
+5. Code
+
+demands
+more
+
+2. Function Description
+(Signature/Purpose/Header)
+
+are
+also
+
+guide
+writing
+
+3. Functional Examples
+
+names
+used in
+signature
+
+overlooked
+cases
+
+inputs
+
+1A. Data Description validated 1B. Data Examples
+
+Introduction to the (reﬁned) design process
+
+by
+
+How to Design Programs presents the design process for functions
+in six steps:
+
+Figure 1. The revised, eight-step design process.
+Solid arrows show initial design; squiggly arrows show feedback.
+
+1. Describe the data used by the function
+2. Using a signature, purpose statement, and header, describe
+what the function does1
+
+2.2
+
+Relating Program by Design to functional programming
+
+Program by Design is not just a paper-and-pencil design method;
+it is supported by the DrRacket programming environment and by
+the Racket teaching languages: Beginning Student Language, Intermediate Student Language, and Advanced Student Language.
+The software and the languages are described in detail elsewhere
+(Findler et al. 2002; Felleisen et al. 2004a), but the languages are
+worth summarizing here: Beginning Student Language is a pure,
+eager, ﬁrst-order, dynamically typed, functional language that has
+global deﬁnitions of functions and variables, structure (record) deﬁnitions, LISP’s multiway conditionals, and language constructs for
+expressing unit tests. Intermediate Student Language adds nested
+deﬁnitions and lambda, making functions higher-order and ﬁrstclass.3 Advanced Student Language adds mutation and imperative I/O.
+
+3. Show examples of what the function does
+4. Write a template (deﬁnition with holes) for the function
+5. Fill the template with code, completing the function
+6. Test the function
+But this six-step process supports only some of the skills the book
+teaches. The other skills primarily involve eliminating repetition
+and establishing a single point of truth, e.g., reducing multiple
+function deﬁnitions to a single function deﬁnition by abstracting
+over additional parameters, or eliminating repetitive case analysis
+and recursion by using higher-order functions. At ﬁrst I found these
+skills hard to motivate, but after teaching them I realized they could
+ﬁt into a new, seventh step of the design process:
+
+Is it functional programming? Well, the design method does not use
+equational reasoning or algebraic laws, ideas that some functional
+programmers deem essential (Bird and Wadler 1988). There are
+(at least at ﬁrst) no higher-order functions, and the language is
+not lazy, which rules out the kinds of modularity that may make
+functional programming matter (Hughes 1989). And while testable
+equations are central, equational properties can be tested only if
+you can integrate add-on software that is documented in German
+(Crestani and Sperber 2010).
+
+7. Review and refactor the code
+To call this seventh step “new” is not really fair; ideas that bear
+on reviewing and refactoring appear everywhere in How to Design
+Programs. What I have done is to articulate this step, which had
+been implicit and hidden.
+The steps are presented sequentially, but in practice, they are richly
+interrelated. Early steps support multiple later steps, and later steps
+can trigger revisions in earlier steps. To help students use the design
+process mindfully, I taught them about the relationships shown in
+Figure 1. In the ﬁgure, as in class, I treat data description and data
+examples as separate steps numbered 1A and 1B, making eight
+steps in all. Separating data examples from data description makes
+the examples harder for students to forget, and it helps me bring
+out ways in which the description and development of functions
+parallel the description and exempliﬁcation of data.2
+
+On the other hand, data are immutable. As a result, speciﬁcations of
+functions are simple and equational, and unit tests are simply equations. The Beginning and Intermediate languages are pure, so their
+evaluation can be explained (and debugged) using DrRacket’s algebraic stepper. Function composition is encouraged. Control ﬂow is
+expressed exclusively through a combination of function calls and
+conditionals. In particular, there are no loops; there are only recursive functions and higher-order list functions. And although there
+is no static type checking, your students will nevertheless learn to
+write parametric type deﬁnitions and polymorphic functions.
+
+Students of Program by Design learn all steps of the design process immediately, using simple atomic data. They then learn to
+specialize the process for products, sums, sums of products, selfreferential and mutually referential data (a.k.a. recursive types),
+functions as data, and ﬁnally mutable data.
+
+If your goal is to teach functional programming, this two-paragraph
+summary may tell you if Program by Design will meet your needs.
+Our institutional need, as detailed in Web Appendix C, was to teach
+beginning students how to solve problems using the computer;
+for us, functional programming is a means, not an end.
+
+1 In
+
+the ﬁrst edition, the signature is called a “contract.”
+and Crestani (2012) also expand the design process into eight
+steps: they split function description into two steps (purpose statement
+and signature) and the function template into two steps (“skeleton” and
+template). They do not mention anything like “review and refactor.”
+2 Sperber
+
+3 Intermediate
+
+Student Language actually comes in two ﬂavors: with and
+without lambda. I suggest that you use only the ﬂavor that has lambda.
+
+2
+
+2.3
+
+Understanding and teaching the design method
+
+to teach students to use named types. The “elimination form” for
+a named type is a function call, but what functions should students
+call? It depends on where the name comes from and what manner
+of type it refers to.
+
+This section highlights aspects of Program by Design to which,
+in my ﬁrst time teaching the method, I had to pay extra attention.
+Data deﬁnitions use familiar types As Felleisen et al. (2004a)
+note, the syllabus is driven by data deﬁnitions. Data deﬁnitions
+are informal; a data deﬁnition is a comment that introduces a type
+and gives it a name.4 The types are familiar: there are (immutable)
+base types, and new types can be formed using products, sums, arrows, and universal quantiﬁcation. But types are extra-linguistic:
+although they are required in data deﬁnitions and function signatures, they appear only in comments and are not checked by the
+compiler.
+
+• If a type name refers to a base type (atomic data), then the right
+
+calls are to library functions or to helper functions written by the
+student. The student should look for a function whose signature
+says it consumes a value of the named type.
+• If a type name refers to the data deﬁnition in which it appears,
+
+that deﬁnition is self-referential, and the right call is a naturally
+recursive call to the function being deﬁned.
+• If a type name refers to a data deﬁnition in a group of mutually
+
+referential deﬁnitions, then the design recipe calls for parallel
+development of a group of similar functions, one per data definition. The right call is to the function within the group that
+consumes data of the type referred to.
+
+A product type uses a structure like those found in Common
+Lisp (Steele 1990, Chapter 19). A structure, which is deﬁned with
+define-struct, has named ﬁelds, and it comes with a constructor function for introduction and selector functions for elimination.
+It also comes with a type predicate that can identify a structure
+when it forms part of a sum. A structure deﬁnition alone, however, does not make a product type; that takes a data deﬁnition,
+which refers to the structure deﬁnition and also gives the type and
+meaning of each of the structure’s ﬁelds.
+
+• Finally, if the type name refers to a data deﬁnition written by
+
+the student (or the instructor), then the right calls are to functions written by the student (or possibly the instructor). Again,
+the student should look for a function whose signature says it
+consumes a value of the named type. If no suitable function is
+available, I ask my students to create a work order for a new
+function and to put it on an order list (see the discussion of
+“wish lists” in Section 3.2 below).
+
+A sum type is a matter of programming convention, documented in
+a data deﬁnition. Values automatically participate in sum types
+without explicit injection, so sums have no introduction form.
+The elimination form is the multiway conditional cond. The
+branches of the conditional use predicates that are consistent with
+the data deﬁnition of the sum type; these predicates typically include type predicates, from structure deﬁnitions or from base types.
+
+This analysis suggests when and how to write a helper function and
+when and how to look for a library function.
+Although the book pushed me, implicitly, to teach elimination
+forms, types can guide code in two other ways:
+
+Arrow types and polymorphic types resemble their counterparts
+in Haskell or ML. Arrows are introduced by define or lambda
+and are eliminated by function application. Polymorphism happens
+automatically without any extra notation.
+
+• In any function, you have available the inputs, the ﬁelds of
+
+any structure inputs, and the results of any natural recursions.
+You combine these values to compute the answer you want.
+But how? You could use the method of tables and examples
+described under Step 5 in Section 3.1 below, which relies on
+insight. Or you could use types.
+If you are designing a function f that is obligated to produce a
+result of type τr , you can treat τr as a “goal type,” and you can
+ask if there is a function available, either deﬁned or on your
+order list, that produces a result of that goal type τr . If you ﬁnd
+such a function g of type τa → τr , perhaps you already have
+a value of type τa , or perhaps you repeat the exercise with τa
+as the new goal type. Your goal-directed search produces, as
+candidate expressions, well-typed compositions of functions.
+It helps you by limiting what compositions you consider.
+
+Because the familiar foundations are in place, I found it easy to
+transplant ideas and techniques from Haskell and ML into the
+teaching languages from How to Design Programs. But the ideas
+and techniques have to be expressed a little differently, because the
+teaching languages lack some familiar conveniences: there are no
+anonymous tuple types; there is nothing corresponding to a value
+constructor; there is no case expression; and neither sums nor
+products can be eliminated using pattern matching.
+Types guide code As suggested by Brooks (1975) and by Jackson (1975), the types of input data guide the shape of code. If a
+function f consumes a value of type τ , then f ’s body is typically
+designed around the elimination form(s) for type τ . In How to Design Programs, the body’s design is called a template. The template
+for a sum uses cond; the template for a product uses the selector
+functions of the corresponding structure. (Values selected from a
+product are then “combined” by applying a function to them.)
+
+• Last, and rarely, you could design a function’s template around
+
+the introduction form for the result type.
+When I teach Program by Design again, I will make my students
+aware of this decision point in the construction of a function’s template: should they use elimination forms, function composition, or
+an introduction form? They should use elimination forms usually,
+function composition sometimes, and an introduction form rarely.
+
+Teaching types and code Words like “sum type” and “product
+type” are too mathematical for our beginning students, many of
+whom think they can’t do math. To keep students comfortable
+enough to learn, I use Stephen Bloch’s terminology: a deﬁnition
+of a product type is a deﬁnition by parts, and a deﬁnition of a sum
+type is a deﬁnition by choices. To avoid getting into the distinction
+between deﬁning a name and using a type-formation rule, I also
+abuse terminology and talk about types that are “deﬁned by name,”
+like “image” and “number.”
+
+A data-description pitfall Because a data deﬁnition is informal
+English, it can express invariants and other properties that are
+difﬁcult to express in simple type systems based on System F—
+like the order invariant on a binary-search tree. Such expressive
+power is useful, but it also represents a potential pitfall. Because
+the role of a data deﬁnition is to guide the shape of code, good data
+deﬁnitions use the power of informal English only as a last resort.
+For example, I would never deﬁne a nonempty list of numbers
+as a list of numbers that contains at least one number. Such a
+deﬁnition is inferior because it expresses as a predicate (at least
+one) a property that should be structural (not empty). It leaves
+
+How to Design Programs made it easy for me to teach students to
+use the elimination forms for sums and products. It was not so easy
+4 The
+
+ﬁrst half of the book refers to a type as a “class of data.” The word
+“type” is not introduced until functions are made ﬁrst-class.
+
+3
+
+this decision, I concocted, with help from colleagues, a story about
+preparing for the future:
+
+students with no guide to the structure of a function that consumes
+nonempty lists of numbers. A property such as “a nonempty list
+of numbers” or “a list of an even number of strings” should be
+expressed inductively as part of the structure of a data deﬁnition.
+For example,
+;;
+;;
+;;
+;;
+
+Processing data in sequence is very common, and most
+languages provide features that help. You will see “loops”
+with keywords like “for”, “while”, or “repeat”; you may
+see “iterators”; and if you use a fashionable language like
+Python, you might even see fancy “list comprehensions.”
+Why do such features matter? Because, if you are a principled software designer and you use a language that provides
+its own bricks, you use the bricks that are provided—you
+don’t bake your own funny-shaped bricks out of raw clay.
+In other words, you must learn when and how to solve problems using built-in looping features.
+
+A *nonempty list of numbers* (lon+) is one of
+(cons n empty),
+where n is a number
+(cons n ns),
+where n is a number
+and ns is a lon+
+
+This data deﬁnition is the one to use for such functions as “minimum” or “maximum,” which are deﬁned only on nonempty lists—
+it tells a student exactly how to organize the functions.
+Creativity and constraint The design process has a lot of steps,
+and the textbook has a lot of rules and prescriptions. Some steps call
+for students to get creative; others call for them to respect the rules
+and prescriptions. To help students succeed, I tried to be explicit
+about which were which.
+
+I then explained that Intermediate Student Language provides these
+bricks in the form of general-purpose functions that implement
+“loops” for search, selection, and transformation. It even provides
+two very general-purpose functions that amount to “do something with each element”: foldl works left-to-right, and foldr
+works right-to-left. My students learned to use these functions well
+enough, but I still don’t fully understand how the functions ﬁt into
+the steps of the design process.
+
+• To look at the world or at a problem, and to capture its essen-
+
+tial aspects in a data deﬁnition, is in my opinion the design step
+that requires the most creativity. It is also the most challenging.
+Because systematic design begins with data deﬁnition, and because I wanted my students to build on solid deﬁnitions, I rarely
+asked my students to create data deﬁnitions; instead, I provided
+most data deﬁnitions. To give students, safe, relatively easy opportunities to create their own data deﬁnitions, I recommend
+using “world programs” (Section 4.2 below).
+
+3.
+
+Outcomes in the classroom; delivering a course
+
+This section presents lessons I learned from teaching Program by
+Design at Tufts. Tufts is a private, American, Carnegie Research I
+university with very selective admissions. My course substituted
+for our usual ﬁrst course in computing, which is required of all
+majors. Two-thirds of the students were in their ﬁrst semester at
+university; most of the others were starting their third year. Most
+reported little or no prior experience with computer programming.
+Those who completed my course were eligible to continue to the
+second course in computing for majors, and most elected to do so.
+
+• The other design step that requires creative problem solving is
+
+turning a function template into code. Because this step requires
+a less difﬁcult, puzzle-solving style of creativity, I asked my
+students to turn templates into code all the time. To help them,
+I taught the method of tables and examples discussed under
+Step 5 in Section 3.1 below.
+
+My conclusions are drawn from observations in the classroom,
+in the laboratory, and of students’ written work. I observed my students, my staff, and myself. For students, I address their learning
+about the design process and about some advanced topics. For myself, I conﬁrm that my experiences are consistent with those published in the literature. Because my conclusions come from just a
+single case study, they are in no way deﬁnitive. But they should be
+informative enough to help both you and your students.
+
+• The remaining steps of the design process reward order and
+
+method over creativity. Function signatures should mention
+only deﬁned data and should be connected to words or relationships in the problem. Purpose statements must be written
+methodically and checked to be sure they are complete and
+comprehensive. Data examples should enumerate all possible
+shapes of data, and functional examples should also include
+examples of all shapes. Templates should be developed systematically using one of the three ways that types can guide code.
+Tests should come from functional examples; additional tests
+should be introduced only to help clarify function descriptions,
+to isolate bugs, or to prevent regressions.
+
+3.1
+
+Where students struggle & where they don’t (design steps)
+
+Not all steps of the design process are equally easy to learn. Here I
+report on students’ experience with seven of the eight design steps.
+(I conceived of the “review and refactor” step too late to teach it.)
+
+Presenting functional abstraction and higher-order functions
+Both editions of How to Design Programs include sections on
+simplifying and generalizing code. In particular, the book shows
+how to combine two similar functions into one by abstracting over
+the parts that are different. Both the desire to simplify and the
+ability to abstract are essential for any working programmer, but
+they don’t correspond to any step of the design process in the book,
+so I found them difﬁcult to motivate. This difﬁculty will be resolved
+by making “review and refactor” an explicit, ﬁnal step in the design
+process, as suggested above: simpliﬁcation and abstraction will be
+two of a series of recommended refactorings.
+
+Step 1A: Data deﬁnitions My students had little trouble learning to write monomorphic data deﬁnitions. What trouble they did
+have arose from compositionality: although the elements of a sum
+or product type can themselves be sum or product types, some students thought at ﬁrst that the elements of a sum or product type had
+to be base types. Had I chosen better examples, my students could
+have avoided this misconception.
+A few students had a more subtle problem: they wanted to nest
+sums and products more deeply than is wise. As is implicit in the
+examples in the textbook, deﬁning a sum of products of named
+types is a good strategy and works well with the rest of the design
+method. But putting an additional sum or product under one of the
+nested products creates deﬁnitions that are harder to understand,
+and it militates against the effective use of helper functions.
+
+What about standard higher-order functions on lists? Functions like
+ormap (a.k.a. any or exists), andmap (a.k.a. all), map, filter,
+and folds? I debated whether to teach them; in part, I feared that
+identifying common patterns of recursion would be too difﬁcult, or
+that I could not offer enough practice time. Eventually, I decided
+to teach these functions because they are prominent in the book,
+and they are a functional programmer’s power tools. To justify
+
+Finally, late in the term, many students allowed their data deﬁnitions to get sloppy. Their most common fault was to conﬂate the
+name of a structure element with the name of its type.
+
+4
+
+Step 1B: Data examples A data deﬁnition is a kind of speciﬁcation; like other speciﬁcations, it expresses what a programmer
+intends to model. So how do we tell if a data deﬁnition expresses
+the right intent? By writing data examples. Data examples also support problem-speciﬁc case analysis, e.g., which temperatures support deciduous trees? Or on a map, which hospitals lie in the local
+jurisdiction?
+
+My students eventually learned to place their data examples after
+all relevant deﬁnitions, but they deserve better. An idea of what
+“better” might look like appears in Section 6.1 below.
+Step 2: Function descriptions A function description comprises
+a type signature, a purpose statement, and a header. The purpose
+statement is essentially Meyer’s (1997) contract (precondition and
+postcondition), but it is informal and therefore not checkable by
+automated tools. The header names the parameters. Headers are
+easy, but for my students, learning to write good signatures and
+purpose statements was hard.
+
+My students often forgot to write data examples. And initially, most
+of them struggled to write data examples that DrRacket would
+accept. The forgetting can be addressed, as suggested above, by
+teaching the construction of data examples as a discrete design
+step with its own number. The struggles with DrRacket should
+be addressed, in my opinion, by improving DrRacket so that it
+supports data examples as well as it currently supports functional
+examples. Let’s look at that support.
+
+Students quickly learned the idea of signatures, but some students suffered from a misconception similar to their misconception about data deﬁnitions: that signatures could refer only to base
+types. With that misconception cleared up, students wrote signatures without difﬁculty, but like Crestani and Sperber’s (2010) students, they wrote a lot of bad ones.
+
+For functional examples, each teaching language provides a syntactic form called check-expect. A check-expect may appear
+anywhere at top level; in particular, a check-expect that calls a
+function may appear before the deﬁnition of that function. Here is
+an example; the check-expect uses swap before its deﬁnition:
+
+The worst kind of bad signature was imprecise because it contained
+ill-kinded types. Most often I saw a bare list (with no type
+parameter) or a bare structure (not identifying which structure).
+A less bad signature had a precise meaning that was inconsistent
+with the function it described, usually because it had the wrong
+number of parameters. Both kinds of bad signature could be ruled
+out by making signatures linguistic, as described by Crestani and
+Sperber. Unfortunately, because I did not ﬁnd documentation on
+using Crestani and Sperber’s signatures with the standard teaching
+languages, I can’t conﬁrm their experience.
+
+;; DATA DEFINITION: A (pairof X Y) is a structure
+;;
+(make-pair x y)
+;; where x is an X and y is a Y
+(define-struct pair (fst snd))
+(check-expect
+(swap (make-pair ’fish ’fowl))
+(make-pair ’fowl ’fish))
+
+Writing good purpose statements is very hard, even for students
+who are well past the beginning stages. I don’t know of a royal
+road to writing purpose statements, but I do issue the following
+instructions, which relate purpose statements and function headers:
+
+;; swap : (pairof X Y) -> (pairof Y X)
+;; return a pair that is equal to the given
+;;
+pair with the elements swapped
+(define (swap p)
+(make-pair (pair-snd p) (pair-fst p)))
+
+Why is a function’s header grouped with its signature and
+purpose statement? So you can use the names of the parameters in your purpose statement. Therefore, please make
+sure that your purpose statement refers to each parameter by
+name—and that it mentions the result.
+
+DrRacket accumulates uses of check-expect and related forms;
+waits until all functions, values, and structures have been deﬁned;
+runs the accumulated uses in the context of the deﬁnitions; and
+ﬁnally rewards students by saying something like “All 16 tests
+passed!”
+
+The idea can be found in the textbook, but I needed to emphasize it.
+And checking purpose statements in a ﬁnal “review and refactor”
+step of the design process is something even a raw beginner can do.
+
+Data examples enjoy no comparable support:
+
+Steps 3 and 6: Functional examples and unit tests As noted
+above under Step 1B, functional examples are written using a
+special form called check-expect. This form, which is explained
+in the second edition of the textbook, shows two expressions that
+are expected to evaluate to equal values; a check-expect serves as
+both example and test. Even though we were using the ﬁrst edition,
+I used check-expect for every functional example I presented.
+
+• Data examples lack their own syntactic form; they are written
+
+either as top-level expressions or as right-hand sides of define.
+• Data examples are not accumulated and summarized.
+• Data examples win no rewards from DrRacket. In fact, when
+
+data examples are written as top-level expressions, DrRacket
+delivers light punishment: before reporting about tests, it sprays
+the values of those expressions to standard output. These values
+may distract from the values of other expressions that have
+more meaning or that have been placed in the code for use with
+Racket’s algebraic stepper.
+
+My colleagues, my course staff, and I had worried that students
+would rebel against a mandated testing step for each function;
+students in our other classes almost never write unit tests, and
+they are seldom graded on any kind of testing. We needn’t have
+worried. My students quickly learned to write functional examples
+and to reuse them as tests. All students learned to use tests, and
+most students grew to value them highly. My most vivid example
+comes from a hallway conversation about the differences between
+Program by Design and our standard ﬁrst course, which is taught
+using C++. When I explained some of the limitations imposed
+by C++, one student was dumbfounded: “You mean they don’t have
+check-expect?”
+
+• A data example that incorporates a structure must appear af-
+
+ter the relevant define-struct. This requirement confused
+and frustrated my students, who tripped over it repeatedly. Students expected data examples to be like function deﬁnitions and
+check-expects, both of which can refer to functions and structures before they are deﬁned.5
+5 The
+
+deﬁnition of a variable, unlike the deﬁnition of a function, must
+also appear after any deﬁnitions to which it refers. But my students rarely
+deﬁned variables and almost never deﬁned a variable that depended on
+another variable. So if this similar restriction on variable deﬁnitions caused
+students any difﬁculty, I didn’t see it.
+
+Although my students learned to use examples and tests routinely,
+not all students learned to use them well. For example, students
+were slow to learn that if a function consumes a value that is deﬁned
+by choices (a sum type), they should write a functional example for
+
+5
+
+each choice. (If there is no test for a given choice, DrRacket reports
+in Step 6 that code written for the choice is not tested, but by then
+it is too late for the missing functional example to play its role in
+guiding the construction of the code, as explained in Step 5 below.)
+
+away and is scrutinized repeatedly. Sure enough, trees are scrutinized by insert, has-key?, update-value, and add-node.
+That’s four times as much scrutiny as the template (or the problem)
+calls for.
+
+More subtle, and harder to learn, was the idea that functional examples should include a representative variety of results. The easiest
+context in which to introduce this idea is a function that returns
+a Boolean; there should be examples that return both true and
+false. Had I known that such functions might present difﬁculties,
+I could have forestalled a few instances in which students mistakenly wrote predicates that always returned true, for example.
+
+I’ve also seen stubborn structures. One example was in a function
+that takes a binary search tree keyed by number and returns the leaf
+whose key is closest to a given number. The template for a node
+structure should combine the node’s key with computations on the
+node’s left and right subtrees. But the example code examines the
+node’s key, then calls a helper function with one subtree and the
+node. This node is a stubborn structure—instead of being abandoned once its elements have been selected, it is passed around,
+and multiple helper functions select elements from it, repeatedly.
+
+Step 4: Templates Function templates were the most difﬁcult part
+of the design process for my students to apply. My students weren’t
+confused, and they didn’t ask questions, but most of them consistently turned in code that, to an instructor, was obviously not derived from a legitimate template. Worse, students could not see for
+themselves that they had deviated from the template approach. Several deviations recurred frequently; I call them confused conditionals and stubborn sums and structures. I also describe false choices.
+To illustrate these deviations, I describe two students’ implementations of insert, a function that inserts a key and value into a
+binary search tree. Such a tree is either false (the empty tree) or a
+node containing a key, a value, and left and right subtrees.
+
+Finally, a false choice is a conditional decision that ought not to
+be made, because one of the right-hand sides subsumes the others. A typical example consumes a list: the empty? choice handles
+empty lists, and the cons? choice, instead of using a natural recursion to handle the tail of the list, handles the whole list—and
+would work even if the list were empty. Another example is the
+conditional in the bad implementation of insert: if insert uses
+the helper function change-value, which can handle any tree, not
+just a node, then insert should not have a conditional. In yet another example, I saw conditionals with cases for a nonempty binary
+tree whose left or right subtree is empty—cases that are subsumed
+by the case for a general nonempty tree.
+
+The good implementation follows the template approach. Function
+insert begins with the elimination construct for the sum: a conditional that asks false? and node?. The case for node selects the
+node’s key and continues with a three-way conditional that compares the node’s key with the input key. The conditional has three
+branches because the design recipe for ordered data partitions the
+input data into three subsets: a key in an ordered set must be less
+than, equal to, or greater than a search key. In the three-way conditional, two of the three branches contain naturally recursive calls to
+insert, passing the node’s left and right subtrees, respectively.
+
+You can watch for these template problems, and you can warn students about them, but if students are to identify template problems
+independently, in their own code, I believe they need more support
+from DrRacket. Some ideas appear in Section 6.2 below.
+Step 5: Coding As noted in Section 2.3 above, going from template to code sometimes requires creative puzzle solving. To help
+stimulate students’ creativity, I have generalized a technique that is
+presented in the second edition of How to Design Programs, in the
+section on designing with self-referential data deﬁnitions.
+
+The bad implementation also begins with the correct conditional.
+But its node case deviates from the template approach. It passes
+all inputs (including the node) to a helper function change-value,
+whose type is too general: change-value expects not a node
+but an arbitrary tree. And change-value doesn’t use a template based on input data; instead, it calls a helper function
+has-key?, which tells if any node of the given tree contains the
+given key. Then change-value calls another helper function, either update-value or add-node. Finally, add-node contains a
+three-way conditional that asks if the input tree is false or if the
+given key is smaller or larger than the key in the node. Many things
+are wrong here; let’s look ﬁrst at the conditionals.
+
+The problem is to turn a template into code. The technique is
+to create one table of examples for each nontrivial case in the
+template’s main conditional, or if the template does not begin with
+a conditional, one table for the whole template. The ﬁrst column
+of the table is labeled Wanted, and it shows the value the function
+should return, which is taken from a functional example. Another
+column is needed for each application of a selector function and for
+each natural recursion. A labeled column for each input may also
+help, as may labeled columns for calls to helper functions.
+Once the columns are set up, the student ﬁlls in a row for each
+functional example that meets the condition associated with the
+table. The Wanted column, the inputs, and the results of applying
+selector functions are ﬁlled in mechanically using the inputs from
+the functional example. Columns for natural recursions or for calls
+to helper functions are ﬁlled in using each called function’s purpose
+statement. Here is an example of a table for the induction step of a
+recursive function that sums the ﬁrst n natural numbers:
+
+A conditional should either distinguish among alternatives in a sum
+type, like a case expression in Haskell or ML, or it should make
+some other single decision, like an if expression in Haskell or ML.
+The initial conditional in both implementations of insert acts like
+a case expression, distinguishing a node from an empty tree. Such
+conditionals are prescribed by the design recipe for sum types, and
+once that recipe is understood, they can be written quickly and easily. The second conditional in the good implementation of insert
+acts like nested if expressions, deciding how the input key relates
+to a node’s key. As noted above, it is prescribed by a design recipe
+for ordered data. The conditional in add-node is a confused conditional: it mixes the discrimination of alternatives in the sum with
+discrimination among keys. Such conditionals are not prescribed
+by any design recipe, and they are usually hard to understand.
+
+Wanted
+
+n
+
+(sub1 n)
+
+(sum-to (sub1 n))
+
+1
+10
+15
+
+1
+4
+5
+
+0
+3
+4
+
+0
+6
+10
+
+We hope the student sees that Wanted is (+ n (sum-to (sub1 n))).
+I found the table-of-examples technique so valuable that after twothirds of the course, I devoted a full homework assignment to it
+and to remedial template writing. The next time I teach the course,
+I will ask students, on the very ﬁrst assignment, to ﬁll in tables of
+examples, using images and perhaps a few numbers.
+
+Now let’s look at the types of the bad implementation’s functions.
+Function insert discriminates between node and false, and it
+passes only a node to change-value. But change-value expects
+a tree, not a node. This tree is a stubborn sum—one that won’t go
+6
+
+3.2
+
+Where students do & don’t struggle (advanced topics)
+
+Functional abstraction and higher-order functions Abstraction over differences includes abstraction over different functions,
+and abstracting over a function produces a higher-order function.
+I taught higher-order functions using a suggestion from Viera
+Proulx: present purpose statements for functions that answer similar questions. For example, “How many students in this class carry
+a MacBook?”, “How many students in this class are freshmen?”,
+and so on. My students swallowed the idea whole and were able
+to design, during class, a higher-order how-many function. And
+they sailed through a homework assignment in which they used
+abstraction to combine functions they had written previously.
+
+Self-referential data and natural recursion I was wisely advised
+to start teaching recursion not with lists but with a richer recursive
+type. As my ﬁrst example, I deﬁned a particular binary tree: a conspiracy is either an empty conspiracy or a cell headed by a person
+and containing two recruits, each of which is also a conspiracy.
+To create a running example, I claimed a position at the root of
+a class-wide conspiracy, and I sent emails to two students asking
+them to recruit two classmates each, and to “give your [recruits]
+these instructions and ask them to recruit two more classmates
+into the conspiracy.” Students seemed to enjoy the play-acting, and
+when the conspiracy was revealed at the blackboard, students were
+able to help me evaluate and then deﬁne such functions as the number of people in a conspiracy (population) or the number of steps
+needed to get a message to every conspirator (depth). Also, when
+the time came to explain the function template for self-referential
+data, I was able to draw an analogy between a recursive function
+call and the self-reference in my informal recruiting instructions.
+
+My students also had little difﬁculty using standard higher-order
+functions on lists. They did so not only on small problems that
+emphasized standard list functions, but also on a large project
+for which they were instructed to avoid recursion when possible. A number of students were comfortable enough to complain
+about the names of ormap and andmap, which Haskell programmers know as any and all. Students did only one thing that disappointed me: many of them used a fold where a map or ﬁlter would
+be better. Correcting this fault would be an appropriate refactoring.
+
+After this successful introduction to recursion, I thought we were
+home free, but as I watched students tackle more ambitious problems, I observed a dispiriting phenomenon: many students tried to
+understand recursion by mentally inlining recursive calls, arbitrarily many times. Thinking about sequences of recursive calls abandons the template approach, makes students’ heads hurt, and leads
+to hideous, broken code. In the future, I will insist even more often
+that when you call a function, you must not look at its deﬁnition, but
+only at its description—and in particular, at its purpose statement.
+It is only by trusting purpose statements that a programmer can
+build things that are big or recursive. I don’t know if my students
+picked up bad habits elsewhere or if the desire to inline functions
+is innate, but now I do know I have to ﬁght against it. And I know
+that if a student cannot write a crisp, clear purpose statement, that
+student is likely to struggle with recursive functions.
+
+Parametric polymorphism As part of its story about abstraction,
+How to Design Programs introduces parametric polymorphism.
+Data deﬁnitions can abstract over type parameters, and function
+signatures can use universally quantiﬁed type variables.6 My students’ written work showed that most of them got the idea of a
+parametric data deﬁnition, but none of them learned to use the notation properly. And even granting some idiosyncratic notation, few
+of them wrote deﬁnitions that were clear and unambiguous.
+To correct these problems, I would follow Crestani and Sperber
+(2010) in introducing a formal language for data deﬁnitions. And
+although I do not advocate static type checking, I do think my
+students would beneﬁt from a static check that type expressions
+are well kinded—each type constructor should receive the expected
+number of type parameters.
+
+Generative recursion One of the contributions of Program by
+Design is to distinguish natural recursion, which amounts to structural induction, from generative recursion, which describes all
+other methods of dividing a problem into smaller subproblems
+(Felleisen et al. 2004a). Generative recursion provides opportunities for great homework problems, but I needed to give remedial
+homework on templates, and I had promised that students would
+do the language-classiﬁcation project described in Section 5.1 below. So I assigned no generative-recursion homework. I was able to
+assess students’ mastery of generative recursion only by observing
+them at work. In class, we tackled the construction of a 2D-tree
+from a list of points, and I set sorting a list of numbers as a quiz
+problem. In both problems, at least some students were able to
+identify which approaches were structural and which were generative. For example, given the standard structure in which a list is
+either empty or is made with cons, students correctly identiﬁed
+insertion sort as structural and selection sort as generative.
+
+My students had more problems with polymorphic function signatures. Most of them sometimes wrote signatures that were less
+polymorphic than their code, using a named type where a type variable would be permitted. Many of them also sometimes wrote signatures that were more polymorphic than their code, using a type
+variable where a named type was required. These problems would
+not have been detected by Crestani and Sperber’s (2010) dynamic
+signature checker: the functions whose signatures aren’t polymorphic enough aren’t used at non-conforming types, and the functions
+whose signatures are too polymorphic won’t be detected because a
+type variable does not trigger any dynamic checks.
+Wish lists How to Design Programs, especially the ﬁrst edition,
+emphasizes the design of functions over programs. But it does
+present one key tool for designing programs, which it calls the
+wish list. The wish list is a list of descriptions, each including a
+name, signature, and purpose statement, of functions that need to
+be written for the program to be complete.
+
+Local deﬁnitions and lambda expressions My students easily
+made the transition from Beginning Student Language to Intermediate Student Language, which adds local deﬁnitions and ﬁrstclass, nested functions. They also easily absorbed lambda. Although lambda is ofﬁcially an add-on, we went straight from Beginning Student Language to Intermediate Student Language with
+lambda; we never used Intermediate Student Language without
+lambda. And because my mandate was to teach programming and
+problem-solving, not functional programming, I did not dedicate
+any class time to lambda; I simply used it in examples in which
+I called higher-order list functions. To my surprise, in lab exercises
+designed to reinforce skills with higher-order functions, at least half
+the students chose to use lambda, without encouragement or instruction beyond what they had seen in class and read in the book.
+
+Unfortunately, I never saw a student use a wish list effectively. And
+I often saw students use wish lists ineffectively: instead of being
+demanded by demonstrated needs, functions appeared on the wish
+list after a quick reading of a problem, without thought. The wish
+list turned into a fantasy list, containing anything a student might
+possibly wish for. Such lists result from muddy, wishful thinking
+about problems, not from systematic design.
+6 In
+
+the ﬁrst edition, the universal quantiﬁers are implicit; in the second
+edition, fortunately, they are explicit. I have learned from many experiences
+not to ask undergraduate students to envision implicit universal quantiﬁers.
+
+7
+
+posed a single problem broken down into many pieces. Examples
+included a lab to convert any S-expression into a sequence of atoms
+(and back again); a lab to build a game of whack-a-mole; and a lab
+to build an interactive map of the northeast United States, highlighting the hospital nearest the mouse cursor. No student completed any
+of these labs, so students did not enjoy the early successes that so
+help their motivation and learning (Ambrose et al. 2010, Chapter 3).
+
+To ﬁght against muddy, wishful thinking, in future courses I will
+avoid the term “wish list.” I will instead refer to an “order list” and
+to “work orders.” I will tell students that issuing a work order costs
+something, and they had better not order a function unless they’re
+willing to pay for it. I look forward to seeing if the new words help.
+3.3
+
+Replicating others’ experience
+
+My classroom experience conﬁrms what others have written about
+dynamic types, about lecturing, and about laboratories.
+
+Other instructors report being challenged to develop good labs
+that work in 90 or 120 minutes. A 75-minute lab is even more
+challenging. If possible, arrange for a longer lab.
+
+Dynamic types Findler et al. (2002) argue that the type systems
+of Haskell and ML are too sophisticated for beginning students,
+but that a ﬁrst-order, monomorphic type system might be helpful
+for beginning students. Felleisen et al. (2004a) argue that dynamic
+typing is a beneﬁt because students and teachers need not spend
+energy ﬁnding and explaining static type errors. (And when a type
+error occurs dynamically, it comes with an example!) My students’
+difﬁculty writing well-formed templates (Section 3.1) suggests that
+writing statically well-typed code might also be a challenge.
+
+4.
+
+Working with the languages, libraries and tools
+
+In this section I explain what I learned about DrRacket, the teaching
+languages, and the teaching libraries.
+4.1
+
+Using the teaching languages with DrRacket
+
+For over ﬁfteen years I have taught programming languages using little languages (Kamin 1990; Ramsey 2016). With this experience as background, I cannot praise the Racket teaching languages
+highly enough. The language design is lapidary. I was especially
+impressed that functions in Beginning Student Language may not
+have local variables. At ﬁrst I thought this restriction was crazy, but
+after observing students at work, I see that not only is the language
+simpliﬁed,7 but without local variables, students are nudged to create helper functions—a notorious point of difﬁculty for beginning
+students.
+
+The compile-time checking provided by Haskell or ML would have
+ruled out many of the bad templates I observed—provided that
+sums and products were eliminated using case expressions and
+pattern matching, and that cases were checked for exhaustiveness.
+But as much as I love this compile-time checking, I have seen the
+difﬁculty that beginning students have writing proper templates,
+and I agree that compile-time checking is likely to be more of
+a barrier than a help. (Several colleagues report using hygienic
+macros to provide case expressions and pattern matching without
+compile-time checking. Such experiments sound intriguing.)
+
+Including check-expect is a masterstroke. Even if you use only
+the ﬁrst edition of the textbook, you must teach check-expect,
+because it is so beautifully integrated with DrRacket. Clicking
+Run runs all tests, and DrRacket shows untested code in red on
+a reverse-video background. After seeing this feature demonstrated
+in one or two early lectures, almost all students routinely submitted
+code with complete “statement” coverage. They submitted untested
+code only in assignments that were substantially incomplete. Why?
+Probably because every time you compile, DrRacket runs your
+tests and tells you about coverage. When my fellow instructors
+and I compare programming environments, we agree that easy,
+routine, automatic testing and coverage analysis is DrRacket’s most
+important beneﬁt.
+
+Live coding in the lecture theater Sperber and Crestani (2012)
+recommend that instructors teach design by solving problems using the full design process, with DrRacket, before a live audience of
+students. They caution against taking shortcuts. I found this method
+of teaching most effective during the second half of the course.
+I also found that a 75-minute lecture is too short for complete, correct solution of such problems as designing higher-order functions
+proposed by the students, or building a 2D-tree. I had to choose
+between dropping examples and taking shortcuts, and I took shortcuts. (When taking a shortcut, I identiﬁed each design step I wished
+to skip, and I asked students’ permission to skip it.) You may need
+to make similar compromises.
+
+4.2
+
+Laboratory experiences and assisted programming At Tufts, instruction is limited to 150 minutes of lecture per week, plus a 75minute lab. A lab accommodates up to 22 students and is supervised
+by a staff of two or three undergraduate assistants, plus a “lab runner,” who is typically a doctoral student. My class was limited to 40
+students, so I needed only two labs, which I ran myself—primarily
+so I could observe students at work.
+
+Teaching with world programs and the universe library
+
+The teaching languages come with purely functional image and
+universe libraries, which can be used to create interactive graphical applications as well as distributed applications (Felleisen et al.
+2009). Interactive applications are called “world programs,” and
+my students wrote lots of them. (We did no distributed computing.) A world program is built around a single higher-order function, big-bang,8 which has a polymorphic type. The unspeciﬁed,
+universally quantiﬁed type is called the world state.9 Client code
+provides a function to render a world state as an image, as well as
+pure functions that respond to mouse and keyboard events, or even
+to the passage of time, by mapping world states to world states.
+The design of world programs is discussed brieﬂy by Felleisen et al.
+(2009) and at length in the second edition of How to Design Programs. My summary guide is reproduced in Web Appendix E.
+
+In lab, I tried to replicate the assisted programming model described by Bieniusa et al. (2008): students are given a set of small
+programming exercises, of which they are expected to ﬁnish half.
+Students worked in pairs, and I asked them, at the end of each lab, to
+write what they had done and what they learned. Although personal
+observation told me more, the self-assessments helped me judge
+students’ learning and address issues in subsequent lectures. And
+self-assessments scale in a way that personal observation doesn’t.
+
+7A
+
+ﬁrst-order language with local variables must explain how local deﬁnitions (which may not include ﬁrst-class functions) differ from top-level
+deﬁnitions (which do include ﬁrst-class functions). Intermediate Student
+Language, in which all functions are ﬁrst-class, needs only one, simple,
+uniform account of the meaning of a local deﬁnition.
+8 Actually, big-bang is a syntactic form, but you don’t need to know this.
+9 Felleisen et al. explain world programs using units (modules), but an
+explanation using polymorphism and type variables also works.
+
+My labs presented many of the same issues described by Bieniusa
+et al., especially the construction of exercises with a suitable number of problems of suitable difﬁculty. My most popular labs were
+those that posed many small problems. Examples included a list lab
+that asked for one data deﬁnition and ten functions, and a higherorder functions lab that asked for ten functions and the results of
+several function applications. My least popular labs were those that
+
+8
+
+5.
+
+World programs impressed me very favorably: big-bang is both
+powerful and simple, and creating satisfying interactive programs
+is easy. But world programs have more intellectual depth than
+I realized, and I made some mistakes (Section 5.4 below). I trace
+my mistakes to a shallow understanding of the universe library;
+I was too willing to take at face value the idea that the purpose of the
+library is to enable students to “construct a program that is like the
+applications they use on their computers” (Felleisen et al. 2009).
+I now believe the library serves broader and deeper purposes:
+
+People love to do things well, but we learn more from our mistakes. I asked other instructors to help me learn from their mistakes, but those who made beginner’s mistakes did not share them.
+Shriram Krishnamurthi did identify two common mistakes: failing to get complete buy-in from teaching assistants, and allowing
+experienced students to disrupt or undermine a class. What follows is an account of my own most signiﬁcant mistakes—the ones
+from which I learned the most, and the ones I most wish I had
+avoided.
+
+• The library provides a simple space in which students can
+
+develop and practice the skill of “look at the world; see data;
+deﬁne a representation in the computer.”
+
+5.1
+
+• The library provides a safe, guided environment in which stu-
+
+Misdirected effort in preparation and planning
+
+I began preparing my course by trying to identify learning outcomes, in more detail than I present in Section 2 above. I read the
+textbook painstakingly and took detailed notes. This work turned
+out to have been a poor use of my time. I later skimmed the book
+quickly and made a high-level summary. The summary, which splits
+the material into six broad tiers and articulates a simple learning
+goal for each tier, helped me far more than my detailed notes. It still
+does not contain what my colleagues in education would consider
+proper learning objectives, but in hopes that it may also help you,
+I have reproduced it as Web Appendix B.
+
+dents can design programs, not just functions.
+• The library exposes students to the power of data abstraction
+
+(over the world state).
+• The library provides ﬂexibility for students to choose different
+
+representations of a world state and to design the event handlers
+required by big-bang. This kind of ﬂexibility, and the control
+students have over their choices, enhance motivation and learning (Ambrose et al. 2010, Chapter 3).
+Pleasing students with lifelike applications is all very well, but
+world programs are important because of their other purposes.
+In the future, the aspects I will emphasize most are the skill of
+modeling the world in the computer, and the practice in designing
+programs, not just functions.
+4.3
+
+Rookie mistakes and what I learned from them
+
+I worked on the course with seven students who had studied functional programming with me. None of us had used Racket or its
+teaching languages; what we had used was a dialect of Scheme
+called µScheme, which is a bit smaller than Racket’s Intermediate
+Student Language. We did not try to learn the teaching languages
+in advance, which was a good decision: we picked them up quickly
+and easily.
+
+What to expect from the programming environment
+
+Except for the help and menu system, I found the student-facing
+part of DrRacket as good as advertised. Almost all of my students
+were instantly productive using the Beginning Student Language.
+The help and menu system does present a problem: as far as I can
+tell, students are expected to deal with the same help and menu system that fully ﬂedged Racket programmers use. Most students were
+willing to ignore menu items they didn’t understand, but almost all
+of my students tried to use the help system and found themselves
+reading documentation for full Racket—especially library documentation. This documentation, with its idiosyncratic notation for
+function signatures, was difﬁcult even for my teaching assistants.
+
+We spent our preparation time on potential homework assignments.
+Because our departmental culture encourages “projects,” which
+are big, open-ended assignments intended to provide scope for
+signiﬁcant design choices (Web Appendix C), we focused almost
+exclusively on project ideas. We especially wanted projects that
+would meet our departmental goals of establishing connections to
+real-world technology, to real-world data, or to students’ interests
+outside of computer science. In the light of experience, our focus
+was misdirected.
+• In almost every week of a course in Program by Design, stu-
+
+dents learn a new way to organize data. Unfortunately, coming
+up with projects that organize data in sufﬁciently diverse ways
+was beyond our abilities. Almost every one of our project ideas
+required a list of structures, and for many ideas, a list of structures was sufﬁcient. But in Program by Design, before students
+are ready to work with a list of structures, they have to spend
+a month learning simpler forms of data. They then have only
+a week or two in which lists of structures are on topic, after
+which they move on to other forms of data. Even after much effort, we couldn’t imagine a set of projects that would ﬁt a course
+in Program by Design.
+
+The instructor-facing part of DrRacket surprised me. I was expecting mature, well-documented, stable production software. I got mature, well-documented, evolving research software. Once I adjusted
+my expectations, I got along ﬁne, but I hit a couple of pain points
+worth knowing about. Because I hope these pain points will soon
+disappear, I have relegated the details to Web Appendix D.3.
+One pain point is not going to disappear: if you write libraries, you
+are expected to use full Racket. If, like me, you’ve learned only
+up to Intermediate Student Language, full Racket presents some
+problems: it’s not just bigger; it’s different. I tripped over differences in deﬁnitions of structure types and in meanings of numeric
+literals. Luckily, Matthew Flatt suggested a great compromise: use
+Intermediate Student Language plus full Racket’s provide form.
+To get provide, you need only a small ﬁle written in full Racket.
+You import that ﬁle (using require), use provide to export your
+public names, then write the rest of your library in Intermediate
+Student Language.
+
+• In Program by Design, students learn so much technique that
+
+there isn’t room for a lot of projects. In a 13-week course, even
+though I chose not to teach mutation, I felt that I had only about
+3 1 weeks in which I could give students a project that was
+2
+not driven by a technical learning objective. I was able to use
+only one of those weeks for a project. (I used another week to
+remediate difﬁculties with templates, and I used the remaining
+week and a half to help my students prepare a learning portfolio,
+which served them in lieu of a ﬁnal examination.)
+
+One ﬁnal caution: it is all too easy for a student to use DrRacket’s
+menus to import the wrong library (“teachpack”) by mistake—a
+mistake that both students and teaching assistants found hard to
+diagnose. Insist that your students import libraries only by using
+require in their source code. Using require makes manifest
+what libraries have been imported, and as a bonus, it puts your own
+libraries on the same footing as built-in libraries.
+
+My staff and I also looked for problem domains that could serve
+as unifying themes for multiple labs and homeworks. We settled
+on two themes: probability and GPS navigation. I knew probability
+was a stretch, but I wanted to deliver a project that has repeatedly
+9
+
+been popular in our ﬁrst course: write a na¨ve Bayesian classiﬁer
+ı
+that identiﬁes the natural language in which a web page is written.
+I was more conﬁdent in GPS navigation: I felt that it would provide
+a more interesting introduction to numeric computation than the
+ancient, boring Fahrenheit/Centigrade conversions, and I felt it
+would lead up to interactive mapping applications. But neither of
+the two themes worked out as well as I had hoped.
+
+distance, bearing, and projection. I had previously implemented the
+functions, and I knew that the function descriptions and codes were
+simple. I also knew that some of the trigonometry was subtle, so
+I prepared my students thoroughly for the trigonometric calculations. I thought that was enough.
+I was wrong: I badly misjudged the cost of developing functional
+examples and unit tests. When I ﬁnally ﬁnished my reference solution, the code itself, even with liberal use of helper functions, took
+only 24 lines of Beginning Student Language. But to test it properly, I had to deﬁne at least another half a dozen functions, and the
+full solution contained 226 nonblank lines of code, tests, and documentation. The assignment turned out to be about three times as
+much work as I had meant to ask for, and I was lucky my students
+did not desert en masse.
+
+• We didn’t have time to take probability seriously. We started
+
+well enough by having students estimate and measure some
+real-world probabilities, using log odds. We then ignored probability for ten weeks, and in the eleventh week, I bombed
+students with a few dense pages of probabilistic notation and
+Bayesian reasoning, so they could build classiﬁers. I don’t believe they retained anything.
+• We did better with GPS navigation, but I underestimated my
+
+5.3
+
+students’ discomfort with sines and cosines. Not only did my
+students ﬁnd sines and cosines intimidating, but sines and
+cosines use “inexact” (ﬂoating-point) arithmetic, which I could
+otherwise have delayed or avoided. Many students struggled to
+write simple functions on GPS coordinates, which took them
+far more time and effort than I ever imagined.
+These two problem domains may or may not have been poor
+choices, but my real blunder was more fundamental. I was warped
+by my youthful experiences with C and Pascal, and without thinking, I assumed that problems for beginners should use numbers.
+Numbers have their beneﬁts—students can draw on their school
+experience to develop examples and tests that are independent of
+their code—but Beginning Student Language also includes a ﬁrstclass image type. This type comes with a lovely algebra of operations, and it even enjoys special support in DrRacket’s read-evalprint loop! Or if I hadn’t thought of images, as a longtime Haskell
+and ML programmer I should deﬁnitely have thought of strings.10
+I promise future students that their very ﬁrst experiences of computing will include examples that draw pictures and say things, not
+just examples that compute numbers. Bloch (2010) agrees.
+
+Midway through the term, I tried to correct my mistake by introducing a new word for an uninspected value: sealed. The decision
+about whether to leave arguments sealed comes into play in the
+book’s section on processing multiple pieces of complex data, but
+I wish I had introduced it earlier. Delaying may have contributed to
+my students’ difﬁculties with templates and to my own difﬁculties
+in teaching function composition.
+5.4
+
+My world-state disaster
+
+When I introduced world programs to my students, I made my
+biggest mistake of the term. I wanted to show them an interactive
+graphics program that did something interesting, and they had
+learned about structures but not yet about lists. I somehow got the
+idea of a program that would drop a disk on the screen at every
+mouse click, potentially ﬁlling the screen with disks. No lists?
+No problem! I chose as my world state an image containing all the
+dropped disks. Had I been trying to sabotage myself, I could not
+have chosen a worse example. For weeks, my students conﬂated
+world states with images, and when asked to write new world
+programs, they struggled mightily. To get everybody sorted out
+on the difference between an image and a world state took my
+teaching assistants a month of hard work. Next time I introduce
+world programs, I will begin with a simple state containing just
+one disk which can change position.
+
+What else did I learn from my mistakes in course planning?
+• I found room for only one or two things beyond basic functional
+
+programming. The textbook suggests mutation, but I chose instead to take an extended look at tree structures (1D- and 2Dtrees) and to use a novel ﬁnal assessment (learning portfolios).
+• I believe in projects,11 but when I teach the course again, I will
+
+identify one project and have students build it in pieces throughout the term. I might try a simple web browser or perhaps
+a browser for some other kind of database. I would consider
+a game like Scrabble, which would provide practice in data
+structures and in designing world programs, but my department
+is cautious about games (Web Appendix C).
+5.2
+
+Misunderstood templates
+
+As a beginner, I was a little too eager to construct function templates by leaping at the elimination form for one of the argument
+types, as described in Section 2.3 above. I had learned from the
+book that when you get a value of sum or product type, you take it
+apart using a conditional or a set of selector functions. But there’s
+always another choice: you can leave an argument alone, not inspect it or take it apart, but simply pass it to another function.
+I didn’t teach my students this choice early enough. The possibility,
+however, can be taught from the very beginning; indeed, values of
+atomic type can only be passed to other functions.
+
+Miscalibrated homework
+
+My most embarrassing mistake was to assign a problem I thought
+was simple without ﬁrst having completed the entire design process
+myself. I asked students to write three functions on GPS positions:
+
+6.
+
+Open problems
+
+During the semester, I identiﬁed a number of teaching problems
+that I have not yet solved. Some problems require Racket programming that is beyond my skills; some require a depth of understanding that I have not yet developed; and some require time, effort,
+and in-class experimentation that I have not yet been able to invest.
+I begin with easier problems and move to more difﬁcult ones.
+
+10 Although the ﬁrst edition of How to Design Programs uses LISP symbols
+
+almost exclusively, the second edition uses strings, and there is a ﬁne string
+library.
+11 An anonymous reviewer suggests that in conventional courses, projects
+are necessary because the cognitive and syntactic overhead of industrial
+languages is so great that problems with small solutions rarely provide
+much intellectual challenge. By contrast, the reviewer ﬁnds the Racket
+teaching languages expressive enough, with little enough overhead, that
+even problems with 20-line solutions can present signiﬁcant intellectual
+challenges.
+
+6.1
+
+Making data examples ﬁrst-class
+
+In Section 3.1 above, in Step 1B (data examples), I enumerate the
+ways in which data examples are second-class citizens, not supported by the teaching languages or by DrRacket. All the problems
+
+10
+
+• Template functions would help my teaching staff communicate
+
+my students had could be addressed by adding a syntactic form like
+this one:
+
+with students during laboratories and ofﬁce hours; my staff
+could ask to see a template function and then could ask students
+the same two questions about consistency.
+
+(check-eval expression)
+where expression is the data example. The semantics I intend is that
+DrRacket accumulates the expressions and then evaluates them,
+like the expressions in a check-expect, after all deﬁnitions are
+in scope. DrRacket could then report something like “All 7 data
+examples built!”
+
+• Finally, explicit template functions would help my staff and me
+
+assess students’ code and provide better feedback.
+It is also possible that DrRacket could check to see if a function’s
+deﬁnition is consistent with its template. For example, DrRacket
+could check if a deﬁnition could be obtained from its template by
+replacing each ellipsis with a term. I am not conﬁdent that such a
+check would provide much additional value—I think the important
+property of a function template is that it be present—but it’s an
+experimental question. The real value that I am conﬁdent of is that
+explicit, persistent templates would help my students apply design
+recipes correctly. If I could change only one thing about DrRacket,
+making templates explicit and persistent would have the biggest
+effect on my students’ learning.
+
+This check-eval proposal, which says simply “I have some data,”
+does not please the experts. Experts have, however, shown signiﬁcant interest in more ambitious proposals, all of which say “I have
+some data of a particular class.” But the experts do not agree on
+how a class of data should be formally speciﬁed. One speciﬁcation language, contracts (Findler and Felleisen 2002), has grown
+into a large and important part of full Racket. Another speciﬁcation
+language, signatures (Crestani and Sperber 2010), has been used
+successfully with beginning students. These languages will do well
+for instructors who have the skill and inclination to go beyond How
+to Design Programs. But as long as the book teaches students to
+write function signatures that are informal and unchecked, I hope
+a place can be found for a data-example form in which the class of
+data is also informal and unchecked.
+6.2
+
+6.3
+
+Developing the “review and refactor” step
+
+I plan to teach an explicit “review and refactor” step not only to
+unify some disparate instructions and activities that are distributed
+throughout How to Design Programs, but also to show students
+that mature designers don’t just write good code; they improve
+code by refactoring. To identify review and refactoring activities
+and to match them to levels of learning and development, much
+work remains to be done. As a ﬁrst step, here are some suggested activities, starting with those suitable for very beginning students:
+
+Enabling templates to persist and be reviewed
+
+DrRacket does not provide enough support for function templates.
+The teaching languages do include forms such as ... and ....,
+which can be used to write templates. But DrRacket does not
+recognize these forms as special: it complains that they are untested
+code. Untested code is anathema, and DrRacket’s complaints push
+students to turn templates into code as soon as possible. And once
+a template has been turned into code, it is gone forever.
+
+• Check signatures for arity problems, references to unqualiﬁed
+
+“lists” or “structures,” and other faults. (Crestani and Sperber
+(2010) observe that this activity can be proﬁtably automated by
+adding formal signatures to a teaching language.)
+
+Because templates disappear, a student cannot review a template to
+see if it makes sense in the context of a given signature and data
+deﬁnition, and a student cannot compare a template with a function
+deﬁnition to see if the two are consistent. Bad templates account
+for almost all the times my students wrote horrible code or went off
+the rails entirely. And students don’t see them! As an experienced
+functional programmer, I can look at a function and imagine the
+template from which it was derived, and I can identify problems
+that stem from the template in my imagination. But such acts of
+critical imagination are too much to expect of beginning students.
+
+• Check functional examples to be sure every choice of input is
+
+represented.
+• Check functional examples to be sure every choice of output
+
+is represented. This activity is especially valuable for functions
+returning Booleans.
+• Examine code for violations of the template approach, espe-
+
+cially the “confused conditionals” and the “stubborn” sums or
+structures described in Section 3.1.
+• Look for duplicate or near-duplicate codes; if you can identify
+
+Every other step of the original design process (data description, data examples, function description, functional examples,
+code, and tests) leaves behind a visible artifact that can be assessed. Templates should leave footprints, too. It might be enough
+to extend DrRacket with a new syntactic form, perhaps called
+define-template, which would deﬁne a new species of function.
+Such a “template function” would undergo the same static checks
+as a regular function, would be required to contain the ... form or
+related forms, would be expected not to be tested, and could coexist
+with a true function of the same name. Template functions would
+play many roles:
+
+parameters to abstract over, replace them with calls to a single,
+new function.
+• Look for functions that have similar purpose statements (speci-
+
+ﬁcations) and consume the same kind of data. Identify and eliminate redundancies.
+• Look for groups of similar data deﬁnitions; if you can identify
+
+type parameters to abstract over, replace them with instances of
+a single, new, parametric data deﬁnition.
+• Look for functions that take one or more arguments of sum,
+
+product, and arrow types. Identify which arguments are “inspected” (by cond or selectors) and which are “sealed” (ignored
+or passed to other functions). Decide if the decision to inspect
+or seal makes sense or if the code would be improved by deciding differently. Especially, look for arguments that are inspected
+but could be sealed.
+
+• Most important, template functions would provide scaffolding
+
+to help students deﬁne ordinary functions that are consistent
+with the deﬁnitions of the data those functions consume.
+• During the “review and refactor” step, template functions would
+
+make it possible for students to answer two crucial questions:
+Is the template consistent with the signature and the data deﬁnition? And is the function deﬁnition consistent with the template? When the template itself is invisible, as at present, these
+questions are too difﬁcult for my students to answer.
+
+• Rewrite or eliminate conditionals in which one case can sub-
+
+sume others.
+• Look for recursive functions that consume lists and can be
+
+expressed using standard higher-order list functions.
+
+11
+
+• Look for uses of foldl and foldr that can be rewritten using
+
+As a promising alternative to a points system, the education literature recommends that we identify primary traits to look for in
+students’ work, and that we evaluate each trait on a scale with three
+to ﬁve choices (Stevens and Levi 2005; Walvoord and Anderson
+2011). I have used primary traits successfully in our third and fourth
+courses. In principle, these courses use the same ﬁve-point scale
+that the NSF uses to grade proposals: Excellent, Very Good, Good,
+Fair, and Poor. In practice, the two extreme grades are rarely used
+and are easy to identify; “normal” work is graded on a three-point
+scale of Very Good (meets all expectations, equivalent to an American A), Good (does not meet all expectations but shows evidence
+of quality and signiﬁcant learning), and Fair (the lowest passing
+grade).13
+
+map or filter.
+• Look for recursive functions with similar structures, and replace
+
+them with new higher-order functions.
+• Review type signatures of polymorphic functions. For each type
+
+variable, try substituting different actual types, such as image,
+Boolean, and list of number. Verify that after substitution, each
+signature accurately describes the types of data that you expect
+to ﬂow into and out of the function.
+6.4
+
+Developing better guidance for conditionals
+
+How should students design conditionals? What role(s) should
+else play? When we review a conditional expression, how do we
+tell if it’s good or bad? How can a student tell if a conditional
+expression is good or bad? I can answer only in two situations:
+
+To apply this scale to a course, the instructor must characterize
+traits of work that is Very Good, Good, or Fair. But my staff and I
+were able to characterize only Very Good and Fair work:
+
+• An experienced Haskell or ML programmer knows that pat-
+
+• Very Good work may contain ﬂaws, but it shows evidence
+
+tern matching in case expressions is most easily understood
+when patterns are non-overlapping, so the behavior of the program is independent of the order in which the cases appear.
+Each case can be understood in isolation, without considering
+the others. The corresponding principle in the Racket teaching languages is that when cond is used to choose among alternatives in a sum type, each alternative should be identiﬁed
+by an appropriate predicate. For example, a function that consumes a list xs should use the predicates (empty? xs) and
+(cons? xs); it should not use else. However, in the ﬁrst
+edition of How to Design Programs, students will see else
+used more often than “(cons? xs).” In the second edition,
+“(cons? xs)” is used more often.
+
+throughout of having been developed using the design process.
+• Fair work shows a systemic failure to apply the appropriate de-
+
+sign recipe. For example, a solution would be graded Fair if
+every function’s purpose statement merely restated the information given the function’s signature.
+We were not able to develop criteria by which to place students’
+work between Very Good (developed according to a design recipe)
+and Fair (systemic failure of design). And we are not comfortable
+grading on a two-point scale.
+An ideal analysis of primary traits characterizes what is observed
+about each trait for each level of performance. But a partial analysis, in which only the highest levels of performance are characterized, can also be useful. For instance, Jordan Johnson has developed a list of 27 characteristics of exemplary work in Program by
+Design. To assign a grade, Johnson counts how often these characteristics appear, on a scale of Always, Usually, Sometimes, Seldom,
+and Never. He reports good results, but his classes are small—at
+most 14 students each. In my class of 40 students, we tried to replicate the “counting” approach for a just a few characteristics on a
+couple of homework assignments, with a coarser scale. But our
+graders reported that even a little counting was time-consuming
+and stressful, and I felt that the counts did not really characterize the quality of students’ work. For students, I expect Johnson’s
+characteristics would make a ﬁne checklist, but for graders, the
+counting approach is too expensive and does not lead to an obvious
+grade.
+
+• When a cond uses just two predicates, they are nontrivial, and
+
+they are complements, use else.12 For example, this code from
+a student would be clearer with else:
+(cond [(look-across? tree close x y) ...]
+[(not (look-across? tree close x y)) ...])
+Beyond these two situations, I don’t know what to tell my students.
+And while I myself can usually look at a conditional and distinguish
+good from bad, I don’t know how to teach graders to do it.
+6.5
+
+Assessing students’ programs
+
+The open problem that most affected my students’ learning was
+that I found no clear, principled basis on which to assign grades.
+My staff and I got bogged down with grading, to a point where
+we could not give students timely feedback on their work—and
+without such feedback, students learn less and are less conﬁdent.
+My staff and I got bogged down because although we knew the
+big question we wanted to answer—whether our students were
+practicing systematic design—we could not ﬁgure out how, or on
+what scale, to evaluate systematic design.
+
+Another alternative is to base grades on a program’s functional correctness, perhaps as determined by testing. In Program by Design,
+test results are less important than systematic design, but students
+do wish to be rewarded for producing “working” code. Automated
+testing ﬁnds bugs effectively (Claessen and Hughes 2000; Crestani
+and Sperber 2010). But automated tests require well-speciﬁed interfaces, and an essential aspect of Program by Design is that the
+interfaces are designed by the students, not the instructor. Were I
+to specify interfaces for students to implement, I would be doing
+much of the design work that I want them to learn to do.14
+
+Many instructors use a system of points. For example, Mitch Wand
+uses a detailed rubric graded on a 50-point scale and containing
+over 65 potential deductions. Unfortunately, this rubric is designed
+for beginning master’s students, and it assumes an in-person code
+review. I did not understand the principles used to create the rubric
+and so could not adapt it for my situation. Also, just as instructors
+in Germany have special concerns about plagiarism (Bieniusa et al.
+2008), I, like many other instructors in America, have concerns
+about wrangling with students over points.
+
+Bieniusa et al. (2008) use a “semi-automatic” tool that checks a
+student’s program and assigns a preliminary “score.” But the tool
+appears to require interfaces to be speciﬁed. And unfortunately,
+13 At
+
+the extremes, Excellent work exceeds expectations and impresses the
+course staff (an American A-plus). Poor work shows evidence of serious
+deﬁciencies, typically by being substantially incomplete (a failing grade).
+14 I have developed prototype software that discovers students’ interface
+designs by probing their code, but it relies on compile-time type checking.
+
+12 The
+
+second edition muddies these waters further by adding if to the
+Beginning Student Language. However, the 2013 draft uses over eight times
+fewer ifs than conds, and I plan to ignore them.
+
+12
+
+References
+
+Bieniusa et al. do not discuss the set of possible scores, algorithms
+by which scores are assigned, principles on which such algorithms
+are based, or instructions given to the teaching assistant who converts the preliminary score to a ﬁnal score.
+
+Harold Abelson and Gerald Jay Sussman. 1985. Structure and
+Interpretation of Computer Programs. McGraw-Hill, New York.
+Susan A. Ambrose, Michael W. Bridges, Michele DiPietro, Marsha C. Lovett, Marie K. Norman, and Richard E. Mayer. 2010.
+How Learning Works: Seven Research-Based Principles for
+Smart Teaching. Jossey-Bass higher and adult education series.
+Wiley.
+
+A principled grading method that lies outside the context of Program by Design is described by Edwards (2003): students submit
+both code and tests, and the submission is scored by multiplying
+three fractions: the fraction of the student’s tests that are consistent
+with the problem statement, the fraction of the student’s tests that
+the student’s code passes, and the fraction of the instructor’s code
+covered by the student’s tests. Like other testing approaches, this
+approach limits students’ freedom to design.
+
+Annette Bieniusa, Markus Degen, Phillip Heidegger, Peter Thiemann, Stefan Wehr, Martin Gasbichler, Michael Sperber, Marcus Crestani, Herbert Klaeren, and Eric Knauel. 2008. HtDP and
+DMdA in the battleﬁeld: A case study in ﬁrst-year programming
+instruction. In FDPE ’08: Proceedings of the 2008 International
+Workshop on Functional and Declarative Programming in Education, pages 1–12, New York, NY. ACM.
+
+Program by Design’s method enables yet another approach, with
+which we can assess functional correctness without limiting students’ freedom to design: we assess correctness by reading purpose statements and unit tests (functional examples). DrRacket tells
+us which code has actually been executed. If a function’s purpose
+statement is clear, the code has been tested, and the tests seem sufﬁcient to validate the purpose statement, the function is deemed
+correct. This approach gives students the freedom to design interfaces, but compared with automated approaches, it is signiﬁcantly
+more expensive.
+
+7.
+
+Richard Bird and Philip Wadler. 1988. Introduction to Functional
+Programming. Prentice Hall, New York.
+Stephen Bloch. 2010. Picturing Programs: An Introduction to
+Computer Programming. College Publications (Kings College
+London).
+Frederick P. Brooks, Jr. 1975. The Mythical Man-Month. Addison
+Wesley, Reading, MA.
+
+Conclusion
+
+Hugh Burkhardt and Alan H Schoenfeld. 2003. Improving educational research: Toward a more useful, more inﬂuential, and
+better-funded enterprise. Educational Researcher, 32(9):3–14.
+
+Principled course design focuses not on material but on students:
+what they can do, and how we know they can do it (Wiggins and
+McTighe 2005). How to Design Programs is a great source of
+material, and prior work (Bieniusa et al. 2008; Crestani and Sperber
+2010; Sperber and Crestani 2012) tells us a great deal about how to
+teach it. This paper adds to that work, showing some signiﬁcant
+mistakes to avoid, and telling us more about students: what they
+learn to do, and where they do and don’t struggle in learning to
+do it. Plenty of problems are still open, of which the most difﬁcult
+is assessing whether students can do what we think they can do:
+we need reliable, cost-effective ways of knowing when and to what
+degree students are really programming by design.
+
+Koen Claessen and John Hughes. 2000 (September). QuickCheck:
+a lightweight tool for random testing of Haskell programs. Proceedings of the Fifth ACM SIGPLAN International Conference
+on Functional Programming (ICFP’00), in SIGPLAN Notices,
+35(9):268–279.
+Marcus Crestani and Michael Sperber. 2010 (September). Experience Report: Growing programming languages for beginning
+students. Proceedings of the Fifteenth ACM SIGPLAN International Conference on Functional Programming (ICFP’10), in
+SIGPLAN Notices, 45(9):229–234.
+
+Acknowledgments
+
+Stephen H. Edwards. 2003 (September). Improving student performance by evaluating how well students test their own programs.
+Journal on Educational Resources in Computing, 3(3).
+
+For help with the manuscript, Stephen Bloch, Matthias Felleisen,
+Andrew Gallant, Shriram Krishnamurthi, Ben Shapiro, Mike Sperber, Aaron Tietz, Mitch Wand, and Jayme Woogerd.
+
+Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, and Shriram Krishnamurthi. 2001. How to Design Programs: An Introduction to Programming and Computing. MIT Press, Cambridge, MA, ﬁrst edition.
+
+For their thoughtful reviews, and especially their observations
+about the pedagogical value of programming with numbers, the
+anonymous referees. And for an unusually wide-ranging and thorough review, Referee 1.
+
+Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, and Shriram Krishnamurthi. 2004a. The structure and interpretation of
+the Computer Science curriculum. Journal of Functional Programming, 14(4):365–378.
+
+For analysis of senior surveys and data about Tufts faculty, Dawn
+Terkla and Lauren Conoscenti.
+For help preparing the way, Sam Guyer, Ben Hescott, Kathleen
+Fisher, and Carla Brodley.
+
+Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, and Shriram Krishnamurthi. 2004b. The TeachScheme! project: Computing and programming for every student. Computer Science
+Education, 14(1):55–77.
+
+For preliminary planning and for learning portfolios, Ariel Hamlin.
+For educational matters, Annie Soisson and Donna Qualters. And
+for pointers to even more education papers, Ben Shapiro.
+
+Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, and Shriram Krishnamurthi. 2009 (August). A functional I/O system or,
+fun for freshman kids. Proceedings of the Fourteenth ACM SIGPLAN International Conference on Functional Programming
+(ICFP’09), in SIGPLAN Notices, 44(9):47–58.
+
+For help teaching, in addition to those named in the text, many
+members of the plt-edu mailing list, including Stephen Bloch,
+Matthew Flatt, Gregor Kiczales, Shriram Krishnamurthi, Viera
+Proulx, and Mitch Wand. Especially Stephen and Viera.
+
+Robert Bruce Findler, John Clements, Cormac Flanagan, Matthew
+Flatt, Shriram Krishnamurthi, Paul Steckler, and Matthias
+Felleisen. 2002. DrScheme: A programming environment for
+Scheme. Journal of Functional Programming, 12(2):159–182.
+
+For help above and beyond the call of duty, provided to me and to
+my staff, Matthias Felleisen.
+For making it happen, the students and staff of COMP 50, Fall 2013.
+
+13
+
+Robert Bruce Findler and Matthias Felleisen. 2002 (September).
+Contracts for higher-order functions. Proceedings of the Seventh ACM SIGPLAN International Conference on Functional
+Programming (ICFP’02), in SIGPLAN Notices, 37(9):48–59.
+
+Gerald Jay Sussman and Guy Lewis Steele, Jr. 1975 (December).
+Scheme: An interpreter for extended lambda calculus. MIT
+AI Memo No. 349, reprinted in Higher-Order and Symbolic
+Computation 11(4):405–439, Dec 1998.
+
+David R. Hanson. 1996. C Interfaces and Implementations. Addison Wesley.
+
+Barbara E. Walvoord and Virginia Johnson Anderson. 2011. Effective Grading: A Tool for Learning and Assessment in College.
+Wiley.
+
+John Hughes. 1989 (April). Why functional programming matters.
+The Computer Journal, 32(2):98–107.
+
+Grant P. Wiggins and Jay McTighe. 2005. Understanding by
+Design. ACSD, Alexandria, VA, second edition.
+
+Michael A. Jackson. 1975. Principles of Program Design. Academic Press, London.
+
+A.
+
+Samuel N. Kamin. 1990. Programming Languages: An InterpreterBased Approach. Addison-Wesley, Reading, MA.
+
+Teaching experience
+
+My teaching experience includes a track record of creating required
+programming courses that have long-term impact. One measure of
+this impact is our university-wide survey of graduating students,
+which asks them about highlights of their four years at Tufts.
+Students identify up to three faculty or staff who had a “signiﬁcant
+impact” on their development, and they identify one course that
+exempliﬁes “what a truly excellent college course should be.”
+
+John McCarthy. 1960 (April). Recursive functions of symbolic
+expressions and their computation by machine, part I. Communications of the ACM, 3(4):184–195.
+Bertrand Meyer. 1997. Object-Oriented Software Construction.
+Prentice-Hall, Englewood Cliffs, NJ, second edition.
+Norman Ramsey. 2016. Programming Languages: Build, Prove,
+and Compare. Cambridge University Press. Forthcoming.
+
+In aggregate, students surveyed in 2012 and 2013 were taught by
+700 to 750 faculty, of whom they named 300 to 500 on the surveys.
+In 2012, 16 graduating students named me as having a signiﬁcant
+impact on their development, and 11 named one of my courses as
+an exemplar of excellence. In 2013 the numbers were 16 and 18,
+respectively. (Students named both the third and fourth courses in
+our programming sequence.) The responses to my teaching place
+me, among the 40% to 70% of our faculty who are named on the
+surveys, in the 98th, 98th, 95th, and 99th percentiles.
+
+Emmanuel Schanzer, Kathi Fisler, and Shriram Krishnamurthi.
+2013. Bootstrap: Going beyond programming in after-school
+computer science. In SPLASH-E (Education track of OOPSLA/SPLASH).
+Michael Sperber and Marcus Crestani. 2012. Form over function—
+teaching beginners how to construct programs. In Scheme and
+Functional Programming 2012. At press time, the workshop
+proceedings had not yet been published, but the paper could be
+found at schemeworkshop.org.
+
+Supplemental material
+
+Guy Lewis Steele, Jr. 1990. Common LISP: The Language. Digital
+Press, Newton, Mass., 2nd edition.
+
+A technical-report version of this paper is accompanied by additional appendices, which are referred to in the text as Web Appendix B through Web Appendix E. These appendices have not
+been peer-reviewed.
+
+Danelle D. Stevens and Antonia Levi. 2005. Introduction to
+Rubrics: An Assessment Tool to Save Grading Time, Convey
+Effective Feedback, and Promote Student Learning. Stylus.
+
+14
+
+B.
+
+High-level learning outcomes
+
+Level 3: Recursive reasoner
+Recursive reasoners have the insight to ﬁnd a recursive decomposition even when the decomposition is not there in the data. And they
+can write recursive algorithms that remember past actions.
+
+This section presents my high-level summary of learning outcomes,
+as mentioned in Section 5.1. All ﬁgure and page numbers refer to
+the ﬁrst edition of How to Design Programs.
+
+• Generative recursion; quicksort [Section 25]
+
+Level 0: Tyro (sums of products)
+
+• Problem-solving: algorithm design; termination [Section 26]
+
+Tyros learn simple computation on data descriptions that can be
+written in a way that deﬁnes each data class completely before any
+other description uses that class.
+
+• Extended examples: fractals, ﬁles, Newton’s method, Gaussian
+
+elimination [Section 27]
+• Input via state machines [No book coverage]
+
+• Simple design recipe; named functions; define; auxiliary
+
+• Remembering the past with accumulating parameters [Sections
+
+functions arise from dependencies in the problem [Sections
+1 to 3, design recipe Fig 4 page 21]
+
+30, 31, 32]
+• Graph algorithms and search [Section 28]
+
+• Conditional expressions and functions; cond [Section 4, design
+
+recipe Fig 6 page 44]
+
+Level 4: Cost container (costs)
+
+• Symbols [Section 5] and strings [2nd edition, Section 1.2]
+
+Cost containers can reason about costs.
+
+• Structures, define-struct [Section 6, design recipe Fig 12
+
+• Cost modeling, vectors, big O notation [Section 29]
+
+page 71]
+
+• Inexact (ﬂoating-point) numbers [Intermezzo 6]
+
+• Mixed data, type predicates such as number? and so on [Sec-
+
+tion 7, design recipe Fig 18 page 89]
+
+Level 5: Memory mutator (mutation)
+
+• BNF Grammar for Beginning Student Language [Intermezzo 1]
+
+Memory mutators cut costs by using mutable state.
+
+Level 1: Beginning student (lists and trees)
+
+• Mutable variables and mutation (set!) [Sections 34 to 37]
+
+Beginning students learn to work with data descriptions that refer
+to themselves and so cannot be completely deﬁned before they are
+used. The most common such data are lists and trees.
+
+• Syntax and semantics of Advanced Scheme [Intermezzo 7]
+• Abstraction with mutable state [Section 39]
+• Mutable structures and vectors [Section 40]
+
+• Deﬁning and consuming lists using empty, cons, first, rest,
+
+• Mutating elements (atomic or structured) [Section 41]
+
+and empty? [Section 9, design recipe Fig 26 page 132]
+
+• Extensional and intensional equality [Section 42]
+
+• Producing lists; lists of structures [Section 10]
+
+• Mutation practicum: quicksort, cyclic structures [Section 43]
+
+• Peano numerals; zero?, sub1 [Section 11]
+• Problem-solving; auxiliary functions [Section 12]
+
+C.
+
+• List abbreviations [Intermezzo 2]
+
+Curricular decisions are local. To put my decisions into their proper
+context, I highlight our most salient local constraints.
+
+• Trees, nested lists (using existing structure and list primitives)
+
+[Section 14]
+
+Curricular constraints at Tufts
+
+• Our department has historically favored the teaching of pro-
+
+gramming; we are not pressured to teach “computational thinking” or a new kind of science or anything else. We believe that
+if students learn good methods of programming, they will also
+learn good methods of thinking.
+
+• Groups of mutually referential data deﬁnitions [Section 15,
+
+design recipe Fig 43 page 218]
+• Problem-solving: iterative reﬁnement [Section 16]
+• Forms of case analysis with multiple complex arguments [Sec-
+
+• We admire and respect the work that Bob Sedgewick has done
+
+tion 17]
+
+at Princeton, which I characterize as a combination of “computation as a science” and “computation in service to the sciences.” But for our own students, we are more interested in
+an engineering approach that emphasizes solving problems and
+building artifacts.
+
+Level 2: Intermediate student (abstraction)
+Intermediate students learn a key technique of computer science:
+abstraction.
+
+• Our programming courses emphasize “projects.” A project is a
+
+• local deﬁnitions of variables and functions; lexical scope [In-
+
+relatively large programming assignment, done primarily outside of class, where the assignment is focused on a problem in
+the world rather than a lesson in the class. Students either build
+the entire project themselves or use a well-designed, generalpurpose library like that of Hanson (1996). We work hard to
+avoid the trap in which an instructor designs the project and
+students “ﬁll in holes.”
+Examples of project problems we have used in the ﬁrst four
+semesters of instruction include “Identify the natural language
+of this web page,” “Search a database of song lyrics,” “Compress and decompress images,” and “Implement full integers
+using machine integers.” These projects are connected to realworld technology (Google Translate, Google Search, JPEG, and
+
+termezzo 3]
+• Don’t Repeat Yourself: abstracting similar functions and similar
+
+data deﬁnitions [Section 19]
+• Functions are values: filter1, map, sort, parametric poly-
+
+morphism; “loops” [Section 20]
+• How to design abstractions; single point of control; clone and
+
+modify considered harmful [Section 21]
+• Designing abstractions with 1st-class functions [Section 22]
+• Examples: sequences, series, graphing [Section 23]
+• Anonymous functions with lambda [Intermezzo 4]
+
+WA-1
+
+able online. The second edition is not only still unpublished; it is
+not yet complete. But it contains many changes and improvements:
+
+bignums). We also like projects that are connected to what Tufts
+calls “active citizenship” (a form of public service), to “big
+data,” and to scientiﬁc applications.
+
+• It describes a function’s type as its “signature,” not its “con-
+
+• Our department is very concerned to serve and retain members
+
+tract.”
+
+of underrepresented groups, including, e.g., women and ﬁrstgeneration university students. We work hard to avoid creating
+courses that offer advantages to students who have a special
+afﬁnity for mathematics or to students who have tinkered with
+computers for many years. Many of our students have no prior
+experience, and we want the playing ﬁeld to be level. For this
+reason, we minimize the amount of student work devoted to
+games and puzzles; we feel that students who are drawn to
+games and puzzles are already overrepresented in computer science. In particular, the video-game examples in How to Design
+Programs would be considered a poor choice for our students.
+
+• It introduces check-expect and related forms.
+• It is much more explicit about the difference between designing
+
+functions and designing programs.
+• It contains new sections on designing programs in two model
+
+families of programs (interactive graphics programs and batch
+I/O programs).
+• It explains the most up-to-date versions of the image and
+
+universe libraries described by Felleisen et al. (2009).
+• It contains new material on higher-order functions, the use of
+
+abstractions, and effective use of wish lists.
+
+• Our central administration has articulated that, as a strategic
+
+goal, Tufts should provide transformative educational experiences. This goal helps support the choice of unusual technologies (such as functional programming) in the classroom. It also
+means that we can ask students to work hard.
+
+• It contains myriad other small improvements (e.g., explic-
+
+itly quantiﬁed type variables in polymorphic signatures, less
+promiscuous use of else).
+While I borrowed a number of ideas and terms from the second
+edition, and I assigned a few readings from the second edition,
+I required the ﬁrst edition as the ofﬁcial textbook for my course.
+While I ﬁnd much to admire in the second edition, and I look
+forward eagerly to its completion, I felt that, especially for a new
+course, everyone concerned would be uncomfortable with the idea
+of an incomplete textbook available only on the web, whereas
+everyone would be very comfortable with a printed book that had
+received the imprimatur of the MIT Press.
+
+Given these constraints, our department endorsed the creation of a
+course in problem-solving by computer, where students will learn
+to solve problems “starting from a blank page,” and that will be
+available to every student who is motivated to work hard, regardless of background. We decided that our greatest opportunity for
+success lay in adapting Program by Design for Tufts:
+• We liked the tactical advantages of a mature course designed to
+
+be adopted, with a substantial supporting infrastructure, including both software and teaching workshops.
+
+D.2
+
+• Program by Design’s design process was the closest thing we
+
+I have only very minor complaints: I frequently wished for “unequal” functions on various base types, and I wished there were no
+struct? predicate. In a rational design process, I can identify no
+place for the struct? predicate, and my students routinely misused it.
+
+could ﬁnd to a systematic method of software development
+suitable for beginning students.
+• We liked the thought of the DrRacket programming environ-
+
+ment and its language levels, which had been proven to work
+well with beginning students.
+
+I didn’t realize check-within could be used on any value—I had
+thought it was limited to ﬂoating-point values. Also, not all my students understood how to use its “epsilon” parameter. These students
+sometimes wrote check-within forms that would pass tests even
+if a computation was grossly inaccurate.
+
+On revisiting our unpublished white paper, which can be found at
+http://curriculum.cs.tufts.edu, I am sobered to see that
+we understood almost nothing about the method.
+Functional programming was never a goal; it was a means to an
+end. We arrived at functional programming through this reasoning:
+
+D.3
+
+• What we want most from our ﬁrst course is for students to learn
+
+• Such methods are the essence of Program by Design.
+• Program by Design is most easily taught using functional pro-
+
+gramming.
+• Therefore, functional programming is a good choice for the
+
+introductory course.
+
+The second pain point is a component called the “handin server,”
+which enables to submit programs from their own computers, be
+they OSX, Windows, or Linux. The details are not worth recounting
+here, but my systems staff and I spent a couple of full days each
+getting it (mostly) working. What you need to know is that the
+handin server exists, and that getting it working may take much
+more time than you expect.
+
+Trivia and Ephemera
+
+This section information that is too trivial to warrant space in
+the body of the paper or that is likely to be invalidated by future
+changes in How to Design Programs or in DrRacket. (The course
+described in this paper was taught using both the ﬁrst and second editions of How to Design Programs and using DrRacket version 5.3.6.)
+D.1
+
+Pain points with DrRacket 5.3.6
+
+First, I found it difﬁcult to create libraries (“teachpacks”) for my
+students’ use. There are two different, incompatible methods for
+installing libraries, the simpler of which turns out to be irreversible
+(there is no “uninstall”). Neither method was easy for me to learn.
+I believe that these problems can be addressed easily enough by better explaining Racket’s “collection” and “package” models, as well
+as some other minor improvements in the documentation.
+
+systematic methods of problem-solving and software development.
+
+D.
+
+Complaints about the teaching languages
+
+A third pain point seems almost silly, but it prevented one student
+from submitting a working homework assignment, and none of my
+course staff was able to diagnose the problem. The student had
+somehow cut and pasted code containing a Unicode en dash or
+em dash, and had tried to use the dash as a minus sign. To say
+that the error message was bafﬂing would be rank understatement.
+
+Choosing an edition of the textbook
+
+How to Design Programs is available in two editions. The ﬁrst edition is complete, available in print from MIT Press, and also avail-
+
+WA-2
+
+D.4
+
+• A world is full of events such as mouse movement, button
+
+Importing libraries
+
+presses, key presses, and the passage of time. What events cause
+changes in scenes? One way to answer this question is with a
+state-transition diagram that shows a box for each choice of
+state and and arrows connecting related states.
+If you can answer this question, and you can say how the events
+affect the state, then you’re ready to ﬁnish your data description
+and move on to your order list.
+
+I must mention a minor pitfall connected to the universe library.
+Both the second edition universe and the ﬁrst edition world build
+on an image library. But while there is only one universe library
+and only one world library, there are two image libraries, and they
+are incompatible. All libraries are chosen using DrRacket’s menus,
+and unfortunately a number of my student chose the wrong image
+library from the menus. This error took our course staff some
+time to diagnose, and until we diagnosed it, it caused signiﬁcant
+unnecessary suffering and confusion. In the future, as noted in the
+body of the paper, I will mandate that all libraries be imported not
+using the graphical user interface but using an explicit statement in
+the source code such as (require 2htdp/image). This procedure
+will also have the advantage of putting my libraries on the same
+footing as the book’s libraries.
+D.5
+
+E.1
+
+1. Does it need to draw anything?
+Yes. You will need to deﬁne a function to pass to to-draw. That
+function will need a name; in the example below, it is called
+render.
+
+Two of my minor oversights
+
+2. Does it need to respond to the mouse?
+If so, you will need to deﬁne a function to pass to on-mouse.
+That function will need a name; in the example below, it is
+called mouse-event-handler.
+
+70% of my students were freshmen in their ﬁrst semester at university. Many of them were expecting an “introduction to computer science,” and I did not manage their expectations about what
+“introduction” means to a computer scientist. Many students were
+shocked to learn that an introductory course would require weekly
+lab exercises and weekly programming assignments. Most of these
+students dropped the course.
+
+3. Does it need to respond to the keyboard?
+If so, you will need to deﬁne a function to pass to on-key. That
+function will need a name; in the example below, it is called
+key-stroke-handler.
+
+Students were very curious to know about full Racket and how it is
+used in real life. I was not prepared to answer.
+
+E.
+
+Developing an order list for world programs
+
+Questions to ask about any world program:
+
+4. Do things need to happen as time passes, even if the mouse and
+keyboard are untouched?
+If so, you will need to deﬁne a function to pass to on-tick.
+That function will need a name; in the example below, it is
+called clock-tick-handler.
+
+Design guidelines for world programs
+
+This section reproduces a handout I created to help my students
+design world programs.
+
+5. Does the program run indeﬁnitely (or until killed)?
+If not, you will need to deﬁne a function to pass to stop-when.
+That function will need a name (which should end in a question
+mark); in the example below, it is called end?.
+
+The second edition says:
+Your task is to develop a data representation for all possible
+states of the world.
+This is the hardest part of designing a world program. Some ideas:
+
+The signatures for all these functions are explained in Section 2.6
+(Designing World Programs) of the second edition textbook. Figure 2 reproduces the key ﬁgure from that section.
+
+• Draw scenes that the program might display. (Imagine you ﬁlm
+
+the program in operation. What are the key still images you
+would put on a storyboard to show the program at work?)
+
+Here is an example call to big-bang:
+
+• What data do you need to draw your scenes and images?
+
+(big-bang first-world-state
+(on-tick clock-tick-handler)
+(on-key key-stroke-handler)
+(on-mouse mouse-event-handler)
+(to-draw render)
+(stop-when end?)
+...)
+
+• What data remains the same in every scene? Things that don’t
+
+change shouldn’t be part of the world state. Such things should
+instead be made named constants using define.
+• What data changes? That data becomes part of the data deﬁni-
+
+tion for the world state. Here are some general ideas:
+
+Here is another example that uses shorter names for some of your
+functions:
+
+A very simple program might have just one item of atomic
+data as its world state.
+
+(big-bang w0
+(on-tick tock)
+(on-key ke-h)
+(on-mouse me-h)
+(to-draw render)
+(stop-when end?)
+...)
+
+A scene with multiple elements might have a structure as its
+world state (deﬁnition by parts).
+A program with multiple kinds of scenes, each with its own
+set of elements, might have a set of variants as its world state
+(deﬁnition by choices on top of deﬁnition by parts).
+Protip: It is also possible to deﬁne the world state using
+deﬁnition by parts on top of deﬁnition by choice, or even
+deﬁnition by parts on top of deﬁnition by choice on top of
+deﬁnition by parts. This is one of the deepest tricks in the
+business, and we’ll talk about it in class.
+
+E.2
+
+Resources
+
+The Racket Documentation is not the best way to learn big-bang.
+The best way is to consult Part One of the second edition:
+
+• What datum is needed to draw the very ﬁrst scene? This datum
+
+• Section 2.4.2 (Interactive Programs) presents some simple
+
+is a world state; in fact, it is the initial state of the world. It is
+sometimes called “world 0.”
+
+big-bang examples, but it does not explain systematically
+what big-bang does.
+
+WA-3
+
+; WorldState : a data definition of your choice
+; data that represent the state of the world
+; render :
+;
+WorldState -> Image
+; big-bang evaluates (render cw) to obtain image of
+; current world cw
+;
+;
+;
+;
+;
+
+clock-tick-handler :
+WorldState -> WorldState
+for each tick of the clock, big-bang evaluates
+(clock-tick-handler cw) for current world cw
+to obtain new world
+
+;
+;
+;
+;
+;
+
+key-stroke-handler :
+WorldState String -> WorldState
+for each key stroke, big-bang evaluates
+(key-stroke-handler cw ke) for current world cw and
+key stroke ke to obtain new world
+
+;
+;
+;
+;
+;
+;
+
+mouse-event-handler :
+WorldState Number Number String -> WorldState
+for each key stroke, big-bang evaluates
+(mouse-event-handler cw x y me) for current
+world cw, ; coordinates x and y, and mouse event me
+to obtain new world
+
+; end? :
+;
+WorldState -> Boolean
+; after an event, big-bang evaluates (end? cw)
+; for current world cw to see if the program stops
+
+Figure 2. Signatures of world functions (reproduced, with minor
+formatting changes, from Figure 10 of How to Design Programs,
+second edition)
+• Section 3.6 (Designing World Programs), especially Figure 10
+
+(which is reproduced above), systematically outlines the structure of every program that uses big-bang, and it explains what
+big-bang does with each piece of this structure.
+• Section 3.7 (A Note on Mice and Characters) explains mouse-
+
+event handlers and keystroke handlers.
+
+WA-4
+
+

@@ -1,0 +1,2209 @@
+Specifying Representations of Machine Instructions
+NORMAN RAMSEY
+University of Virginia
+and
+´
+MARY F. FERNANDEZ
+AT&T Labs
+
+We present SLED, a Speciﬁcation Language for Encoding and Decoding, which describes abstract, binary, and assembly-language representations of machine instructions. Guided by a SLED
+speciﬁcation, the New Jersey Machine-Code Toolkit generates bit-manipulating code for use in
+applications that process machine code. Programmers can write such applications at an assemblylanguage level of abstraction, and the toolkit enables the applications to recognize and emit the
+binary representations used by the hardware. SLED is suitable for describing both CISC and RISC
+machines; we have speciﬁed representations of MIPS R3000, SPARC, Alpha, and Intel Pentium
+instructions, and toolkit users have written speciﬁcations for the Power PC and Motorola 68000.
+The article includes representative excerpts from our SPARC and Pentium speciﬁcations. SLED
+uses four elements; ﬁelds and tokens describe parts of instructions; patterns describe binary representations of instructions or groups of instructions; and constructors map between the abstract and
+binary levels. By combining the elements in diﬀerent ways, SLED supports machine-independent
+implementations of machine-level concepts like conditional assembly, span-dependent instructions,
+relocatable addresses, object code, sections, and relocation. SLED speciﬁcations can be checked
+automatically for consistency with existing assemblers. The implementation of the toolkit is
+largely determined by our representations of patterns and constructors. We use a normal form
+that facilitates construction of encoders and decoders. The article describes the normal form and
+its use. The toolkit has been used to help build several applications. We have built a retargetable
+debugger and a retargetable, optimizing linker. Colleagues have built a dynamic code generator,
+a decompiler, and an execution-time analyzer. The toolkit generates eﬃcient code; for example,
+the linker emits binary up to 15% faster than it emits assembly language, making it 1.7–2 times
+faster to produce an a.out directly than by using the assembler.
+Categories and Subject Descriptors: C.0 [Computer Systems Organization]: General—systems speciﬁcation methodology; D.3.2 [Programming Languages]: Language Classiﬁcations—
+specialized application languages; D.3.4 [Programming Languages]: Processors—translator
+writing systems and compiler generators
+General Terms: Languages
+Additional Key Words and Phrases: Compiler generation, decoding, encoding, machine code,
+machine description, object code, relocation
+
+This work has been funded by a Fannie and John Hertz Fellowship, an AT&T Ph.D. Fellowship,
+an IBM Graduate Research Fellowship, and by Bellcore.
+Authors’ addresses: N. Ramsey, Department of Computer Science, University of Virginia, Charlottesville, VA 22903; email nr@cs.virginia.edu; M. F. Fern´ndez, AT&T Labs — Research, 180
+a
+Park Avenue, Florham Park, NJ 07932-0971; email mﬀ@research.att.com.
+Permission to make digital/hard copy of all or part of this material without fee is granted
+provided that the copies are not made or distributed for proﬁt or commercial advantage, the
+ACM copyright/server notice, the title of the publication, and its date appear, and notice is given
+that copying is by permission of the Association for Computing Machinery, Inc. (ACM). To copy
+otherwise, to republish, to post on servers, or to redistribute to lists requires prior speciﬁc
+permission and/or a fee.
+c 1997 ACM 0164-0925/97/0500-0492 $03.50
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997, Pages 492–524.
+
+Specifying Representations of Machine Instructions
+
+·
+
+493
+
+1. INTRODUCTION
+This article describes SLED—Speciﬁcation Language for Encoding and Decoding—
+and its implementation in The New Jersey Machine-Code Toolkit. SLED specﬁcations deﬁne mappings between symbolic, assembly-language, and binary representations of machine instructions. We have speciﬁed representations of MIPS R3000,
+SPARC, Alpha, and Intel Pentium instructions; toolkit users have written speciﬁcations for the Power PC and Motorola 68000. The speciﬁcations are simple, which
+makes it practical to use the toolkit to write applications for multiple architectures.
+The toolkit uses SLED speciﬁcations to help programmers write applications that
+process machine code—assemblers, disassemblers, code generators, tracers, proﬁlers, and debuggers. The toolkit lets programmers encode and decode machine
+instructions symbolically. Guided by a SLED speciﬁcation, it transforms symbolic
+manipulations into bit manipulations.
+Traditional applications that process machine code include compilers, assemblers, linkers, and debuggers. Newer applications include proﬁling and tracing tools
+[Ball and Larus 1994; Cmelik and Keppel 1994], testing tools [Hastings and Joyce
+1992], protection enforcers [Wahbe et al. 1993], run-time code generators [George
+et al. 1994], and link-time optimizers [Fern´ndez 1995; Srivastava and Wall 1993].
+a
+There are even some frameworks for creating applications that manipulate executable ﬁles, although none that work on more than one machine [Johnson 1990;
+Larus and Schnarr 1995; Srivastava and Eustace 1994]. Graham et al. [1995] describe auxiliary information needed to facilitate machine-code manipulations; they
+report support for the MIPS and SPARC architectures.
+A few applications avoid machine code by using assembly language, e.g., many
+Unix compilers emit assembly language, not object code. It is not always practical,
+however, to use an assembler, e.g., when generating code at run time or adding
+instrumentation after code generation. Some machine-code applications can be
+duplicated by source-code transformation; such applications usually work on many
+machines, but they cannot be used as often as applications that work on object
+code, because source code is not always available. Our toolkit makes it easier to
+build applications and frameworks that work with object code and therefore can
+be used on any executable ﬁle.
+Applications that cannot use an assembler currently implement encoding and
+decoding by hand. Diﬀerent ad hoc techniques are used for diﬀerent architectures.
+The task is not intellectually demanding, but it is error prone; bit-manipulating
+code usually harbors lingering bugs. Our toolkit automates encoding and decoding,
+providing a single, reliable technique that can be used on a variety of architectures.
+It is intended less to support traditional compilation than to support nontraditional
+operations like rewriting executable ﬁles or run-time code generation.
+Applications use the toolkit for encoding, decoding, or both. For example, assemblers encode; disassemblers decode; and some proﬁlers do both. All applications
+work with streams of instructions. Decoding applications use matching statements
+to read instructions from a stream and identify them. A matching statement is
+like a case statement, except its alternatives are labeled with patterns that match
+instructions or sequences of instructions. Encoding applications call C procedures
+generated by the toolkit. These procedures encode instructions and emit them
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+494
+
+·
+
+Ramsey and Fern´ndez
+a
+
+into a stream, e.g., the SPARC call fnegs(r2, r7) emits the word 0x8fa000a2.
+Streams can take many forms; for example, a debugger can treat the text segment
+of a target process as an instruction stream. The toolkit’s library provides a representation of streams that should be convenient for many encoding applications.
+The toolkit has four parts. The translator takes a program with embedded matching statements and translates these statements into ordinary code. It handles programs written in C or Modula-3 [Nelson 1991]. The generator generates encoding
+and relocation procedures in C. These procedures call code in the library. The
+library implements both instruction streams and relocatable addresses, which refer
+to locations within the streams. The checker checks speciﬁcations for consistency
+with existing assemblers. The translator, generator, and checker need an instruction speciﬁcation; encoding procedures and checking code are generated from the
+speciﬁcation, and matching statements can match the instructions or parts thereof
+deﬁned in the speciﬁcation. The library is machine independent.
+The SLED speciﬁcation language is simple, and it is designed so that speciﬁcations can resemble instruction descriptions found in architecture manuals. SLED
+uses a single, bidirectional construct to describe both encoding and decoding, so
+their consistency is guaranteed. The toolkit checks speciﬁcations for unused constructs, underspeciﬁed instructions, and internal inconsistencies. An instruction encoding can be speciﬁed with modest eﬀort; our Alpha, MIPS, SPARC, and Pentium
+speciﬁcations are 118, 127, 193, and 460 lines. The SLED speciﬁcation language is
+the primary subject of this article.
+Simplicity in speciﬁcation is more than a personal preference. Simple speciﬁcations are more likely to be correct, and correct speciﬁcations are more valuable
+if they can be used in a variety of applications. To make the toolkit simple and
+general, we avoid describing the semantics of instructions, because too often semantic information is both hard to get right and of use only to a single application.
+Instead, SLED focuses describing an abstract representation of instructions and on
+automating the translation to and from that abstract representation.
+We have personal experience with two applications that use the toolkit. mld, a
+retargetable, optimizing linker [Fern´ndez 1995], uses the toolkit to encode instruca
+tions and emit executable ﬁles. ldb [Ramsey 1992; Ramsey and Hanson 1992], a
+retargetable debugger, uses the toolkit to decode instructions and to implement
+breakpoints. Others have used the toolkit to help develop a run-time code generator, a decompiler, an execution-time analyzer [Braun 1996], and an optimizing
+compiler for object-oriented languages [Dean et al. 1996].
+Using the toolkit reduces retargeting eﬀort and makes code more reliable. For
+example, ldb’s disassembler for the MIPS requires less than 100 lines of code, and
+mld has replaced 450 lines of hand-written MIPS code with generated encoding and
+relocation procedures. By hiding shift and mask operations, by replacing case statements with matching statements, and by checking speciﬁcations for consistency,
+the toolkit reduces the possibility of error. The toolkit can speed up applications
+that would otherwise have to generate assembly language instead of binary code.
+For example, mld creates executable ﬁles 1.7 to 2 times faster when using toolkitgenerated encoding procedures than when using assembly language and calling a
+native assembler. To realize such speedups without the toolkit, mld would need
+hand-written encoding and relocation procedures for each target architecture.
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+
+·
+
+495
+
+The primary contribution of our work is the SLED speciﬁcation language, which
+is expressive enough to write clear, concise, and reusable speciﬁcations of instruction
+representations for a variety of widely used architectures. Our processor for these
+speciﬁcations derives code for both encoding and decoding problems, eliminating a
+signiﬁcant source of retargeting eﬀort. Our model of machine instructions makes
+several machine-level concepts general enough to be speciﬁed or implemented in
+a machine-independent way. These concepts include conditional assembly, spandependent instructions, relocatable addresses, object code, sections, and relocation.
+Most of this article is devoted to SLED. We begin with an extended example:
+a speciﬁcation for a representative subset of the SPARC instruction set. This
+example shows how a typical speciﬁcation is structured and how SLED is used
+idiomatically. We then cover the details of syntax, semantics, and implementation,
+followed by smaller examples from our Pentium speciﬁcation, which show CISC
+addressing modes and variable-sized operands. We explain how applications use
+the code generated by the toolkit, and we conclude with a discussion of related
+work and an evaluation of the toolkit and its speciﬁcation language.
+2. SPECIFYING INSTRUCTION REPRESENTATIONS
+To illustrate SLED, we specify a subset of the SPARC instruction set. The illustration is drawn from our complete, annotated speciﬁcation of the SPARC [Ramsey
+and Fern´ndez 1994a]. It includes the SPARC’s integer instructions, but it omits
+a
+ﬂoating-point instructions, several types of load and store, and many synthetic
+instructions. Before beginning the illustration, we explain the elements of the speciﬁcation language and our strategy for using the language to describe a machine.
+Because machine instructions do not always ﬁt in a machine word, the toolkit
+works with streams of instructions, not individual instructions. An instruction
+stream is like a byte stream, except that the units may be “tokens” of any size,
+not just 8-bit bytes. An instruction is a sequence of one or more tokens, so “token
+stream” might be a more precise term. Tokens may come in any number of classes,
+which help distinguish diﬀerent parts of complex instructions. For example, a
+Pentium instruction might include several 8-bit preﬁxes, an 8-bit opcode, 8-bit
+format bytes, and a 16-bit immediate operand. Most likely, the preﬁxes and opcode
+would be tokens from the same class, but the format bytes and operand would be
+from diﬀerent classes.
+Each token is partitioned into ﬁelds; a ﬁeld is a contiguous range of bits within
+a token. Fields contain opcodes, operands, modes, or other information. Tokens
+of a single class may be partitioned in more than one way. Patterns constrain the
+values of ﬁelds; they may constrain ﬁelds in a single token or in a sequence of tokens.
+Patterns describe binary representations of instructions, groups of instructions, or
+parts of instructions. For example, simple patterns can be used to specify opcodes,
+and more complex patterns can be used to specify addressing modes or to specify
+a group of three-operand arithmetic instructions.
+Constructors connect abstract, binary, and assembly-language representations of
+instructions. At an abstract level, an instruction is a function (the constructor)
+applied to a list of operands. An operand may be as simple as a single ﬁeld, or
+as complex as a set of ﬁelds taken from several tokens in sequence. Applying the
+constructor produces a pattern that gives the instruction’s binary representation,
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+496
+
+·
+
+Ramsey and Fern´ndez
+a
+
+which is typically a sequence of tokens. Each constructor is also associated with a
+function that produces a string, which is the instruction’s assembly-language representation. Speciﬁcation writers use constructors to deﬁne an abstract equivalent of
+an assembly language. Application programmers use constructors to emit instructions, by calling procedures derived from constructor speciﬁcations, and to decode
+instructions, by using constructors in matching statements to match instructions
+and extract their operands.
+Machine designers might expect binary representations to be untyped. We have
+found it useful to associate type information with binary representations or with
+fragments of binary representations, for the same reason that programming languages do so—to help detect and prevent errors. The classes of tokens are like
+types. We also require that each constructor have a type. We provide a predeﬁned, anonymous type for constructors that produce whole instructions, and
+speciﬁcation writers may introduce more constructor types. We typically use such
+types to describe eﬀective addresses or structured operands. When used in this
+way, the constructor type corresponds to the “operand class” of Cattell [1980], and
+each constructor of the type corresponds to one “access mode.” The toolkit maps
+constructor types onto types in the code it generates, which helps ﬁnd errors in
+application code as well as in speciﬁcations.
+To describe a machine, we begin by specifying tokens and ﬁelds, which are the
+basic components of instructions. Next come patterns that specify opcodes and
+groups of related opcodes, then constructors that specify structured operands, like
+eﬀective addresses. Having speciﬁed opcodes and operands, we deﬁne constructors
+that specify instructions. When possible, we specify many constructors concisely
+by using “opcode patterns,” which group related instructions.
+Many architecture manuals use the term “synthetic” to describe instructions
+that are supported by an assembler, but not directly by the hardware. The assembler synthesizes such instructions by using special cases or combinations of other
+instructions. SLED speciﬁcations can include synthetic instructions, for which binary representations are given by applying previously deﬁned constructors. We
+typically specify synthetic instructions in a separate ﬁle, since they are useful only
+in some applications.
+The rest of this section gives excerpts from our speciﬁcation of the SPARC.
+We have engineered SLED’s syntax to foster resemblances between speciﬁcations
+and architecture manuals, and we refer to relevant pages of the SPARC manual
+[SPARC International 1992] by page number. When concatenated, the excerpts
+form a complete SLED speciﬁcation for a subset of the SPARC architecture. The
+speciﬁcation is included in the toolkit’s source distribution.
+We use bit numbers to specify the positions of ﬁelds within tokens. Since diﬀerent
+manuals use diﬀerent conventions, the toolkit supports both little-endian and bigendian bit numberings. The SPARC manual uses the little-endian numbering.
+bit 0 is least significant
+
+Architecture manuals usually have informal ﬁeld speciﬁcations. For example, the
+ﬁelds for some SPARC load instructions are [SPARC International 1992, p. 90]:
+op
+31 30 29
+
+rd
+
+op3
+25 24
+
+rs1
+19 18
+
+i
+14 13 12
+
+simm13
+0
+
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+
+·
+
+497
+
+fields declarations give the locations and sizes of ﬁelds. The declaration below
+deﬁnes the ﬁelds used in all SPARC instructions. The ﬁrst line deﬁnes the ﬁelds in
+the picture above. The remaining lines deﬁne all the other ﬁelds used in the SPARC
+manual, even those used only in ﬂoating-point instructions, which are otherwise
+omitted from this article.
+fields of itoken (32)
+op 30:31 rd 25:29 op3 19:24 rs1 14:18 i 13:13 simm13 0:12
+disp30 0:29 op2 22:24 imm22 0:21 a 29:29 cond 25:28 disp22 0:21
+asi 5:12 rs2 0:4 opf 5:13 fd 25:29 cd 25:29 fs1 14:18 fs2 0:4
+
+We often want to give auxiliary information about some ﬁelds, which we do with
+fieldinfo directives. This directive gives mnemonic names to the two possible
+values of the a ﬁeld.
+fieldinfo a is [ names [ "" ",a" ] ]
+
+a is the “annul” bit, and the toolkit uses its names below to help derive the names
+of branch constructors.
+Architecture manuals often deﬁne opcodes in tables. The SPARC manual uses
+a hierarchy of tables; we show speciﬁcations for several. Tables F-1 and F-2
+[SPARC International 1992, p. 227] are speciﬁed by
+patterns
+[ TABLE_F2 call TABLE_F3 TABLE_F4 ]
+is op = {0 to 3}
+[ unimp _ Bicc _ sethi _ fbfcc cbccc ] is TABLE_F2 & op2 = {0 to 7}
+
+The expressions in braces generate lists of patterns, and each pattern name in the
+bracketed list is bound to the corresponding pattern on the right. For example,
+call is bound to the pattern op = 1, and Bicc is bound to op = 0 & op2 = 2.
+Bindings to the wildcard “ ” are ignored. The second line of the excerpt corresponds
+to Table F-1, but the identiﬁer TABLE F1 does not appear, because there are no
+references to Table F-1 from other tables.
+Table F-3 [SPARC International 1992, p. 228] deﬁnes opcodes for integer arithmetic; it is speciﬁed by
+patterns
+[ add
+and
+or
+xor
+sub
+andn
+orn
+xnor
+addx
+_
+umul
+smul
+subx
+_
+udiv
+sdiv
+is
+TABLE_F3
+
+addcc
+andcc
+orcc
+xorcc
+subcc
+andncc
+orncc
+xnorcc
+addxcc
+_
+umulcc
+smulcc
+subxcc
+_
+udivcc
+sdivcc
+
+taddcc
+tsubcc
+taddcctv
+tsubcctv
+mulscc
+sll
+srl
+sra
+rdxxx
+rdpsr
+rdwim
+rdtbr
+_
+_
+_
+_
+
+wrxxx
+wrpsr
+wrwim
+wrtbr
+fpop1
+fpop2
+cpop1
+cpop2
+jmpl
+rett
+ticc
+flush
+save
+restore
+_
+_
+]
+
+& op3 = { 0 to 63 columns 4 }
+
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+498
+
+·
+
+Ramsey and Fern´ndez
+a
+
+The toolkit can handle opcode tables in row-major or column-major form. The expression {0 to 63 columns 4} generates the integers from 0 to 63 in the sequence
+(0, 16, 32, 48, 1, 17, 33, . . ., 63), so that, for example, addcc is bound to the pattern
+op = 2 & op3 = 16, eﬀectively using a column-major numbering.
+Table F-4 [SPARC International 1992, p. 229] deﬁnes the load and store opcodes;
+it is speciﬁed by
+[ ld
+lda
+ldub
+lduba
+lduh
+lduha
+ldd
+ldda
+st
+sta
+stb
+stba
+sth
+stha
+std
+stda
+_
+_
+ldsb
+ldsba
+ldsh
+ldsha
+_
+_
+_
+_
+ldstub ldstuba
+_
+_
+swap
+swapa
+is
+TABLE_F4 & op3
+
+ldf
+ldfsr
+_
+lddf
+stf
+stfsr
+stdfq
+stdf
+_
+_
+_
+_
+_
+_
+_
+_
+
+ldc
+ldcsr
+_
+lddc
+stc
+stcsr
+stdcq
+stdc
+_
+_
+_
+_
+_
+_
+_
+_ ]
+
+= {0 to 63 columns 4}
+
+Most operands to instructions are ﬁelds or integers, but some operands, like effective addresses, have more structure. We use typed constructors to deﬁne such
+operands. The address operands [SPARC International 1992, p. 84] have four possible formats:
+constructors
+dispA
+rs1 + simm13!
+absoluteA simm13!
+indexA
+rs1 + rs2
+indirectA rs1
+
+:
+:
+:
+:
+
+Address
+Address
+Address
+Address
+
+is
+is
+is
+is
+
+i
+i
+i
+i
+
+=
+=
+=
+=
+
+1
+1
+0
+0
+
+&
+&
+&
+&
+
+rs1
+rs1
+rs1
+rs2
+
+&
+=
+&
+=
+
+simm13
+0 & simm13
+rs2
+0 & rs1
+
+Each line speciﬁes a constructor by giving its opcode, operands, type, and pattern.
+Usually, as here, the opcode is simply the constructor’s name. The plus signs among
+the operands indicate the preferred rendering of these constructors in assembly
+language. The operand speciﬁcation simm13! indicates a signed integer operand
+destined for ﬁeld simm13. Each of these constructors has type Address, which is
+eﬀectively a disjoint union type containing an element for each constructor. We
+use the Address type below to specify operands of constructors for load and store
+instructions. When a ﬁeld name is used as a pattern, as is rs1 on the right-hand
+side of the dispA constructor, it is an abbreviation for the more verbose pattern
+rs1 = rs1, which forces the ﬁeld rs1 to be equal to the operand named rs1. This
+abbreviation appears frequently because operands are often placed directly in ﬁelds.
+We also use typed constructors to specify “register or immediate” operands:
+constructors
+rmode rs2
+: reg_or_imm is i = 0 & rs2
+imode simm13! : reg_or_imm is i = 1 & simm13
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+
+·
+
+499
+
+Architecture manuals often group deﬁnitions of related instructions, like the loadinteger instructions in the SPARC manual [SPARC International 1992, p. 90]. We
+use disjunctions of patterns to represent such groupings, which can make speciﬁcations more concise. The speciﬁcation
+patterns loadg is ldsb | ldsh | ldub | lduh | ld | ldstub | swap
+constructors
+loadg [Address], rd
+
+deﬁnes a group of untyped constructors, one for each general-purpose load instruction. The speciﬁcation demonstrates two features of SLED: opcode expansion and
+implicit patterns. When the pattern loadg is given as the opcode in a constructor
+speciﬁcation, it is expanded into individual disjuncts, and the construct is equivalent to repeated speciﬁcations of ldsb, ldsh, etc. Omitting the right-hand side tells
+the toolkit to compute a pattern by conjoining the opcode and all the operands.
+This idiom is ubiquitous in speciﬁcations of RISC machines. Finally, the square
+brackets and comma indicate assembly-language syntax.
+These examples show how diﬀerent elements of the speciﬁcation interact. The
+constructor type Address is an abstraction representing “addressing mode.” The
+four constructors of that type specify the diﬀerent operands of addressing modes as
+well as their representations. The type Address is used in the loadg speciﬁcation,
+so the load constructors take a ﬁrst operand that represents an addressing mode.
+That operand must be the result of applying one of the four constructors of type
+Address deﬁned above. For example, to load register %l0 from a location on the
+stack, a compiler might make the call loadg(dispA(r fp, -12), r l0). This
+example assumes that r fp and r l0 are suitably deﬁned constants.
+We use the same techniques to specify the logical, shift, and arithmetic instructions, which take two register operands and one operand of type reg or imm. The
+last line speciﬁes 38 constructors at once:
+patterns
+logical is and | andcc |
+| or
+| orcc |
+| xor | xorcc |
+shift
+is sll | srl
+|
+arith
+is add | addcc |
+| sub | subcc |
+| umul | smul |
+| udiv | sdiv |
+| save | restore
+alu is arith | logical |
+constructors
+alu rs1, reg_or_imm, rd
+
+andn | andncc
+orn | orncc
+xnor | xnorcc
+sra
+addx
+| addxcc | taddcc
+subx
+| subxcc | tsubcc
+umulcc | smulcc | mulscc
+udivcc | sdivcc
+| taddcctv | tsubcctv
+shift
+
+Using reg or imm as an operand means that the second operand to any of these
+constructors must have been produced by applying either the imode constructor or
+the rmode constructor deﬁned above.
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+500
+
+·
+
+Ramsey and Fern´ndez
+a
+
+The ﬁrst column of Table F-7 [SPARC International 1992, p. 231] deﬁnes branch
+opcodes:
+patterns
+branch is any of
+[ bn be ble bl bleu bcs bneg bvs ba bne bg bge bgu bgeu bpos bvc ],
+which is Bicc & cond = {0 to 15}
+
+This compound binding is a notational abbreviation that relieves us from writing
+the names in square brackets (“bn be. . . ”) twice. It both deﬁnes these names and
+makes branch stand for the pattern matching any of them.
+To specify the branch instructions, we need two more features of SLED: relocatable operands and sets of equations. Designating an operand as relocatable means
+its value may be unknown at encoding time:
+relocatable addr
+
+If an application tries to encode an instruction with such an operand, and if the
+operand’s value is unknown, the encoding procedure emits a placeholder for the
+instruction, together with a relocation closure that can be used to overwrite the
+placeholder when the missing value becomes known [Ramsey 1996a]. The most
+common example of such an instruction is a branch to an unknown label.
+For convenience, we choose an invalid instruction as a placeholder. Because the
+execution of an invalid instruction causes a fault, it is easy to detect application
+bugs that cause placeholders to be executed:
+placeholder for itoken is unimp & imm22 = 0xbad
+
+Although the target address is an operand to a branch, it is not found in any ﬁeld
+of the instruction; instead, it is computed by adding a displacement to the program
+counter. The equation in curly braces shows the relationship, which is taken from
+SPARC International [1992, pp. 119–120]:
+constructors
+branch^a addr { addr = L + 4 * disp22! } is L: branch & disp22 & a
+
+The label L refers to the location of the instruction, and the exclamation point is
+a sign-extension operator. The toolkit solves the equation so that the encoding
+procedure can compute disp22 in terms of addr and the program counter. The
+toolkit expands the 16 alternatives for branch and the two alternatives for a, so
+this line speciﬁes 32 constructors.
+We specify synthetic instructions by applying the constructors that correspond
+to the instructions from which they are synthesized. Here are deﬁnitions of bset
+(bit set) and dec (decrement) [SPARC International 1992, p. 86]:
+constructors
+bset reg_or_imm, rd
+dec val!, rd
+
+is
+is
+
+or(rd, reg_or_imm, rd)
+sub(rd, imode(val), rd)
+
+The patterns on the right-hand sides are notated as constructor applications.
+Some synthetic instructions may stand for more than one instruction sequence,
+depending on the values of operands. We specify such instructions by putting
+alternative branches on the right-hand side of a constructor speciﬁcation. Each
+branch may have its own set of equations. The toolkit encodes the ﬁrst posACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+
+·
+
+501
+
+sible branch whose equations have a solution and whose operand values ﬁt in
+the ﬁelds to which they are bound. For example, the synthetic instruction set
+[SPARC International 1992, p. 84] expands to a single instruction when possible,
+but requires two in the general case:
+constructors
+sethi val!, rd
+is sethi & rd & imm22 = val@[10:31]
+set val!, rd
+when { val@[0:9] = 0 } is sethi(val, rd)
+otherwise
+is or(0, imode(val), rd)
+otherwise
+is sethi(val, rd); or(rd, imode(val@[0:9]), rd)
+
+The bit-extraction operator, @[low:high], extracts the bits in the positions from
+low to high. The ﬁrst branch, sethi, can be encoded whenever the least-signiﬁcant
+10 bits of val are zero. The second branch works when imode(val) can be encoded,
+i.e., when val ﬁts in 13 signed bits. The ﬁnal branch can always be encoded.
+3. SLED SYNTAX AND SEMANTICS
+Now that we have illustrated SLED with an extended example, we present its syntax
+and semantics in detail. We also describe the toolkit’s internal representation in
+enough detail so that our techniques could be used in other systems.
+SLED solves not only the intellectual problem of describing instruction representations, but also several practical problems in the generation of encoding and
+decoding applications. Throughout this section, we associate language constructs
+with problems that they solve, and we identify constructs that are motivated by
+the special needs of encoding, decoding, or other applications.
+To describe syntax, we use an EBNF grammar with standard metasymbols for
+sequences , optional constructs , and alternative choices .
+We use large metasymbols to help distinguish them from literals. Terminal symbols
+given literally appear in typewriter font. Other terminal symbols and all nonterminals appear in italic font. Excerpts from the grammar always begin with the
+name of a nonterminal followed by the ⇒ (“produces”) symbol.
+Speciﬁcation is the grammatical start symbol for SLED speciﬁcations. Within
+a speciﬁcation, deﬁnitions must appear before uses, but otherwise the parts of a
+speciﬁcation may appear in any order; so a speciﬁcation is a list of spec:
+speciﬁcation ⇒ spec
+3.1 Tokens and ﬁelds
+The toolkit supports both little-endian and big-endian bit numberings.
+spec ⇒ bit 0 is most least significant
+The default numbering makes bit 0 the least-signiﬁcant bit.
+fields declarations specify how to divide tokens into ﬁelds. One fields declaration is given for each class of tokens; only ﬁelds named in the declaration can
+be extracted from tokens of that class. Each ﬁeld appears in tokens of exactly one
+class. The fields declaration binds ﬁeld names to bit ranges and speciﬁes the
+number of bits in tokens of its class. The toolkit generates the shifts and masks
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+502
+
+·
+
+Ramsey and Fern´ndez
+a
+
+needed to manipulate the value of a ﬁeld in a token. The fields syntax is as
+follows:
+spec ⇒ fields of class-name ( width ) ﬁeld-name low-bit :high-bit
+Field values are always unsigned; storing signed values in ﬁelds requires the explicit
+sign-extension operator, a postﬁx exclamation point. For example, this operator
+is applied to the displacement ﬁeld disp22 in the deﬁnition of the SPARC branch
+constructors. We make all ﬁeld values unsigned because implicit sign extension can
+be confusing—people reading speciﬁcations should not have to remember which
+ﬁelds are signed and which are unsigned. Explicit sign extension also supports the
+use of the same ﬁeld in diﬀerent contexts with or without sign extension.
+Fields solve the problem of specifying binary representations at the lowest level.
+They oﬀer several advantages over bit strings, a more usual alternative. To make
+a token from bit strings, the strings must be concatenated in the right order; the
+order of ﬁelds is implicit in their declarations. One cannot assign the wrong number
+of bits to a ﬁeld, and the toolkit detects cases in which ﬁelds overlap or leave gaps.
+When instructions vary in size, more than one class of tokens may be needed.
+On the Intel Pentium, instructions are composed of 8-, 16- and 32-bit tokens, which
+must be given diﬀerent classes because they are of diﬀerent sizes. It can even be
+useful to put tokens of the same size in diﬀerent classes. For example, the Pentium
+uses a “ModR/M” byte to specify addressing modes and an “SIB” byte to identify
+index registers [Intel Corp. 1993, p. 26-3]:
+ModR/M
+
+mod
+7
+
+SIB
+
+reg/opcode
+
+6 5
+
+ss
+7
+
+r/m
+
+3 2
+
+index
+6 5
+
+0
+
+base
+3 2
+
+0
+
+The fields declarations for these bytes are
+fields of ModRM (8)
+fields of SIB
+(8)
+
+mod 6:7 reg_opcode 3:5 r_m 0:2
+ss 6:7 index
+3:5 base 0:2
+
+Dividing tokens into classes helps detect errors in speciﬁcations. For example,
+putting the ModR/M and SIB tokens in diﬀerent classes ensures that a user cannot
+mistakenly match both a mod ﬁeld and an index ﬁeld in the same byte.
+One could also divide SPARC tokens into classes, e.g., by using a diﬀerent class
+for each instruction format. One would have to deﬁne several replicas of ﬁelds that,
+like op, are common to multiple formats, because each ﬁeld belongs to exactly one
+class. We judge that the extra eﬀort would not pay oﬀ; the toolkit checks that the
+ﬁelds used in instructions partition the instructions’ tokens, and this check seems
+adequate to detect errors on machines like the SPARC.
+SLED speciﬁcations can include information about the names of ﬁeld values and
+about the way ﬁelds are expected to be used in an application. The syntax used is
+as follows:
+spec ⇒ fieldinfo ﬁeld-speciﬁer is [ ﬁeld-item ]
+ﬁeld-speciﬁer ⇒ ﬁeld-name | [ ﬁeld-name ]
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+
+·
+
+503
+
+ﬁeld-item ⇒ sparse [ binding , binding ]
+| names [ Ident String ]
+| checked | unchecked | guaranteed
+binding ⇒ Ident
+
+String = integer
+
+sparse and names specify names of ﬁelds. names is used when all values have
+names; sparse is used otherwise. Naming ﬁeld values solves no single problem; the
+names are used in a variety of ways. The most unusual use may be SLED’s use of
+ﬁeld names in constructor speciﬁcations; when ﬁelds are used to specify constructor
+opcodes, the names of the values become part of the names of constructors. For
+example, our SPARC speciﬁcation uses the names "" and ",a" for the values 0 and 1
+of the a ﬁeld, and these names become part of the names of branch constructors.
+The toolkit also uses the names when generating encoding procedures that emit
+assembly language and when generating disassemblers. Finally, the toolkit can
+generate tables of ﬁeld names so applications can print names of ﬁeld values.
+The other information about ﬁelds helps solve the problem of generating eﬃcient
+encoders. The toolkit normally checks ﬁeld values at encoding time to be sure they
+can be represented in the number of bits available. These safety checks are needed
+only when ﬁeld values are supplied by an application; no safety checks are generated when the toolkit can infer that values are representable. The checks can be
+ﬁne-tuned using the checked, unchecked, and guaranteed attributes of ﬁelds. Application writers unwilling to pay for a compare and branch can designate ﬁelds as
+unchecked, in which case encoding procedures do not check their values but simply
+mask out high bits so tokens are not corrupted by bogus values. Those unwilling
+to pay even the cost of masking can designate ﬁelds as guaranteed, in which case
+their values are used without checking or masking; the application guarantees that
+the value ﬁts. For example, code generators typically guarantee ﬁelds denoting registers, since the register allocator can easily ensure that register numbers fall in the
+proper range. Such a guarantee could be added to our SPARC example by writing
+fieldinfo [ rs1 rs2 rd fs1 fs2 fd cd ] is [ guaranteed ]
+
+Fields are checked by default.
+3.2 Patterns
+Patterns constrain both the division of streams into tokens and the values of
+the ﬁelds in those tokens. When instructions are decoded, patterns in matching
+statements identify interesting inputs; for example, a pattern can be deﬁned that
+matches any branch instruction. When instructions are encoded, patterns in the
+machine speciﬁcation specify what tokens are written into the stream.
+Patterns are composed from constraints on ﬁelds. A constraint ﬁxes the values a
+ﬁeld may have. Constraints come in two forms: range constraints and ﬁeld bindings.
+Range constraints are used when the values permitted in a ﬁeld are known statically.
+Range constraints are represented internally in the form lo ≤ f < hi , forcing the
+value of the ﬁeld to fall in a range. The external syntax is more restrictive; it requires
+that the ﬁeld name be to the left of a single relational operator. The general form
+can be obtained by conjoining two constraints on the same ﬁeld. The restricted
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+504
+
+·
+
+Ramsey and Fern´ndez
+a
+
+syntax presents no burden in practice, because almost all range constraints use a
+range that contains one value, and we write them with an equals sign, e.g., op = 1.
+Field bindings are used when the value of a ﬁeld is not known until encoding
+time. A ﬁeld binding forces a ﬁeld to be equal to a value computed dynamically, and
+the dynamic computation is represented as an expression containing free variables.
+Field bindings are also written with equals signs.
+Patterns are composed by conjunction (&), concatenation (;), and disjunction (|).
+They can also be computed by applying constructors. The syntax for patterns is
+as follows:
+pattern ⇒
+|
+|
+|
+|
+|
+|
+|
+
+name
+ﬁeld-name rel-op expr
+opcode ( arguments )
+pattern pat-op pattern
+some class-name
+label-name : pattern
+pattern ...
+... pattern
+
+name of pattern, ﬁeld, or constructor type
+Constrains or binds ﬁeld
+Constructor application
+Conjoins, concatenates, disjoins patterns
+Matches a single token of the class named
+Labels pattern
+Less restrictive conjunction
+Less restrictive conjunction
+
+Patterns and their composition are most easily understood by looking at the rules
+for matching patterns. Patterns are tested for matching against sequences of tokens;
+the special pattern epsilon matches the empty sequence. For each constraint, the
+toolkit checks the ﬁeld named therein to see if it falls in the range speciﬁed in a
+range constraint or is equal to the value bound in a ﬁeld binding.
+Patterns can be combined by conjunction, concatenation, or disjunction. When
+p and q are patterns, a conjunction “p & q” matches if both p and q match. We
+typically use conjunction to constrain multiple ﬁelds within a single token. A
+concatenation “p; q” matches if p matches an initial sequence of tokens and if q
+matches the following tokens. We typically use concatenation to build up patterns
+matching sequences of more than one token, for example, to match eﬀective addresses on the Pentium. A disjunction “p | q” matches if either p or q matches.
+We typically use disjunction to group patterns for instructions that are related,
+e.g., to group the SPARC integer-arithmetic instructions.
+The wildcard constraint “some class” matches any token of class class; for example, on the SPARC, “some itoken” matches any 32-bit token.
+The labeled pattern L: p matches whenever p matches, and it binds the identiﬁer L to the location in the instruction stream where p matches.
+The ellipsis has no eﬀect on matching, but it relaxes restrictions on conjunction,
+as described below.
+Patterns solve the intellectual problem of describing binary representations. Each
+composition operator addresses a diﬀerent need. Conjunction speciﬁes how values in ﬁelds are combined to form tokens. Concatenation describes representations containing multiple tokens in sequence. Disjunction describes alternatives.
+Concatenation and disjunction operators are found in regular expressions. Unlike regular expressions, patterns do not have a Kleene closure (repetition) operator. This omission, together with the ability to examine ﬁelds in any order,
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+Component
+Pattern (disjunction)
+Disjunct (sequence)
+Sequent (conjunction)
+Range constraint
+Field binding
+Fig. 1.
+
+Contains. . . combined with
+disjuncts
+|
+sequents
+;
+constraints
+&
+lo ≤ f < hi
+f = expression
+
+·
+
+505
+
+Matches when. . .
+any disjunct matches
+each sequent matches a token
+token satisﬁes every constraint
+ﬁeld falls within range
+always
+
+Some components of the normal form of patterns.
+
+distinguishes the problem of matching patterns from the problem of matching
+regular expressions.
+3.2.1 Representing Patterns. This section presents a detailed description of the
+toolkit’s representation of patterns. Studying the details of the representation is
+the best way to understand the meanings of patterns and the pattern operators
+and to understand the utility of patterns in generating encoders and decoders. The
+details can be confusing, because we use similar but not identical list structures at
+several levels, and because the structures play diﬀerent roles in diﬀerent contexts.
+Suggestive terminology helps distinguish structures and roles at each level.
+Patterns are represented in a disjunctive normal form. The normal form has a
+three-level structure; the levels correspond to the three ways to combine patterns.
+Figure 1 shows the components of the normal form, the terminology used to refer
+to them, and the rules for matching them. We use several synonyms for each
+component, changing synonyms as we shift our focus from the component’s role on
+its own to the component’s relationship with the component above.
+Every pattern is represented as a disjunction, that is, a list of alternatives. An
+empty list is permitted, even though the empty disjunction never matches.1 Each
+disjunct, or alternative, is a sequence. Each item in a sequence is a conjunction
+of constraints. A pattern matches a sequence of tokens when one of its disjuncts
+(alternatives) matches. That disjunct matches a sequence of tokens when every
+sequent (conjunction) matches the corresponding token. The empty sequence, denoted by epsilon, always matches, consuming no tokens. Finally, a conjunction
+matches a token if the token satisﬁes all of the constraints in the conjunction. Each
+conjunction applies to a particular class of tokens, and all the constraints in the
+conjunction must constrain ﬁelds from that class. The empty conjunction, which is
+denoted by some class, is permitted; it matches any token of the associated class.
+We deﬁne the shape of a sequence to be the list of token classes associated with
+the conjunctions of that sequence. Encoding and decoding choose a particular
+disjunct (sequence) to emit or match, and the shape of the sequence determines
+which tokens are emitted or matched when that sequence is encoded or decoded.
+We can deﬁne simple constraints and the pattern operators in terms of the normal
+form of patterns. It is not hard to show that these deﬁnitions, combined with the
+rules for matching in normal form, imply the matching properties described above.
+The normal form of a simple constraint is a pattern with a single disjunct, which
+is a sequence of length 1, in which the single sequent contains the constraint. (A
+wildcard constraint has a form in which the sequent contains no constraints, i.e.,
+1 One
+
+can obtain an empty disjunction by conjoining mutually exclusive constraints.
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+506
+
+·
+
+Ramsey and Fern´ndez
+a
+
+it is the empty conjunction.) The normal forms of p | q and p; q are straightforward. We form p | q by concatenating the disjuncts of p and q to form one large
+disjunction. We form p; q by distributing concatenation over disjunction; and we
+concatenate two sequences by concatenating their sequents.
+We also form p & q by distributing over disjunction, but the rules for conjoining
+two sequences are more complicated. The basic rule is that the sequences to be
+conjoined must have the same shape, i.e., they must be the same length, and the
+classes associated with corresponding sequents must be the same. For example,
+all of the conjunctions in the SPARC example operate on sequences of length 1,
+and each sequent comes from the itoken class. The Pentium is more complicated.
+For example, the pattern mod = 0 & r m = 5 is permitted, because both conjuncts
+constrain ﬁelds from the ModRM class. The pattern mod = 0 & index = 2 is not
+permitted, because mod is from the ModRM class, but index is from the SIB class.
+We conjoin two sequences of identical shape by conjoining their individual sequents,
+elementwise. Conjoining two sequents simply means conjoining their constraints; if
+both sequents constrain the same ﬁeld, their conjunction constrains the ﬁeld to lie
+in the intersection of the two ranges.
+The basic rule for conjunction is too restrictive on a machine like the Pentium,
+in which eﬀective addresses of varying shapes must be conjoined with opcodes of
+a ﬁxed shape. If the shape of one sequence is a preﬁx of the shape of another, we
+can conjoin two sequences elementwise until we run out of elements in the shorter
+sequence, and then we can take the remaining elements from the longer sequence
+unmodiﬁed. A similar technique works when one sequence is a suﬃx of another.
+If the toolkit used preﬁxes or suﬃxes automatically, it might silently accept an
+unintended, incorrect conjunction, so it uses them only when told to do so. The
+speciﬁcation writer uses an ellipsis (“...”) before or after any pattern to liberalize
+conjunctions with that pattern. The pattern p & q ... is deﬁned whenever q’s
+shape is a preﬁx of p’s shape. q is conjoined with the preﬁx of p whose shape matches
+its shape, and the rest of p is concatenated to the result. Similarly, p & ... q is
+deﬁned whenever q’s shape is a suﬃx of p’s shape, and the patterns are aligned at
+the end instead of the beginning. The ellipsis has the eﬀect of making a pattern
+“lose its shape” where the ellipsis appears; so p ... & ... q is never legal, because
+p ... has no well-deﬁned suﬃx, and ... q has no well-deﬁned preﬁx.
+The restrictions on conjunction, with or without the ellipsis, guarantee that each
+disjunct in a valid pattern corresponds to a sequence of tokens. The toolkit uses this
+invariant to generate both encoders and decoders. These rules prohibit “mixing”
+tokens of diﬀerent classes; in each instruction, each sequence of bits comes from a
+token of a unique class.
+3.2.2 Conditions and Names. Free variables may appear not only in ﬁeld bindings, but also in conditions associated with a pattern. No conditions appear in
+the grammar for patterns; instead, conditions are implicit in other parts of the
+speciﬁcation and are associated with patterns in the toolkit’s internal representation. For example, encoding of a ﬁeld binding is subject to the condition that
+the computed value ﬁt in the ﬁeld; the condition becomes part of the pattern in
+which the ﬁeld binding appears. Internally, this condition is derived from an operator that narrows a value to ﬁt in the number of bits available. The toolkit uses
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+Component
+Pattern
+
+Contains
+disjuncts, name
+
+Matches when. . .
+Any disjunct matches.
+
+Disjunct
+
+conditions,
+sequents+labels,
+ellipses, name
+constraints,
+ﬁeld bindings
+
+Conditions are satisﬁed, and
+each sequent matches.
+
+Sequent
+
+Label
+Range
+constraint
+Field binding
+
+lo ≤ f < hi ,
+lo & hi constant
+f = expression
+
+Fig. 2.
+
+Constraints and bindings
+match.
+Always matches; binds
+identiﬁer to location.
+Field value falls in range.
+Always matches; equates
+expression to value of ﬁeld.
+
+·
+
+507
+
+To encode. . .
+Encode ﬁrst disjunct with
+satisﬁed conditions.
+Encode each sequent as one
+token.
+Set ﬁelds of token using
+constraints and bindings;
+emit token.
+Not encoded, but may be
+used in equations.
+If range has one element, set
+ﬁeld.
+Set ﬁeld to value of
+expression.
+
+Normal form of patterns, with matching and encoding rules.
+
+a signed narrow for sign-extended ﬁelds and an unsigned narrow for other ﬁelds.
+From the unsigned narrow, the toolkit derives the condition 0 ≤ f < 2n , for a
+value f put into a ﬁeld of n bits. From the signed narrow, the toolkit derives the
+condition −2n−1 ≤ f < 2n−1 . Other conditions may be derived from equations in a
+constructor deﬁnition. For example, most RISC branch instructions are described
+by equations that have solutions only under the condition that the target address
+diﬀers from the program counter by a multiple of the word size.
+We associate conditions with each disjunct. Although conditions could be associated with each constraint or each sequent, the disjunct is a better choice, because
+it is the largest component of a pattern that must be matched in its entirety. The
+disjunct is also the natural place to put conditions associated with constructor definitions. For example, the binary representation of a SPARC branch instruction
+is represented by a pattern of one disjunct; the disjunct includes the condition
+(addr − L) mod 4 = 0, where L represents the location of the instruction, and addr
+represents the target address of the branch instruction.
+Both patterns and disjuncts have names. A pattern’s name can be used wherever
+a pattern is expected. Disjunct names are used to compute constructors’ names
+when patterns are used in constructor opcodes.
+Figure 2 shows the full representation of patterns, together with the rules for
+matching and encoding them. As an example, the alu pattern from the SPARC
+speciﬁcation has 38 disjuncts and the name alu. The ﬁrst disjunct has no conditions, one sequent, no labels, no ellipses, and the name add. The single sequent of
+that disjunct is a sequent of class itoken. It has two range constraints, 2 ≤ op < 3
+and 0 ≤ op3 < 1, and no ﬁeld bindings.
+3.2.3 Using and Naming Patterns. Patterns are used in speciﬁcations in two
+ways. Opcodes are deﬁned by binding names to pattern values, which contain no
+ﬁeld bindings and are computed statically. Constructors and matching statements
+are deﬁned using pattern expressions, which may contain free variables whose values
+are not known until encoding or decoding time. Such variables must be operands
+of the constructor; that is, they must be bound by the constructor’s deﬁnition.
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+508
+
+·
+
+Ramsey and Fern´ndez
+a
+
+The patterns declaration binds names to pattern values; pattern expressions
+are used in constructor deﬁnitions and matching statements, which are described
+below. Pattern bindings are typically used to deﬁne opcodes and to group related
+opcodes, e.g., they are used to deﬁne the SPARC opcodes. Their syntax is
+spec ⇒ patterns pattern-binding
+pattern-binding ⇒ pattern-name is pattern
+| [ pattern-name ] is pattern
+| pattern-name is any of [ pattern-name ],
+which is pattern
+Patterns bound to the special name “ ” are ignored. Such patterns may correspond
+to unused opcodes, as in Table F-3 in the SPARC example. A pattern binding can
+bind one name to one pattern or each of a list of names to one of a list of patterns.
+Lists of patterns are created by using generating expressions in constraints. Generating expressions are modeled on expressions in Icon, which can produce more
+than one value [Griswold and Griswold 1990]. They are ranges or lists:
+generating-expression ⇒ { lo to hi columns n } | [ integer
+
+]
+
+The values generated are enumerated in left-to-right LIFO order. For example,
+the SPARC example’s declaration for Table F-1 binds the names TABLE F2, call,
+TABLE F3, and TABLE F4 to the patterns op = 0, op = 1, op = 2, and op = 3,
+respectively.
+3.3 Constructors
+A constructor maps a list of operands to a pattern, which stands for the binary
+representation of an operand or instruction. Typed constructors produce operands;
+untyped constructors produce instructions. Because most manuals describe instructions in terms of their assembly-language syntax, we designed constructor speciﬁcations to resemble that syntax. A constructor speciﬁcation begins with an opcode
+and a list of operands. It also gives a type and zero or more “branches,” which
+designate possible representations.
+spec ⇒ constructors constructor
+constructor ⇒ opcode operand
+
+: type-name
+
+branches
+
+A constructor without explicit branches is given the representation obtained by
+conjoining the opcode with the operands.
+The type of a constructor determines how the corresponding encoding procedure
+can be used. Although a constructor with no explicit type is called “untyped,” in
+fact it has a predeﬁned, anonymous type—the type of instructions. Corresponding encoding procedures emit instructions. The encoding procedures for explicitly
+typed constructors produce values that can be used as operands to other constructors, as described below.
+Opcodes are tricky. They can be simple strings, or they can be combinations of
+strings, pattern names, and ﬁeld names, which are expanded to deﬁne multiple
+constructors with one speciﬁcation. For example, the SPARC alu constructor
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+
+·
+
+509
+
+speciﬁcation expands the alu pattern to deﬁne 34 constructors at once. Compound
+opcodes are formed by joining strings or names using the ^ symbol.
+opcode ⇒ opname ^ opname
+An opname can be the name of a ﬁeld or pattern, or it can be an unbound name
+or a string. Unbound names mean the same as strings; for example, in the SPARC
+example, because the opname dispA is not previously deﬁned, it is equivalent to
+"dispA". This notational convenience means that the names of constructors seldom
+need to be quoted.
+When any opname is the name of a pattern or ﬁeld, the toolkit expands opcodes
+by enumerating the disjuncts of patterns and the named values of ﬁelds. For example, the toolkit expands the branch^a opcode by expanding the pattern branch
+to the 16 disjuncts named in its deﬁnitions, and it expands the ﬁeld a to the two
+named values "" and ",a". The SPARC example’s single constructor deﬁnition of
+branch^a is therefore equivalent to a series of 32 deﬁnitions:
+constructors
+"bn"
+addr { addr = L + 4 * disp22! } is
+"bn,a" addr { addr = L + 4 * disp22! } is
+...
+"bvc,a" addr { addr = L + 4 * disp22! } is
+
+L: bn
+L: bn
+
+& disp22 & a = 0
+& disp22 & a = 1
+
+L: bvc & disp22 & a = 1
+
+Because architecture manuals often use the same name to refer both to an opcode
+and to its instruction, we put constructors in a separate name space, so the same
+name can be used to refer both to constructors and to patterns.
+Operands may be ﬁelds, integers, or patterns. Field and integer operands may
+be signed or unsigned, and they may be designated relocatable. Pattern-valued
+operands must result from applying constructors of a designated type. Operand
+types are distinguished by their names; an operand is a ﬁeld or pattern if its name
+is that of a ﬁeld or a constructor type, and it is an integer otherwise.
+The type of an operand determines how its name can be used on the right-hand
+side of a constructor. Integer operands can be used only in integer expressions,
+which appear in ﬁeld bindings. Field operands can be used as integers, but they
+can also be used as patterns, in which case the ﬁeld name stands for the pattern
+binding that ﬁeld to the corresponding operand, as shown in the SPARC example.
+Finally, pattern-valued operands can be used only as patterns.
+A list of operands may be decorated with spaces, commas, brackets, quoted
+strings, and other punctuation. The punctuation represents assembly-language
+syntax, and the toolkit uses it to generate encoding procedures that emit assembly
+language and to generate a grammar that recognizes assembly language.
+Constructors solve several intellectual problems. They give an abstract structure
+to an instruction set, they connect that structure both to binary representations
+and to assembly language, and they formalize instructions as functions mapping
+operands to binary representations. An instruction set’s abstract structure comes
+from the types of the constructors and their operands. This structure is isomorphic to a grammar in which the start nonterminal corresponds to the anonymous
+type “instruction,” and in which each explicit constructor type corresponds to an
+additional nonterminal. Each constructor corresponds to a production in which the
+constructor’s type appears on the left-hand side, and its operands appear on the
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+510
+
+·
+
+Ramsey and Fern´ndez
+a
+
+right. The terminal symbols of the grammar are the operands that are ﬁelds, integers, or relocatable addresses. The patterns on the right-hand sides of constructor
+deﬁnitions are equivalent to synthesized attributes of the grammar. Field names,
+constructor names, and punctuation deﬁne an assembly-language representation
+that is implicit in every constructor deﬁnition, and these representations are also
+equivalent to synthesized attributes of the grammar.
+Relocatable addresses are not essential to the intellectual task of specifying representations; instead, they support separate compilation in encoding applications.
+Any ﬁeld or integer operand can be designated relocatable by
+spec ⇒ relocatable identiﬁer
+For example, the addr operand of the SPARC branch constructor is declared relocatable. Labels that appear in constructors’ patterns are also relocatable. Applications typically use relocatable addresses to refer to locations bound after encoding,
+at link time. Allowing any operand to be relocatable simpliﬁes implementation
+of applications that usually emit assembly language. For example, it simpliﬁes
+construction of mld’s code generators, because it enables automatic translation of
+existing assembly-emitting code generators into mld’s binary-emitting code generators. Without the ability to make any operand relocatable, large parts of mld’s
+code generators would have to be written by hand.
+When a constructor that uses relocatable operands is applied, it checks to see if
+their values are known (e.g., they have been assigned absolute addresses). If so,
+it treats them as ordinary integers and emits the instruction. Otherwise, it emits
+placeholder patterns and creates a relocation closure [Ramsey 1996a]. The application holds the closure until the addresses on which it depends become known, at
+which point it applies the closure to overwrite the placeholder with the correct encoding of the instruction. Alternatively, the toolkit provides a machine-independent
+representation that can be used to write the closure to a ﬁle, from which another
+application could read and apply it.
+Placeholder patterns are associated with token classes:
+spec ⇒ placeholder for class-name is pattern
+The toolkit uses the shape of a constructor’s pattern to compute its placeholder, so
+the placeholder is the same size as the relocated instruction that will overwrite it.
+The branches of a constructor speciﬁcation contain equations and patterns. The
+patterns specify binary representations, and the equations relate the constructor’s
+operands to the variables used in the patterns.
+branches ⇒ { equations } is pattern
+| when { equations } is pattern
+
+otherwise is pattern
+
+When a constructor has a single branch, the pattern can be omitted, in which case
+it is taken to be the conjunction of the constructor’s opcode with its operands.
+The ability to specify multiple branches supports conditional assembly, as with
+the SPARC set constructor. When encoding, the toolkit emits the ﬁrst branch for
+which all conditions are satisﬁed. As explained above, conditions are satisﬁed when
+(1) all values bound to ﬁelds ﬁt in those ﬁelds and (2) all equations used in the
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+
+·
+
+511
+
+branch have solutions. When decoding, the toolkit matches any of the branches.
+Otherwise is syntactic sugar for when { }.
+Equations express relationships between operands and ﬁelds. As written, they
+relate sums of terms with integer coeﬃcients. Terms include ﬁeld and integer
+variables, from which one can extract bits by n@[lo:hi]. One can also signextend a variable or extracted bits with the postﬁx exclamation point, as shown
+in the descriptions of the SPARC branch constructors. Equations may include
+inequalities, which become conditions attached to disjuncts of a branch’s pattern. Conditions may also arise from solving equations; for example, the condition
+(addr − L) mod 4 = 0, which is attached to the patterns in the SPARC branch
+constructors, is derived from the equation for those constructors. All conditions
+must be satisﬁed for the constructor to be matched or encoded.
+The toolkit uses a simple equation solver [Ramsey 1996b]. To encode, the toolkit
+takes operands as known and solves for ﬁelds. To decode, the toolkit takes ﬁelds
+as known and solves for operands.
+Constructors are represented essentially as lambda terms mapping operands to
+patterns. The results of solving equations are represented in the patterns as conditions or as expressions in ﬁeld bindings, so the only free variables in a constructor’s
+pattern are the constructor’s operands. Constructors with multiple branches, like
+the set constructor in the SPARC example, result in patterns with multiple disjuncts. The encoding procedure associated with the constructor emits the ﬁrst
+disjunct whose conditions are known to be satisﬁed. If a condition depends on
+the value of an unknown relocatable operand, the toolkit conservatively assumes
+that the eventual value may not satisfy the condition, and it moves on to the next
+disjunct. If all disjuncts depend on relocatable operands, the toolkit uses the ﬁnal disjunct. This technique, while safe, is unsuitable for emitting span-dependent
+instructions; for example, it uses the most general representation for all forward
+branches. We believe that standard techniques for resolving span-dependent instructions [Szymanski 1978] can be applied to our speciﬁcations.
+3.4 Matching Statements and Decoding
+Decoding applications use the toolkit’s matching statements. Matching statements
+provide a notation for writing instruction recognizers that are eﬃcient and easily
+understood. Matching statements resemble ordinary case statements, but their
+arms are labeled with patterns. The ﬁrst arm whose pattern matches is executed.
+The syntax for matching statements is
+matching-statement ⇒ match code to
+| pattern { equations }
+else code
+endmatch
+
+[ name ] => code
+
+The terminal symbol code stands for a fragment of Modula-3 or C code. The code
+next to match evaluates to a location in an instruction stream. The representation
+of the instruction stream is implicit in code templates supplied by the application
+writer, as described below. Each arm may include equations that must be satisﬁed
+for the arm to match. A name in square brackets is bound to the name of the
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+512
+
+·
+
+Ramsey and Fern´ndez
+a
+
+PROCEDURE Follow(m:Memory.T; pc:Word.T):FollowSet.T =
+BEGIN
+match pc to
+| nonbranch; L: epsilon
+=> RETURN FollowSet.T{L};
+| call(target)
+=> RETURN FollowSet.T{target};
+| branch^a(target) &
+(ba | fba | cba)
+=> RETURN FollowSet.T{target};
+| branch^a(target); L: epsilon => RETURN FollowSet.T{L, target};
+| jmpl(dispA(rs1, simm13), rd) => RETURN FollowSet.T{GetReg(m,rs1)+simm13};
+| jmpl(indexA(rs1, rs2), rd)
+=> RETURN FollowSet.T{GetReg(m,rs1)+
+GetReg(m,rs2)};
+| some itoken
+=> Error.Fail("unrecognized instruction");
+endmatch
+END Follow;
+Fig. 3.
+
+Matching statement used for control-ﬂow analysis of SPARC instructions.
+
+pattern that matched. If an arm’s pattern matches, the code on the right-hand side
+of => is executed.
+Matching-statement is itself a grammatical start symbol; it cannot be derived
+from speciﬁcation. When generating decoders, the toolkit’s translator reads a speciﬁcation from one ﬁle, then transforms a diﬀerent ﬁle containing one or more matching statement s.
+In a matching statement, every free variable in a pattern is a binding instance;
+the toolkit computes a value for each such variable, and the values can be used
+in the host-language code on the right-hand side of the arm labeled by the pattern. Free variables associated with typed constructors are bound to locations in
+the instruction stream. The generated decoder converts such bound locations to
+integers.
+Matching statements can be embedded in programs written in Modula-3 or in C.
+The toolkit’s translator acts as a simple preprocessor—it ﬁnds embedded matching
+statements and rewrites them into pure Modula-3 or C code.
+Matching statements make an application’s decoding code clear and concise. For
+example, ldb, a retargetable debugger for ANSI C, uses matching statements to
+implement control-ﬂow analysis. Most of ldb’s breakpoint implementation is machine independent; the only machine-dependent part is the analysis of control ﬂow
+[Ramsey 1994a]. Figure 3 shows a simpliﬁed version of the SPARC code in ldb’s
+breakpoint implementation, omitting subtleties associated with delayed branches.
+This code ﬁnds which instructions could be executed immediately after an instruction at which a breakpoint has been planted [Ramsey 1994a]. After an ordinary
+instruction, the only instruction that can follow is its inline successor, as computed
+by the ﬁrst arm of the matching statement. FollowSet.T{L} is a set of addresses
+containing the single element L, which is the location of the successor instruction.
+Calls and unconditional branches also have only one instruction in their “follow
+set,” but conditional branches have two. The two jmpl patterns are indirect jumps
+through registers; the GetReg procedure gets the value in the register in order
+to compute the target address. The matching statement in Figure 3 expands to
+nested case statements totaling about 90 lines of Modula-3 code. The count does
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+
+·
+
+513
+
+not convey the diﬃculty of writing the code by hand, because the toolkit eliminates unnecessary tests by combining seemingly unrelated opcodes if they result in
+execution of the same code.
+Application writers can use any representation of instruction streams; in particular, the toolkit does not constrain the application to use integers to represent
+locations. An application writer speciﬁes a representation by supplying the toolkit
+with four code fragments: the data type used to represent locations, a template
+used to add an integer oﬀset to a location, a template used to convert a location to
+an unsigned integer, and a template used to fetch a token of a speciﬁed width from
+a location. The templates are speciﬁed by
+spec ⇒
+|
+|
+|
+
+fetch width any using template
+address type is template
+address add using template
+address to integer using template
+
+The template symbols stand for quoted strings containing fragments of Modula-3 or
+C code mixed with escape sequences that stand for addresses, widths, and oﬀsets.
+Widths are measured in bits; oﬀsets are measured in units of pc unit bits:
+spec ⇒ pc unit bits width
+This size must evenly divide the width of every token; the default size is 8 bits.
+The toolkit builds a decision tree for each matching statement. The decision tree
+checks all applicable range constraints while examining each ﬁeld at most once. If
+patterns in two arms use the same range constraints but have diﬀerent conditions,
+the toolkit checks conditions sequentially, but this situation is rare. The toolkit tries
+to minimize the number of tests needed to identify an arm. No polynomial-time
+algorithm is known for this problem, and even though the toolkit builds decision
+trees at tool-compile time, it would take too long to generate and evaluate all
+possible decision trees. Our heuristics yield trees that are at least as good as trees
+we would write by hand.
+4. SPECIFYING CISC INSTRUCTIONS
+Tools may work well for RISC architectures without being very useful for CISC
+architectures. To demonstrate the utility of our speciﬁcation language, we show two
+complex aspects of our Pentium speciﬁcation: addressing modes and variable-sized
+operands. Figure 4 shows constructor speciﬁcations for the Pentium’s addressing
+modes. We have given each constructor the type Eaddr, which we have chosen to
+represent eﬀective addresses. Values of type Eaddr are used as operands to untyped
+constructors, as shown below. Again, the brackets and asterisks in the speciﬁcation
+are punctuation indicating suggested assembly-language syntax. Figure 5 depicts
+the structures of the patterns used in Figure 4.
+Eﬀective addresses begin with a one-byte ModR/M token, which contains an
+addressing mode and a register. In indexed modes, the ModR/M token is followed
+by a one-byte SIB token, which holds index and base registers and a scale factor ss.
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+·
+
+514
+
+Ramsey and Fern´ndez
+a
+
+constructors
+Reg
+reg : Eaddr
+Indir
+[reg] : Eaddr {reg
+Disp8
+d![reg] : Eaddr {reg
+Disp32 d![reg] : Eaddr {reg
+Abs32
+a
+: Eaddr
+constructors
+Index
+[base][index * ss]
+mod =
+Index8 d![base][index * ss]
+mod =
+Index32 d![base][index * ss]
+mod =
+ShortIndex
+d![index * ss]
+mod =
+Fig. 4.
+
+is mod =
+!= 4, reg != 5} is mod =
+!= 4, d = i8! } is mod =
+!= 4}
+is mod =
+is mod =
+:
+0
+:
+1
+:
+2
+:
+0
+
+Eaddr
+& r_m
+Eaddr
+& r_m
+Eaddr
+& r_m
+Eaddr
+& r_m
+
+{
+=
+{
+=
+{
+=
+{
+=
+
+index !=
+4; index
+index !=
+4; index
+index !=
+4; index
+index !=
+4; index
+
+3
+0
+1
+2
+0
+
+&
+&
+&
+&
+&
+
+r_m
+r_m
+r_m
+r_m
+r_m
+
+4, base !=
+& base
+4, d = i8!
+& base
+4 } is
+& base
+4 } is
+& base = 5
+
+=
+=
+=
+=
+=
+
+reg
+reg
+reg; i8
+reg; i32 = d
+5;
+i32 = a
+
+5 } is
+& ss
+} is
+& ss; i8
+& ss; i32 = d
+& ss; i32 = d
+
+Constructor deﬁnitions for the Pentium’s 32-bit addressing modes.
+
+mod
+3
+
+Reg reg
+
+···
+
+rm
+reg
+
+Indir
+
+[reg]
+
+0
+
+···
+
+reg
+
+Disp8
+
+d[reg]
+
+1
+
+···
+
+reg
+
+i8 = d
+
+Disp32 d[reg]
+
+2
+
+···
+
+reg
+
+i32 = d
+
+Abs32
+
+0
+
+···
+
+5
+
+i32 = a
+
+a
+
+Index
+
+[base][index*ss]
+
+0
+
+···
+
+4
+
+ss
+
+index
+
+base
+
+Index8
+
+d[base][index*ss]
+
+1
+
+···
+
+4
+
+ss
+
+index
+
+base
+
+i8 = d
+
+Index32 d[base][index*ss]
+
+2
+
+···
+
+4
+
+ss
+
+index
+
+base
+
+i32 = d
+
+ShortIndex
+
+0
+
+···
+
+4
+
+ss
+
+index
+
+5
+
+i32 = d
+
+Fig. 5.
+
+d[index*ss]
+
+Tokens used in the Pentium’s 32-bit addressing modes. Token sizes are not to scale.
+
+Finally, some modes take immediate displacements [Intel Corp. 1993, Tables 26-2
+to 26-4]. The tokens and ﬁelds used in eﬀective addresses are as follows:
+fields
+fields
+fields
+fields
+fields
+
+of
+of
+of
+of
+of
+
+ModRM (8)
+SIB
+(8)
+I8
+(8)
+I16 (16)
+I32 (32)
+
+mod
+ss
+i8
+i16
+i32
+
+6:7 reg_opcode 3:5 r_m 0:2
+6:7 index
+3:5 base 0:2
+0:7
+0:15
+0:31
+
+The ﬁelds i8, i16, and i32 occupy whole tokens.
+We deﬁne constructors of type Eaddr to create eﬀective addresses in 32-bit mode.
+The ﬁrst group of constructors speciﬁes the nonindexed addressing modes. The
+simplest mode is encoded by mod = 3; it is a register-direct mode that can refer
+to any of the machine’s 8 general registers. The next 3 modes are register-indirect
+modes with no displacement, 8-bit displacement, and 32-bit displacement. The 8bit displacement is computed by sign-extending the i8 ﬁeld. Semicolons separate
+ModR/M tokens from the displacement tokens that follow.
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+
+·
+
+515
+
+The inequality reg != 5 shows that r m may not take the value 5 in simple
+indirect mode. Instead of denoting indirect use of the base pointer, which is the
+register normally encoded by 5, the combination mod = 0 & r m = 5 encodes a
+32-bit absolute mode. The inequality reg != 4 shows that the value 4 may not
+be used to encode indirect use of the stack pointer, which is the register normally
+encoded by 4. This value is used instead to encode the indexed modes, which use
+an SIB token as well as the ModR/M token.
+The indexed modes are the second group in Figures 4 and 5. The ModR/M token
+in which r m = 4 is followed by an SIB token. The stack pointer may not be used
+as an index register (index != 4). Depending on the value of mod in the ModR/M
+token, the SIB token may end the address, or an 8-bit or 32-bit displacement may
+follow. Finally, “mod = 0 & base = 5” denotes an indexed address with no base
+register and a 32-bit displacement.
+None of the addressing modes speciﬁes a value for the reg opcode (middle) ﬁeld
+of the ModR/M token. This ﬁeld is not part of the eﬀective address; depending on
+the instruction, it can be part of the opcode, or it can denote a register operand.
+Eﬀective addresses are used by conjoining them with a pattern that constrains
+reg opcode; the resulting pattern speciﬁes every bit of the ModR/M token. We
+need the ellipsis operator to make the conjunction work. Even though eﬀective
+addresses have several diﬀerent shapes, all the shapes begin with ModRM, so it is
+legal to write Eaddr & p ... whenever p’s shape is ModRM. The move-byte and
+move-byte-immediate instructions show the use of the ellipsis:
+constructors
+MOV^"mrb" Eaddr, reg is MOV & Eb.Gb; Eaddr & reg_opcode = reg ...
+MOV.Eb.Ib Eaddr, i8! is MOV.Eb.Ib;
+Eaddr & reg_opcode = 0 ...; i8
+
+Our speciﬁcations of the Pentium’s opcodes, which are not shown in this article,
+mimic the tables in the manual [Intel Corp. 1993]. The manual uses families of
+opcodes (ADD, MOV, etc.) that are distinguished by suﬃxes indicating the locations
+and sizes of the destination and source operands. The suﬃx “Eb,Gb” indicates
+that the destination is given by an eﬀective address, that the source is in a generalpurpose register, and that both source and destination operand are one byte wide.
+In many cases, as with “MOV Eb,Gb”, we specify the operation and the suﬃx
+separately, then conjoin them to get an opcode, thereby writing m+n speciﬁcations
+instead of m × n speciﬁcations. The “Eb,Ib” suﬃx, which uses an immediate
+operand as the source, cannot use this scheme, so we specify the full opcode as
+MOV.Eb.Ib.
+The Pentium uses an unusual method of identifying the sizes of operands. Most
+instructions come in three variants: one each for 8-bit, 16-bit, and 32-bit operands.
+Typically the 8-bit variant has a distinct opcode, but the 16- and 32-bit variants
+share an opcode and are distinguished by the presence or absence of an instruction
+preﬁx. We specify an “object varying” pattern as a sequence that is empty or that
+contains the preﬁx
+patterns ow is OpPrefix
+od is epsilon
+ov is ow | od
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+516
+
+·
+
+Ramsey and Fern´ndez
+a
+
+where ow is mnemonic for “object word” and od for “object doubleword.” This
+speciﬁcation assumes that the hardware codes for 32-bit doubleword operands by
+default; the alternate assumption could be speciﬁed by exchanging the deﬁnitions
+of od and ow. To specify both the 16- and 32-bit variants of the memory-to-register
+move instruction, we write
+constructors
+MOV^"mr"^ov Eaddr, reg is ov; MOV & Ev.Gv; Eaddr & reg_opcode = reg ...
+
+This speciﬁcation diﬀers from the move-byte speciﬁcation in that we have used the
+suﬃx “Ev,Gv”, which codes for operands of either word or longword (“variable”)
+size, depending on the presence or absence of a preﬁx. The pattern ov expands to
+the preﬁx for the 16-bit variant and to the empty sequence for the 32-bit variant.
+When immediate operands are used, all three variants must have separate speciﬁcations, because the operands are diﬀerent sizes. The 8-bit move-immediate instruction appears above; the remaining variants are speciﬁed by
+constructors
+MOV.Eb.Iv^ow Eaddr, i16! is
+ow; MOV.Ev.Iv; Eaddr & reg_opcode = 0 ...; i16
+MOV.Eb.Iv^od Eaddr, i32! is
+od; MOV.Ev.Iv; Eaddr & reg_opcode = 0 ...; i32
+
+Again, only one of these instructions has a preﬁx, since od stands for the empty
+sequence.
+Two features of SLED exist only to enable the description of CISC machines.
+One, the ability to deﬁne tokens of diﬀerent sizes and classes, is used only to
+describe the Pentium and the Motorola 68000. The other, the ability to form
+sequences of tokens, is used in both CISC and RISC speciﬁcations, but we have
+used it only rarely in RISC speciﬁcations, typically to synthesize “instructions”
+from multi-instruction sequences.
+Owen C. Braun’s description of the 68000 [Braun 1996] exposes several shortcomings of SLED. Some addressing modes have diﬀerent representations, depending on
+where they are used; currently, they must be associated with distinct sets of constructors of distinct types. For example, a compiler writer must call one of two
+procedures to encode a register-direct mode, depending on whether it is to be the
+source or the destination operand of a move instruction. Not all of the 68000’s addressing modes are valid in all instructions; there are several diﬀerent subsets, such
+as the “data-alterable” modes, for example. Our (incomplete) speciﬁcation of the
+DSP56000 exhibits similar problems. These problems can be handled by deﬁning
+multiple sets of constructors, but the resulting speciﬁcations are ugly and diﬃcult
+to maintain.
+We are considering two extensions that would help improve speciﬁcations of the
+68000 and the DSP56000 and would help specify address preﬁxes on the Pentium.
+One would enable us to attach multiple pattern-valued attributes to constructors
+and to use diﬀerent attributes to specify alternate representations or parts of representations. Another would support simple speciﬁcation of subsets of typed constructors, which we could use to specify restrictions on addressing modes. In both
+cases, we believe that simpliﬁcations in CISC speciﬁcations will justify the extra
+complexity in SLED. Because we have not implemented these extensions, we consider the details beyond the scope of this article.
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+
+·
+
+517
+
+5. IMPLEMENTATION
+The toolkit’s translator, generator, and checker are combined in a single Icon program [Griswold and Griswold 1990] of about 10,000 lines. We omit the details of
+the implementation, but we do explain what the implementation does, what it
+assumes, and how the toolkit’s library supports those assumptions.
+For each matching statement, the toolkit generates an eﬃcient decoder using
+nested case statements. These decoders manipulate instruction streams using the
+code templates supplied by the application writer. Because the decoders need only
+what is in the templates, they are isolated from other properties of the decoding
+application, including byte order. They are also independent of any generated
+encoders and of the toolkit’s library.
+The toolkit creates an encoding procedure from each constructor in a speciﬁcation. Procedures that come from typed constructors are useful only for producing
+operands to be passed to other encoding procedures. In particular, such procedures
+never have side eﬀects; they return values. Procedures generated from untyped constructors do have side eﬀects; they emit instructions. If the constructor’s pattern
+has no disjunct whose conditions are satisﬁed, the encoding procedure calls an error
+handler supplied by the application. Here are signatures for the C procedures that
+are generated from the Address constructor dispA and the untyped constructor
+ldsb, which appear in the SPARC example:
+Address_Instance dispA(unsigned rs1, int simm13);
+void ldsb(Address_Instance Address, unsigned rd);
+
+The result of dispA could be used as the ﬁrst argument to ldsb.
+Normal encoding procedures emit binary representations, as determined by the
+encoding rules in Figure 2. The toolkit can also generate “encoding” procedures
+that emit assembly language. The assembly language is usually inferred from punctuation in constructor speciﬁcations, but it is possible to specify assembly syntax
+separately, as described in the toolkit’s reference manual [Ramsey and Fern´ndez
+a
+1994b]. This ability is useful when several assembly languages are in common use
+for a single architecture, as is the case for the Pentium.
+The toolkit can generate direct or indirect interfaces to encoding procedures.
+Indirect interfaces use interface records—structures containing function pointers.
+Applications can choose binary or assembly language at run time by using a pointer
+to the appropriate interface record.
+Binary encoding procedures have side eﬀects on a global instruction stream.
+When values of relocatable operands are not available, they also create relocation
+information in the form of closures. The encoding procedures make certain assumptions about instruction streams and relocatable operands. Here we enumerate the
+assumptions and explain the implementations in the toolkit’s library, which satisfy
+the assumptions.
+A relocatable address represents the value of a relocatable operand. It is an
+abstraction with two operations: force and known. Force takes a relocatable address
+and produces an (integer) absolute address. Known tells whether force can be
+applied. Generated encoding procedures use known to decide whether to emit
+tokens or to create relocation closures, and they use force to get the values of the
+operands themselves.
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+518
+
+·
+
+Ramsey and Fern´ndez
+a
+
+An instruction stream holds tokens emitted by encoding procedures. It has a
+location counter that marks the location of the next token to be emitted. Like relocatable addresses, the location counter supports the known and force operations.
+Encoding procedures assume that they can manipulate the location counter and
+that they can call emitters to put tokens into the instruction stream. Emitters
+write bits and advance the location counter. The library includes a little-endian
+emitter, a big-endian emitter, and two emitters that use the native byte order of
+the host machine, or an application can supply its own emitters. One of the native
+emitters is faster than the other, but it requires that the location counter always
+be aligned on a multiple of the token size.
+Most encoding applications need a richer model of instruction stream than that
+assumed by the toolkit’s encoding procedures. The toolkit’s library provides relocatable blocks, which implement the instruction-stream abstraction. They also
+support many other operations, including changing blocks and locations, assigning
+addresses to blocks, emitting tokens into blocks, and writing blocks into ﬁles or
+memory. An application can use any number of relocatable blocks, and it can emit
+tokens into a block before the block’s address has been assigned. For example, a
+UNIX assembler might use three blocks, one each for the code, initialized data,
+and uninitialized data sections. The assembler would let the linker determine and
+assign the addresses of those blocks.
+A label, which points to a location in a relocatable block, provides the basic
+known and force operations.2 The toolkit does not associate names with labels;
+applications can use any method to name and ﬁnd labels. For more ﬂexibility, the
+library also provides an implementation of relocatable addresses that represents an
+address as the sum of a label and a signed oﬀset. This representation is adequate for
+applications like compilers and linkers. Authors of other applications can use more
+sophisticated representations (e.g., linear expressions over addresses and labels)
+without changing the code generated by the toolkit.
+The toolkit needs little support from applications. Applications’ primary obligations are to manage memory and to supply or select code for fetching and storing
+tokens. Encoding applications must supply a routine that the library uses to allocate memory for closures, labels, and relocatable blocks. Saving, applying, writing,
+and discarding closures are also the application’s responsibility. In return, the
+application can choose its own policies for allocating memory and for managing
+closures. The toolkit is careful not to require large blocks of contiguous memory,
+not even to store large relocatable blocks. Finally, the toolkit provides no code to
+associate names with relocatable blocks, labels, or other abstractions; applications
+must supply their own.
+The toolkit generates eﬃcient code. When safety checks are elided, each encoding
+procedure executes about a dozen instructions. Generated decoders test each ﬁeld
+at most once, and they test them in an order that quickly identiﬁes the right arm
+of the matching statement.
+The toolkit’s generator can detect many internal inconsistencies in speciﬁcations,
+but it cannot identify speciﬁcations that are internally consistent but do not match
+2 This “label” is diﬀerent from the labels introduced by the L: p construct, although both kinds
+serve the same function.
+
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+
+·
+
+519
+
+a target machine. There are several ways to write such incorrect speciﬁcations, for
+example, by getting operand order wrong or by interchanging names in an opcode
+table. The toolkit’s checker [Fern´ndez and Ramsey 1997] ﬁnds inconsistencies bea
+tween the mapping speciﬁed in SLED and the mapping implemented by a trusted,
+independent assembler. The checker exploits the generator’s ability to create encoding procedures for both binary and assembly representations. It exercises each
+constructor at least once, emitting both representations. The trusted assembler
+translates the assembly into binary, and the checker compares the two binary representations. If they are identical, the toolkit’s speciﬁcation is probably consistent
+with the assembler; if not, the toolkit and the assembler encode some instruction
+diﬀerently, and there is probably an error in the speciﬁcation. A disassembler,
+which can be generated by the toolkit, makes it easier to ﬁnd the source of the
+error.
+6. RELATED WORK
+Ferguson [1966] describes the “meta-assembler,” which creates assemblers for new
+architectures. A meta-assembler works not from a declarative machine description
+but from macros that pack ﬁelds into words and emit them; it is essentially a macro
+processor with bit-manipulation operators and special support for diﬀerent integer
+representations.
+Most architecture-description languages emphasize the instruction semantics necessary for building tools that verify and simulate an instruction set, not the encoding
+and decoding descriptions necessary for building tools that process machine code.
+Wick [1975] describes a tool that generates assemblers based on descriptions
+written in a modiﬁed form of ISP [Bell and Newell 1971]. His work investigates
+a diﬀerent part of the design space; his machine descriptions are complex and comprehensive. For example, they describe machine organization (e.g., registers) and
+instruction semantics as well as instruction encoding.
+LISAS [Cook and Harcourt 1994] is another speciﬁcation language that includes
+distinct semantic and syntactic descriptions. It speciﬁes binary representations by
+mapping sequences of named ﬁelds onto sequence of bits, a technique that works
+well for RISC machines, but is awkward for CISC.
+The nML speciﬁcation language [Fauth et al. 1995] uses an attribute grammar
+to specify instruction sets. The underlying grammar, without attributes, should
+be the same as the grammar induced by our constructors and their types. For
+speciﬁcation, nML uses “OR-rules” and “AND-rules.” The OR-rules are sums.
+They correspond to our constructor types when viewed as disjoint unions, and they
+also correspond to alternatives in a grammar. The AND-rules are products. They
+correspond to Cartesian products of operands of our constructors, and they also
+correspond to sequences of symbols in a production of a grammar.
+nML and SLED use diﬀerent notations and types to associate information with
+instruction sets. nML uses synthesized attributes to represent register-transfer
+semantics, assembly-language syntax, and binary representations. Writers can introduce extra attributes to represent things like addressing modes. The values of
+attributes may be integers, character strings, bit strings, or “register-transfer sequences.” Binary representations are represented as bit strings. Attribute values
+are speciﬁed by writing explicit attribute equations for every production in the
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+520
+
+·
+
+Ramsey and Fern´ndez
+a
+
+grammar, and they can be computed using C-like arithmetic functions, a printflike formatting function, and a special notation for register-transfer sequences. An
+nML description can be used to build a simulator, which includes an instruction decoder, and a code generator, which includes a binary encoder. Using nML attribute
+equations to build an encoder appears straightforward, but the authors seem not to
+have published a description of how they invert the equations to produce a decoder.
+SLED provides a more concise and less error-prone way of specifying binary
+representations than nML’s binary-string attributes. SLED’s generating expressions and constructor opcodes make it easy to specify many representations with few
+integer literals. Using patterns instead of bit strings relieves the speciﬁcation writer
+from having to get the ﬁelds in the right order, and it helps the toolkit detect missing
+and duplicate ﬁelds. Finally, SLED speciﬁcations resemble architecture manuals;
+nML speciﬁcations do not. Our ideas could be exploited in the nML framework
+by including the pattern sublanguage (tokens, ﬁelds, and patterns) in nML and using pattern-valued attributes to specify binary representations. Conversely, nML’s
+ideas could be exploited in our framework by adding nML’s register-transfer sublanguage and by permitting users to attach arbitrary attributes to constructors and
+their operands. We expect that named, pattern-valued attributes would help users
+describe machines like the 68000 and DSP56000.
+The GNU assembler provides assembly and disassembly for many targets, but different techniques are applied ad hoc to support diﬀerent architectures [Elsner et al.
+1993]. For example, Pentium instructions are recognized by hand-written C code,
+but MIPS instructions are recognized by selecting a mask and a sample from a table, applying the mask to the word in question, then comparing the result against
+the sample. On both targets, operands are recognized by short programs written
+for abstract machines, but a diﬀerent abstract machine is used for each target. Another set of abstract machines is used to encode instructions during assembly. The
+implementations of the abstract machines contain magic numbers and hand-written
+bit operations. The programs interpreted by the abstract machines are represented
+as strings, and they appear to have been written by hand.
+Larus and Schnarr [1995] use a machine description related to ours to provide
+machine-independent primitives that query instructions. The syntactic part of their
+machine description is derived from a subset of our language having only ﬁelds and
+patterns. They have added semantic information by associating register-transfer
+semantics with particular pattern names. From this combined syntactic and semantic information, the spawn tool generates classiﬁers that put instructions into
+categories like jump, call, store, invalid, etc. It ﬁnds the registers that each instruction reads and writes, and it generates C++ code to replicate such computations
+as ﬁnding target addresses. The descriptions used by spawn are both more and
+less powerful than ours. The semantic information makes it possible to derive a
+variety of predicates and transformations that are indispensable for instrumenting object code. The limited syntactic speciﬁcation assumes there is only a single
+token (the “current instruction”), and it has no notion comparable to constructor, which makes it more diﬃcult to understand how speciﬁcations are factored.
+Finally, spawn descriptions do not support encoding; instrumenters must provide
+preencoded “snippets” of machine code. The encoding is done by standalone compilers or assemblers, and the snippets are extracted from the resulting object code.
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+
+·
+
+521
+
+In spirit, our work is like ASN.1 [ISO 1987], which is used to create symbolic descriptions of messages in network protocols, but there are many diﬀerences. ASN.1
+data can be encoded in more than one way, and in principle, writers of ASN.1
+speciﬁcations are uninterested in the details of the encoding. ASN.1 encodings
+are byte-level, not bit-level encodings; ASN.1 contains an “escape hatch” (OCTET
+STRING) for strings of bytes in which individual bits may represent diﬀerent values. Finally, ASN.1 is far more complex than our language; for example, it contains
+constructs that represent structured values like sequences, records, and unions, that
+describe optional, default, or required elements of messages, and that distinguish
+between tagged and “implicit” encodings of data.
+7. EVALUATION
+For code generation in traditional compilers, the toolkit is somewhat less suitable
+than a vendor’s assembler. The toolkit does not easily support standard, machinedependent formats for relocatable object code, and it does not provide optimizations
+that vendors may build into assemblers, like MIPS instruction scheduling.
+SLED evolved from a simpler language used to recognize RISC instructions in
+a retargetable debugger [Ramsey 1992, Appendix B]. That language had ﬁeld constraints and patterns built with conjunction and disjunction, but no concatenation
+and no constructors. There was no notion of instruction stream; instructions were
+values that ﬁt in a machine word. We extended that language to specify encoding
+procedures by writing a constructor name and a list of ﬁeld operands to be conjoined. This extension suﬃced to describe all of the MIPS and most of the SPARC,
+and we used it to generate encoding procedures for mld. It could not, however,
+describe all of the SPARC, and it was completely unable to describe the Pentium,
+even after we added concatenation to the pattern operators. Two changes solved
+all our problems: making patterns explicit on the right-hand sides of constructor
+speciﬁcations and using constructor types to permit patterns as operands. We then
+realized there was no reason to restrict constructors to specifying encoding procedures, so we made it possible to apply constructors both in pattern deﬁnitions and
+in matching statements, yielding SLED as described in this article.
+Patterns are a simple yet powerful way to describe binary representations. Field
+constraints, conjunction, and concatenation are all found in architecture manuals,
+and together they can describe any instruction on any of the four machines we have
+speciﬁed, as well as four other machines whose speciﬁcations are incomplete or
+have been written by our users. Patterns are not limited to traditional instruction
+sets in which opcode and operand are clearly separated; the machines we have
+described use instruction formats in which opcode bits are scattered throughout
+the instruction. Disjunction does not make it possible to specify new instructions,
+but it improves speciﬁcations by making it possible to combine descriptions of
+related instructions. By removing the need to specify each instruction individually,
+disjunction eliminates a potential source of error.
+Constructor speciﬁcations provide clean, abstract representations of instructions
+and their operands, and they connect these abstractions to binary representations
+and to assembly language. Equations, though seldom used, are needed to describe
+instructions like relative branches, whose assembly-level operands diﬀer from their
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+522
+
+·
+
+Ramsey and Fern´ndez
+a
+
+machine-level ﬁelds. Equations can also express restrictions on operands, which are
+part of the deﬁnitions of some architectures, like the Intel Pentium.
+We maximize SLED’s expressive power by minimizing restrictions on the way
+patterns, constructors, and equations can be combined. For example, patterns and
+constructors can be used in each other’s deﬁnitions, which makes it possible to
+factor complex architectures like the Pentium. Equations in constructor speciﬁcations are used for both encoding and decoding, and equations can also be used
+in matching statements. Because the elements of SLED work together, it is hard
+to see how the language could be simpliﬁed without destroying it. The simplicity
+of the speciﬁcations and the checking done by the toolkit combine to give users
+conﬁdence in the correctness of the generated code.
+8. AVAILABILITY
+Version 0.5 of the toolkit implements SLED as described in this article, except that
+integer operands of constructors are always signed. It is available by anonymous
+ftp from ftp.cs.princeton.edu in directory pub/toolkit. The toolkit also has a home
+page at http://www.cs.princeton.edu/software/toolkit .
+9. PRODUCTION NOTE
+We prepared this article using the noweb tools for literate programming [Ramsey
+1994b]. The examples have been extracted from this article and run through the
+toolkit, and they work with version 0.5.
+ACKNOWLEDGEMENTS
+
+The editor and anonymous referees suggested a restructuring that helped improve
+the article. We are especially grateful for Referee 2’s thorough reading and pointers
+to related work.
+REFERENCES
+Ball, T. and Larus, J. R. 1994. Optimally proﬁling and tracing programs. ACM Trans. Program. Lang. Syst. 16, 4 (July), 1319–1360.
+Bell, C. G. and Newell, A. 1971. Computer Structures: Readings and Examples. McGraw-Hill,
+New York.
+Braun, O. C. 1996. Retargetability issues in worst-case timing analysis of embedded systems.
+Bachelor’s thesis, Dept. of Computer Science, Princeton Univ., Princeton, N.J.
+Cattell, R. G. G. 1980. Automatic derivation of code generators from machine descriptions.
+ACM Trans. Program. Lang. Syst. 2, 2 (Apr.), 173–190.
+Cmelik, B. and Keppel, D. 1994. Shade: A fast instruction-set simulator for execution proﬁling.
+In Proceedings of the 1994 ACM SIGMETRICS Conference on Measurement and Modeling of
+Computer Systems. ACM, New York, 128–137.
+Cook, T. and Harcourt, E. 1994. A functional speciﬁcation language for instruction set architectures. In Proceedings of the 1994 International Conference on Computer Languages. ACM,
+New York, 11–19.
+Dean, J., DeFouw, G., Grove, D., Litvinov, V., and Chambers, C. 1996. Vortex: An optimizing
+compiler for object-oriented languages. In OOPSLA ’96 Conference Proceedings. SIGPLAN
+Not. 31, 10 (Oct.), 83–100.
+Elsner, D., Fenlason, J., et al. 1993. Using as: The GNU Assembler. Free Software Foundation,
+Cambridge, Mass.
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+Specifying Representations of Machine Instructions
+
+·
+
+523
+
+Fauth, A., Praet, J. V., and Freericks, M. 1995. Describing instruction set processors using
+nML. In The European Design and Test Conference. IEEE Computer Society, Washington,
+D.C., 503–507.
+Ferguson, D. E. 1966. The evolution of the meta-assembly program. Commun. ACM 9, 3,
+190–193.
+´
+Fernandez, M. F. 1995. Simple and eﬀective link-time optimization of Modula-3 programs. In
+Proceedings of the ACM SIGPLAN ’95 Conference on Programming Language Design and
+Implementation. SIGPLAN Not. 30, 6 (June), 103–115.
+´
+Fernandez, M. F. and Ramsey, N. 1997. Automatic checking of instruction speciﬁcations. In
+Proceedings of the 19th International Conference on Software Engineering. ACM, New York,
+326–336.
+George, L., Guillame, F., and Reppy, J. H. 1994. A portable and optimizing back end for the
+SML/NJ compiler. In the 5th International Conference on Compiler Construction. 83–97.
+Graham, S. L., Lucco, S., and Wahbe, R. 1995. Adaptable binary programs. In Proceedings of
+the 1995 USENIX Technical Conference. USENIX Assoc., Berkeley, Calif., 315–325.
+Griswold, R. E. and Griswold, M. T. 1990. The Icon Programming Language. 2nd ed. PrenticeHall, Englewood Cliﬀs, N.J.
+Hastings, R. and Joyce, B. 1992. Purify: Fast detection of memory leaks and access errors. In
+Proceedings of the Winter USENIX Conference. USENIX Assoc., Berkeley, Calif., 125–136.
+Intel Corp. 1993. Architecture and Programming Manual. Intel Corp., Mount Prospect, Ill.
+ISO. 1987. Information Processing — Open Systems Interconnection — Speciﬁcation of Abstract
+Syntax Notation One (ASN.1 ). ISO 8824 (CCITT X.208). International Standards Organization, Geneva, Switzerland.
+Johnson, S. C. 1990. Postloading for fun and proﬁt. In Proceedings of the Winter USENIX
+Conference. USENIX Assoc., Berkeley, Calif., 325–330.
+Larus, J. R. and Schnarr, E. 1995. EEL: Machine-independent executable editing. In Proceedings of the ACM SIGPLAN ’95 Conference on Programming Language Design and Implementation. SIGPLAN Not. 30, 6 (June), 291–300.
+Nelson, G., Ed. 1991. Systems Programming with Modula-3. Prentice-Hall, Englewood Cliﬀs,
+N.J.
+Ramsey, N. 1992. A retargetable debugger. Ph.D. thesis, Dept. of Computer Science, Princeton
+Univ., Princeton, N.J. Also available as Princeton. Univ. Tech. Rep. CS-TR-403-92.
+Ramsey, N. 1994a. Correctness of trap-based breakpoint implementations. In Proceedings of the
+21st ACM Symposium on the Principles of Programming Languages. ACM, New York, 15–24.
+Ramsey, N. 1994b. Literate programming simpliﬁed. IEEE Softw. 11, 5 (Sept.), 97–105.
+Ramsey, N. 1996a. Relocating machine instructions by currying. In the ACM SIGPLAN ’96 Conference on Programming Language Design and Implementation. SIGPLAN Not. 31, 5 (May),
+226–236.
+Ramsey, N. 1996b. A simple solver for linear equations containing nonlinear operators. Softw.
+Pract. Exp. 26, 4 (Apr.), 467–487.
+´
+Ramsey, N. and Fernandez, M. F. 1994a. New Jersey Machine-Code Toolkit architecture speciﬁcations. Tech. Rep. TR-470-94, Dept. of Computer Science, Princeton Univ., Princeton, N.J.
+Oct. Revised Dec., 1996.
+´
+Ramsey, N. and Fernandez, M. F. 1994b. New Jersey Machine-Code Toolkit reference manual. Tech. Rep. TR-471-94, Dept. of Computer Science, Princeton Univ., Princeton, N.J. Oct.
+Revised Dec., 1996.
+Ramsey, N. and Hanson, D. R. 1992. A retargetable debugger. In the ACM SIGPLAN ’92 Conference on Programming Language Design and Implementation. SIGPLAN Not. 27, 7 (July),
+22–31.
+SPARC International. 1992. The SPARC Architecture Manual. Version 8. SPARC International, Englewood Cliﬀs, N.J.
+Srivastava, A. and Eustace, A. 1994. ATOM: A system for building customized program analysis
+tools. In Proceedings of the ACM SIGPLAN ’94 Conference on Programming Language Design
+and Implementation. SIGPLAN Not. 29, 6 (June), 196–205.
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+524
+
+·
+
+Ramsey and Fern´ndez
+a
+
+Srivastava, A. and Wall, D. W. 1993. A practical system for intermodule code optimization.
+J. Program. Lang. 1, 1–18. Also available as WRL Res. Rep. 92/6, Dec. 1992.
+Szymanski, T. G. 1978. Assembling code for machines with span-dependent instructions. Commun. ACM 21, 4 (Apr.), 300–308.
+Wahbe, R., Lucco, S., Anderson, T. E., and Graham, S. L. 1993. Eﬃcient software-based fault
+isolation. In Proceedings of the 14th ACM Symposium on Operating System Principles. ACM,
+New York, 203–216.
+Wick, J. D. 1975. Automatic generation of assemblers. Ph.D. thesis, Yale Univ., New Haven,
+Conn.
+
+Received December 1995; revised August 1996; accepted October 1996
+
+ACM Transactions on Programming Languages and Systems, Vol. 19, No. 3, May 1997.
+
+
