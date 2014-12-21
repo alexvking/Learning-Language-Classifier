@@ -14,7 +14,7 @@ material.
 
 The classifier works in two main modes: language and subject.
 
---lang will envoke language mode, which recognizes input text in the following
+<code>--lang</code> will envoke language mode, which recognizes input text in the following
 languages:
   - Czech
   - English
@@ -26,7 +26,7 @@ languages:
   - Russian
   - Spanish
 
---subject will envoke subject mode, which expects an academic paper (or similar)
+<code>--subject</code> will envoke subject mode, which expects an academic paper (or similar)
 written in English, and will recognize the following subjects of study:
   - Computer Science
   - Biology
@@ -42,16 +42,16 @@ USAGE
 
 classify expects plain formatted text specified as a file from the command line.
 
-To run language recognition, run with "python classify.py --lang [input.txt]".
+To run language recognition, run with <code>python classify.py --lang [input.txt]</code>.
 
-To run academic subject recognition, run with --subject instead of --lang.
+To run academic subject recognition, run with <code>--subject</code> instead.
 
-It is convenient to run "pdftotext [paper.pdf]" to extract plain text from an
+It is convenient to run <code>pdftotext [paper.pdf]</code> to extract plain text from an
 academic paper formatted as pdf.
 
 Examples:
 
-  - --lang samples/polish.txt will classify a Polish text as Polish.
+  - <code>--lang samples/polish.txt</code> will classify a Polish text as Polish.
   - --subject samples/econ6.txt will classify an Economics paper as Economics.
   - --lang http://google.com will classify the Google homepage as English.
   - --subject http://bigocheatsheet.com will classify the site as Computer Science!
