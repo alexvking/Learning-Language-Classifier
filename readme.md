@@ -117,7 +117,7 @@ VERSION HISTORY AND RELEASE NOTES
     looping and mapping methods built in, it is far easier to manage directories
     of training documents. The original Racket version was several hundred lines
     of code, the C version was around 250, and the Python version is around 100.
-  - Returning support of natural language recognition! Run as option --lang. 
+  - Returning support of natural language recognition! Run as option <code>--lang</code>. 
     This was made far easier to implement after porting to Python.
 
 11/15/14 VERSION 0.2.0
