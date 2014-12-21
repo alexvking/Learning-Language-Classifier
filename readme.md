@@ -1,6 +1,6 @@
-Alex King
-
-Simple Language Classifier
+SIMPLE LANGUAGE CLASSIFIER
+--------------------------
+By Alex King
 
 
 SUMMARY
