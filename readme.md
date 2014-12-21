@@ -64,7 +64,8 @@ ALGORITHM
 
 classify uses databases of "trigrams" instead of a database of words. This idea
 came from an assignment from Norman Ramsey's COMP 50 class at Tufts University
-in Fall 2013.
+in Fall 2013. A trigram is a string of three contiguous characters from input.
+For example, "Hello!" would yield the trigrams "Hel", "ell", "llo", and "lo!".
 
 Trigrams allow for granular recognition of roots, prefixes, suffixes, and
 generally discipline-specific terminology. Because of this, classify is able
