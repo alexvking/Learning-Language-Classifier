@@ -40,7 +40,8 @@ better, it is only about 100 lines of code.
 USAGE
 -----
 
-classify expects plain formatted text specified as a file from the command line.
+classify expects either plain formatted text specified as a file or a web address
+from the command line.
 
 To run language recognition, run with <code>python classify.py --lang [input.txt]</code>.
 
@@ -52,10 +53,10 @@ academic paper formatted as pdf.
 Examples:
 
   - <code>--lang samples/polish.txt</code> will classify a Polish text as Polish.
-  - --subject samples/econ6.txt will classify an Economics paper as Economics.
-  - --lang http://google.com will classify the Google homepage as English.
-  - --subject http://bigocheatsheet.com will classify the site as Computer Science!
-  - --subject http://nytimes.com will classify the New York Times as Economics.
+  - <code>--subject samples/econ6.txt</code> will classify an Economics paper as Economics.
+  - <code>--lang http://google.com</code> will classify the Google homepage as English.
+  - <code>--subject http://bigocheatsheet.com</code> will classify the site as Computer Science!
+  - <code>--subject http://nytimes.com</code> will classify the New York Times as Economics.
 
 
 ALGORITHM
@@ -65,16 +66,16 @@ classify uses databases of "trigrams" instead of a database of words. This idea
 came from an assignment from Norman Ramsey's COMP 50 class at Tufts University
 in Fall 2013.
 
-Trigrams allow for more granular recognition of roots, prefixes, suffixes, and
+Trigrams allow for granular recognition of roots, prefixes, suffixes, and
 generally discipline-specific terminology. Because of this, classify is able
-to notice patterns and trends and make a guess to what discipline a paper is
-written in.
+to notice patterns and trends and, in addition to being a reliable language
+recognizer, can make a good guess at the academic subject of English input.
 
 
 MODIFYING AND EXTENDING THE REFERENCE SYSTEM
 --------------------------------------------
 
-classify's quality is only limited by its training corpus. A larger variety of
+classify's quality is limited only by its training corpus. A larger variety of
 documents will lead to more accurate classifications. A mode can be added or
 changed by adding directories and files in the following format:
 
@@ -83,7 +84,7 @@ changed by adding directories and files in the following format:
   - Within each type, plain text files representing the type
 
 See folders "lang" and "subject" for examples. Execution options must be added
-through the main() function, but all other looping and naming should happen
+through the <code>main()</code> function, but all other looping and naming should happen
 automatically.
 
 
@@ -91,7 +92,7 @@ KNOWN ISSUES AND PLANNED IMPROVEMENTS
 -------------------------------------
 
 classify currently has no way of knowing if the supplied text is in English for
-the --subject option, so it will silently give wrong answers.
+the <code>--subject</code> option, so it may silently give wrong answers.
 
 A simple GUI with rich file selection would be a great next step for this
 software. It could also be extended easily to work on programming languages.
