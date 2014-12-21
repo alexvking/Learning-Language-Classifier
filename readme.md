@@ -51,8 +51,8 @@ academic paper formatted as pdf.
 
 Examples:
 
-  - --lang /samples/polish.txt will classify a Polish text as Polish.
-  - --subject /samples/econ6.txt will classify an Economics paper as Economics.
+  - --lang samples/polish.txt will classify a Polish text as Polish.
+  - --subject samples/econ6.txt will classify an Economics paper as Economics.
   - --lang http://google.com will classify the Google homepage as English.
   - --subject http://bigocheatsheet.com will classify the site as Computer Science!
   - --subject http://nytimes.com will classify the New York Times as Economics.
