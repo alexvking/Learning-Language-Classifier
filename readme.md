@@ -43,7 +43,7 @@ USAGE
 classify expects either plain formatted text specified as a file or a web address
 from the command line.
 
-To run language recognition, run with <code>python classify.py --lang [input.txt]</code>.
+To run language recognition, run with <code>python classify.py --lang [input.txt|http://webpage.com]</code>.
 
 To run academic subject recognition, run with <code>--subject</code> instead.
 
