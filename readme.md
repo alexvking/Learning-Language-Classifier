@@ -9,10 +9,10 @@ SUMMARY
 This is a basic language classifier written in Python, previously created in
 Racket and later C. It relies on a predefined body of "language training" 
 documents to build its reference system. See "MODIFYING AND EXTENDING THE 
-REFERENCE SYSTEM" below for information on how to add additional training
-material.
+REFERENCE SYSTEM" below for information on how to add additional classification
+modes.
 
-The classifier works in two main modes: language and subject.
+The classifier works in three main modes: language, subject and code.
 
 <code>--lang</code> will envoke language mode, which recognizes input text in the following
 languages:
@@ -32,6 +32,16 @@ written in English, and will recognize the following subjects of study:
   - Biology
   - Psychology
   - Economics
+
+<code>--code</code> will envoke code mode, which recognizes source code files
+of the following types:
+  - C/C++
+  - C#
+  - COBOL
+  - Java
+  - Lisp Family
+  - Objective-C
+  - Python
 
 The comparison is speedy and surprisingly accurate at this point in time. Even
 better, it is only about 100 lines of code.
@@ -54,7 +64,8 @@ Examples:
 
   - <code>--lang samples/polish.txt</code> will classify a Polish text as Polish.
   - <code>--subject samples/econ6.txt</code> will classify an Economics paper as Economics.
-  - <code>--lang http://google.com</code> will classify the Google homepage as English.
+  - <code>--lang http://lemonde.fr</code> will classify a popular French newspaper
+  as French.
   - <code>--subject http://bigocheatsheet.com</code> will classify the site as Computer Science!
   - <code>--subject http://nytimes.com</code> will classify the New York Times as Economics.
 
@@ -78,15 +89,16 @@ MODIFYING AND EXTENDING THE REFERENCE SYSTEM
 
 classify's quality is limited only by its training corpus. A larger variety of
 documents will lead to more accurate classifications. A mode can be added or
-changed by adding directories and files in the following format:
+changed very easily by adding directories and files in the following format:
 
-  - A directory with name of mode in same directory as classify.py 
+  - A directory with name of "mode-<your-mode>" in same directory as classify.py 
   - Within mode directory, directories named after different types within mode
   - Within each type, plain text files representing the type
 
-See folders "lang" and "subject" for examples. Execution options must be added
-through the <code>main()</code> function, but all other looping and naming should happen
-automatically.
+See folders "mode-lang" and "mode-subject" for examples.
+
+classify will <b>automatically recognize the new mode</b> and it will be usable
+from the command line with the expected <code>--mode</code> switch.
 
 
 KNOWN ISSUES AND PLANNED IMPROVEMENTS
@@ -98,12 +110,21 @@ the <code>--subject</code> option, so it may silently give wrong answers.
 A simple GUI with rich file selection would be a great next step for this
 software. It could also be extended easily to work on programming languages.
 
-More academic subjects should be added soon. There is no obvious way to find a 
-random sampling of various material, so this work is tedious.
+More academic subjects may be added soon. There is no obvious way to find a 
+random sampling of various material, so this work is tedious. It exists as an
+option right now as a proof of concept more than anything else. Same goes for 
+the code mode.
 
 
 VERSION HISTORY AND RELEASE NOTES
 ---------------------------------
+
+12/22/14 VERSION 0.6.5
+
+  - Added automatic recognition of modes to make it easy to extend classify's
+    usability. Usage switches will be automatically recognized.
+  - Added <code>--code</code> as another experimental option. The reference 
+    material, taken from rosettacode.org, is currently very limited.
 
 12/20/14 VERSION 0.6.0
 

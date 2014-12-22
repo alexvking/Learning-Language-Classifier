@@ -32,7 +32,7 @@ def add_list_to_dict(list, dict):
 # creates tuple with specified language name and model (if langname exists)
 def single_lang_model(mode, langname):
         dict = {}
-        path = "./" + mode + "/" + langname + "/" # construct folder path
+        path = "./mode-" + mode + "/" + langname + "/" # construct folder path
         for file in os.listdir(path):
                 fullpath = path + file
                 trigrams = str_to_trigrams((open(fullpath)).read())
@@ -45,7 +45,7 @@ def single_lang_model(mode, langname):
 # based on mode inputted, lang or subject
 def build_all_models(mode):
         model_list = []
-        dir = "./" + mode + "/"
+        dir = "./mode-" + mode + "/"
         for lang in os.listdir(dir):
                 model_list.append(single_lang_model(mode, lang))
         return model_list
@@ -62,6 +62,15 @@ def make_file_model(filename):
         dict = add_list_to_dict(trigrams, {})
         return dict
 
+# make_mode_list : -> list
+# returns list of all modes listed in working directory
+def make_mode_list():
+        mode_list = []
+        for mode in os.listdir("."):
+                if mode.startswith("mode-"):
+                        mode_list.append(mode[5:])
+        return mode_list
+
 ############################ CLASSIFICATION ####################################
 
 # nearest_model : dictionary list_of_tuples -> string
@@ -72,10 +81,10 @@ def nearest_model(file_model, model_list):
                 score_list.append(bit_vector_sim(file_model, model))
 
         # Verbose output -- uncomment to see scores of each language
-        # for score in score_list:
-        #         sys.stdout.write(model_list[score_list.index(score)][0])
-        #         sys.stdout.write(": ")
-        #         print score # score
+        for score in score_list:
+                sys.stdout.write(model_list[score_list.index(score)][0])
+                sys.stdout.write(": ")
+                print score
 
         # find the index of the highest score, use to index the model list
         return model_list[score_list.index(max(score_list))][0]
@@ -95,8 +104,9 @@ def main():
                 sys.stdout.write("Usage: python classify.py [--lang|--subject]") 
                 print " [file.txt|http://webpage.com]"
                 sys.exit(1)
+        mode_list = make_mode_list() # make list of working modes
         mode = (str(sys.argv[1]))[2:]
-        if ((mode != "lang") and (mode != "subject")):
+        if not (mode in mode_list):
                 print "Unrecognized option. Use --lang for natural language," 
                 print "or --subject for academic subject in English."
                 sys.exit(1)
