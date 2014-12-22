@@ -89,7 +89,7 @@ def nearest_model(file_model, model_list):
         # find the index of the highest score, use to index the model list
         return model_list[score_list.index(max(score_list))][0]
 
-# bit_vector_sim : dictionary dictionary -> number
+# bit_vector_sim : dictionary tuple -> number
 # returns bit vector similarity score given two dictionaries; scores range 0-1
 def bit_vector_sim(model1, model2):
         count = 0
