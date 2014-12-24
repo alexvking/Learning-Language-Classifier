@@ -81,10 +81,10 @@ def nearest_model(file_model, model_list):
                 score_list.append(bit_vector_sim(file_model, model))
 
         # Verbose output -- uncomment to see scores of each language
-        for score in score_list:
-                sys.stdout.write(model_list[score_list.index(score)][0])
-                sys.stdout.write(": ")
-                print score
+        # for score in score_list:
+        #         sys.stdout.write(model_list[score_list.index(score)][0])
+        #         sys.stdout.write(": ")
+        #         print score
 
         # find the index of the highest score, use to index the model list
         return model_list[score_list.index(max(score_list))][0]
