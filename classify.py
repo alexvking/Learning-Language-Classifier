@@ -101,14 +101,16 @@ def bit_vector_sim(model1, model2):
 # main
 def main():
         if len(sys.argv) != 3:
-                sys.stdout.write("Usage: python classify.py [--lang|--subject]") 
+                sys.stdout.write("Usage: python classify.py [--mode]") 
                 print " [file.txt|http://webpage.com]"
                 sys.exit(1)
         mode_list = make_mode_list() # make list of working modes
         mode = (str(sys.argv[1]))[2:]
         if not (mode in mode_list):
-                print "Unrecognized option. Use --lang for natural language," 
-                print "or --subject for academic subject in English."
+                print "Unrecognized option. Choose from:"
+                for modes in mode_list:
+                        sys.stdout.write("--")
+                        print modes
                 sys.exit(1)
         file_model = make_file_model(str(sys.argv[2])) # Make model for file
         model_list = build_all_models(mode) # Make all language models
