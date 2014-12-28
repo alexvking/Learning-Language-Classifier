@@ -7,6 +7,7 @@ import sys # For file IO
 import os  # For directory operations
 import math # For sqrt and bit vector calculation
 import urllib # For web page functionality
+import shutil # For copying input files and adding to library
 
 ############################## MODEL GENERATION ################################
 
@@ -98,6 +99,20 @@ def bit_vector_sim(model1, model2):
                         count += 1
         return count / ((math.sqrt(len(model1))) * (math.sqrt(len(model2[1]))))
 
+# Adds specified file to correct type to help bolster training library
+def add_to_library(mode, input):
+        path = "./mode-" + mode + "/" # + langname + "/" # construct folder path
+
+        print "Please enter the number of the correct type."
+        type_list = os.listdir(path)
+        for type in type_list:
+                print str(type_list.index(type)) + " " + type
+        ans = int(raw_input())
+        if ans >= 0 and ans < len(type_list):
+                name = input.rsplit("/", 1)[1]
+                dest = path + type_list[ans] + "/" + name
+                shutil.copyfile(input, dest)
+                print "The file has been copied to '" + type_list[ans] + "' with the name '" + name + "'!"
 # main
 def main():
         if len(sys.argv) != 3:
@@ -115,4 +130,12 @@ def main():
         file_model = make_file_model(str(sys.argv[2])) # Make model for file
         model_list = build_all_models(mode) # Make all language models
         print nearest_model(file_model, model_list) # print language name
+        ans1 = raw_input("Is this classification correct? [y/n] ")
+
+        if (ans1 == "n"):
+                ans2 = raw_input("May your file be copied into the training library? [y/n] ")
+                if ans2 == "y":
+                        add_to_library(mode, str(sys.argv[2]))
 main() # run main
+
+
