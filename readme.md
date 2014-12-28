@@ -6,13 +6,13 @@ By Alex King
 SUMMARY
 -------
 
-This is a basic language classifier written in Python, previously created in
-Racket and later C. It relies on a predefined body of "language training" 
+This is a text classifier written in Python, previously written in
+Racket and later C. It relies on a stored body of "language training" 
 documents to build its reference system. See "MODIFYING AND EXTENDING THE 
 REFERENCE SYSTEM" below for information on how to add additional classification
 modes.
 
-The classifier works in three main modes: language, subject and code.
+classify provides three example classification modes: language, subject and code.
 
 <code>--lang</code> will envoke language mode, which recognizes input text in the following
 languages:
@@ -43,10 +43,6 @@ of the following types:
   - Objective-C
   - Python
 
-The comparison is speedy and surprisingly accurate at this point in time. Even
-better, it is only about 100 lines of code.
-
-
 USAGE
 -----
 
@@ -69,20 +65,49 @@ Examples:
   - <code>--subject http://bigocheatsheet.com</code> will classify the site as Computer Science!
   - <code>--subject http://nytimes.com</code> will classify the New York Times as Economics.
 
+NEW IN VERSION 0.7.0: Upon classification, classify will ask the user if the 
+classification is correct or not. In the event that it isn't, classify will ask
+permission to copy the input file (or html document) into the training library
+to strengthen its classification. This is a powerful feature that allows for rapid
+improvement. As soon as a hole is found in the training models, the hole can be
+partially plugged with the provided document. In theory, after many runs of this
+program, the training library could become incredibly strong.
 
-ALGORITHM
----------
+ALGORITHM IN DETAIL
+-------------------
 
-classify uses databases of "trigrams" instead of a database of words. This idea
-came from an assignment from Norman Ramsey's COMP 50 class at Tufts University
-in Fall 2013. A trigram is a string of three contiguous characters from input.
+classify is an example of simple machine learning that leads to an oddly powerful
+end result. The goal is to classify ASCII text into some sort of type within a
+category. The provided categories are natural language, programming language, and
+academic subject. To do this, classify must have a method of creating a model for
+each type within a category, and a model for the input document. Then, classify
+must have a method of comparing the predefined models to input to guess what
+type is correct.
+
+To generate models, classify uses databases of "trigrams" instead of a 
+database of words. This idea came from an assignment from Norman Ramsey's COMP 50 
+course at Tufts University in Fall 2013. Please note that the natural language
+training documents are also from that course. 
+
+A trigram is a string of three contiguous characters from input.
 For example, "Hello!" would yield the trigrams "Hel", "ell", "llo", and "lo!".
-
 Trigrams allow for granular recognition of roots, prefixes, suffixes, and
-generally discipline-specific terminology. Because of this, classify is able
-to notice patterns and trends and, in addition to being a reliable language
-recognizer, can make a good guess at the academic subject of English input.
+generally discipline-specific terminology.
 
+Trigrams are counted and summed as an association list, in this case a Python
+dictionary. Though counting the number of occurrences of a trigram isn't strictly
+necessary for model comparison, (versus just checking if the trigram occurs at all), 
+it is a useful step for other data crunching purposes.
+
+After models are generated, the input model is compared to each type's model
+within the specified category. For example, if a user runs classify --subject
+on a provided Economics document, classify will check the document against its
+models for Psychology, Biology, Computer Science and Economics. Model similarity
+is derived from bit vector similarity -- essentially summing the number of similar
+trigrams between two models, and dividing by the size of the model. A perfect score of 1.0
+indicates two identical models, while a score of 0 indicates two completely unrelated models
+with no common trigrams. Depending on the training library and input, most comparisons
+yield scores between 0.2 and 0.6.
 
 MODIFYING AND EXTENDING THE REFERENCE SYSTEM
 --------------------------------------------
@@ -100,9 +125,26 @@ See folders "mode-lang" and "mode-subject" for examples.
 classify will <b>automatically recognize the new mode</b> and it will be usable
 from the command line with the expected <code>--mode</code> switch.
 
+Also note that the reference system can be bolstered one document at a time by
+"training" it upon incorrect classification (see USAGE above).
 
 KNOWN ISSUES AND PLANNED IMPROVEMENTS
 -------------------------------------
+
+As of Version 0.7.0, classify has evolved into more of a proof of concept of 
+simple machine learning than a tool focused on practical utility. Language
+recognition is generally very accurate due to the great training library provided,
+but subject and code recognition exist mostly as proofs of concept now. There
+are no immediate plans to bolster their training libraries, because it can now
+be done easily through the program itself.
+
+The next step is to add handling of new types within a mode. For instance, if one
+were to attempt and classify an Astronomy document, the user could tell classify
+that it was not one of the preexisting types, but rather a new one entirely. This
+would make it very fast to categorize a lot of different documents, particularly
+websites.
+
+Other issues (pre-0.7.0:)
 
 classify currently has no way of knowing if the supplied text is in English for
 the <code>--subject</code> option, so it may silently give wrong answers.
@@ -118,6 +160,11 @@ the code mode.
 
 VERSION HISTORY AND RELEASE NOTES
 ---------------------------------
+
+12/28/14 VERSION 0.7.0
+  - Added ability to "train" the classifier upon incorrect classification by
+    copying input file (or website) to the training library. This is a big next
+    step that turns classify into more of an example of machine learning.
 
 12/22/14 VERSION 0.6.5
 

@@ -104,28 +104,23 @@ def add_to_library(mode, input):
         if (input.startswith("http://")):
                 sock = urllib.urlopen(input)
                 htmltext = sock.read()
-                htmlname = "saved/" + input.split("//", 1)[1] + ".txt"
+                htmlname = input.rsplit("/", 1)[1] + ".txt"
                 htmlfile = open(htmlname, "w")
                 htmlfile.write(htmltext)
                 htmlfile.close()
                 sock.close()
-        path = "./mode-" + mode + "/"
-        print "Please enter the number of the correct type."
+        path = "./mode-" + mode + "/" # + langname + "/" # construct folder path
         type_list = os.listdir(path)
+        print "Please enter the number of the correct type."
+
         for type in type_list:
                 print str(type_list.index(type)) + " " + type
         ans = int(raw_input())
         if ans >= 0 and ans < len(type_list):
-                if input.startswith("http://"):
-                        name = htmlname.rsplit("/", 1)[1]
-                        input = htmlname
-                else:
-                        name = input.rsplit("/", 1)[1]
+                name = input.rsplit("/", 1)[1]
                 dest = path + type_list[ans] + "/" + name
-                print "Ready to copy. input = " + input + " dest: " + dest
                 shutil.copyfile(input, dest)
                 print "The file has been copied to '" + type_list[ans] + "' with the name '" + name + "'!"
-
 # main
 def main():
         if len(sys.argv) != 3:
@@ -144,8 +139,11 @@ def main():
         model_list = build_all_models(mode) # Make all language models
         print nearest_model(file_model, model_list) # print language name
         ans1 = raw_input("Is this classification correct? [y/n] ")
+
         if (ans1 == "n"):
                 ans2 = raw_input("May your file be copied into the training library? [y/n] ")
                 if ans2 == "y":
                         add_to_library(mode, str(sys.argv[2]))
 main() # run main
+
+
