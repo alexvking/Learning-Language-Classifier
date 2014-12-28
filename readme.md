@@ -1,5 +1,5 @@
-SIMPLE LANGUAGE CLASSIFIER
---------------------------
+classify: TEXT CLASSIFIER WITH LEARNING CAPABILITY
+--------------------------------------------------
 By Alex King
 
 
@@ -100,7 +100,7 @@ necessary for model comparison, (versus just checking if the trigram occurs at a
 it is a useful step for other data crunching purposes.
 
 After models are generated, the input model is compared to each type's model
-within the specified category. For example, if a user runs classify --subject
+within the specified category. For example, if a user runs <code>classify --subject</code>
 on a provided Economics document, classify will check the document against its
 models for Psychology, Biology, Computer Science and Economics. Model similarity
 is derived from bit vector similarity -- essentially summing the number of similar
