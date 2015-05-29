@@ -1,13 +1,14 @@
 # classify.py
-# Language classification ported to Python
+# Text Classification in Python
 # (c) Alex King, 12/19/2014
 
 from __future__ import division # For non-integer division
-import sys # For file IO
-import os  # For directory operations
-import math # For sqrt and bit vector calculation
-import urllib # For web page functionality
-import shutil # For copying input files and adding to library
+import sys                      # For file IO
+import os                       # For directory operations
+import math                     # For sqrt and bit vector calculation
+import urllib                   # For web page functionality
+import shutil                   # For copying input files and adding to library
+import re                       # For stripping HTML tags 
 
 ############################## MODEL GENERATION ################################
 
@@ -56,7 +57,9 @@ def build_all_models(mode):
 def make_file_model(filename):
         if (filename.startswith("http://")):
                 sock = urllib.urlopen(filename)
-                trigrams = str_to_trigrams((sock.read()))
+                htmltext = sock.read()
+                htmltext = re.sub('<[^<]+?>', '', htmltext)
+                trigrams = str_to_trigrams(htmltext)
                 sock.close()
         else:
                 trigrams = str_to_trigrams((open(filename)).read())
@@ -104,7 +107,9 @@ def add_to_library(mode, input):
         if (input.startswith("http://")):
                 sock = urllib.urlopen(input)
                 htmltext = sock.read()
-                htmlname = "saved/" + input.split("//", 1)[1] + ".txt"
+                htmltext = re.sub('<[^<]+?>', '', htmltext)
+                htmlname = input.split("//", 1)[1] + ".txt"
+                htmlname = "saved/" + htmlname.replace("/", "")
                 htmlfile = open(htmlname, "w")
                 htmlfile.write(htmltext)
                 htmlfile.close()
@@ -124,7 +129,8 @@ def add_to_library(mode, input):
                 dest = path + type_list[ans] + "/" + name
                 print "Ready to copy. input = " + input + " dest: " + dest
                 shutil.copyfile(input, dest)
-                print "The file has been copied to '" + type_list[ans] + "' with the name '" + name + "'!"
+                print ("The file has been copied to '" + type_list[ans] + 
+                        "' with the name '" + name + "'!")
 
 # main
 def main():
@@ -145,7 +151,8 @@ def main():
         print nearest_model(file_model, model_list) # print language name
         ans1 = raw_input("Is this classification correct? [y/n] ")
         if (ans1 == "n"):
-                ans2 = raw_input("May your file be copied into the training library? [y/n] ")
+                ans2 = raw_input("May your file be copied into" +  
+                                " the training library? [y/n] ")
                 if ans2 == "y":
                         add_to_library(mode, str(sys.argv[2]))
 main() # run main

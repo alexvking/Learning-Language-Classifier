@@ -6,8 +6,7 @@ By Alex King
 SUMMARY
 -------
 
-This is a text classifier written in Python, previously written in
-Racket and later C. It relies on a stored body of "language training" 
+This is a text classifier written in Python written in a functional style. It relies on a stored body of "language training" 
 documents to build its reference system. See "MODIFYING AND EXTENDING THE 
 REFERENCE SYSTEM" below for information on how to add additional classification
 modes.
@@ -160,6 +159,10 @@ the code mode.
 
 VERSION HISTORY AND RELEASE NOTES
 ---------------------------------
+
+5/29/15 VERSION 0.7.5
+  - Added stripping of HTML tags to better classify websites
+  - Fixed bug where certain web addresses wouldn't translate to file paths properly
 
 12/28/14 VERSION 0.7.0
   - Added ability to "train" the classifier upon incorrect classification by
