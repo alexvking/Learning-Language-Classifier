@@ -159,6 +159,13 @@ the code mode.
 
 VERSION HISTORY AND RELEASE NOTES
 ---------------------------------
+8/2/15 VERSION 0.8.0
+  - Added <code>--audio</code> as another, very experimental option. Works
+    with both artists and genres as 'types'. Hand-picked reference material
+	from personal collection.
+  - Added fingerprint.py; program for turning music files into fingerprints,
+    text files that classify.py uses for audio-mode. See fingerprint/readme.md
+	for more details.
 
 5/29/15 VERSION 0.7.5
   - Added stripping of HTML tags to better classify websites
